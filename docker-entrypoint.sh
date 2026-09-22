@@ -78,8 +78,9 @@ fi
 set_config "general" "installed" "On"
 # Allow Render host (and all for now)
 set_config "general" "allowed_hosts" ''
-# Force SSL for correct https URLs (Render is https, but internal is http)
-set_config "security" "force_ssl" "On"
+# Force SSL handled by Cloudflare/Render, keep Off to avoid redirect loop (trust_x_forwarded_for handles it)
+set_config "security" "force_ssl" "Off"
+set_config "security" "force_login_ssl" "Off"
 # Trust proxy for correct https detection behind Cloudflare/Render
 set_config "general" "trust_x_forwarded_for" "On"
 # App key - generate if empty (required for encryption)
