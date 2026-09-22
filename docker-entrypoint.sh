@@ -78,11 +78,15 @@ fi
 set_config "general" "installed" "On"
 # Allow Render host (and all for now)
 set_config "general" "allowed_hosts" ''
-# Force SSL handled by Cloudflare/Render, keep Off to avoid redirect loop (trust_x_forwarded_for handles it)
+# Force SSL off - let Cloudflare handle https, trust_x_forwarded_for will handle proto
 set_config "security" "force_ssl" "Off"
 set_config "security" "force_login_ssl" "Off"
-# Trust proxy for correct https detection behind Cloudflare/Render
+# Trust proxy must be On for Render/Cloudflare X-Forwarded-Proto
 set_config "general" "trust_x_forwarded_for" "On"
+# Disable IP check for sessions (Render proxy IP changes)
+set_config "security" "session_check_ip" "Off"
+# Ensure base_url is https
+set_config "general" "base_url" "https://epc-ojs.onrender.com"
 # App key - generate if empty (required for encryption)
 if ! grep -q 'app_key = "base64:' "$CONFIG_FILE"; then
   if command -v openssl >/dev/null 2>&1; then
