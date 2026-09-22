@@ -81,8 +81,8 @@ set_config "general" "allowed_hosts" ''
 # Force SSL off - let Cloudflare handle https, trust_x_forwarded_for will handle proto
 set_config "security" "force_ssl" "Off"
 set_config "security" "force_login_ssl" "Off"
-# Trust proxy must be On for Render/Cloudflare X-Forwarded-Proto
-set_config "general" "trust_x_forwarded_for" "On"
+# Trust proxy Off to avoid 302 loop (Render handles X-Forwarded-Proto via Cloudflare, but OJS loop)
+set_config "general" "trust_x_forwarded_for" "Off"
 # Disable IP check for sessions (Render proxy IP changes)
 set_config "security" "session_check_ip" "Off"
 # Ensure base_url is https
