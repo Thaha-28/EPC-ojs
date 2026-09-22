@@ -78,6 +78,8 @@ fi
 set_config "general" "installed" "On"
 # Allow Render host (and all for now)
 set_config "general" "allowed_hosts" ''
+# Force SSL for correct https URLs (Render is https, but internal is http)
+set_config "security" "force_ssl" "On"
 # App key - generate if empty (required for encryption)
 if ! grep -q 'app_key = "base64:' "$CONFIG_FILE"; then
   if command -v openssl >/dev/null 2>&1; then
