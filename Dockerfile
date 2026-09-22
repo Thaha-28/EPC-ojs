@@ -48,10 +48,9 @@ RUN echo '<Directory /var/www/html>\n\
     Options Indexes FollowSymLinks\n\
     AllowOverride All\n\
     Require all granted\n\
-</Directory>' > /etc/apache2/conf-available/ojs.conf \
-    && a2enconf ojs \
-    && echo "CGIPassAuth On" >> /etc/apache2/apache2.conf \
-    && echo 'SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1' >> /etc/apache2/conf-available/ojs.conf \
+    CGIPassAuth On\n\
+</Directory>\n\
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1' > /etc/apache2/conf-available/ojs.conf \
     && a2enconf ojs
 
 # Use production php.ini
