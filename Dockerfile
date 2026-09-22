@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     cron \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install -j$(nproc) gd mysqli pdo_mysql zip xml mbstring curl intl bcmath xsl soap \
+    && docker-php-ext-install -j$(nproc) gd mysqli pdo_mysql zip xml mbstring curl intl bcmath xsl soap ftp \
     && a2enmod rewrite headers expires \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
