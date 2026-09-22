@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:33+00:00\n"
+"PO-Revision-Date: 2025-10-02 21:27+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/plugins/webFeed/"
+"eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Web elikatzeko iturriaren plugina"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Plugin honek RSS/Atom web sindikazioko jarioa sortzen du.<br>Pluginak alboko "
+"barra bloke bat ere badu, eta horri esker, jarioen estekak aplikazioaren "
+"alboko barran bistara ditzakezu"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Ezarpenak"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Zenbakiaren orrialdeetan bakarrik bistaratu estekak."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Erakutsi web jarioen estekak hasierako orrian bakarrik."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Erakutsi web jarioen estekak aplikazioaren orri guztietan."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Bistaratu uneko zenbaki argitaratuko elementuak."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Bistaratu azken argitalpenen zenbaki finko bat."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Erakutsi beharreko argitalpen-kopurua"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr ""
+"Idatzi osoko zenbaki positibo bat elementu argitaratuen kopurua zehazteko."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Atom logoa"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "RSS1 logoa"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "RSS2 logoa"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Bistaratu web-jarioen estekak hasierako orrian eta zenbakien orrietan soilik."
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Azken argitalpenak"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Identifikatzaileak (ISBN, gako-hitzak, kategoriak, etab.) sartu jarioaren "
+"laburpenean?"

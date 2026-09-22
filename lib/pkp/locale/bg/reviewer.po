@@ -1,0 +1,205 @@
+# Cyril Kamburov <cc@intermedia.bg>, 2021, 2025, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-14 07:43+0000\n"
+"Last-Translator: Cyril Kamburov <cc@intermedia.bg>\n"
+"Language-Team: Bulgarian <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"reviewer/bg/>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "reviewer.reviewSteps.request"
+msgstr "1. Молба"
+
+msgid "reviewer.reviewSteps.guidelines"
+msgstr "2. Ръководство"
+
+msgid "reviewer.reviewSteps.download"
+msgstr "3. Сваляне и рецензиране"
+
+msgid "reviewer.reviewSteps.completion"
+msgstr "4. Завършване"
+
+msgid "reviewer.step1.request"
+msgstr "Молба за рецензия"
+
+msgid "reviewer.step1.requestBoilerplate"
+msgstr ""
+"Вие сте избрани като потенциален рецензент на следното подаване на "
+"материали. По-долу е даден преглед на подаването на материали, както и "
+"графика за рецензия. Надяваме се, че можете да участвате."
+
+msgid "reviewer.step1.viewAllDetails"
+msgstr "Вижте всички подробности за подадените материали"
+
+msgid "reviewer.submission.reviewerFiles"
+msgstr "Файлове на рецензента"
+
+msgid "reviewer.submission.declineReview"
+msgstr "Отказ на молбата за рецензия"
+
+msgid "reviewer.submission.declineReviewMessage"
+msgstr ""
+"Можете да предоставите на редактора всякакви причини, поради които "
+"отхвърляте молбата му за рецензия в полето по-долу."
+
+msgid "reviewer.submission.acceptReview"
+msgstr "Приемам молбата за рецензия, продължете към стъпка №2"
+
+msgid "reviewer.submission.continueToStepThree"
+msgstr "Продължете към Стъпка №3"
+
+msgid "reviewer.submission.submitReview"
+msgstr "Изпращане на рецензия"
+
+msgid "reviewer.submission.saveReviewForLater"
+msgstr "Запис за по-късна обработка"
+
+msgid "reviewer.submission.reviewerGuidelines"
+msgstr "Ръководство за рецензенти"
+
+msgid "reviewer.submission.enterCompetingInterests"
+msgstr ""
+"Този издател има политика за разкриване на потенциални конкурентни интереси "
+"от своите рецензенти. Моля, отделете малко време, за да прегледате тази "
+"политика."
+
+msgid "reviewer.submission.noCompetingInterests"
+msgstr "Нямам конкуриращи се интереси"
+
+msgid "reviewer.submission.hasCompetingInterests"
+msgstr "Възможно е да имам конкуриращи се интереси (Посочете по-долу)"
+
+msgid "reviewer.submission.competingInterests"
+msgstr "Конкуриращи се интереси"
+
+msgid "reviewer.submission.guidelines"
+msgstr "Ръководство за рецензензиране"
+
+msgid "reviewer.submission.noGuidelines"
+msgstr "Този издател не е задал никакви указания за рецензенти."
+
+msgid "reviewer.submission.downloadDescription"
+msgstr ""
+"Щракнете върху имената на файловете по-долу, за да изтеглите файловете, "
+"свързани с това подаване на материали."
+
+msgid "reviewer.submission.reviewDescription"
+msgstr ""
+"Въведете (или поставете) своя отзив за това подаване във формуляра по-долу."
+
+msgid "reviewer.submission.uploadDescription"
+msgstr ""
+"Качете файлове, с които искате редакторът и/или авторът да се консултират, "
+"включително преработени версии на оригиналния(ите) файл(ове)."
+
+msgid "reviewer.complete"
+msgstr "Рецензията е изпратена"
+
+msgid "reviewer.confirmSubmit"
+msgstr "Наистина ли искате да изпратите тази рецензия?"
+
+msgid "reviewer.complete.whatNext"
+msgstr ""
+"Благодарим ви, че завършихте рецензията на това подаване на материали. "
+"Вашата рецензия е изпратена успешно. Оценяваме вашия принос към качеството "
+"на работата, която публикуваме; редакторът може да се свърже с вас отново за "
+"повече информация, ако е необходимо."
+
+msgid "reviewer.aboutDueDates"
+msgstr "За сроковете на изпълнение"
+
+msgid "reviewer.aboutDueDates.text"
+msgstr ""
+"Редакторът ви моли или да приемете, или да откажете рецензията преди "
+"крайната дата за отговор. Ако приемете - съответно да завършите рецензията "
+"до крайната дата за рецензия."
+
+msgid "submission.comments.canShareWithAuthor"
+msgstr "За автор и редактор"
+
+msgid "submission.comments.cannotShareWithAuthor"
+msgstr "Само за редактор"
+
+msgid "submission.comments.sendCopyToReviewers"
+msgstr ""
+"Изпратете копие на това известие по имейл чрез скрито копие (BCC) до "
+"следните рецензенти."
+
+msgid "submission.comments.sendToReviewers"
+msgstr "Изпрати до рецензентите"
+
+msgid "user.authorization.submissionReviewer"
+msgstr "Текущият потребител не е избран като рецензент за искания документ."
+
+msgid "reviewer.submission.reviewRound.info.read"
+msgstr "Преглед на рецензия за етап {$round}"
+
+msgid "reviewer.submission.reviewRound.info.modal.title"
+msgstr "Рецензия за етап {$round} е изпратена от Вас за"
+
+msgid "reviewer.submission.reviewRound.comments"
+msgstr "Коментари на рецензента"
+
+msgid "reviewer.submission.reviewRound.comments.editorOnly"
+msgstr "Само за редактори"
+
+msgid "reviewer.submission.reviewRound.comments.prefix"
+msgstr "Коментар {$index}: "
+
+msgid "reviewer.submission.reviewRound.emailLog"
+msgstr "Причината за отказ, изпратена по имейл"
+
+msgid "reviewer.submission.reviewRound.reviewDeclineDate"
+msgstr "Дата на отказ"
+
+msgid "reviewer.submission.reviewRound.metadata"
+msgstr "Метаданни на статията"
+
+msgid "reviewer.submission.reviewRound.metadata.type"
+msgstr "Тип"
+
+msgid "reviewer.submission.reviewRound.metadata.abstract"
+msgstr "Абстракт (резюме)"
+
+msgid "reviewer.submission.reviewRound.metadata.keywords"
+msgstr "Ключови думи"
+
+msgid "reviewer.submission.reviewRound.general"
+msgstr "Обща информация"
+
+msgid "reviewer.submission.reviewRound.attachments"
+msgstr "Прикачени файлове"
+
+msgid "reviewer.submission.reviewRound.files"
+msgstr "Файлове за рецензиране"
+
+msgid "reviewer.submission.reviewRound.files.description"
+msgstr "Тези файлове са ви изпратени за рецензиране"
+
+msgid "reviewer.submission.reviewRound.info"
+msgstr "Предишни рецензии"
+
+msgid "reviewer.submission.reviewRound.info.submittedOn"
+msgstr "Рецензия за етап {$round}, изпратена на {$submittedOn}"
+
+msgid "reviewer.submission.reviewRound.comments.authorAndEditor"
+msgstr "За редактори и автори"
+
+msgid "reviewer.submission.reviewRound.emailLog.defaultMessage"
+msgstr "Не е посочена причина за отказа на поканата за рецензия."
+
+msgid "reviewer.submission.reviewRound.attachments.description"
+msgstr "Това са файлове, които сте прикачили заедно с рецензията"
+
+msgid "reviewer.submission.reviewRound.reviewNotCompleted"
+msgstr "Рецензията не е завършена."
+
+msgid "reviewer.submission.reviewFormResponse.form.notFilledIn"
+msgstr ""
+"Някои задължителни полета не са попълнени. Моля, попълнете ги, преди да "
+"изпратите рецензията си."

@@ -1,0 +1,1139 @@
+# Jonas Raoni Soares da Silva <weblate@raoni.org>, 2021.
+# Manolis Saldaris <omanos@gmail.com>, 2022.
+# Theodoros Theodoropoulos <bujam1@yahoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:43+00:00\n"
+"PO-Revision-Date: 2026-06-29 14:35+0000\n"
+"Last-Translator: Theodoros Theodoropoulos <bujam1@yahoo.com>\n"
+"Language-Team: Greek <http://translate.pkp.sfu.ca/projects/pkp-lib/admin/el/>"
+"\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "admin.systemInfo.settingName"
+msgstr "Ονομασία ρύθμισης"
+
+msgid "admin.systemInfo.settingValue"
+msgstr "Τιμή ρύθμισης"
+
+msgid "admin.adminFunctions"
+msgstr "Λειτουργίες διαχείρισης"
+
+msgid "admin.deleteCache"
+msgstr "Διαγραφή προσωρινών αρχείων cache"
+
+msgid "admin.deleteCache.description"
+msgstr ""
+"Διαγράψτε τα προσωρινά αρχεία αποθήκευσης από το σύστημα. Αυτό θα πρέπει να "
+"γίνεται μόνο σε περιβάλλοντα ανάπτυξης."
+
+msgid "admin.clearDataCache"
+msgstr "Διαγραφή προσωρινών αρχείων (cache) δεδομένων"
+
+msgid "admin.clearTemplateCache"
+msgstr "Διαγραφή προσωρινών αρχείων (cache) προτύπων"
+
+msgid "admin.configFileUpdatedInstructions"
+msgstr ""
+"Το αρχείο ρυθμίσεων ενημερώθηκε επιτυχώς. Σε περίπτωση που ο ιστότοπος δεν "
+"λειτουργεί σωστά, ίσως χρειαστεί να παραμετροποιήσετε χειροκίνητα τις "
+"ρυθμίσεις με άμεση επεξεργασία του αρχείου <tt>config.inc.php</tt>."
+
+msgid "admin.confirmClearTemplateCache"
+msgstr "Επιβεβαιώνετε τη διαγραφή των υπαρχόντων προτύπων από την κρυφή μνήμη;"
+
+msgid "admin.confirmExpireSessions"
+msgstr ""
+"Επιβεβαιώνετε τον τερματισμό όλων των συνδέσεων Χρηστών στο σύστημα; Όλοι οι "
+"Χρήστες που αυτή τη στιγμή είναι συνδεδεμένοι στο σύστημα θα πρέπει να "
+"συνδεθούν ξανά (αφορά και τη δική σας σύνδεση)."
+
+msgid "admin.contentsOfConfigFile"
+msgstr "Περιεχόμενα αρχείου ρυθμίσεων"
+
+msgid "admin.contexts.confirmDelete"
+msgstr ""
+"Επιβεβαιώνετε τη μόνιμη διαγραφή του {$contextName} και όλων των "
+"περιεχομένων;"
+
+msgid "admin.currentVersion"
+msgstr "Τρέχουσα έκδοση"
+
+msgid "admin.dateInstalled"
+msgstr "Ημερομηνία εγκατάστασης"
+
+msgid "admin.displayConfigFileInstructions"
+msgstr ""
+"Τα περιεχόμενα των ενημερωμένων ρυθμίσεων εμφανίζονται παρακάτω. Για να "
+"εφαρμόσετε τις αλλαγές στις ρυθμίσεις πρέπει να ανοίξετε το αρχείο "
+"<tt>config.inc.php</tt> με κατάλληλο πρόγραμμα επεξεργασίας κειμένου και να "
+"αντικαταστήσετε τα περιεχόμενά του με το περιεχόμενο του ακόλουθου πεδίου "
+"κειμένου."
+
+msgid "admin.displayNewSystemConfig"
+msgstr "Προβολή νέων ρυθμίσεων"
+
+msgid "admin.expireSessions"
+msgstr "Τερματισμός συνδέσεων Χρηστών"
+
+msgid "admin.expireSessions.description"
+msgstr ""
+"Όλοι οι χρήστες θα αποσυνδεθούν αμέσως από την εφαρμογή, συμπεριλαμβανομένου "
+"και εσάς, και θα χρειαστεί να συνδεθείτε ξανά."
+
+msgid "admin.languages.cantDisable"
+msgstr ""
+"Αυτή η γλώσσα είναι η κύρια γλώσσα του ιστότοπου. Δεν μπορείτε να την "
+"απενεργοποιήσετε έως ότου επιλέξετε άλλη κύρια γλώσσα."
+
+msgid "admin.languages.confirmSitePrimaryLocaleChange"
+msgstr ""
+"Επιβεβαιώνετε την αλλαγή της κύριας γλώσσας του ιστότοπου; Απαιτείται η "
+"καταχώριση των ονομάτων Χρηστών στην κύρια γλώσσα του ιστοτόπου. Όπου "
+"απουσιάζουν, θα αντιγραφούν από το αντίστοιχο πεδίο της τρέχουσας κύριας "
+"γλώσσας."
+
+msgid "admin.languages.confirmReload"
+msgstr ""
+"Επιβεβαιώνετε την επαναφόρτωση της γλώσσας; Πρόκειται να διαγραφούν όλα τα "
+"δεδομένα που σχετίζονται με τη γλώσσα αυτή, όπως τα επεξεργασμένα πρότυπα "
+"ηλεκτρονικών μηνυμάτων."
+
+msgid "admin.languages.installedLocales"
+msgstr "Εγκατεστημένες γλώσσες"
+
+msgid "admin.languages.installLanguages"
+msgstr "Εγκατάσταση γλωσσών"
+
+msgid "admin.languages.availableLocales"
+msgstr "Διαθέσιμες γλώσσες"
+
+msgid "admin.languages.installLocale"
+msgstr "Εγκατάσταση γλώσσας"
+
+msgid "admin.languages.installLocales"
+msgstr "Εγκατάσταση γλωσσών "
+
+msgid "admin.languages.installNewLocales"
+msgstr "Εγκατάσταση νέων γλωσσών"
+
+msgid "admin.languages.languageSettings"
+msgstr "Ρυθμίσεις γλωσσών"
+
+msgid "admin.languages.noLocalesAvailable"
+msgstr "Καμία επιπλέον γλώσσα δεν είναι διαθέσιμη για  εγκατάσταση."
+
+msgid "admin.languages.reload"
+msgstr "Επαναφορτωση γλώσσας"
+
+msgid "admin.languages.uninstall"
+msgstr "Απεγκατασταση γλώσσας"
+
+msgid "admin.phpInfo"
+msgstr "Αναλυτικές Πληροφορίες για το PHP"
+
+msgid "admin.scheduledTask"
+msgstr "Προγραμματισμένη ενέργεια"
+
+msgid "admin.scheduledTask.startTime"
+msgstr "Η ενέργεια άρχισε."
+
+msgid "admin.scheduledTask.stopTime"
+msgstr "Η ενέργεια σταμάτησε."
+
+msgid "admin.scheduledTask.noLog"
+msgstr "Η ενέργεια δεν δημιούργησε κανένα αρχείο καταγραφής."
+
+msgid "admin.scheduledTask.depositDois"
+msgstr "Καταχώριση DOI στον επιλεγμένο φορέα καταχώρισης"
+
+msgid "admin.scheduledTask.downloadLog"
+msgstr ""
+"Η εγκατάσταση του {$softwareName} εκτελέστηκε αυτόματα. Μπορείτε να "
+"κατεβάσετε το αρχείο καταγραφής της εγκατάστασης εδώ: {$url}"
+
+msgid "admin.scheduledTask.editorialReminder"
+msgstr "Αποστολή email σε κάθε επιμελητή για υπενθύμιση των εκκρεμοτήτων τους"
+
+msgid "admin.scheduledTask.editorialReminder.logStart"
+msgstr "Εντοπισμός επιμελητών προς υπενθύμιση για το περιοδικό {$contextId}"
+
+msgid "admin.scheduledTask.editorialReminder.logEnd"
+msgstr ""
+"Ξεκίνησαν {$count} εργασίες για την αποστολή υπενθυμίσεων μέσω email από τη "
+"συντακτική ομάδα στους χρήστες {$userIds} για το περιοδικό {$contextId}"
+
+msgid "admin.scheduledTask.confirmClearLogs"
+msgstr ""
+"Επιβεβαιώνετε τη διαγραφή όλων των αρχείων διεκπεραίωσης των "
+"προγραμματισμένων εργασιών;"
+
+msgid "admin.scheduledTask.clearLogs"
+msgstr "Εκκαθάριση προγραμματισμένων αρχείων καταγραφής εργασιών"
+
+msgid "admin.scheduledTask.clearLogs.description"
+msgstr ""
+"Διαγράψτε όλα τα αρχεία καταγραφής των διαδικασιών προγραμματισμένων "
+"εργασιών που έχουν εκτελεστεί."
+
+msgid "admin.scheduledTask.clearLogs.delete"
+msgstr "Διαγραφή αρχείων καταγραφής εργασιών"
+
+msgid "admin.scheduledTask.publishSubmissions"
+msgstr "Δημοσίευση των προγραμματισμένων για δημοσίευση υποβολών"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Υπενθύμιση αξιολόγησης"
+
+msgid "admin.scheduledTask.statisticsReport"
+msgstr "Ειδοποίηση Αναφοράς Συντακτικής Ομάδας"
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Υπενθύμιση λήξης συνδρομής"
+
+msgid "admin.scheduledTask.removeUnvalidatedExpiredUsers"
+msgstr "Διαγραφή μη επικυρωμένων χρηστών των οποίων η αρχική αίτηση έχει λήξει"
+
+msgid "admin.scheduledTask.removeFailedJobs"
+msgstr ""
+"Διαγραφή πολύ παλαιότερων αποτυχημένων εργασιών από τη λίστα των "
+"αποτυχημένων εργασιών."
+
+msgid "admin.scheduledTask.processQueueJobs"
+msgstr "Επεξεργασία εργασιών στην ουρά αναμονής"
+
+msgid "admin.scheduledTask.updateGeoDB"
+msgstr "Ενημέρωση βάσης DB-IP city lite"
+
+msgid "admin.scheduledTask.updateGeoDB.fileRename.error"
+msgstr ""
+"Η μετονομασία του αρχείου της βάσης DB-IP city lite από {$sourceFilename} σε "
+"{$targetFilename} απέτυχε."
+
+msgid "admin.scheduledTask.usageStatsLoader"
+msgstr "Εργασία φόρτωσης αρχείων στατιστικών χρήσης"
+
+msgid "admin.scheduledTask.usageStatsLoader.processingPathNotEmpty"
+msgstr ""
+"Ο φάκελλος {$directory} δεν είναι κενός. Αυτό μπορεί να υποδηλώνει μια "
+"διαδικασία που απέτυχε προηγουμένως ή μια διαδικασία που εκτελείται "
+"ταυτόχρονα. Το αρχείο αυτό θα υποβληθεί εκ νέου σε επεξεργασία, αυτόματα."
+
+msgid "admin.job.processLogFile.openFileFailed"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου {$file} και απορρίφθηκε."
+
+msgid "admin.scheduledTask.usageStatsLoader.veryOldLogFile"
+msgstr ""
+"Το αρχείο {$file} είναι σε παλιά μορφή αρχείου καταγραφής και δεν μπορεί να "
+"υποβληθεί σε επεξεργασία, ως εκ τούτου, θα μεταφερθεί ξανά στον κατάλογο "
+"stage."
+
+msgid "admin.scheduledTask.usageStatsLoader.monthExists"
+msgstr ""
+"Παραλείφθηκε το αρχείο καταγραφής {$file}, καθώς τα στατιστικά στοιχεία για "
+"τον συγκεκριμένο μήνα έχουν ήδη υπολογιστεί. Για να υπολογίσετε εκ νέου τα "
+"στατιστικά στοιχεία ενός προηγούμενου μήνα, πρέπει να επαναφέρετε όλα τα "
+"αρχεία καταγραφής του συγκεκριμένου μήνα και να χρησιμοποιήσετε το εργαλείο "
+"CLI για να επανεπεξεργαστείτε τα στατιστικά στοιχεία."
+
+msgid "admin.job.processLogFile.wrongLoglineFormat"
+msgstr ""
+"Η γραμμή {$lineNumber} στο αρχείο καταγραφής {$file} έχει λάθος μορφή και, "
+"ως εκ τούτου, θα παραλειφθεί."
+
+msgid "admin.job.processLogFile.invalidLogEntry"
+msgstr ""
+"Μη έγκυρη καταχώριση στη γραμμή {$lineNumber} του αρχείου καταγραφής {$file}:"
+" {$error}"
+
+msgid "admin.job.processLogFile.invalidLogEntry.time"
+msgstr "Η ώρα δεν αποτελεί έγκυρη ημερομηνία."
+
+msgid "admin.job.processLogFile.invalidLogEntry.contextId"
+msgstr "Το αναγνωριστικό (ID) του περιοδικού δεν είναι ακέραιος αριθμός."
+
+msgid "admin.job.processLogFile.invalidLogEntry.submissionId"
+msgstr "Το αναγνωριστικό (ID) της υποβολής δεν είναι ακέραιος αριθμός."
+
+msgid "admin.job.processLogFile.invalidLogEntry.representationId"
+msgstr "Το αναγνωριστικό (ID) της εκπροσώπησης δεν είναι ακέραιος αριθμός."
+
+msgid "admin.job.processLogFile.invalidLogEntry.assocType"
+msgstr ""
+
+msgid "admin.job.processLogFile.invalidLogEntry.fileType"
+msgstr "Ο τύπος αρχείου δεν υποστηρίζεται."
+
+msgid "admin.job.processLogFile.invalidLogEntry.country"
+msgstr "Η χώρα δεν είναι μια ακολουθία δύο αλφαβητικών χαρακτήρων."
+
+msgid "admin.job.processLogFile.invalidLogEntry.region"
+msgstr "Η περιοχή δεν αποτελείται από έως τρεις αλφαριθμητικούς χαρακτήρες."
+
+msgid "admin.job.processLogFile.invalidLogEntry.institutionIds"
+msgstr ""
+
+msgid "admin.job.processLogFile.insertError"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την επεξεργασία του αρχείου καταγραφής {$file} στη "
+"γραμμή {$lineNumber}: {$msg}"
+
+msgid "admin.scheduledTask.usageStatsLoader.jobDispatched"
+msgstr ""
+"Οι εργασίες παρασκηνίου που θα επεξεργαστούν τα αρχεία καταγραφής και θα "
+"αποθηκεύσουν τα στατιστικά στοιχεία έχουν ήδη ξεκινήσει."
+
+msgid "admin.server.apacheVersion"
+msgstr "Έκδοση Apache"
+
+msgid "admin.server.dbDriver"
+msgstr "Οδηγός βάσης δεδομένων"
+
+msgid "admin.server.dbVersion"
+msgstr "Έκδοση εξυπηρετητή βάσης δεδομένων"
+
+msgid "admin.serverInformation"
+msgstr "Πληροφορίες εξυπηρετητή"
+
+msgid "admin.server.phpVersion"
+msgstr "Έκδοση PHP"
+
+msgid "admin.server.platform"
+msgstr "Πλατφόρμα λειτουργικού συστήματος"
+
+msgid "admin.settings"
+msgstr "Ρυθμίσεις"
+
+msgid "admin.settings.about"
+msgstr "Σχετικά με τον ιστότοπο"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Μαζικά μηνύματα ηλ. ταχυδρομείου"
+
+msgid "admin.settings.contactEmail"
+msgstr "Ηλεκτρονική διεύθυνση Υπεύθυνου Επικοινωνίας"
+
+msgid "admin.settings.contactName"
+msgstr "Ονοματεπώνυμο Υπεύθυνου Επικοινωνίας"
+
+msgid "admin.settings.introduction"
+msgstr "Εισαγωγή"
+
+msgid "admin.settings.minPasswordLength"
+msgstr "Ελάχιστο μήκος κωδικού πρόσβασης"
+
+msgid "admin.settings.restrictBulkEmails"
+msgstr "Περιορισμός σε μαζικά μηνύματα ηλ. ταχυδρομείου"
+
+msgid "admin.settings.disableBulkEmailRoles.label"
+msgstr "Απενεργοποίηση Ρόλων"
+
+msgid "admin.settings.disableBulkEmailRoles.adminOnly"
+msgstr "Μόνο ένας διαχειριστής έχει δικαίωμα να τροποποιήσει αυτή τη ρύθμιση."
+
+msgid "admin.settings.siteLanguage"
+msgstr "Γλώσσα ιστοτόπου"
+
+msgid "admin.settings.siteStyleSheetInvalid"
+msgstr ""
+"Μη έγκυρος τύπος αρχείου γραφικής μορφοποίησης ιστοτόπου. Αποδεκτός τύπος "
+"αρχείου είναι το .css."
+
+msgid "admin.settings.siteStyleSheet"
+msgstr "Αρχείο γραφικής μορφοποίησης ιστοτόπου"
+
+msgid "admin.settings.siteLogo"
+msgstr "Λογότυπο ιστοτόπου"
+
+msgid "admin.settings.siteTitle"
+msgstr "Τίτλος ιστοτόπου"
+
+msgid "admin.settings.siteTheme"
+msgstr "Γραφική μορφοποίηση ιστοτόπου"
+
+msgid "admin.siteAdmin"
+msgstr "Τεχνική διαχείριση ιστοτόπου"
+
+msgid "admin.siteManagement"
+msgstr "Διαχείριση ιστοτόπου"
+
+msgid "admin.siteSettings"
+msgstr "Ρυθμίσεις ιστοτόπου"
+
+msgid "admin.siteSetup"
+msgstr "Παραμετροποίηση λειτουργιών ιστοτόπου"
+
+msgid "admin.systemConfigFileReadError"
+msgstr ""
+"Το αρχείο ρυθμίσεων <tt>config.inc.php</tt> δεν υπάρχει, δεν είναι "
+"αναγνώσιμο, ή δεν είναι έγκυρο."
+
+msgid "admin.systemInformation"
+msgstr "Πληροφορίες συστήματος"
+
+msgid "admin.systemInformation.description"
+msgstr ""
+"Εμφάνιση πληροφοριών σχετικά με την έκδοση και τις ρυθμίσεις της εφαρμογής "
+"και του διακομιστή."
+
+msgid "admin.systemInformation.view"
+msgstr "Εμφάνιση Πληροφοριών Συστήματος"
+
+msgid "admin.versionBuild"
+msgstr "Έκδοση"
+
+msgid "admin.version.checkForUpdates"
+msgstr "Ελέγξτε για ενημερώσεις"
+
+msgid "admin.version.downloadPackage"
+msgstr "Μεταφόρτωση"
+
+msgid "admin.version.downloadPatch"
+msgstr "Μεταφόρτωση επιρράματος κώδικα (patch)"
+
+msgid "admin.versionHistory"
+msgstr "Ιστορικό εκδόσεων"
+
+msgid "admin.version.latest"
+msgstr "Τελευταία έκδοση"
+
+msgid "admin.versionMajor"
+msgstr "Πρωτεύουσα"
+
+msgid "admin.versionMinor"
+msgstr "Δευτερεύουσα"
+
+msgid "admin.version.moreInfo"
+msgstr "Περισσότερες πληροφορίες"
+
+msgid "admin.versionRevision"
+msgstr "Αναθεώρηση"
+
+msgid "admin.version.updateAvailable"
+msgstr "Μια νεώτερη έκδοση του λογισμικού είναι διαθέσιμη."
+
+msgid "admin.version.upToDate"
+msgstr "Το σύστημά σας διαθέτει την τελευταία έκδοση του λογισμικού."
+
+msgid "admin.version"
+msgstr "Έκδοση"
+
+msgid "admin.fileLoader.wrongBasePathLocation"
+msgstr ""
+"Η βασική διαδρομή {$path} θα πρέπει να είναι μέσα στον φάκελο των δημοσίων "
+"αρχείων."
+
+msgid "admin.fileLoader.pathNotAccessible"
+msgstr "Ο {$path} δεν είναι φάκελος ή δεν είναι αναγνώσιμος."
+
+msgid "admin.fileLoader.moveFileFailed"
+msgstr ""
+"Το αρχείο {$filename} δεν μπόρεσε να μετακινηθεί από {$currentFilePath} στο "
+"{$destinationPath}"
+
+msgid "admin.fileLoader.fileProcessed"
+msgstr "Το αρχείο {$filename} επεξεργάστηκε και αρχειοθετήθηκε."
+
+msgid "admin.fileLoader.emailSubject"
+msgstr "Φορτωτής αρχείων"
+
+msgid "admin.error.gzDecompressFile.gzopen"
+msgstr ""
+"Δεν ήταν δυνατή η αποσυμπίεση του αρχείου. Δεν ήταν δυνατό να ανοιχτεί το "
+"αρχείο gz {$filePath} με τη συνάρτηση gzopen."
+
+msgid "admin.error.gzDecompressFile.fopen"
+msgstr ""
+"Δεν ήταν δυνατή η αποσυμπίεση του αρχείου. Δεν ήταν δυνατό να ανοιχτεί το "
+"αρχείο {$filePath} με τη συνάρτηση fopen."
+
+msgid "admin.error.gzDecompressFile.gzread"
+msgstr ""
+"Δεν ήταν δυνατή η αποσυμπίεση του αρχείου. Δεν ήταν δυνατή η ανάγνωση του "
+"αρχείου gz {$file} με τη συνάρτηση gzread."
+
+msgid "admin.error.gzDecompressFile.fwrite"
+msgstr ""
+
+msgid "admin.error.gzDecompressFile.fclose"
+msgstr ""
+
+msgid "admin.error.gzDecompressFile.gzclose"
+msgstr ""
+
+msgid "admin.error.gzDecompressFile.unlink"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.gzopen"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.fopen"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.fread"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.gzwrite"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.fclose"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.gzclose"
+msgstr ""
+
+msgid "admin.error.gzCompressFile.unlink"
+msgstr ""
+
+msgid "admin.languages.noLocalesToDownload"
+msgstr "Δεν υπάρχουν γλώσσες διαθέσιμες για λήψη."
+
+msgid "admin.cli.tool.usage.title"
+msgstr "Χρήση:"
+
+msgid "admin.cli.tool.usage.parameters"
+msgstr "εντολή [ορίσματα]"
+
+msgid "admin.cli.tool.available.commands"
+msgstr "Διαθέσιμες εντολές για τον χώρο ονομάτων `{$namespace}`:"
+
+msgid "admin.cli.tool.jobs.maintenance.message"
+msgstr ""
+"Δεν είναι δυνατή η εκτέλεση εργασιών στην ουρά, καθώς η εφαρμογή βρίσκεται "
+"σε κατάσταση συντήρησης."
+
+msgid "admin.cli.tool.jobs.available.options.list.description"
+msgstr ""
+"Εμφάνιση όλων των εργασιών που βρίσκονται στην ουρά. Αν θέλετε να "
+"ομαδοποιήσετε τα αποτελέσματα σε σελίδες, χρησιμοποιήστε τις παραμέτρους --"
+"page= και --perPage=. Χρησιμοποιήστε την επιλογή --failed για να εμφανίσετε "
+"τις εργασίες που απέτυχαν."
+
+msgid "admin.cli.tool.jobs.available.options.purge.description"
+msgstr ""
+"Διαγράψτε μια συγκεκριμένη εργασία που βρίσκεται στην ουρά, με βάση τον "
+"αναγνωριστικό της. Αν θέλετε να διαγράψετε όλες τις εργασίες, ορίστε την "
+"παράμετρο --all. Αν θέλετε να διαγράψετε όλες τις εργασίες από μια "
+"συγκεκριμένη ουρά, ορίστε την παράμετρο --queue="
+
+msgid "admin.cli.tool.jobs.available.options.test.description"
+msgstr ""
+"Προσθέστε μια δοκιμαστική εργασία στην δοκιμαστική ουρά. Χρησιμοποιήστε τις "
+"προαιρετικές παραμέτρους --only= και ορίστε την τιμή «failed» ή «success» "
+"για να στείλετε μια εργασία που μπορεί να αποτύχει ή να ολοκληρωθεί με "
+"επιτυχία."
+
+msgid "admin.cli.tool.jobs.available.options.work.description"
+msgstr ""
+"Εκτελέστε μια daemon διαδικασία που θα λειτουργεί συνέχεια και θα συνεχίζει "
+"να επεξεργάζεται εργασίες. Χρησιμοποιήστε την επιλογή --help για να δείτε "
+"τις διαθέσιμες επιλογές που σχετίζονται με αυτήν την εντολή."
+
+msgid "admin.cli.tool.jobs.available.options.failed.description"
+msgstr ""
+"Εμφάνιση όλων των αποτυχημένων εργασιών. Ορίστε τις παραμέτρους --"
+"queue=QUEUE_NAME και --connection=CONNECTION_NAME για να φιλτράρετε τη "
+"λίστα. Επίσης, ορίστε τις παραμέτρους --redispatch και --clear για να "
+"ανακατανείμετε τις εργασίες πίσω στην ουρά ή να διαγράψετε όλες ή "
+"συγκεκριμένες αποτυχημένες εργασίες."
+
+msgid "admin.cli.tool.jobs.available.options.run.description"
+msgstr ""
+"Προωθήστε τις διαθέσιμες εργασίες στην ουρά. Για να προωθήσετε μια εργασία "
+"σε μια συγκεκριμένη ουρά, ορίστε την παράμετρο --queue=QUEUE_NAME. "
+"Χρησιμοποιήστε την παράμετρο --test για να εκτελέσετε μια δοκιμαστική "
+"εργασία και την παράμετρο --once για να σταματήσετε μετά από μία μόνο "
+"εργασία."
+
+msgid "admin.cli.tool.jobs.available.options.run.completed.description"
+msgstr "Ολοκληρώθηκαν {$jobCount} εργασίες στην ουρά με το όνομα {$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.run.empty.description"
+msgstr ""
+"Δεν υπάρχουν διαθέσιμες εργασίες προς εκτέλεση στην ουρά με το όνομα "
+"{$queueName}."
+
+msgid "admin.cli.tool.jobs.available.options.total.description"
+msgstr ""
+"Εμφάνιση του συνολικού αριθμού εργασιών στην ουρά. Χρησιμοποιήστε την "
+"επιλογή --failed για να δείτε τον συνολικό αριθμό των εργασιών που απέτυχαν."
+
+msgid "admin.cli.tool.jobs.available.options.help.description"
+msgstr "Εμφάνιση οδηγιών χρήσης της εντολής για τις εργασίες"
+
+msgid "admin.cli.tool.jobs.available.options.usage.description"
+msgstr "Εμφάνιση των παραμέτρων χρήσης των εργασιών"
+
+msgid "admin.cli.tool.jobs.empty.option"
+msgstr "Η παράμετρος δεν μπορεί να είναι κενή! Ελέγξτε την χρήση."
+
+msgid "admin.cli.tool.jobs.queued.jobs.failed.title"
+msgstr "Αποτυχημένες Εργασίες στην Ουρά"
+
+msgid "admin.cli.tool.jobs.queued.jobs.title"
+msgstr "Εργασίες στην Ουρά"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.id"
+msgstr "ID"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.queue"
+msgstr "Ουρά"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.connection"
+msgstr "Σύνδεση"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.job.display.name"
+msgstr "Όνομα Εργασίας"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.attempts"
+msgstr "Προσπάθειες"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.reserved.at"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.available.at"
+msgstr "Διαθέσιμο Στις"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.created.at"
+msgstr "Δημιουργήθηκε Στις"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.failed.at"
+msgstr "Απέτυχε Στις"
+
+msgid "admin.cli.tool.jobs.queued.jobs.fields.exception"
+msgstr "Μήνυμα Λάθους"
+
+msgid "admin.cli.tool.jobs.pagination"
+msgstr "Σελιδοποίηση"
+
+msgid "admin.cli.tool.jobs.pagination.current"
+msgstr "Τρέχουσα"
+
+msgid "admin.cli.tool.jobs.pagination.previous"
+msgstr "Προηγούμενη"
+
+msgid "admin.cli.tool.jobs.pagination.next"
+msgstr "Επόμενη"
+
+msgid "admin.cli.tool.jobs.purge.without.id"
+msgstr ""
+"Για να χρησιμοποιήσετε αυτήν την εντολή, πρέπει να καθορίσετε τουλάχιστον "
+"ένα ID εργασίας (Job ID), την παράμετρο «--all» ή την παράμετρο «--queue=»"
+
+msgid "admin.cli.tool.jobs.test.job.failed.dispatch.message"
+msgstr ""
+"Απεστάλη δοκιμαστική εργασία που είναι βέβαιο ότι θα αποτύχει στην ουρά με "
+"το όνομα {$queueName}"
+
+msgid "admin.cli.tool.jobs.test.job.success.dispatch.message"
+msgstr ""
+"Απεστάλη δοκιμαστική εργασία που είναι βέβαιο ότι θα ολοκληρωθεί στην ουρά "
+"με το όνομα {$queueName}"
+
+msgid "admin.cli.tool.jobs.test.invalid.option"
+msgstr ""
+"Μη έγκυρη επιλογή δοκιμαστικής εργασίας. Η επιλογή «--only=» δέχεται μόνο "
+"τις τιμές «failed» ή «success»."
+
+msgid "admin.cli.tool.jobs.purge.invalid.id"
+msgstr "Μη έγκυρο ID εργασίας"
+
+msgid "admin.cli.tool.jobs.purge.successful"
+msgstr "Η εργασία διαγράφηκε!"
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.empty"
+msgstr "Δεν βρέθηκαν εργασίες προς διαγραφή."
+
+msgid "admin.cli.tool.jobs.purge.impossible.to.purge.all"
+msgstr "Δεν ήταν δυνατό να διαγραφούν όλες οι εργασίες."
+
+msgid "admin.cli.tool.jobs.purge.successful.all"
+msgstr "Διαγράφηκαν όλες οι εργασίες!"
+
+msgid "admin.cli.tool.jobs.failed.clear.successful"
+msgstr ""
+"{$jobsCount} αποτυχημένες εργασίες αφαιρέθηκαν από τη λίστα των αποτυχημένων."
+
+msgid "admin.cli.tool.jobs.failed.redispatch.successful"
+msgstr "{$jobsCount} εργασίες αναδιανεμήθηκαν επιτυχώς πίσω στην ουρά."
+
+msgid "admin.cli.tool.jobs.total.failed.jobs"
+msgstr "Υπάρχουν {$total} αποτυχημένες εργασίες"
+
+msgid "admin.cli.tool.jobs.total.jobs"
+msgstr "Υπάρχουν {$total} εργασίες στην ουρά"
+
+msgid "admin.cli.tool.jobs.option.doesnt.exists"
+msgstr "Η επιλογή {$option} δεν υπάρχει."
+
+msgid "admin.cli.tool.jobs.mean.those"
+msgstr "Μήπως εννοούσατε κάποιο από τα παρακάτω;"
+
+msgid "admin.jobs.totalCount"
+msgstr "Υπάρχουν συνολικά <strong>{$total}</strong> εργασίες στην ουρά"
+
+msgid "admin.jobs.failed.totalCount"
+msgstr "Υπάρχουν συνολικά <strong>{$total}</strong> αποτυχημένες εργασίες."
+
+msgid "admin.jobs.viewQueuedJobs"
+msgstr "Προβολή εργασιών στην ουρά"
+
+msgid "navigation.tools.jobs"
+msgstr "Εργασίες"
+
+msgid "navigation.tools.jobs.failed"
+msgstr "Αποτυχημένες Εργασίες"
+
+msgid "navigation.tools.jobs.failed.details"
+msgstr "Λεπτομέρειες Αποτυχημένων Εργασιών"
+
+msgid "navigation.tools.jobs.description"
+msgstr ""
+"Δείτε όλες τις εργασίες που βρίσκονται στην ουρά του συστήματος και "
+"παρακολουθήστε τις αποτυχημένες προσπάθειες."
+
+msgid "navigation.tools.jobs.view"
+msgstr "Προβολή Εργασιών"
+
+msgid "navigation.tools.jobs.failed.view"
+msgstr "Προβολή Αποτυχημένων Εργασιών"
+
+msgid "navigation.tools.job.failed.details.view"
+msgstr "Προβολή Λεπτομερειών Αποτυχημένης Εργασίας: {$id}"
+
+msgid "admin.job.failed.list.attribute"
+msgstr "Χαρακτηριστικό"
+
+msgid "admin.job.failed.list.attribute.value"
+msgstr "Τιμή Χαρακτηριστικού"
+
+#, fuzzy
+msgid "admin.jobs.list.id"
+msgstr "ID"
+
+msgid "admin.jobs.list.displayName"
+msgstr "Εργασία"
+
+msgid "admin.jobs.list.queue"
+msgstr "Ουρά"
+
+msgid "admin.jobs.list.connection"
+msgstr "Σύνδεση"
+
+msgid "admin.jobs.list.attempts"
+msgstr "Προσπάθειες"
+
+msgid "admin.jobs.list.createdAt"
+msgstr "Δημιουργήθηκε Στις"
+
+msgid "admin.jobs.list.failedAt"
+msgstr "Απέτυχε Στις"
+
+msgid "admin.jobs.list.payload"
+msgstr ""
+
+msgid "admin.jobs.list.exception"
+msgstr ""
+
+msgid "admin.jobs.list.actions"
+msgstr "Ενέργειες"
+
+msgid "admin.jobs.failedAt"
+msgstr "Δημιουργήθηκε στις {$failedAt}"
+
+msgid "admin.jobs.createdAt"
+msgstr "Δημιουργήθηκε στις {$createdAt}"
+
+msgid "admin.jobs.failed.action.redispatch"
+msgstr "Δοκιμάστε Ξανά"
+
+msgid "admin.jobs.failed.action.redispatch.all"
+msgstr "Επανατοποθέτηση όλων των αποτυχημένων εργασιών στην ουρά"
+
+msgid "admin.job.compileMetrics.returnToStaging.error"
+msgstr ""
+"Η εργασία που φορτώνει τα δεδομένα στατιστικών χρήσης από το αρχείο {$file} "
+"απέτυχε και δεν ήταν δυνατή η μετακίνηση του αρχείου από το "
+"{$archivedFilePath} στο {$stagingPath}."
+
+msgid "admin.job.compileMetrics.error"
+msgstr ""
+"Η εργασία που φορτώνει τα δεδομένα στατιστικών χρήσης από το αρχείο {$file} "
+"απέτυχε. Το αρχείο έχει μετακινηθεί στον κατάλογο stage."
+
+msgid "admin.settings.statistics.collection"
+msgstr "Συλλογή Δεδομένων"
+
+msgid "admin.settings.statistics.collection.description"
+msgstr "Ορίστε ποια στατιστικά στοιχεία χρήσης πρέπει να συλλέγονται."
+
+msgid "admin.settings.statistics.storage"
+msgstr "Αποθήκευση Δεδομένων"
+
+msgid "admin.settings.statistics.storage.description"
+msgstr ""
+"Ορίστε ποια στατιστικά στοιχεία χρήσης θα πρέπει να αποθηκεύονται στον "
+"διακομιστή."
+
+msgid "admin.settings.statistics.sushi"
+msgstr "Πρωτόκολλο Sushi"
+
+msgid "admin.settings.statistics.sushi.description"
+msgstr ""
+"Ρυθμίστε το πρωτόκολλο <a href=\"https://www.projectcounter.org/"
+"counter-sushi/\">COUNTER 5 SUSHI</a>, μια αναγνωρισμένη μορφή για τη διανομή "
+"στατιστικών στοιχείων χρήσης."
+
+msgid "admin.settings.statistics.keepDaily"
+msgstr "Μηνιαία ή Ημερήσια Στατιστικά Στοιχεία"
+
+msgid "admin.settings.statistics.keepDaily.description"
+msgstr ""
+"Αν θα παρακολουθείτε ή όχι τα στατιστικά στοιχεία χρήσης σε καθημερινή ή "
+"μηνιαία βάση. Η παρακολούθηση των ημερήσιων στατιστικών ενδέχεται να αυξήσει "
+"σημαντικά το μέγεθος της βάσης δεδομένων σας."
+
+msgid "admin.settings.statistics.keepDaily.keep"
+msgstr "Παρακολούθηση ημερήσιων και μηνιαίων στατιστικών"
+
+msgid "admin.settings.statistics.keepDaily.discard"
+msgstr "Παρακολούθηση μόνο των μηνιαίων στατιστικών"
+
+msgid "admin.settings.statistics.compressStatsLogs.label"
+msgstr "Συμπίεση αρχείων καταγραφής"
+
+msgid "admin.settings.statistics.compressStatsLogs.description"
+msgstr ""
+"Τα στατιστικά στοιχεία δημιουργούνται από αρχεία καταγραφής πρόσβασης, τα "
+"οποία μεταφέρονται στο <code>{$path}</code> μετά την επεξεργασία τους. Θα "
+"πρέπει τα αρχεία καταγραφής να συμπιέζονται σε <code>.gz</code> μετά την "
+"επεξεργασία τους; Η συμπίεση των αρχείων καταγραφής μπορεί να εξοικονομήσει "
+"χώρο στο δίσκο του διακομιστή."
+
+msgid "admin.settings.statistics.compressStatsLogs.default"
+msgstr "Να μένουν τα αρχεία καταγραφής στη θέση τους"
+
+msgid "admin.settings.statistics.compressStatsLogs.compress"
+msgstr "Να συμπιέζονται τα αρχεία καταγραφής"
+
+msgid "admin.settings.statistics.publicSushiApi.private"
+msgstr ""
+"Περιορισμός της πρόσβασης στο API στατιστικών του COUNTER SUSHI στους "
+"διαχειριστές και τους υπεύθυνους"
+
+msgid "admin.settings.statistics.sushiPlatform"
+msgstr "Πλατφόρμα"
+
+msgid "admin.settings.statistics.sushiPlatform.description"
+msgstr ""
+"Σύμφωνα με το πρωτόκολλο COUNTER SUSHI, κάθε στατιστική αναφορά πρέπει να "
+"προσδιορίζει την «πλατφόρμα» που παρέχει τα στατιστικά στοιχεία. Από "
+"προεπιλογή, το εκάστοτε περιοδικό θα ορίζεται ως πλατφόρμα για όλα τα "
+"στατιστικά στοιχεία. Ωστόσο, εάν όλα τα περιοδικά που εκδίδονται σε αυτόν "
+"τον ιστότοπο ανήκουν ή διαχειρίζονται από τον ίδιο πάροχο, ίσως να προτιμάτε "
+"να ορίσετε τον ιστότοπο ως πλατφόρμα."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID"
+msgstr "ID Πλατφόρμας"
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.description"
+msgstr ""
+"Πώς να αναγνωρίσετε αυτήν την πλατφόρμα στις αναφορές του COUNTER SUSHI. Το "
+"αναγνωριστικό πλατφόρμας πρέπει να αποτελείται από 17 χαρακτήρες το πολύ και "
+"μπορεί να περιέχει γράμματα (a–z, A–Z), ψηφία (0–9), κάτω παύλες (_), "
+"τελείες (.) και κάθετες (/). Το αναγνωριστικό πλατφόρμας χρησιμοποιείται σε "
+"διάφορες στήλες και θα πρέπει να είναι όσο το δυνατόν συντομότερο, χωρίς "
+"όμως να χάνει την αναγνωρισιμότητά του. Το αναγνωριστικό πλατφόρμας "
+"βασίζεται συνήθως στο όνομα ενός εκδότη ή μιας πλατφόρμας, σε ένα όνομα "
+"τομέα ή σε μια γνωστή, μοναδική συντομογραφία."
+
+msgid "admin.settings.statistics.sushiPlatform.sushiPlatformID.required"
+msgstr ""
+"Απαιτείται αναγνωριστικό πλατφόρμας όταν ο ιστότοπος αναγνωρίζεται ως "
+"πλατφόρμα SUSHI."
+
+msgid "admin.cli.tool.jobs.work.options.title"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.options.usage"
+msgstr "χρήση: [--options1 --options2= ...]"
+
+msgid "admin.cli.tool.jobs.work.options.description"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.option.connection.description"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.option.queue.description"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.option.name.description"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.option.backoff.description"
+msgstr ""
+"Ο αριθμός δευτερολέπτων αναμονής πριν από την επανάληψη μιας εργασίας στην "
+"οποία παρουσιάστηκε μια ένα σφάλμα [προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.memory.description"
+msgstr "Το όριο μνήμης σε megabytes [προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.timeout.description"
+msgstr ""
+"Ο αριθμός δευτερολέπτων κατά τον οποίο μπορεί να εκτελείται μια θυγατρική "
+"διεργασία [προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.sleep.description"
+msgstr ""
+"Αριθμός δευτερολέπτων αναμονής όταν δεν υπάρχει διαθέσιμη εργασία "
+"[προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.tries.description"
+msgstr ""
+"Αριθμός προσπαθειών επανεκτέλεσης μιας εργασίας πριν οριστεί ως αποτυχημένη "
+"[προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.force.description"
+msgstr ""
+
+msgid "admin.cli.tool.jobs.work.option.stopWhenEmpty.description"
+msgstr "Διακοπή όταν η ουρά είναι κενή [προεπιλογή: {$default}]"
+
+msgid "admin.cli.tool.jobs.work.option.maxJobs.description"
+msgstr ""
+"Αριθμός των εργασιών προς επεξεργασία πριν από τη διακοπή [προεπιλογή: "
+"“{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.maxTime.description"
+msgstr ""
+"Ο μέγιστος αριθμός δευτερολέπτων που πρέπει να εκτελείται η εργασία "
+"[προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.rest.description"
+msgstr ""
+"Αριθμός δευτερολέπτων ανάπαυσης μεταξύ εργασιών [προεπιλογή: “{$default}”]"
+
+msgid "admin.cli.tool.jobs.work.option.test.description"
+msgstr "Εκκίνηση του deamon εργασιών για την δοκιμαστική ουρά"
+
+#~ msgid "admin.settings.aboutDescription"
+#~ msgstr "Σχετικά με τον ιστότοπο"
+
+#~ msgid "admin.settings.form.contactEmailRequired"
+#~ msgstr ""
+#~ "Απαιτείται η διεύθυνση ηλεκτρονικού ταχυδρομείου του Υπεύθυνου "
+#~ "Επικοινωνίας."
+
+#~ msgid "admin.settings.form.contactNameRequired"
+#~ msgstr "Απαιτείται το ονοματεπώνυμο του Υπεύθυνου Επικοινωνίας."
+
+#~ msgid "admin.settings.form.minPasswordLengthRequired"
+#~ msgstr ""
+#~ "Πρέπει να εισάγετε έναν κωδικό πρόσβασης με τουλάχιστον 4 χαρακτήρες."
+
+#~ msgid "admin.settings.form.titleRequired"
+#~ msgstr "Απαιτείται η συμπλήρωση του τίτλου."
+
+#~ msgid "admin.settings.homeHeaderImage.altText"
+#~ msgstr "Λογότυπο ιστοτόπου"
+
+#~ msgid "admin.settings.homeHeaderImageInvalid"
+#~ msgstr ""
+#~ "Μη έγκυρος τύπος αρχείου εικόνας λογοτύπου. Αποδεκτοί τύποι αρχείων είναι "
+#~ "οι .gif, .jpg, ή .png."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset"
+msgstr "Ενημέρωση της προσωρινής μνήμης του συνόλου δεδομένων του μητρώου ROR"
+
+msgid "admin.settings.sharedReviewerStatistics.disable"
+msgstr "Απενεργοποίηση των συγκεντρωτικών στατιστικών των αξιολογητών"
+
+msgid "admin.settings.sharedReviewerStatistics"
+msgstr "Στατιστικά αξιολογητή"
+
+msgid "admin.settings.sharedReviewerStatistics.description"
+msgstr ""
+"Σε μια εγκατάσταση πολλαπλών περιοδικών, τα στατιστικά στοιχεία των "
+"αξιολογητών, όπως ο αριθμός των υποβληθέντων σχολίων, μπορούν να "
+"εμφανίζονται είτε ξεχωριστά για κάθε περιοδικό, είτε συγκεντρωτικά."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.checksum"
+msgstr ""
+"Αδυναμία ενημέρωσης του συνόλου δεδομένων του Μητρώου ROR λόγω ασυμφωνίας "
+"στο checksum. Αναμενόμενο checksum: {$expected}. Πραγματικό checksum: "
+"{$actual}."
+
+msgid "admin.fileLoader.fileDispatched"
+msgstr "Το αρχείο {$filename} μετακινήθηκε στο φάκελο αποστολής."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.statusCode"
+msgstr ""
+"Αδυναμία ανάκτησης των μεταδεδομένων του συνόλου δεδομένων του Μητρώου ROR. "
+"Μη αναμενόμενος κωδικός κατάστασης HTTP: {$statusCode}."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.download"
+msgstr ""
+"Δεν είναι δυνατή η λήψη του αρχείου ZIP με το σύνολο δεδομένων του Μητρώου "
+"ROR."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.zipOpen"
+msgstr ""
+"Δεν είναι δυνατό το άνοιγμα του αρχείου ZIP με το σύνολο δεδομένων του "
+"Μητρώου ROR. Κωδικός σφάλματος: {$code}."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.extract"
+msgstr ""
+"Δεν είναι δυνατή η αποσυμπίεση του αρχείου ZIP με το σύνολο δεδομένων του "
+"Μητρώου ROR."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.missingFields"
+msgstr ""
+"Στην εγγραφή του Μητρώου ROR με αναγνωριστικό «{$id}» λείπουν ένα ή "
+"περισσότερα υποχρεωτικά πεδία (id, names, status) και έχει παραλειφθεί."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.warning.noValidName"
+msgstr ""
+"Η εγγραφή «{$id}» στο Μητρώο ROR δεν έχει έγκυρο όνομα και έχει παραλειφθεί."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.jsonNotFound"
+msgstr ""
+"Δεν ήταν δυνατή η εύρεση αρχείου δεδομένων JSON με έκδοση σχήματος {$version}"
+" στο εξαγόμενο σύνολο δεδομένων του Μητρώου ROR."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.checksumVerify"
+msgstr ""
+"Αδυναμία επαλήθευσης του checksum του αρχείου ZIP για το σύνολο δεδομένων "
+"του Μητρώου ROR που κατέβηκε."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.checksumAlgorithm"
+msgstr ""
+"Αδυναμία επαλήθευσης του αρχείου ZIP με το σύνολο δεδομένων του Μητρώου ROR: "
+"ο αλγόριθμος του checksum δεν υποστηρίζεται. Υποστηρίζονται μόνο οι "
+"αλγόριθμοι MD5 και SHA256."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.noDownloadFile"
+msgstr ""
+"Αδυναμία ανάκτησης των μεταδεδομένων του συνόλου δεδομένων του Μητρώου ROR. "
+"Δεν εντοπίστηκε αρχείο λήψης στην απάντηση του API."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.schemaVersionRead"
+msgstr ""
+"Δεν είναι δυνατή η ανάγνωση της έκδοσης του σχήματος από το αρχείο JSON "
+"{$file} του Μητρώου ROR. Σφάλμα: {$error}."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.error.noRecordsProcessed"
+msgstr ""
+"Δεν κατέστη δυνατό να επεξεργαστούν οι εγγραφές από το σύνολο δεδομένων του "
+"Μητρώου ROR. Το σύνολο δεδομένων ενδέχεται να είναι κενό ή όλες οι εγγραφές "
+"να απέτυχαν στον έλεγχο εγκυρότητας."
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset.warning.missingNameValue"
+msgstr ""
+"Η εγγραφή «{$id}» στο Μητρώο ROR περιέχει μια καταχώριση ονόματος με τύπους "
+"[{$types}], στην οποία λείπει το υποχρεωτικό πεδίο «value», και ως εκ τούτου "
+"έχει παραλειφθεί."
+
+msgid "admin.cli.tool.jobs.available.options.restart.confirm"
+msgstr ""
+"Οι workers θα τερματίσουν ομαλά τη λειτουργία τους μετά την ολοκλήρωση της "
+"εκτέλεσης της τρέχουσας εργασίας."
+
+msgid "admin.cli.tool.jobs.sandbox.message"
+msgstr ""
+"Δεν είναι δυνατή η εκτέλεση εργασιών στην ουρά, καθώς είναι ενεργοποιημένη η "
+"λειτουργία sandbox στην εφαρμογή."
+
+msgid "admin.cli.tool.jobs.available.options.restart.description"
+msgstr ""
+"Επανεκκίνηση των deamons της ουράς εργασιών μετά την ολοκλήρωση της "
+"τρέχουσας εργασίας τους."
+
+msgid "admin.job.archiveLogFile.error"
+msgstr ""
+"Δεν ήταν δυνατή η μετακίνηση του αρχείου {$file} από το {$dispatchFilePath} "
+"στο {$archivedFilePath}."
+
+msgid "admin.job.processLogFile.fileNotFound"
+msgstr "Το αρχείο {$file} δεν υπάρχει."
+
+msgid "admin.scheduledTask.removeExpiredInvitations"
+msgstr ""
+"Εκτέλεση εργασίας για την αυτόματη διαγραφή των προσκλήσεων που έχουν λήξει"
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Χρησιμοποιήστε τον ιστότοπο ως πλατφόρμα για όλα τα περιοδικά."
+
+msgid "admin.cli.tool.appKey.error.alreadyKeyVariableExists"
+msgstr ""
+"Η μεταβλητή `app_key` υπάρχει ήδη στην ενότητα `general` του αρχείου "
+"ρυθμίσεων. Εκτελέστε την εντολή `php lib/pkp/tools/appKey.php generate` για "
+"να ορίσετε ένα νέο κλειδί εφαρμογής."
+
+msgid "admin.cli.tool.appKey.error.missingAppKey"
+msgstr "Δεν έχει οριστεί κλειδί εφαρμογής στο αρχείο ρυθμίσεων."
+
+msgid "admin.cli.tool.appKey.success.valid"
+msgstr "Ένα έγκυρο κλειδί εφαρμογής έχει οριστεί στο αρχείο ρυθμίσεων"
+
+msgid "admin.cli.tool.appKey.options.validate.description"
+msgstr ""
+"Επαλήθευση του τρέχοντος κλειδιού εφαρμογής, εφόσον υπάρχει στο αρχείο "
+"ρυθμίσεων"
+
+msgid "admin.cli.tool.appKey.options.configure.description"
+msgstr "Προσθέστε τη μεταβλητή app_key στο αρχείο config.inc.php."
+
+msgid "admin.cli.tool.appKey.options.generate.description"
+msgstr ""
+"Δημιουργήστε ένα νέο κλειδί εφαρμογής και αντικαταστήστε το στο αρχείο "
+"ρυθμίσεων. Χρησιμοποιήστε την επιλογή --show για να το δείτε μόνο ή την "
+"επιλογή --force για να αντικαταστήσετε ένα υπάρχον έγκυρο κλειδί εφαρμογής."
+
+msgid "admin.cli.tool.appKey.error.missingKeyVariable"
+msgstr ""
+"Δεν έχει οριστεί καμία μεταβλητή με το όνομα `app_key` στην ενότητα `general`"
+" του αρχείου ρυθμίσεων. Παρακαλούμε ενημερώστε την ενότητα «general» του "
+"αρχείου ρυθμίσεων και προσθέστε τη γραμμή `app_key = ` ή εκτελέστε την "
+"εντολή `php lib/pkp/tools/appKey.php configure` για να την ορίσετε."
+
+msgid "admin.cli.tool.appKey.error.InvalidAppKey"
+msgstr ""
+"Μη έγκυρο κλειδί εφαρμογής, μη υποστηριζόμενη μέθοδος κρυπτογράφησης ή "
+"λανθασμένο μήκος κλειδιού. Οι υποστηριζόμενες μέθοδοι κρυπτογράφησης είναι: "
+"{$ciphers}."
+
+msgid "admin.cli.tool.appKey.success.writtenToConfig"
+msgstr "Το κλειδί εφαρμογής ορίστηκε με επιτυχία στο αρχείο ρυθμίσεων."
+
+msgid "admin.cli.tool.appKeyVariable.success.writtenToConfig"
+msgstr ""
+"Η μεταβλητή κλειδιού εφαρμογής ορίστηκε με επιτυχία στο αρχείο ρυθμίσεων. "
+"Εκτελέστε την εντολή `php lib/pkp/tools/appKey.php generate` για να ορίσετε "
+"ένα νέο κλειδί εφαρμογής."
+
+msgid "admin.cli.tool.scheduler.mean.those"
+msgstr "Μήπως εννοούσατε κάποιο από τα παρακάτω;"
+
+msgid "admin.cli.tool.appKey.mean.those"
+msgstr "Μήπως εννοούσατε κάποιο από τα παρακάτω;"
+
+msgid "admin.cli.tool.appKey.show"
+msgstr "Δημιουργημένο κλειδί εφαρμογής: {$appKey}"
+
+msgid "admin.cli.tool.appKey.warning.replaceValidKey"
+msgstr ""
+"Έχει ήδη οριστεί ένα έγκυρο κλειδί εφαρμογής στο αρχείο ρυθμίσεων. Για να το "
+"αντικαταστήσετε, χρησιμοποιήστε την επιλογή --force μαζί με την εντολή."
+
+msgid "admin.cli.tool.appKeyVariable.error.writtenToConfig"
+msgstr ""
+"Δεν είναι δυνατή η ρύθμιση της μεταβλητής `app_key` στο αρχείο ρυθμίσεων. "
+"Παρακαλούμε ενημερώστε την ενότητα «Γενικά» του αρχείου ρυθμίσεων και "
+"προσθέστε τη γραμμή `app_key = `."

@@ -1,0 +1,25 @@
+# Informatikaria <informatikaria@ueu.eus>, 2024, 2025.
+# Oihan Odriozola <oodriozola@euskaltzaindia.eus>, 2025.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-29 13:10+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/plugins/"
+"makeSubmission/eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.block.makeSubmission.displayName"
+msgstr "\"Bidali artikulu bat\" blokea"
+
+msgid "plugins.block.makeSubmission.description"
+msgstr ""
+"Plugin honek alboko barrako blokea eskaintzen du \"Bidali artikulu bat\" "
+"estekarekin."
+
+msgid "plugins.block.makeSubmission.linkLabel"
+msgstr "Bidali artikulu bat"

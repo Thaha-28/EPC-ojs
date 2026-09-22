@@ -1,0 +1,241 @@
+# Biljana Cubrovic <biljana.cubrovic@gmail.com>, 2021.
+# lena bojcic <lenabojcicck@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:33+00:00\n"
+"PO-Revision-Date: 2026-05-26 11:36+0000\n"
+"Last-Translator: lena bojcic <lenabojcicck@gmail.com>\n"
+"Language-Team: Serbian (latin) <http://translate.pkp.sfu.ca/projects/ojs/"
+"admin/sr_Latn/>\n"
+"Language: sr_Latn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "admin.hostedContexts"
+msgstr "Hostovani časopisi"
+
+msgid "admin.settings.redirect"
+msgstr "Redirekcija časopisa"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Pristupi glavnom sajtu biće preusmereni na časopis. Ovo može biti korisno "
+"ako hostujete samo jedan časopis."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Da li ste sigurni da želite da onemogućite ovu lokalizaciju? Ovo će uticati "
+"na časopise koji ju koriste."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Ovo će biti primarni jezik za sajt za sve časopise."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Odaberite lokalizacije koje želite da podržite na sajtu. One će biti "
+"dostupne za sve časopise i prikazivaće se u meniju za odabir jezika. Ukoliko "
+"ne odaberete ni jedan dodatni jezik meni za izbor jezika se neće prikazivati."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Markirane lokalizacije nisu kompletne."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Da li ste sigurni da želite da obrišete lokalizaciju? Ovo može uticati na "
+"časopise koji se nalaze u sistemu i koriste tu lokalizaciju."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Odaberite dodatne lokalizacije koje želite da instalirate.Pogledajte OJS "
+"dokumentaciju za više informacija kako da obezbedite podršku za nove jezike."
+
+msgid "admin.systemVersion"
+msgstr "OJS verzija"
+
+msgid "admin.systemConfiguration"
+msgstr "OJS konfiguracija"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "OJS konfiguracija iz <tt>config.inc.php</tt>."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Automatski ćete biti dodeljeni časopisu kao menadžer. Nakon što napravite "
+"novi časopis, pristupite mu kao menadžer kako biste završili podešavanja i "
+"dodeljivanje uloga."
+
+msgid "admin.journals.journalSettings"
+msgstr "Podešavanja časopisa"
+
+msgid "admin.journals.noneCreated"
+msgstr "Nema kreiranih časopisa."
+
+msgid "admin.contexts.create"
+msgstr "Napravi časopis"
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Ovo bi trebala da bude jedna kratka reč ili akronim koji identifikuje "
+"časopis. URL časopisa će biti {$sampleUrl}"
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Naslov je obavezan."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Putanja je obavezna."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Putanja može da sadrži samo alfanumeričke karaktere, podvlake i crtice i "
+"mora počinjati i završavati sa alfanumeričkim karakterom"
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Data putanja se već koristi za drugi časopis."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr "Primarni jezik mora biti jedan od jezika koje časopis podržava."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Dozvoli da se časopis javno prikazuje na sajtu"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Opis časopisa"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Postojeća putanja ili putanja za kreiranje (npr. \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Uvezi pretplate"
+
+msgid "admin.journals.transcode"
+msgstr "Prepiši metapodatke članaka iz ISO8859-1"
+
+msgid "admin.journals.redirect"
+msgstr "Generiši kod za mapiranje OJS 1 URL-ove u OJS 2 URL-ove"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "Putanja za uvoz je obavezna."
+
+msgid "admin.journals.importErrors"
+msgstr "Uvoz nije uspešno završen"
+
+msgid "admin.mergeUsers"
+msgstr "Spoji korisnike"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Spoji korisnika"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Odaberi korisnika kojem će se pripisati autorstva, zaduženja i ostvareni "
+"radovi prethodnog korisnika."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Odaberi korisnika ili više njih koji će se spojiti u novi korisnički nalog. "
+"Svi atributi korisnika pripisaće se drugom nalogu."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Svi korisnici koji imaju uloge"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Da li ste sigurni da želite da spojite korisničke naloge {$oldAccountCount} "
+"u nalog sa korisničkim imenom \"{$newUsername}\"? odabrani nalozi "
+"{$oldAccountCount} više neće postojati."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Nema korisnika sa dodeljenim ulogama."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Podsetnik o isteku pretplate"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Obaveštenje o Otvorenom pristupu"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Podsetnik o recenziji"
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueId"
+msgstr "ID broja nije ceo broj."
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueGalleyId"
+msgstr "ID preloma broja časopisa nije ceo broj."
+
+msgid ""
+"admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueAssocTypeNoMatch"
+msgstr "ID broja se ne podudara sa povezanim ID-jem."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Izaberite hostovane časopise kojima će biti dozvoljeno slanje masovnih "
+"imejlova. Kada je ova funkcija omogućena, upravnik časopisa moći će da "
+"pošalje imejl svim korisnicima registrovanim u njihovom "
+"časopisu.<br><br>Zloupotreba ove funkcije za slanje neželjenih imejlova može "
+"kršiti anti-spam zakone u nekim jurisdikcijama i može dovesti do toga da "
+"imejlovi sa vašeg servera budu blokirani kao neželjena pošta. Pre "
+"omogućavanja ove funkcije potražite tehnički savet i razmotrite konsultacije "
+"sa upravnicima časopisa kako bi se osiguralo njeno pravilno "
+"korišćenje.<br><br>Dodatna ograničenja ove funkcije mogu se omogućiti za "
+"svaki časopis pojedinačno putem čarobnjaka za podešavanja u listi <a href=\""
+"{$hostedContextsUrl}\">Hostovanih časopisa</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Upravnik časopisa neće moći da šalje masovne imejlove nijednoj od uloga "
+"izabranih ispod. Koristite ovo podešavanje kako biste ograničili zloupotrebu "
+"funkcije imejl obaveštenja. Na primer, može biti bezbednije onemogućiti "
+"masovne imejlove čitaocima, autorima ili drugim velikim grupama korisnika "
+"koji nisu dali saglasnost za primanje takvih imejlova.<br><br>Funkcija "
+"masovnog slanja imejlova može biti potpuno onemogućena za ovaj časopis u <a "
+"href=\"{$siteSettingsUrl}\">Administracija > Podešavanja sajta</a>."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"Funkcija masovnog slanja imejlova je onemogućena za ovaj časopis. Omogućite "
+"ovu funkciju u <a href=\"{$siteSettingsUrl}\">Administracija > Podešavanja "
+"sajta</a>."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Dodajte, uređujte ili uklanjajte časopise sa ovog sajta i upravljajte "
+"podešavanjima za ceo sajt."
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Izaberite tip geografskih statistika korišćenja koje časopisi na ovom sajtu "
+"mogu prikupljati. Detaljnije geografske statistike mogu značajno povećati "
+"veličinu baze podataka i, u nekim retkim slučajevima, mogu narušiti "
+"anonimnost vaših posetilaca. Svaki časopis može drugačije podesiti ovu "
+"opciju, ali časopis nikada ne može prikupljati detaljnije podatke od onih "
+"koji su ovde podešeni. Na primer, ako sajt podržava samo državu i region, "
+"časopis može izabrati državu i region ili samo državu. Časopis neće moći da "
+"prati državu, region i grad."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Omogućite institucionalne statistike ako želite da časopisi na ovom sajtu "
+"mogu prikupljati statistike korišćenja po institucijama. Da bi koristili ovu "
+"funkciju, časopisi će morati da dodaju instituciju i njene IP opsege. "
+"Omogućavanje institucionalnih statistika može značajno povećati veličinu "
+"baze podataka."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"Da li će SUSHI API krajnje tačke biti javno dostupne za sve časopise na ovom "
+"sajtu. Ako omogućite javni API, svaki časopis može zameniti ovo podešavanje "
+"kako bi svoje statistike učinio privatnim. Međutim, ako onemogućite javni "
+"API, časopisi neće moći da učine svoj API javno dostupnim."
+
+#~ msgid "admin.contexts.confirmDelete"
+#~ msgstr ""
+#~ "Da li ste sigurni da želite trajno obrisati ovaj časopis i njeov sadržaj?"
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Koristi sajt kao platformu za sve časopise."

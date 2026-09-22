@@ -1,0 +1,209 @@
+# Anne-Inger <annrag@oslomet.no>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:55+00:00\n"
+"PO-Revision-Date: 2026-06-15 12:55+0000\n"
+"Last-Translator: Anne-Inger <annrag@oslomet.no>\n"
+"Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
+"pkp-lib/reviewer/nb_NO/>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "reviewer.reviewSteps.request"
+msgstr "Trinn 1: Forespørsel"
+
+msgid "reviewer.reviewSteps.guidelines"
+msgstr "Trinn 2: Retningslinjer"
+
+msgid "reviewer.reviewSteps.download"
+msgstr "Trinn 3: Last ned og vurder"
+
+msgid "reviewer.reviewSteps.completion"
+msgstr "Trinn 4: Fullfør"
+
+msgid "reviewer.step1.request"
+msgstr "Forespørsel om fagfellevurdering"
+
+msgid "reviewer.step1.requestBoilerplate"
+msgstr ""
+"Du har blitt pekt ut som en potensiell fagfelle av denne innleveringen. "
+"Under ser du en oversikt over innleveringen, samt arbeidsflyt for "
+"fagfellevurderingen. Vi håper du har anledning til å delta."
+
+msgid "reviewer.step1.viewAllDetails"
+msgstr "Se detaljer om innleveringen"
+
+msgid "reviewer.submission.reviewerFiles"
+msgstr "Fagfellens filer"
+
+msgid "reviewer.submission.declineReview"
+msgstr "Avslå forespørsel om fagfellevurdering"
+
+msgid "reviewer.submission.declineReviewMessage"
+msgstr "Du kan oppgi grunnen til at du avslår forespørselen i feltet under."
+
+msgid "reviewer.submission.acceptReview"
+msgstr "Aksepter forespørselen. Gå til Trinn 2"
+
+msgid "reviewer.submission.continueToStepThree"
+msgstr "Gå til Trinn 3"
+
+msgid "reviewer.submission.submitReview"
+msgstr "Send inn fagfellevurdering"
+
+msgid "reviewer.submission.saveReviewForLater"
+msgstr "Lagre til senere"
+
+msgid "reviewer.submission.reviewerGuidelines"
+msgstr "Retningslinjer for fagfellevurderingen"
+
+msgid "reviewer.submission.enterCompetingInterests"
+msgstr ""
+"Utgiverens retningslinjer krever at fagfeller er åpne om eventuelle "
+"interessekonflikter. Se gjennom disse retningslinjene."
+
+msgid "reviewer.submission.noCompetingInterests"
+msgstr "Jeg har ingen interessekonflikter"
+
+msgid "reviewer.submission.hasCompetingInterests"
+msgstr "Jeg kan ha interessekonflikter (spesifiser under)"
+
+msgid "reviewer.submission.competingInterests"
+msgstr "Interessekonflikter"
+
+msgid "reviewer.submission.guidelines"
+msgstr "Retningslinjer for fagfellevurdering"
+
+msgid "reviewer.submission.noGuidelines"
+msgstr "Utgiveren har ikke satt opp retningslinjer for fagfellene."
+
+msgid "reviewer.submission.downloadDescription"
+msgstr ""
+"Klikk på filnavnene under for å laste ned filene knyttet til denne "
+"innleveringen."
+
+msgid "reviewer.submission.reviewDescription"
+msgstr "Skriv (eller lim) inn fagfellevurderingen i skjemaet under."
+
+msgid "reviewer.submission.uploadDescription"
+msgstr ""
+"Last opp filer du vil at redaktør og/eller forfatter skal konsultere, "
+"inkludert reviderte versjoner av filer med opprinnelig fagfellevurdering."
+
+msgid "reviewer.complete"
+msgstr "Fagfellevurdering sendt inn"
+
+msgid "reviewer.confirmSubmit"
+msgstr "Er du sikker på at du vil sende inn fagfellevurderingen?"
+
+msgid "reviewer.complete.whatNext"
+msgstr ""
+"Takk for at du fullførte fagfellevurderingen av denne innleveringen. "
+"Vurderingen din ble sendt inn. Vi takker for at du bidrar til å sikre "
+"kvaliteten på det vi publiserer. Om nødvendig, vil redaktøren kontakte deg "
+"for mer informasjon."
+
+msgid "reviewer.aboutDueDates"
+msgstr "Om frister"
+
+msgid "reviewer.aboutDueDates.text"
+msgstr ""
+"Redaktøren ber om at du enten aksepterer eller avviser forespørselsen innen "
+"svarfristen, og at du fullfører fagfellevurderingen innen fristen for "
+"fagfellevurdering."
+
+msgid "submission.comments.canShareWithAuthor"
+msgstr "For forfatter og redaktør"
+
+msgid "submission.comments.cannotShareWithAuthor"
+msgstr "Kun for redaktør"
+
+msgid "submission.comments.sendCopyToReviewers"
+msgstr ""
+"Send en kopi av denne e-postvarslingen i blindkopi til følgende fagfeller."
+
+msgid "submission.comments.sendToReviewers"
+msgstr "Send til fagfeller"
+
+msgid "user.authorization.submissionReviewer"
+msgstr ""
+"Denne brukeren er ikke satt opp som fagfelle for det forespurte dokumentet."
+
+#, fuzzy
+msgid "reviewer.submission.reviewRound.info.submittedOn"
+msgstr "Runde {$round} bedømmelse innsendt den {$submittedOn}"
+
+msgid "reviewer.submission.reviewRound.info.read"
+msgstr "Les evalueringsrunde {$round}"
+
+msgid "reviewer.submission.reviewRound.metadata.abstract"
+msgstr "Sammendrag"
+
+msgid "reviewer.submission.reviewRound.metadata.keywords"
+msgstr "Nøkkelord"
+
+msgid "reviewer.submission.reviewRound.general"
+msgstr "Generell informasjon"
+
+#, fuzzy
+msgid "reviewer.submission.reviewRound.attachments"
+msgstr "Filvedlegg"
+
+msgid "reviewer.submission.reviewRound.attachments.description"
+msgstr "Dette er filer som du la ved din bedømmelse"
+
+msgid "reviewer.submission.reviewRound.files"
+msgstr "Filer til bedømmelse"
+
+msgid "reviewer.submission.reviewRound.files.description"
+msgstr "Disse filene ble sendt til deg for bedømmelse"
+
+msgid "reviewer.submission.reviewRound.reviewNotCompleted"
+msgstr "Vurderingen ble ikke fullført."
+
+msgid "reviewer.submission.reviewFormResponse.form.notFilledIn"
+msgstr ""
+"Enkelte obligatoriske felt er ikke utfylt. Vennligst fyll dem ut før du "
+"sender inn vurderingen din."
+
+msgid "reviewer.submission.reviewRound.info"
+msgstr "Tidligere gjennomganger"
+
+#, fuzzy
+msgid "reviewer.submission.reviewRound.info.modal.title"
+msgstr "Runde {$round} Gjennomgang sendt inn av deg for"
+
+#, fuzzy
+msgid "reviewer.submission.reviewRound.comments"
+msgstr "Fagfelles kommentarer"
+
+msgid "reviewer.submission.reviewRound.comments.authorAndEditor"
+msgstr "Til redaktører og forfattere"
+
+msgid "reviewer.submission.reviewRound.comments.editorOnly"
+msgstr "Kun for redaktører"
+
+msgid "reviewer.submission.reviewRound.comments.prefix"
+msgstr "Kommentar {$index}: "
+
+msgid "reviewer.submission.reviewRound.emailLog"
+msgstr "Årsak til avslag sendt på e-post"
+
+#, fuzzy
+msgid "reviewer.submission.reviewRound.emailLog.defaultMessage"
+msgstr "Ingen grunn ble gitt for avslaget på invitasjonen til vurdering."
+
+msgid "reviewer.submission.reviewRound.reviewDeclineDate"
+msgstr "Dato for avvisning"
+
+msgid "reviewer.submission.reviewRound.metadata"
+msgstr "Artikkelmetadata"
+
+msgid "reviewer.submission.reviewRound.metadata.type"
+msgstr "Type"

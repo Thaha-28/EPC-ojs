@@ -1,0 +1,304 @@
+# Oihan Odriozola <oodriozola@euskaltzaindia.eus>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:45+00:00\n"
+"PO-Revision-Date: 2025-07-28 12:46+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"installer/eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "installer.additionalLocales"
+msgstr "Locale gehiago"
+
+msgid "installer.administratorAccount"
+msgstr "Administratzailearen kontua"
+
+msgid "installer.administratorAccountInstructions"
+msgstr ""
+"Erabiltzaile-kontu hau gune-administratzaile bihurtuko da eta sistemarako "
+"sarbide osoa izango du. Erabiltzaile-kontu gehiago sortu ahal izango dira "
+"instalazioa egin ondoren."
+
+msgid "installer.checkNo"
+msgstr "<span class=\"pkp_form_error formError\">EZ</span>"
+
+msgid "installer.checkYes"
+msgstr "Bai"
+
+msgid "installer.configFileError"
+msgstr ""
+"<tt>config.inc.php</tt>konfigurazio-fitxategia ez dago edo ezin da irakurri."
+
+msgid "installer.connectionCharset"
+msgstr "Konexioko karaktere-jokoa"
+
+msgid "installer.contentsOfConfigFile"
+msgstr "Konfigurazio-fitxategiaren edukia"
+
+msgid "installer.databaseDriver"
+msgstr "Datu-basearen kontrolatzailea"
+
+msgid "installer.databaseDriverInstructions"
+msgstr ""
+"<strong>Sistemak gaur egun MySQL eta PostgreSQL onartzen ditu. Beheko aukera "
+"hauetako bat hautatu ezin baduzu, jarri harremanetan zure sistemaren "
+"administratzailearekin zure zerbitzariak beharrezko PHP gehigarriak dituela "
+"ziurtatzeko.</strong>"
+
+msgid "installer.databaseHost"
+msgstr "Ostalaria"
+
+msgid "installer.databaseHostInstructions"
+msgstr ""
+"TCP/IP bidez konektatu beharrean domeinuko socket-en bidez konektatzeko, "
+"utzi hutsik ostalari-izena. MySQL badaukazu ez da beharrezkoa izango, "
+"automatikoki erabiltzen dituelako socket-ak \"localhost\" sartzen denean, "
+"baina beste datu-base zerbitzari batzuekin (PostgreSQL eta horrelakoekin) "
+"beharrezkoa da."
+
+msgid "installer.databaseName"
+msgstr "Datu-basearen izena"
+
+msgid "installer.databasePassword"
+msgstr "Pasahitza"
+
+msgid "installer.databaseSettings"
+msgstr "Datu-basearen ezarpenak"
+
+msgid "installer.databaseUsername"
+msgstr "Erabiltzaile-izena"
+
+msgid "installer.filesDir"
+msgstr "Kargak egiteko direktorioa"
+
+msgid "installer.fileSettings"
+msgstr "Fitxategi-ezarpenak"
+
+msgid "installer.form.clientCharsetRequired"
+msgstr "Bezeroaren karaktere-joko bat hautatu behar da."
+
+msgid "installer.form.databaseDriverRequired"
+msgstr "Datu-basearen kontrolatzailea hautatu behar da."
+
+msgid "installer.form.databaseNameRequired"
+msgstr "Datu-basearen izena eman behar da."
+
+msgid "installer.form.emailRequired"
+msgstr ""
+"Administratzaile-kontuaren helbide elektroniko baliozko bat eman behar da."
+
+msgid "installer.form.filesDirRequired"
+msgstr "Kargatutako fitxategiak gordetzeko direktorio bat zehaztu behar da."
+
+msgid "installer.form.localeRequired"
+msgstr "Locale bat hautatu behar da."
+
+msgid "installer.form.passwordRequired"
+msgstr "Administratzaile-kontuaren pasahitza eman behar da."
+
+msgid "installer.form.passwordsDoNotMatch"
+msgstr "Administratzailearen pasahitzak ez datoz bat."
+
+msgid "installer.form.separateMultiple"
+msgstr "Balio bat baino gehiago direnean, bereizi koma bidez"
+
+msgid "installer.form.usernameAlphaNumeric"
+msgstr ""
+"Administratzailearen erabiltzaile-izenean alfazenbakizko karaktereak, "
+"azpimarra eta marratxoak bakarrik onartzen dira, eta lehen karakterea eta "
+"azkena alfazenbakizkoak izan behar dira."
+
+msgid "installer.form.usernameRequired"
+msgstr "Administratzaile-kontuaren erabiltzaile-izena eman behar da."
+
+msgid "installer.form.timeZoneRequired"
+msgstr "Ordu-eremu bat hautatu behar da."
+
+msgid "installer.installationWrongPhp"
+msgstr ""
+"<br/><strong>KONTUZ: Zure oraingo PHP bertsioak ez ditu betetzen instalazioa "
+"egiteko eskakizunak. PHP bertsio berriagora aldatzea gomendatzen dizugu.</"
+"strong>"
+
+msgid "installer.installErrorsOccurred"
+msgstr "Erroreak gertatu dira instalazioan"
+
+msgid "installer.installerSQLStatements"
+msgstr "Instalazioa egiteko SQL instrukzioak"
+
+msgid "installer.installFileError"
+msgstr ""
+"<tt>dbscripts/xml/install.xml</tt> instalazio-fitxategia ez dago edo ezin da "
+"irakurri."
+
+msgid "installer.installFilesDirError"
+msgstr ""
+"Fitxategiak kargatzeko zehaztutako direktorioa ez dago edo ez da idazgarria."
+
+msgid "installer.installParseDBFileError"
+msgstr ""
+"Errorea datu-basea instalatzeko <tt>{$file}</tt> fitxategia analizatzean."
+
+msgid "installer.installMigrationError"
+msgstr ""
+"Salbuespen bat sortu da <tt>{$class}</tt> migrazio-klasea exekutatzean. "
+"Salbuespena {$message} izan da."
+
+msgid "installer.installParseEmailTemplatesFileError"
+msgstr "Errorea <tt>{$file}</tt> txantiloia analizatzean."
+
+msgid "installer.installParseFilterConfigFileError"
+msgstr ""
+"Errorea <tt>{$file}</tt> iragazki konfigurazio fitxategia analizatzean."
+
+msgid "installer.unsupportedUpgradeError"
+msgstr ""
+"Bertsio-berritzea ez da onartzen. Ikus Eguneratze-gida (https://docs.pkp.sfu."
+"ca/dev/upgrade-guide) xehetasun gehiago eskuratzeko."
+
+msgid "installer.timezoneInstructions"
+msgstr "Sistema honek erabiltzen duen ordu-eremua."
+
+msgid "installer.additionalLocalesInstructions"
+msgstr ""
+"Hautatu sistema honetan onartuko diren beste hizkuntza batzuk. Beste "
+"hizkuntza batzuk ere instala daitezke edozein unetan gunearen administrazio-"
+"interfazetik.<br>* = Guztiz itzulita ez dauden hizkuntzak adierazten ditu ("
+"terminoen % 90 baino gehiago itzulia)"
+
+msgid "installer.locale"
+msgstr "Localea"
+
+msgid "installer.locale.maybeIncomplete"
+msgstr "Markatutako lokalak osatu gabe egon daitezke."
+
+msgid "installer.localeSettings"
+msgstr "Localearen ezarpenak"
+
+msgid "installer.oaiSettings"
+msgstr "OAI ezarpenak"
+
+msgid "installer.oaiRepositoryIdInstructions"
+msgstr ""
+"Metadatuak Biltzeko <a href=\"https://www.openarchives.org/\" target=\"_blank"
+"\">Open Archives Initiative</a> Protocol for Metadata Harvesting "
+"protokoloaren bidez gune honetan indexatutako metadatuen erregistroak "
+"identifikatzeko erabiltzen da identifikatzaile uniboko hau."
+
+msgid "installer.oaiRepositoryId"
+msgstr "OAI gordailu-identifikatzailea"
+
+msgid "installer.publicFilesDirError"
+msgstr "Fitxategi publikoen direktorioa ez dago edo ez da idazgarria."
+
+msgid "installer.releaseNotes"
+msgstr "Bertsio-oharrak"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "Instalazio aurreko urratsak"
+
+msgid "installer.preInstallationInstructions"
+msgstr ""
+"\n"
+"\t\t<p>1. Hurrengo fitxategi eta direktorioetan (eta haien edukian) idazteko "
+"baimena izan behar da:</p>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><tt>config.inc.php</tt> editagarria da (hautazkoa): "
+"{$writable_config}</li>\n"
+"\t\t\t<li><tt>public/</tt> editagarria da: {$writable_public}</li>\n"
+"\t\t\t<li><tt>cache/</tt> editagarria da: {$writable_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_cache/</tt> editagarria da: "
+"{$writable_templates_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_compile/</tt> editagarria da: "
+"{$writable_templates_compile}</li>\n"
+"\t\t\t<li><tt>cache/_db</tt> editagarria da: {$writable_db_cache}</li>\n"
+"\t\t</ul>\n"
+"\n"
+"\t\t<p>2. Igotako fitxategiak gordetzeko direktorio bat sortu eta idazteko "
+"baimena izan behar du (ikus beheko \"Fitxategien ezarpenak\").</p>\n"
+"\t"
+
+msgid "installer.configureXSLMessage"
+msgstr ""
+"<p>Zure PHP instalazioak ez du XSL modulua gaituta. Gaitu ezazu edo "
+"konfiguratu xslt_command parametroa zure config.inc.php fitxategian.</p>"
+
+msgid "installer.beacon"
+msgstr "Beacon"
+
+msgid "installer.beacon.enable"
+msgstr ""
+"Eman gunearen ID bakarra eta OAI oinarrizko URLa PKPri estatistika eta "
+"segurtasun-alerta helburuetarako soilik."
+
+msgid "installer.unsupportedPhpError"
+msgstr ""
+"Zure zerbitzariaren PHP bertsioa ez du software honek onartzen. Egiaztatu "
+"instalazio-eskakizunak docs/README fitxategian."
+
+#~ msgid "installer.clientCharset"
+#~ msgstr "Bezeroaren karaktere-jokoa"
+
+#~ msgid "installer.clientCharsetInstructions"
+#~ msgstr ""
+#~ "Arakatzaileetara bidaltzen eta arakatzaileetatik jasotzen diren datuetan "
+#~ "erabiltzeko kodeketa."
+
+#~ msgid "installer.encryption"
+#~ msgstr "Pasahitza enkriptatzeko algoritmoa"
+
+#~ msgid "installer.form.encryptionRequired"
+#~ msgstr ""
+#~ "Erabiltzaileen pasahitzak enkriptatzeko erabiliko den algoritmoa hautatu "
+#~ "behar da."
+
+msgid "installer.appKey.keyVariable.missing.error"
+msgstr ""
+"`app_key` izeneko konfigurazio-aldagaia ez dago `general` atalean "
+"definituta. "
+
+msgid "installer.appKey.keyVariable.alreadyExist.notice"
+msgstr ""
+"`app_key` izeneko konfigurazio aldagaia `general` atalean definituta dago "
+"jada. "
+
+msgid "installer.appKey.keyVariable.configFile.parse.error"
+msgstr "Ezin izan da konfigurazio fitxategia aztertu."
+
+msgid "installer.appKey.keyVariable.configFile.write.error"
+msgstr "Ezin izan da idatzi 'app key' aldagaia konfigurazio fitxategian."
+
+msgid "installer.appKey.validate.error"
+msgstr ""
+"Zifraketa ez da bateragarria edo gako-luzera okerra. Zifraketa bateragarriak "
+"hauek dira: {$ciphers}."
+
+msgid "installer.appKey.set.value"
+msgstr ""
+"Ezarri `config.inc.php` fitxategiko `general` ataleko `app_key` eremuan "
+"{$key} balioa."
+
+msgid "installer.miscSettings"
+msgstr "Bestelako ezarpenak"
+
+msgid "installer.appKey.write.error"
+msgstr "Ezin izan da idatzi 'app key'-a konfigurazio fitxategian."
+
+msgid "installer.appKey.keyVariable.missing.instruction"
+msgstr ""
+"Mesedez, gehitu `app_key` izeneko konfigurazio aldagaia `general` atalean "
+"eskuz edo exekutatu `php lib/pkp/tools/appKey.php configure` komandoa CLI-"
+"tik ezartzeko."
+
+msgid "installer.appKey.keyVariable.configFile.read.error"
+msgstr ""
+"Ezin izan da konfigurazio fitxategia irakurri edo fitxategia ez dago espero "
+"zen helbidean. "

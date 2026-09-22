@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:33+00:00\n"
+"PO-Revision-Date: 2025-03-07 13:22+0000\n"
+"Last-Translator: Martin Brändle <martin.braendle@uzh.ch>\n"
+"Language-Team: Italian <http://translate.pkp.sfu.ca/projects/plugins/webFeed/"
+"it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Feed della rivista"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Questo plugin produce feed RSS/Atom per la syndication web.<br>Il plugin "
+"include anche un blocco per la barra laterale che consente di visualizzare i "
+"link ai feed nella barra laterale dell'applicazione"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Impostazioni"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Mostra il link ai feed solo sulle pagine dell'articolo."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Visualizzare i link ai feed web solo sulla homepage."
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Visualizzare i link ai feed web su tutte le pagine dell'applicazione."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Mostra gli articoli pubblicati nell'ultima uscita."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Visualizza un numero fisso di pubblicazioni più recenti."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Numero di pubblicazioni da visualizzare"
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr ""
+"Per favore inserisci un intero positivo per gli articoli recenti pubblicati."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Lodo Atom"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "Logo RSS1"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "Logo RSS2"
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Pubblicazioni più recenti"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Visualizzare i link ai feed web solo sulla homepage e sulle pagine dei "
+"numeri."
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Includere gli identificatori (ISBN, parole chiave, categorie, ecc.) nel "
+"sommario del feed?"

@@ -1,0 +1,298 @@
+# Kay Pepping <openjournalsnl@gmail.com>, 2025.
+# ojs <joglobalise@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:56+00:00\n"
+"PO-Revision-Date: 2025-10-14 17:41+0000\n"
+"Last-Translator: ojs <joglobalise@gmail.com>\n"
+"Language-Team: Dutch <http://translate.pkp.sfu.ca/projects/pkp-lib/installer/"
+"nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "installer.additionalLocales"
+msgstr "Bijkomende talen"
+
+msgid "installer.administratorAccount"
+msgstr "Beheerdersaccount"
+
+msgid "installer.administratorAccountInstructions"
+msgstr ""
+"Deze gebruiker wordt de sitebeheerder en heeft volledige toegang tot het "
+"systeem. Bijkomende gebruikersaccounts kunnen na installatie aangemaakt "
+"worden."
+
+msgid "installer.checkNo"
+msgstr "<span class=\"pkp_form_error formError\">NEE</span>"
+
+msgid "installer.checkYes"
+msgstr "Ja"
+
+msgid "installer.configFileError"
+msgstr ""
+"Het configuratiebestand <tt>config.inc.php</tt> bestaat niet of kan niet "
+"gelezen worden."
+
+msgid "installer.connectionCharset"
+msgstr "Connectie karakterset"
+
+msgid "installer.contentsOfConfigFile"
+msgstr "Inhoud van het configuratiebestand"
+
+msgid "installer.databaseDriver"
+msgstr "Database stuurprogramma"
+
+msgid "installer.databaseDriverInstructions"
+msgstr ""
+"<strong> Het systeem ondersteunt momenteel MySQL en PostgreSQL, in het geval "
+"u geen van deze onderstaande opties kunt kiezen. Neemt u contact op met uw "
+"systeembeheerder om te verzekeren dat uw server beschikt over de vereiste "
+"PHP-extenties.</strong>"
+
+msgid "installer.databaseHost"
+msgstr "Machine"
+
+msgid "installer.databaseHostInstructions"
+msgstr ""
+"Laat de sitenaam open om te verbinden met behulp van domeinsockets in plaats "
+"van TCP/IP. Dit is niet nodig met MySQL, dat automatisch gebruik maakt van "
+"sockets in de \"localhost\", maar is verplicht bij sommige andere database-"
+"systemen zoals PostgreSQL."
+
+msgid "installer.databaseName"
+msgstr "Databasenaam"
+
+msgid "installer.databasePassword"
+msgstr "Wachtwoord"
+
+msgid "installer.databaseSettings"
+msgstr "Databaseinstellingen"
+
+msgid "installer.databaseUsername"
+msgstr "Gebruikersnaam"
+
+msgid "installer.filesDir"
+msgstr "Map voor het laden van bestanden"
+
+msgid "installer.fileSettings"
+msgstr "Bestandsinstellingen"
+
+msgid "installer.form.clientCharsetRequired"
+msgstr "Er moet een karakterset voor de browser gekozen worden."
+
+msgid "installer.form.databaseDriverRequired"
+msgstr "Er moet een database-stuurprogramma gekozen worden."
+
+msgid "installer.form.databaseNameRequired"
+msgstr "De databasenaam is verplicht."
+
+msgid "installer.form.emailRequired"
+msgstr "Een geldig e-mailadres voor de beheerder is verplicht."
+
+msgid "installer.form.filesDirRequired"
+msgstr "De map voor het bewaren van geladen bestanden is verplicht."
+
+msgid "installer.form.localeRequired"
+msgstr "Er moet een taal gekozen worden."
+
+msgid "installer.form.passwordRequired"
+msgstr "Het wachtwoord voor de beheerder is verplicht."
+
+msgid "installer.form.passwordsDoNotMatch"
+msgstr "De beheerderswachtwoorden komen niet overeen."
+
+msgid "installer.form.separateMultiple"
+msgstr "Scheid meerdere waarden met komma's"
+
+msgid "installer.form.usernameAlphaNumeric"
+msgstr ""
+"De gebruikersnaam van de beheerder mag alleen alfanumerieke tekens, liggende "
+"streepjes en koppelstreepjes bevatten. De gebruikersnaam moet beginnen en "
+"eindigen met een alfanumeriek teken."
+
+msgid "installer.form.usernameRequired"
+msgstr "De gebruikersnaam voor de beheerder is verplicht."
+
+msgid "installer.form.timeZoneRequired"
+msgstr "U wordt verzocht een tijdzone te selecteren."
+
+msgid "installer.installationWrongPhp"
+msgstr ""
+"<br/><strong>WAARSCHUWING: Uw huidige PHP versie voldoet niet aan de "
+"minimale eisen. Het is aan te bevelen om te upgraden naar een meer recente "
+"versie.</strong>"
+
+msgid "installer.installErrorsOccurred"
+msgstr "Fouten tijdens de installatie"
+
+msgid "installer.installerSQLStatements"
+msgstr "SQL opdrachten voor installatie"
+
+msgid "installer.installFileError"
+msgstr ""
+"Het installatiebestand <tt>dbscripts/xml/install.xml</tt> bestaat niet of "
+"kan niet gelezen worden."
+
+msgid "installer.installFilesDirError"
+msgstr ""
+"De map voor het laden van bestanden bestaat niet of er mag niet in "
+"geschreven worden."
+
+msgid "installer.installParseDBFileError"
+msgstr ""
+"Fout bij het parseren van het database installatiebestand <tt>{$file}</tt>."
+
+msgid "installer.installMigrationError"
+msgstr ""
+"Er is een programma fout opgetreden tijdens het migreren van de categorie "
+"<tt>{$class}</tt>. De programmafout was {$message}."
+
+msgid "installer.installParseEmailTemplatesFileError"
+msgstr "Fout bij het parsen van het e-mail sjabloon <tt>{$file}</tt>."
+
+msgid "installer.installParseFilterConfigFileError"
+msgstr "Fout in het filter configuratiebestand <tt>{$file}</tt>."
+
+msgid "installer.unsupportedUpgradeError"
+msgstr ""
+"Upgrade wordt niet ondersteund.Zie voor details de Upgradegids (https://docs."
+"pkp.sfu.ca/dev/upgrade-guide)."
+
+msgid "installer.timezoneInstructions"
+msgstr "De te gebruiken tijdzone om voor dit systeem."
+
+msgid "installer.additionalLocalesInstructions"
+msgstr ""
+"Kies een of meer extra talen ter ondersteuning van dit systeem. Extra talen "
+"kunnen op ieder moment ook worden geïnstalleerd via de interface van het "
+"sitebeheer. <br>* = Deze benoemt talen die niet volledig zijn vertaald (>90% "
+"van de vertaalde termen)"
+
+msgid "installer.locale"
+msgstr "Taal"
+
+msgid "installer.locale.maybeIncomplete"
+msgstr "De gemarkeerde talen zijn mogelijk onvolledig."
+
+msgid "installer.localeSettings"
+msgstr "Taalinstelingen"
+
+msgid "installer.oaiSettings"
+msgstr "OAI instellingen"
+
+msgid "installer.oaiRepositoryIdInstructions"
+msgstr ""
+"Een unieke identificatie om metadatarecords van deze site te indexeren, "
+"gebruikmakend van het <a href=\"https://www.openarchives.org/\" target="
+"\"_blank\">Open Archives Initiative</a> Protocol for Metadata Harvesting."
+
+msgid "installer.oaiRepositoryId"
+msgstr "OAI repository identificatie"
+
+msgid "installer.publicFilesDirError"
+msgstr ""
+"De map met publieke bestanden bestaat niet of er mag niet in geschreven "
+"worden."
+
+msgid "installer.releaseNotes"
+msgstr "Over deze versie"
+
+msgid "installer.preInstallationInstructionsTitle"
+msgstr "Voorbereidende stappen voor de installatie"
+
+msgid "installer.preInstallationInstructions"
+msgstr ""
+"<p>1. Volgende bestanden en folders (en hun inhoud) moeten schrijfbaar zijn:"
+"</p>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><tt>config.inc.php</tt> is schrijfbaar (optioneel): "
+"{$writable_config}</li>\n"
+"\t\t\t<li><tt>public/</tt> is schrijfbaar: {$writable_public}</li>\n"
+"\t\t\t<li><tt>cache/</tt> is schrijfbaar: {$writable_cache}</li>\n"
+"\t\t\t<li><tt>cache/t_cache/</tt> is schrijfbaar: {$writable_templates_cache}"
+"</li>\n"
+"\t\t\t<li><tt>cache/t_compile/</tt> is schrijfbaar: "
+"{$writable_templates_compile}</li>\n"
+"\t\t\t<li><tt>cache/_db</tt> is schrijfbaar: {$writable_db_cache}</li>\n"
+"\t\t</ul>\n"
+"\n"
+"<p>2. Er moet een folder bestaan voor het opladen van bestanden, en die "
+"folder moet schrijfbaar zijn (zie \"Bestandsinstellingen\" hieronder).</p>"
+
+msgid "installer.configureXSLMessage"
+msgstr ""
+"<p>De XSL module is niet ingeschakeld in uw PHP installatie. Schakel die "
+"module in, of configureer de xslt_command parameter in het config.inc.php "
+"bestand.</p>"
+
+msgid "installer.beacon"
+msgstr "Beacon (signaalzender)"
+
+msgid "installer.beacon.enable"
+msgstr ""
+"Geef een unieke ID op voor de website, en een basis-URL voor OAI. Deze "
+"gegevens worden uitsluitend gebruikt voor statistieken en beveiliging."
+
+msgid "installer.unsupportedPhpError"
+msgstr ""
+"De PHP versie van uw server wordt niet ondersteund door deze software. "
+"Controleer de systeemvereisten in docs/README."
+
+#~ msgid "installer.clientCharset"
+#~ msgstr "Browser karakterset"
+
+#~ msgid "installer.clientCharsetInstructions"
+#~ msgstr ""
+#~ "De codering die gebruikt moet worden voor de gegevens die verzonden "
+#~ "worden naar en ontvangen worden van browsers."
+
+msgid "installer.appKey.keyVariable.missing.error"
+msgstr ""
+"De configuratievariabele, genaamd `app_key`is niet gedefinieerd in het "
+"`algemene` gedeelte. "
+
+msgid "installer.appKey.keyVariable.alreadyExist.notice"
+msgstr ""
+"De configuratievariabele, genaamd 'app_key', is al gedefinieerd in het "
+"'algemene' gedeelte. "
+
+msgid "installer.appKey.keyVariable.configFile.parse.error"
+msgstr ""
+"Niet in staat het configuratiebestand te analyseren en te interpreteren."
+
+msgid "installer.appKey.keyVariable.configFile.write.error"
+msgstr ""
+"Niet in staat de 'app key'-variabele in het configuratiebestand te schrijven."
+
+msgid "installer.appKey.validate.error"
+msgstr ""
+"Niet-ondersteunde versleutelingsalgoritme of onjuiste versleutelingslengte. "
+"Ondersteunde versleutelingsalgoritme zijn: {$ciphers}."
+
+msgid "installer.appKey.write.error"
+msgstr "Niet in staat om de 'app key' in het configuratiebestand te schrijven."
+
+msgid "installer.miscSettings"
+msgstr "Diverse instellingen"
+
+msgid "installer.appKey.keyVariable.missing.instruction"
+msgstr ""
+"Gelieve de configuratievariabele, genaamd `app_key`onder het `algemene` "
+"gedeelte handmatig toe te voegen, of de instructie 'php lib/pkp/tools/"
+"appKey.php configure` in te stellen vanaf CLI."
+
+msgid "installer.appKey.keyVariable.configFile.read.error"
+msgstr ""
+"Niet in staat het configuratiebestand te lezen of het bestand bestaat niet "
+"in de te verwachten bestandslocatie. "
+
+msgid "installer.appKey.set.value"
+msgstr ""
+"Stel `app_key` -waarde in onder het `algemene ' gedeelte in de`config.inc."
+"php` file to {$key} ."

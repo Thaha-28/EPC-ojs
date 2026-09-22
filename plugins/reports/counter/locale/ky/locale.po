@@ -1,0 +1,56 @@
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2024, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-26 14:55+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Kyrgyz <http://translate.pkp.sfu.ca/projects/ojs/"
+"reports-counter/ky/>\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.reports.counter"
+msgstr "COUNTER отчеттору"
+
+msgid "plugins.reports.counter.release"
+msgstr "COUNTER чыгарылышы"
+
+msgid "plugins.reports.counter.error.badParameters"
+msgstr "Отчет параметрлери жараксыз."
+
+msgid "plugins.reports.counter.error.badRequest"
+msgstr "Отчет суроо-талап жараксыз."
+
+msgid "plugins.reports.counter.error.noXML"
+msgstr "Натыйжаларды XML форматында түзүүгө мүмкүн болгон жок."
+
+msgid "plugins.reports.counter.1a.name"
+msgstr "COUNTER отчет JR1 (R3)"
+
+msgid "plugins.reports.counter.1a.description"
+msgstr ""
+"COUNTER Journal Report 1 (R3): Ай жана журнал боюнча толук текст макала "
+"суроо-талаптары"
+
+msgid "plugins.reports.counter.allCustomers"
+msgstr "Бардык кардарлар"
+
+msgid "plugins.reports.counter.ar1.title"
+msgstr "Макала отчету 1"
+
+msgid "plugins.reports.counter.jr1.title"
+msgstr "Журнал отчету 1"
+
+msgid "plugins.reports.counter.description"
+msgstr ""
+"COUNTER плагини журналдын активдүүлүгү боюнча отчетторду <a href=\"https"
+"://www.projectcounter.org\">COUNTER стандарты</a> аркылуу түзүүгө мүмкүндүк "
+"берет. Бул отчеттор гана журналды COUNTER талаптарына шайкеш кылбайт. "
+"COUNTER шайкештигин камсыз кылуу үчүн Project COUNTER веб-сайтындагы "
+"талаптарды караңыз."
+
+msgid "plugins.reports.counter.error.noResults"
+msgstr "Бул отчет үчүн натыйжалар табылган жок."

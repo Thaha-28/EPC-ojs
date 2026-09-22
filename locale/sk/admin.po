@@ -1,0 +1,291 @@
+# Andrea Dohovičová <andrea.dohovicova@upjs.sk>, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-03 17:16+0000\n"
+"Last-Translator: Andrea Dohovičová <andrea.dohovicova@upjs.sk>\n"
+"Language-Team: Slovak <http://translate.pkp.sfu.ca/projects/ojs/admin/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "admin.hostedContexts"
+msgstr "Hostované časopisy"
+
+msgid "admin.settings.redirect"
+msgstr "Presmerovanie časopisu"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Požiadavky na hlavnú stránku budú presmerované na tento časopis. To môže byť "
+"užitočné napríklad ak stránka hosťuje iba jeden časopis."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Ste si istý, že chcete zakázať túto lokalizáciu? Bude to mať vplyv na všetky "
+"časopisy, ktoré túto lokalizáciu využívajú."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr "Toto bude predvolený jazyk pre stránku a všetky hostované časopisy."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Vyberte všetky jazykové lokalizácie, ktoré majú byť podporované na tejto "
+"stránke. Vybrané lokalizácie budú dostupné na použitie vo všetkých "
+"časopisoch hostovaných na tejto stránke a objavia sa aj v menu pre výber "
+"jazyka na všetkých stránkach (toto nastavenie môže byť prepísané na "
+"špecifických stránkach daného časopisu). Ak nie je vybrané viacero "
+"jazykových lokalizácií, menu pre výber jazyka sa na stránkach neobjaví a "
+"rozšírené jazykové nastavenie nebude pre časopisy dostupné."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Označené súbory lokalizácie môžu byť nekompletné."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Ste si istý, že chcete odinštalovať túto jazykovú lokalizáciu? Môže to "
+"ovplyvniť všetky časopisy tu hostované, ktoré aktuálne túto jazykovú "
+"lokalizáciu používajú."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Vyberte ďalšie jazykové lokalizácie, pre ktoré má byť do systému "
+"nainštalovaná podpora. Aby mohli byť lokalizácie využité hosťovanými "
+"časopismi, musia byť najprv nainštalované. Pre informácie o pridanie nových "
+"jazykov pozri dokumentáciu k OJS."
+
+msgid "admin.systemVersion"
+msgstr "Verzia OJS"
+
+msgid "admin.systemConfiguration"
+msgstr "Konfigurácia OJS"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "Nastavenie konfigurácie OJS z <tt>config.inc.php</tt>."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Budete automaticky zaregistrovaný ako manažér tohto časopisu. Potom, čo "
+"vytvoríte nový časopis, vstúpte do neho ako manažér a pokračujte v jeho "
+"nastavení a zápisu užívateľov."
+
+msgid "admin.journals.journalSettings"
+msgstr "Nastavenie časopisu"
+
+msgid "admin.journals.noneCreated"
+msgstr "Žiadne časopisy neboli vytvorené."
+
+msgid "admin.contexts.create"
+msgstr "Vytvoriť časopis"
+
+msgid "admin.journals.urlWillBe"
+msgstr ""
+"Toto má byť krátke slovo alebo akronym, ktoré identifikuje časopis. URL "
+"časopisu bude {$sampleUrl}."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Je potrebné zadať názov."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Je vyžadovaná cesta."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Cesta môže obsahovať len alfanumerické znaky, podčiarknutia a pomlčky a musí "
+"začínať a končiť alfanumerickým znakom."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Zvolená cesta už je využívaná iným časopisom."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr ""
+"Primárna lokalizácia musí byť vybraná z lokalizácií, podporovaných časopisom."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr ""
+"Povoľte zobrazenie tohto časopisu, aby bol na týchto stránkach zobrazený "
+"verejne"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Popis časopisu"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr ""
+"Existujúca cesta k časopisu alebo cesta, ktorá má byť vytvorená (napr. \"OJS"
+"\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Importovať predplatné"
+
+msgid "admin.journals.transcode"
+msgstr "Prekódovať metadáta článkov z ISO8859-1"
+
+msgid "admin.journals.redirect"
+msgstr "Generovať kód pre presmerovanie adries URL OJS 1 na adresy URL OJS 2"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "Je vyžadovaná cesta importu."
+
+msgid "admin.journals.importErrors"
+msgstr "Úspešné dokončenie importu zlyhalo"
+
+msgid "admin.mergeUsers"
+msgstr "Zlúčiť užívateľov"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Zlúčiť užívateľov"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Vyberte používateľa, ktorému majú byť priradené autorstvá, pridelené úlohy "
+"atď. predchádzajúceho užívateľa."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Vyberte používateľa, ktorý má byť zlúčený s iným užívateľským účtom (napr. "
+"Ak má niekto dva používateľské kontá). Najprv zvolený účet bude vymazaný a "
+"jeho príspevky, úlohy atď. budú priradené ku druhému účtu."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Všetci zaregistrovaní užívatelia"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Ste si istý, že chcete zlúčiť vybraný účet/účty \"{$oldAccountCount}\" do úč"
+"tu/účtov s užívatelským menom \"{$newUsername}\"? Vybraný účet/účty \""
+"{$oldAccounCount}\" potom prestane/prestanú existovať. Táto akcia sa nedá "
+"vrátiť."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Žiadni zapísaní užívatelia."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Pripomenutie vypršaného predplatného"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Upozornenie na otvorený prístup (Open Access)"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Pripomienka recenzie"
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueId"
+msgstr "ID čísla nie je celé číslo."
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueGalleyId"
+msgstr "ID korektúry čísla nie je celé číslo."
+
+msgid ""
+"admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueAssocTypeNoMatch"
+msgstr "ID čísla sa nezhoduje s ID priradenia."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Vyberte hosťované časopisy, ktorým by malo byť povolené odosielať hromadné e-"
+"maily. Ak je táto funkcia povolená, správca časopisu bude môcť posielať e-"
+"maily všetkým používateľom registrovaným v ich časopise. <br><br> Zneužitie "
+"tejto funkcie na odosielanie nevyžiadaných e-mailov môže v niektorých "
+"jurisdikciách porušovať zákony proti spamu a môže viesť k tomu, že e-maily "
+"vášho servera budú blokované ako spam. Skôr ako povolíte túto funkciu, "
+"vyhľadajte technickú radu a zvážte konzultáciu s manažérmi časopisov, aby "
+"ste sa uistili, že sa používa správne. <br><br> Ďalšie obmedzenia tejto "
+"funkcie je možné povoliť pre každý časopis jednotlivo nastavením v zozname "
+"<a href = \"{$hostedContextsUrl}\"> hosťovaných časopisov </a>."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Správca časopisu nebude môcť posielať hromadné e-maily na žiadnu z nižšie "
+"vybraných rolí. Toto nastavenie použite na obmedzenie zneužitia funkcie e-"
+"mailových oznámení. Môže byť napríklad bezpečnejšie deaktivovať hromadné e-"
+"maily čitateľom, autorom alebo iným veľkým skupinám používateľov, ktorí "
+"nesúhlasili s prijímaním týchto e-mailov. <br><br> Funkciu hromadného e-"
+"mailu je možné pre tento časopis úplne deaktivovať v <a href = \""
+"{$siteSettingsUrl}\"> Správca > Nastavenia webu </a>."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"Funkcia hromadného e-mailu bola pre tento časopis deaktivovaná. Túto funkciu "
+"povoľte v časti <a href=\"{$siteSettingsUrl}\"> Správca > Nastavenia webu "
+"</a>."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Pridávanie, úpravy alebo odoberanie časopisov z tohto webu a správa "
+"nastavení celého webu."
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Vyberte typ štatistík geografického využitia, ktoré môžu byť zhromažďované "
+"časopismi na tejto stránke. Podrobnejšie geografické štatistiky môžu značne "
+"zväčšiť veľkosť databázy a v niektorých zriedkavých prípadoch môžu narušiť "
+"anonymitu návštevníkov. Každý časopis môže toto nastavenie nakonfigurovať "
+"inak, ale časopis nikdy nemôže zhromažďovať podrobnejšie záznamy, než aké sú "
+"tu nakonfigurované. Ak napríklad web podporuje iba krajinu a región, môže si "
+"časopis vybrať krajinu a región, alebo iba krajinu. Časopis nebude môcť "
+"sledovať krajinu, región a mesto."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Povoľte inštitucionálne štatistiky, ak chcete, aby časopisy na týchto "
+"stránkach mohli zhromažďovať štatistiky o používaní podľa inštitúcií. "
+"Časopisy budú musieť pridať inštitúciu a jej IP rozsahy, aby mohli túto "
+"funkciu používať. Povolenie inštitucionálnych štatistík môže značne zväčšiť "
+"veľkosť databázy."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"Rozhodnite, či majú byť koncové body rozhrania SUSHI API verejne prístupné "
+"pre všetky časopisy na tomto webe. Ak povolíte verejné API, každý časopis "
+"môže toto nastavenie prepísať, aby boli jeho štatistiky súkromné. Ak však "
+"verejné API zakážete, časopisy nemôžu svoje vlastné API zverejniť."
+
+#~ msgid "admin.contexts.form.edit.success"
+#~ msgstr "{$name} bol úspěšne upravený."
+
+#~ msgid "admin.contexts.form.create.success"
+#~ msgstr "{$name} bol úspešne vytvorený."
+
+#~ msgid "admin.languages.download"
+#~ msgstr "Stiahnuť jazykovú lokalizáciu"
+
+#~ msgid "admin.languages.download.cannotModifyRegistry"
+#~ msgstr ""
+#~ "Nemožno pridať novú jazykovú lokalizáciu do registračného súboru "
+#~ "lokalizácií - typicky \"registry/locales.xml\"."
+
+#~ msgid "admin.languages.download.cannotOpen"
+#~ msgstr "Nemožno otvoriť popisovač jazyka z webovej stránky PKP."
+
+#~ msgid "admin.languages.localeInstalled"
+#~ msgstr "Lokalizácia \"{$locale}\" bola nainštalovaná."
+
+#~ msgid "admin.languages.downloadFailed"
+#~ msgstr ""
+#~ "Sťahovanie jazykovej lokalizácie zlyhalo. Nižšie uvedené chybové hlásenie "
+#~ "popisuje zlyhanie."
+
+#~ msgid "admin.languages.downloadUnavailable"
+#~ msgstr ""
+#~ "<p>Sťahovanie jazykových balíčkov z webu Public Knowledge Project je "
+#~ "momentálne nedostupné pretože: </p>\n"
+#~ "\t<ul>\n"
+#~ "\t\t<li>Váš server nemá, alebo nepovoľuje využitie GNU utility \"tar\". </"
+#~ "li>\n"
+#~ "\t\t<li>OJS nemôže zmeniť lokálny súbor registrácia lokalizácie, typicky  "
+#~ "\"registry/locales.xml\".</li>\n"
+#~ "\t</ul>\n"
+#~ "<p>Jazykové balíčky možno stiahnuť manuálne z  <a href=\"http://pkp.sfu.ca"
+#~ "\">PKP web site</a>.</p>"
+
+#~ msgid "admin.settings.info.success"
+#~ msgstr "Informácie o webe boli úspešne aktualizované."
+
+#~ msgid "admin.settings.config.success"
+#~ msgstr "Nastavenie konfigurácie webu bola úspešne aktualizovaná."
+
+#~ msgid "admin.settings.appearance.success"
+#~ msgstr "Nastavenie vzhľadu webu bola úspešne aktualizovaná."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Použite tento web ako platformu pre všetky časopisy."

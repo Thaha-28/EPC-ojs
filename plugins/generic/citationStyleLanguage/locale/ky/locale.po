@@ -1,0 +1,133 @@
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-05-08 07:45+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Kyrgyz <http://translate.pkp.sfu.ca/projects/plugins/"
+"citation-style-language-plugin/ky/>\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr ""
+"Айрым шилтеме стилдеринде салым кошуучуларды алардын ролуна жараша ар түрдүү "
+"көрсөтүү керек. Тиешелүү ролдорду белгилеңиз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Котормочулар"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Редакторлор"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Авторлор катары белгилениши керек болгон ролдорду тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Котормочулар катары белгилениши керек болгон ролдорду тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Редакторлор катары белгилениши керек болгон ролдорду тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.description.omp"
+msgstr ""
+"Окурмандарга жарыяланган китептин шилтемесин Citation Style Language "
+"тарабынан колдоого алынган бир нече форматтын биринде алууга мүмкүндүк берет."
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr ""
+"Окурмандарга жарыяланган макаланын шилтемесин Citation Style Language "
+"тарабынан колдоого алынган бир нече форматтын биринде алууга мүмкүндүк берет."
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "Citation Style Language"
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Harvard"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Turabian"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Vancouver"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "BibTeX"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote/Zotero/Mendeley (RIS)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Жүктөлүп алынуучу форматтар"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Кошумча шилтеме форматтары"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Окурмандарыңызга сунуштагыңыз келген кошумча форматтарды тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Басып чыгаруучунун жайгашкан жери"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Chicago"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT"
+
+msgid "plugins.generic.citationStyleLanguage.style.ama"
+msgstr "AMA"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Негизги шилтеме форматы"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr ""
+"Макалаңыздын баракчасында демейки боюнча кайсы шилтеме форматы көрсөтүлүшүн "
+"каалаганыңызды тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr ""
+"Китебиңиздин баракчасында демейки боюнча кайсы шилтеме форматы көрсөтүлүшүн "
+"каалаганыңызды тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr ""
+"Айрым шилтеме форматтары басып чыгаруучунун географиялык жайгашкан жерин "
+"талап кылат, мисалы, \"London, U.K.\"."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Салым кошуучулар"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Авторлор"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Бөлүмдүн авторлору"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr "Бөлүмдүн авторлору катары белгилениши керек болгон ролдорду тандаңыз."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr ""
+"Окурмандарыңызга сунуштагыңыз келген жүктөлүп алынуучу форматтарды тандаңыз. "
+"Жүктөлүп алынуучу форматтар, адатта, EndNote же Zotero сыяктуу үчүнчү "
+"тараптын библиография башкаруу программаларына импорттоо үчүн колдонулат."

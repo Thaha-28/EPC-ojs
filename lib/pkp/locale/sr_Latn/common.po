@@ -1,0 +1,2378 @@
+# Marko Simendic <marko.simendic@gmail.com>, 2026.
+# lena bojcic <lenabojcicck@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:50:04+00:00\n"
+"PO-Revision-Date: 2026-05-26 12:37+0000\n"
+"Last-Translator: lena bojcic <lenabojcicck@gmail.com>\n"
+"Language-Team: Serbian (latin) <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"common/sr_Latn/>\n"
+"Language: sr_Latn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "common.publicKnowledgeProject"
+msgstr "Public Knowledge Project"
+
+msgid "common.currentStyleSheet"
+msgstr "Trenutna stranica stila"
+
+msgid "about.description"
+msgstr "Opis"
+
+msgid "about.guidelines"
+msgstr "Uputstva"
+
+msgid "about.aboutSite"
+msgstr "O nama"
+
+msgid "about.contact"
+msgstr "Kontakt"
+
+msgid "about.contact.email"
+msgstr "Imejl"
+
+msgid "about.contact.phone"
+msgstr "Telefon"
+
+msgid "about.contact.principalContact"
+msgstr "Glavni kontakt"
+
+msgid "about.contact.supportContact"
+msgstr "Pomoćni kontakt"
+
+msgid "about.other"
+msgstr "Ostalo"
+
+msgid "about.people"
+msgstr "Ljudi"
+
+msgid "about.policies"
+msgstr "Uređivačka politika"
+
+msgid "about.siteMap"
+msgstr "Mapa sajta"
+
+msgid "announcement.announcements"
+msgstr "Obaveštenja"
+
+msgid "announcement.announcementsHome"
+msgstr "Obaveštenja"
+
+msgid "announcement.moreAnnouncements"
+msgstr "Ostala obaveštenja..."
+
+msgid "announcement.noneExist"
+msgstr "Nema objavljenih obaveštenja."
+
+msgid "announcement.posted"
+msgstr "Objavljeno"
+
+msgid "announcement.postedOn"
+msgstr "Objavljeno {$postDate}"
+
+msgid "announcement.view"
+msgstr "Pregledaj obaveštenja"
+
+msgid "common.allDownloads"
+msgstr "Sva preuzimanja"
+
+msgid "common.navigation.sidebar"
+msgstr "Bočna traka"
+
+msgid "common.navigation.site"
+msgstr "Navigacija na sajtu"
+
+msgid "common.navigation.siteContext"
+msgstr "Kontekstualna navigacija na sajtu"
+
+msgid "common.navigation.user"
+msgstr "Korisnička navigacija"
+
+msgid "common.tasks"
+msgstr "Zadaci"
+
+msgid "common.list"
+msgstr "Lista"
+
+msgid "common.grid"
+msgstr "Mreža"
+
+msgid "common.confirmDelete"
+msgstr ""
+"Da li ste sigurni da želite da obrišete ovaj element? Ova operacija ne može "
+"biti vraćena."
+
+msgid "common.abstract"
+msgstr "Apstrakt"
+
+msgid "common.accepted"
+msgstr "Prihvaćeno"
+
+msgid "common.acknowledged"
+msgstr "Potvrđeno"
+
+msgid "common.action"
+msgstr "Akcija"
+
+msgid "common.activate"
+msgstr "Aktiviraj"
+
+msgid "common.active"
+msgstr "Aktivno"
+
+msgid "common.inactive"
+msgstr "Neaktivan"
+
+msgid "common.add"
+msgstr "Dodaj"
+
+msgid "common.addCCBCC"
+msgstr "Dodaj CC/BCC"
+
+msgid "common.addFiles"
+msgstr "Dodaj fajlove"
+
+msgid "common.addSelf"
+msgstr "Dodelite sebi"
+
+msgid "common.attachedFiles"
+msgstr "Priloženi fajlovi"
+
+msgid "common.attachFiles"
+msgstr "Priloži fajlove"
+
+msgid "common.attachSelected"
+msgstr "Priloži označeno"
+
+msgid "common.name"
+msgstr "Ime"
+
+msgid "common.all"
+msgstr "Sve"
+
+msgid "common.alphaList"
+msgstr "A B C Č Ć D Đ E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž"
+
+msgid "common.titleSmallWords"
+msgstr "Npr. kao u srpskom jeziku reči: ako, niti, ili, u, sa, na, preko "
+
+msgid "common.alreadyAssigned"
+msgstr "Dodeljeno"
+
+msgid "common.altText"
+msgstr "Dopunski opisni tekst"
+
+msgid "common.altTextInstructions"
+msgstr ""
+"Opišite ovu sliku za posetioce koji koriste tekstualni pregledač ili "
+"asistivne tehnologije. Primer: „Naš urednik govori na PKP konferenciji.“"
+
+msgid "common.and"
+msgstr "i"
+
+msgid "common.applyAction"
+msgstr "Primeni postupak"
+
+msgid "common.assign"
+msgstr "Dodeli"
+
+msgid "common.assigned"
+msgstr "Dodeljeno"
+
+msgid "common.assigned.date"
+msgstr "Dodeljeno: {$dateAssigned}"
+
+msgid "common.available"
+msgstr "Dostupno"
+
+msgid "common.back"
+msgstr "Povratak"
+
+msgid "common.between"
+msgstr "između"
+
+msgid "common.cancel"
+msgstr "Odustani"
+
+msgid "common.cancelled"
+msgstr "Poništeno"
+
+msgid "common.warning"
+msgstr "Upozorenje"
+
+msgid "common.error"
+msgstr "Greška"
+
+msgid "common.notice"
+msgstr "Napomena"
+
+msgid "common.captcha.error.missing-input-response"
+msgstr ""
+"Morate proći validaciju provere koja služi za sprečavanje spam prijava."
+
+msgid "common.ccLicense"
+msgstr ""
+"<br /><br />\n"
+"\t\t<a target=\"_new\" rel=\"license\" href=\"https://creativecommons.org/"
+"licenses/by/3.0/\">\n"
+"\t\t\t<img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"//"
+"i.creativecommons.org/l/by/3.0/80x15.png\"/>\n"
+"\t\t</a>\n"
+"\t\t<br/>\n"
+"\t\tOvaj rad je licenciran pod <a rel=\"license\" target=\"_new\" href="
+"\"https://creativecommons.org/licenses/by/3.0/\">Creative Commons "
+"Attribution 3.0  License</a>."
+
+msgid "common.ccLicense.rt"
+msgstr ""
+"<div class=\"rtBlock\">\n"
+"\t\t<br />\n"
+"\t\t<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/3.0/\" "
+"target=\"_new\"><img alt=\"Creative Commons License\" style=\"border-"
+"width:0\" src=\"//i.creativecommons.org/l/by/3.0/80x15.png\" /></a>\n"
+"\t\t<br />\n"
+"\t\tOvaj rad je licenciran pod <a rel=\"license\" href=\"https://"
+"creativecommons.org/licenses/by/3.0/\" target=\"_new\">Creative Commons "
+"Attribution 3.0 License</a>.\n"
+"\t</div>"
+
+msgid "common.changesSaved"
+msgstr "Vaše izmene su sačuvane."
+
+msgid "common.chooseOne"
+msgstr "Izaberite jedno"
+
+msgid "common.close"
+msgstr "Zatvori"
+
+msgid "common.closePanel"
+msgstr "Zatvori panel"
+
+msgid "common.closeWindow"
+msgstr "Zatvori prozor"
+
+msgid "common.complete"
+msgstr "Završi"
+
+msgid "common.completed"
+msgstr "Završeno"
+
+msgid "common.completed.date"
+msgstr "Završeno: {$dateCompleted}"
+
+msgid "common.confirm"
+msgstr "Potvrdi"
+
+msgid "common.confirmed.date"
+msgstr "Potvrđeno: {$dateConfirmed}"
+
+msgid "common.content"
+msgstr "Sadržaj"
+
+msgid "common.contents"
+msgstr "Sadržaji"
+
+msgid "common.continue"
+msgstr "Nastavi"
+
+msgid "common.copy"
+msgstr "Kopiraj"
+
+msgid "common.country"
+msgstr "Zemlja"
+
+msgid "common.create"
+msgstr "Napravi"
+
+msgid "common.dateCompleted"
+msgstr "Datum završetka"
+
+msgid "common.dateDecided"
+msgstr "Datum je odlučen"
+
+msgid "common.date"
+msgstr "Datum"
+
+msgid "common.dateModified"
+msgstr "Datum promene"
+
+msgid "common.dateRequested"
+msgstr "Datum zahteva"
+
+msgid "common.dateSubmitted"
+msgstr "Datum podnošenja"
+
+msgid "common.dateUploaded"
+msgstr "Datum slanja"
+
+msgid "common.dateHijri"
+msgstr "Hijri Kalendar"
+
+msgid "common.day"
+msgstr "Dan"
+
+msgid "common.deactivate"
+msgstr "Deaktiviraj"
+
+msgid "common.default"
+msgstr "Pretpostavljena vrednost"
+
+msgid "common.declined"
+msgstr "Odbijen"
+
+msgid "common.delete"
+msgstr "Briši"
+
+msgid "common.deleting"
+msgstr "Brisanje"
+
+msgid "common.deleteSelection"
+msgstr "Brisanje izbora"
+
+msgid "common.deselect"
+msgstr "Poništi izbor"
+
+msgid "common.designation"
+msgstr "Oznaka"
+
+msgid "common.description"
+msgstr "Opis"
+
+msgid "common.details"
+msgstr "Detalji"
+
+msgid "common.dimensionsInches"
+msgstr "{$width}&Prime;&times;{$height}&Prime; izraženo u {$dpi} DPI/PPI"
+
+msgid "common.dimensionsPixels"
+msgstr "{$width}&times;{$height} piksela"
+
+msgid "common.discardChanges"
+msgstr "Ne, odbaci nesačuvane izmene"
+
+msgid "common.disconnected"
+msgstr "Isključeno"
+
+msgid "common.disable"
+msgstr "Onemogući"
+
+msgid "common.disabled"
+msgstr "Onemogućeno"
+
+msgid "common.discipline"
+msgstr "Disciplina"
+
+msgid "common.done"
+msgstr "Gotovo"
+
+msgid "common.download"
+msgstr "Preuzmi fajl"
+
+msgid "common.downloadPdf"
+msgstr "Preuzmi PDF"
+
+msgid "common.downloadReport"
+msgstr "Preuzmi izveštaj"
+
+msgid "common.dragAndDropHere"
+msgstr "Prevucite i otpustite fajlove ovde."
+
+msgid "common.orUploadFile"
+msgstr "Ili otpremite fajlove"
+
+msgid "common.edit"
+msgstr "Izmeni"
+
+msgid "common.editItem"
+msgstr "Uredi {$name}"
+
+msgid "common.emailTemplates"
+msgstr "Šabloni imejla"
+
+msgid "common.enable"
+msgstr "Omogući"
+
+msgid "common.enabled"
+msgstr "Omogućeno"
+
+msgid "common.error.databaseError"
+msgstr "Pojavila se greška u bazi: {$error}"
+
+msgid "common.error.databaseErrorUnknown"
+msgstr "Pojavila se greška nepoznatog povezivanja s bazom."
+
+msgid "common.error.framesRequired"
+msgstr ""
+"Ova stranica zahteva okvire. <a href=\"{$url}\">Kliknite ovde</a> za verziju "
+"bez okvira."
+
+msgid "common.event"
+msgstr "Događaj"
+
+msgid "common.export"
+msgstr "Izvezi"
+
+msgid "common.finish"
+msgstr "Završi"
+
+msgid "common.fullscreen"
+msgstr "Ceo ekran"
+
+msgid "common.fullscreenOff"
+msgstr "Isključi ceo ekran"
+
+msgid "common.false"
+msgstr "Netačno"
+
+msgid "common.file"
+msgstr "Fajl"
+
+msgid "common.file.namingPattern"
+msgstr "{$username}, {$originalFilename}"
+
+msgid "common.file.anonymousNamingPattern"
+msgstr "{$genre}, {$originalFilename}"
+
+msgid "common.fileName"
+msgstr "Ime fajla"
+
+msgid "common.fileSize"
+msgstr "Veličina fajla"
+
+msgid "common.fileType"
+msgstr "Tip fajla"
+
+msgid "common.fileUploaderError"
+msgstr ""
+"Sistemski postavljač fajlova postavlja fajl.  Ako se ne fajl ne pojavi to "
+"verovatno znači da vaš internet pregledač ne podržava neki od njegovih "
+"procesa. Kontaktirajte administratora za podršku."
+
+msgid "common.filter"
+msgstr "Filteri"
+
+msgid "common.filterAdd"
+msgstr "Dodaj filter: {$filterTitle}"
+
+msgid "common.filterRemove"
+msgstr "Obriši filter: {$filterTitle}"
+
+msgid "common.findTemplate"
+msgstr "Pronađi šablon"
+
+msgid "common.formatting"
+msgstr "Formatiranje"
+
+msgid "common.geographic"
+msgstr "Geografski"
+
+msgid "common.go"
+msgstr "Idi"
+
+msgid "common.height"
+msgstr "Visina"
+
+msgid "common.homepageNavigationLabel"
+msgstr "Početna"
+
+msgid "common.homePageHeaderLogo.altText"
+msgstr "Logo zaglavlja naslovne strane"
+
+msgid "common.hour"
+msgstr "Sat"
+
+msgid "common.id"
+msgstr "ID"
+
+msgid "common.import"
+msgstr "Uvezi"
+
+msgid "common.initiate"
+msgstr "Započni"
+
+msgid "common.inProgress"
+msgstr "U toku"
+
+msgid "common.insert"
+msgstr "Unesi"
+
+msgid "common.insertContent"
+msgstr "Unesi sadržaj"
+
+msgid "common.insertContentSearch"
+msgstr "Pronađi sadržaj za unos"
+
+msgid "common.itemsPerPage"
+msgstr "Elemenata po stranici"
+
+msgid "common.keywords"
+msgstr "Ključne reči"
+
+msgid "common.label"
+msgstr "Oznaka"
+
+msgid "common.language"
+msgstr "Jezik"
+
+msgid "common.languages"
+msgstr "Jezici"
+
+msgid "common.lastSaved"
+msgstr "Poslednji put sačuvano {$when}"
+
+msgid "common.lastActivity"
+msgstr "Poslednja aktivnost je zabeležena {$date}."
+
+msgid "common.less"
+msgstr "Manje"
+
+msgid "common.lessThan"
+msgstr "{$value} ili manje"
+
+msgid "common.lessThanOnly"
+msgstr "manje od"
+
+msgid "common.keepWorking"
+msgstr "Nastavi da radiš"
+
+msgid "common.commaListSeparator"
+msgstr ", "
+
+msgid "common.semicolonListSeparator"
+msgstr "; "
+
+msgid "common.manage"
+msgstr "Upravljanje"
+
+msgid "common.mailingAddress"
+msgstr "Adresa za poštu"
+
+msgid "common.billingAddress"
+msgstr "Adresa za naplatu (ukoliko je drugačija)"
+
+msgid "common.minute"
+msgstr "Minuta/e"
+
+msgid "common.modify"
+msgstr "Izmeni"
+
+msgid "common.month"
+msgstr "Mesec"
+
+msgid "common.more"
+msgstr "Više"
+
+msgid "common.moreThan"
+msgstr "{$value} ili više"
+
+msgid "common.moreThanOnly"
+msgstr "Više od"
+
+msgid "common.noneAssigned"
+msgstr "Nije dodeljeno"
+
+msgid "common.none"
+msgstr "Ne postoji"
+
+msgid "common.noneSelected"
+msgstr "Ništa nije odabrano"
+
+msgid "common.noneProvided"
+msgstr "Nije navedeno"
+
+msgid "common.no"
+msgstr "Ne"
+
+msgid "common.noItemsFound"
+msgstr "Nisu pronađene stavke."
+
+msgid "common.noComments"
+msgstr "Nema komentara"
+
+msgid "common.notApplicable"
+msgstr "Nije primenjivo"
+
+msgid "common.notApplicableShort"
+msgstr "N/P"
+
+msgid "common.notAvailable"
+msgstr "Nije dostupno"
+
+msgid "common.note"
+msgstr "Napomena"
+
+msgid "common.noTemporaryFile"
+msgstr "Otpremljena datoteka nije pronađena. Pokušajte da je ponovo otpremite."
+
+msgid "common.notes"
+msgstr "Napomene"
+
+msgid "common.notes.tooltip"
+msgstr ""
+"Napomena (žuto: postoje nove napomene; plavo: postoje pročitane napomene; "
+"sivo: nema napomena)"
+
+msgid "common.notified"
+msgstr "Obavešteno"
+
+msgid "common.notified.date"
+msgstr "Obavešteno: {$dateNotified}"
+
+msgid "common.noMatches"
+msgstr "Nema odgovarajućih"
+
+msgid "common.numberedMore"
+msgstr "{$number} više"
+
+msgid "common.off"
+msgstr "Isključeno"
+
+msgid "common.on"
+msgstr "Uključeno"
+
+msgid "common.ok"
+msgstr "OK"
+
+msgid "common.options"
+msgstr "Opcije"
+
+msgid "common.order"
+msgstr "Redosled"
+
+msgid "common.orderUp"
+msgstr "Pomeri {$itemTitle} naviše"
+
+msgid "common.orderDown"
+msgstr "Pomeri {$itemTitle} naniže"
+
+msgid "common.originalFileName"
+msgstr "Originalno ime fajla"
+
+msgid "common.or"
+msgstr "ili"
+
+msgid "common.other"
+msgstr "Ostalo"
+
+msgid "common.overdue"
+msgstr "Prekoračen"
+
+msgid "common.override"
+msgstr "Prepriši"
+
+msgid "common.pagination"
+msgstr "{$start}–{$end} od {$total}"
+
+msgid "common.pagination.label"
+msgstr "Prikaži dodatne stranice"
+
+msgid "common.pagination.goToPage"
+msgstr "Idi na {$page}"
+
+msgid "common.pagination.next"
+msgstr "Sledeća stranica"
+
+msgid "common.pagination.previous"
+msgstr "Prethodna stranica"
+
+msgid "common.pageNumber"
+msgstr "Strana {$pageNumber}"
+
+msgid "common.percentage"
+msgstr "{$percentage}%"
+
+msgid "common.plugin"
+msgstr "Dodatak"
+
+msgid "common.pluginEnabled"
+msgstr "Dodatak \"{$pluginName}\" je omogućen."
+
+msgid "common.pluginDisabled"
+msgstr "Dodatak \"{$pluginName}\" je onemogućen."
+
+msgid "common.prefix"
+msgstr "Prefiks"
+
+msgid "common.prefixAndTitle.tip"
+msgstr "Npr. kao članovi u engleskom jeziku: A, The"
+
+msgid "common.preview"
+msgstr "Prikaži"
+
+msgid "common.publisher"
+msgstr "Izdavač"
+
+msgid "common.quality"
+msgstr "Vrednost"
+
+msgid "common.queue.long.active"
+msgstr "Svi aktivni"
+
+msgid "common.range"
+msgstr "{$min}-{$max}"
+
+msgid "common.re"
+msgstr "Odgovor:"
+
+msgid "common.readMore"
+msgstr "Pročitaj više"
+
+msgid "common.readMoreWithTitle"
+msgstr "Pročitaj više o {$title}"
+
+msgid "common.reconnecting"
+msgstr "Ponovno povezivanje"
+
+msgid "common.record"
+msgstr "Zapiši"
+
+msgid "common.refresh"
+msgstr "Osveži"
+
+msgid "common.related"
+msgstr "Povezano"
+
+msgid "common.reminder"
+msgstr "Podsetnik"
+
+msgid "common.reminded.date"
+msgstr "Podsećen: {$dateReminded}"
+
+msgid "common.remote"
+msgstr "Udaljeno"
+
+msgid "common.remoteURL"
+msgstr "Udaljeni URL"
+
+msgid "common.remove"
+msgstr "Ukloni"
+
+msgid "common.removeItem"
+msgstr "Ukloni {$item}"
+
+msgid "common.removeSelection"
+msgstr "Uklanjanje izbora"
+
+msgid "common.replaced"
+msgstr "Zamenjeno"
+
+msgid "common.replaceFile"
+msgstr "Zameni fajl"
+
+msgid "common.requiredField"
+msgstr "* označava obavezno polje"
+
+msgid "common.required"
+msgstr "Obavezno"
+
+msgid "common.reset"
+msgstr "Resetuj"
+
+msgid "common.reviewRoundNumber"
+msgstr "Krug {$round}"
+
+msgid "common.role"
+msgstr "Uloga"
+
+msgid "common.saveAndContinue"
+msgstr "Sačuvaj i nastavi"
+
+msgid "common.saveAndEmail"
+msgstr "Sačuvaj i pošalji imejl"
+
+msgid "common.save"
+msgstr "Sačuvaj"
+
+msgid "common.saving"
+msgstr "Čuvanje"
+
+msgid "common.search"
+msgstr "Traži"
+
+msgid "common.searchPhrase"
+msgstr "Pretraga fraze"
+
+msgid "common.searching"
+msgstr "Pretraživanje"
+
+msgid "common.searchQuery"
+msgstr "Upit za pretragu"
+
+msgid "common.clearSearch"
+msgstr "Obriši frazu za pretragu"
+
+msgid "common.second"
+msgstr "Sekunda/i"
+
+msgid "common.selectAll"
+msgstr "Označi sve"
+
+msgid "common.selectedPrefix"
+msgstr "Odabrano:"
+
+msgid "common.selectNone"
+msgstr "Označi ništa"
+
+msgid "common.select"
+msgstr "Izaberite"
+
+msgid "common.selectWithName"
+msgstr "Odaberi {$name}"
+
+msgid "common.sendEmail"
+msgstr "Pošalji imejl"
+
+msgid "common.showAllSteps"
+msgstr "Prikaži sve korake"
+
+msgid "common.showingSteps"
+msgstr "{$current}/{$total} koraka"
+
+msgid "common.size"
+msgstr "Veličina"
+
+msgid "common.source"
+msgstr "Izvor"
+
+msgid "common.status"
+msgstr "Status"
+
+msgid "common.subject"
+msgstr "Subjekat"
+
+msgid "common.subjects"
+msgstr "Subjekti"
+
+msgid "common.submenu"
+msgstr "Podmeni"
+
+msgid "common.subtitle"
+msgstr "Podnaslov"
+
+msgid "common.suggest"
+msgstr "Predloži"
+
+msgid "common.switchTo"
+msgstr "Prebaci na"
+
+msgid "common.switchToNamedItem"
+msgstr "Prebaci na {$name}"
+
+msgid "common.title"
+msgstr "Naslov"
+
+msgid "common.titleSeparator"
+msgstr " | "
+
+msgid "common.top"
+msgstr "Gore"
+
+msgid "common.true"
+msgstr "Tačno"
+
+msgid "common.type"
+msgstr "Tip"
+
+msgid "common.uploadedBy"
+msgstr "Otpremljeno od strane {$name}"
+
+msgid "common.uploadedByAndWhen"
+msgstr "Otpremljeno od strane {$name} {$date}"
+
+msgid "common.component"
+msgstr "Komponenta"
+
+msgid "common.uninitiated"
+msgstr "Nezapočeto"
+
+msgid "common.unknownError"
+msgstr ""
+"Došlo je do neočekivane greške. Ponovo učitajte stranicu i pokušajte ponovo."
+
+msgid "common.unread"
+msgstr "Nije pročitano"
+
+msgid "common.unsavedChanges"
+msgstr "Nesačuvane izmene"
+
+msgid "common.unsavedChangesMessage"
+msgstr ""
+"Pronađene su nesačuvane izmene od {$when}. Ovo se može desiti ako izgubite "
+"vezu sa serverom tokom rada. Vraćanje tih izmena može prepisati sve izmene "
+"koje ste napravili nakon tog trenutka. Da li želite da ih sada vratite?"
+
+msgid "common.untitled"
+msgstr "Bez naslova"
+
+msgid "common.updated"
+msgstr "Ažurirano"
+
+msgid "common.uploadedDate"
+msgstr "Datum dostavljanja"
+
+msgid "common.upload"
+msgstr "Dostavi"
+
+msgid "common.uploadFailed"
+msgstr ""
+"Fajl ne može da se dostavi. Pokušajte opet ili kontaktirajte administratora."
+
+msgid "common.up"
+msgstr "Gore"
+
+msgid "common.addFile"
+msgstr "Dodaj fajl"
+
+msgid "common.upload.addFile"
+msgstr "Dostavi fajl"
+
+msgid "common.upload.addFile.description"
+msgstr "Otpremite fajl sa računara."
+
+msgid "common.upload.restore"
+msgstr "Vrati original"
+
+msgid "common.upload.thumbnailPreview"
+msgstr "Pregled trenutno izabrane slike."
+
+msgid "common.upload.changeFile"
+msgstr "Izmeni fajl"
+
+msgid "common.upload.dragFile"
+msgstr "Prevuci fajl ovde da započneš dostavljanje"
+
+msgid "common.url"
+msgstr "URL"
+
+msgid "common.user"
+msgstr "Korisnik"
+
+msgid "common.user.nonexistent"
+msgstr "[nepostojeći korisnik]"
+
+msgid "common.view"
+msgstr "Pogledaj"
+
+msgid "common.viewError"
+msgstr "Pogledaj grešku"
+
+msgid "common.viewWithName"
+msgstr "Pogledaj {$name}"
+
+msgid "common.viewProfile"
+msgstr "Pogledaj profil"
+
+msgid "common.weeks"
+msgstr "nedelje"
+
+msgid "common.width"
+msgstr "Širina"
+
+msgid "common.withParenthesis"
+msgstr "{$item} ({$inParenthesis})"
+
+msgid "common.year"
+msgstr "Godina"
+
+msgid "common.yes"
+msgstr "Da"
+
+msgid "common.loading"
+msgstr "Učitavam ..."
+
+msgid "common.plugins"
+msgstr "Dodaci"
+
+msgid "common.count"
+msgstr "Prebroj"
+
+msgid "common.publicAccess"
+msgstr "javni pristup"
+
+msgid "debug.databaseQueries"
+msgstr "Broj upita baze podataka"
+
+msgid "debug.executionTime"
+msgstr "Stranica generisana u"
+
+msgid "debug.memoryUsage"
+msgstr "Korišćenje memorije"
+
+msgid "debug.notes.localeListLoad"
+msgstr "Učitana lokalna lista \"{$localeList}\" iz XML-a"
+
+msgid "debug.notes.localeLoad"
+msgstr "Učitan lokalni fajl \"{$localeFile}\" iz XML-a"
+
+msgid "debug.notes.missingLocaleKey"
+msgstr "Lokalni ključ koji nedostaje \"{$key}\"."
+
+msgid "debug.notes"
+msgstr "Napomene:"
+
+msgid "defaultMetric.title"
+msgstr "Primarna metrika"
+
+msgid "editor.submissionReview.uploadFile"
+msgstr "Dodaj recenziran fajl"
+
+msgid "editor.submissionReview.uploadAttachment"
+msgstr "Dodaj fajl"
+
+msgid "email.addAttachment"
+msgstr "Dodaj prilog"
+
+msgid "email.addAttachment.submissionFiles.attach"
+msgstr "Priloži fajlove prijave"
+
+msgid "email.addAttachment.submissionFiles.submissionDescription"
+msgstr "Priloži datoteke koje je autor otpremio u fazi prijave."
+
+msgid "email.addAttachment.submissionFiles.reviewDescription"
+msgstr ""
+"Priloži fajlove otpremljene tokom toka prijave, kao što su revizije ili "
+"fajlovi za recenziju."
+
+msgid "email.addAttachment.libraryFiles"
+msgstr "fajlovi iz biblioteke"
+
+msgid "email.addAttachment.libraryFiles.attach"
+msgstr "Priloži fajlove iz biblioteke"
+
+msgid "email.addAttachment.libraryFiles.description"
+msgstr "Priloži fajlove iz prijava i biblioteka izdavača."
+
+msgid "email.addAttachment.reviewFiles.attach"
+msgstr "Priloži fajlove recenzije"
+
+msgid "email.addAttachment.reviewFiles.description"
+msgstr "Priloži fajlove koje su otpremili recenzenti"
+
+msgid "email.addBccRecipient"
+msgstr "Dodaj 'Bcc' nevidljivu kopiju"
+
+msgid "email.addCcRecipient"
+msgstr "Dodaj  CC - kopiju"
+
+msgid "email.addToRecipient"
+msgstr "Dodaj primaoca"
+
+msgid "email.attachments"
+msgstr "Prilozi"
+
+msgid "email.attachmentNotFound"
+msgstr "Fajl {$fileName} nije mogao da se priloži."
+
+msgid "email.bcc"
+msgstr "BCC - nevidljiva kopija"
+
+msgid "email.bccSender"
+msgstr "Pošalji kopiju ove poruke na moju adresu ({$address})"
+
+msgid "email.body"
+msgstr "Poruka"
+
+msgid "email.cc"
+msgstr "CC - kopija"
+
+msgid "email.confirmSwitchLocale"
+msgstr ""
+"Da li ste sigurni da želite da promenite jezik na {$localeName} za "
+"sastavljanje ovog imejla? Sve izmene koje ste napravili u naslovu i sadržaju "
+"imejla biće izgubljene."
+
+msgid "email.compose"
+msgstr "Pošalji imejl"
+
+msgid "email.compose.tooManyRecipients"
+msgstr "Poruka koju pokušavate da pošaljete ima previše primaoca."
+
+msgid "email.compose.tooSoon"
+msgstr ""
+"Pokušali ste poslati poruku prebrzo nakon slanja prethodne. Molimo sačekajte "
+"pre slanja naredne poruke."
+
+msgid "email.compose.error"
+msgstr ""
+"Došlo je do problema pri slanju e-poruke. Pokušajte ponovo kasnije ili "
+"kontaktirajte sistemskog administratora."
+
+msgid "email.email"
+msgstr "Imejl"
+
+msgid "email.from"
+msgstr "Od"
+
+msgid "email.invalid"
+msgstr "Imejl adresa {$email} je neispravna."
+
+msgid "email.multipart"
+msgstr "Ovo je poruka iz više delova u MIME formatu."
+
+msgid "email.recipient"
+msgstr "Primalac"
+
+msgid "email.recipients"
+msgstr "Primaoci"
+
+msgid "email.sender"
+msgstr "Pošiljalac"
+
+msgid "email.senderName"
+msgstr "Ime pošiljaoca"
+
+msgid "email.senderEmail"
+msgstr "Imejl adresa pošiljaoca"
+
+msgid "email.send"
+msgstr "Pošalji"
+
+msgid "email.skip"
+msgstr "Izostavi imejl"
+
+msgid "email.subject"
+msgstr "Predmet"
+
+msgid "email.subjectRequired"
+msgstr "Dodajte temu imejla."
+
+msgid "email.bodyRequired"
+msgstr "Dodajte tekst imejla."
+
+msgid "email.to"
+msgstr "Za"
+
+msgid "form.url.invalid"
+msgstr "Data URL adresa nije ispravna, proverite i pokušajte ponovo."
+
+msgid "form.confirmSubmit"
+msgstr "Da li ste sigurni da želite da pošaljete ovu formu?"
+
+msgid "form.confirmSubmit.title"
+msgstr "Potvrdi"
+
+msgid "form.dataHasChanged"
+msgstr "Podaci u formi su promenjeni, da li ipak želite da nastavite?"
+
+msgid "form.disallowedLocales"
+msgstr "Dozvoljeni su samo sledeći jezici: {$languages}."
+
+msgid "form.disallowedProp"
+msgstr "Ovo svojstvo nije dopušteno."
+
+msgid "form.dropzone.dictDefaultMessage"
+msgstr "Prevucite datoteke ovde da biste ih otpremili"
+
+msgid "form.dropzone.dictFallbackMessage"
+msgstr ""
+"Vaš pregledač ne podržava otpremanje fajlova prevlačenjem i otpuštanjem."
+
+msgid "form.dropzone.dictFallbackText"
+msgstr "Koristite alternativni obrazac ispod za otpremanje fajlova."
+
+msgid "form.dropzone.dictFileTooBig"
+msgstr ""
+"Fajl je prevelik ({{filesize}} MB). Fajlovi veći od {{maxFilesize}} MB ne "
+"mogu da se otpreme."
+
+msgid "form.dropzone.dictInvalidFileType"
+msgstr "Fajlovi ovog tipa ne mogu biti otpremljeni."
+
+msgid "form.dropzone.dictResponseError"
+msgstr ""
+"Server je odgovorio sa kodom {{statusCode}}. Ako se problem nastavi, "
+"kontaktirajte sistemskog administratora."
+
+msgid "form.dropzone.dictCancelUpload"
+msgstr "Otkaži otpremanje"
+
+msgid "form.dropzone.dictUploadCanceled"
+msgstr "Otkaži otpremanje"
+
+msgid "form.dropzone.dictCancelUploadConfirmation"
+msgstr "Da li ste sigurni da želite da otkažete ovo otpremanje?"
+
+msgid "form.dropzone.dictRemoveFile"
+msgstr "Izbriši fajl"
+
+msgid "form.dropzone.dictMaxFilesExceeded"
+msgstr "Ne možete više otpremati fajlove."
+
+msgid "form.errorA11y"
+msgstr "Idi na {$fieldLabel}: {$errorMessage}"
+
+msgid "form.errorGoTo"
+msgstr "Skoči na sledeću grešku"
+
+msgid "form.errorOne"
+msgstr "Molimo ispravite jednu grešku."
+
+msgid "form.errorMany"
+msgstr "Molimo ispravite {$count} grešaka."
+
+msgid "form.errors"
+msgstr ""
+"Obrazac nije sačuvan jer je došlo do {$count} greške/grešaka. Ispravite "
+"greške i pokušajte ponovo."
+
+msgid "form.errorsOccurred"
+msgstr "Došlo je do grešaka prilikom obrade forme"
+
+msgid "form.formLanguage.description"
+msgstr ""
+"Da biste uneli informacije i na drugom jeziku, odaberite jezik u meniju."
+
+msgid "form.formLanguage"
+msgstr "Jezik obrasca"
+
+msgid "form.contains"
+msgstr "sadrži"
+
+msgid "form.is"
+msgstr "je"
+
+msgid "form.startsWith"
+msgstr "počinje sa"
+
+msgid "form.postRequired"
+msgstr "Formular nije ispravno unet."
+
+msgid "form.csrfInvalid"
+msgstr ""
+"Obrazac nije mogao da se pošalje. Možda ste odjavljeni. Ponovo učitajte "
+"stranicu i pokušajte ponovo."
+
+msgid "form.fileRequired"
+msgstr "Neophodno je dodavanje fajla"
+
+msgid "form.required"
+msgstr "(* Obavezno)"
+
+msgid "form.requirePrimaryLocale"
+msgstr "Ovo polje morate popuniti na jeziku {$language}."
+
+msgid "form.requireId"
+msgstr "Morate da priložite validan ID."
+
+msgid "form.resubmit"
+msgstr "Ponovno slanje"
+
+msgid "form.saved"
+msgstr "Sačuvano"
+
+msgid "form.saveToUpload"
+msgstr "Koristite \"sačuvaj\" kako biste dodali fajl."
+
+msgid "form.send"
+msgstr "Pošalji"
+
+msgid "form.submit"
+msgstr "Dodavanje"
+
+msgid "form.invalidImage"
+msgstr ""
+"Nesipravna slika je dostavljena, podržani formati su .png, .gif ili .jpg."
+
+msgid "form.multilingualLabel"
+msgstr "{$label} u {$localeName}"
+
+msgid "form.multilingualProgress"
+msgstr "Dovršeno {$count}/{$total} jezika"
+
+msgid "help.help"
+msgstr "Pomoć"
+
+msgid "help.toc"
+msgstr "Sadržaj"
+
+msgid "help.previous"
+msgstr "Prethodno"
+
+msgid "help.next"
+msgstr "Sledeće"
+
+msgid "help.upALevel"
+msgstr "Viši nivo"
+
+msgid "icon.checked.alt"
+msgstr "Provereno"
+
+msgid "icon.comment.alt"
+msgstr "Komentar"
+
+msgid "icon.delete.alt"
+msgstr "Obriši"
+
+msgid "icon.edit.alt"
+msgstr "Izmeni"
+
+msgid "icon.folder.alt"
+msgstr "Direktorijum"
+
+msgid "icon.font_large.alt"
+msgstr "Veliki"
+
+msgid "icon.font_medium.alt"
+msgstr "Srednji"
+
+msgid "icon.font_small.alt"
+msgstr "Mali"
+
+msgid "icon.info.alt"
+msgstr "Info"
+
+msgid "icon.letter.alt"
+msgstr "Pismo"
+
+msgid "icon.mail.alt"
+msgstr "Imejl adresa"
+
+msgid "icon.unchecked.alt"
+msgstr "Neprovereno"
+
+msgid "icon.view.alt"
+msgstr "Prikaži"
+
+msgid "informationCenter.informationCenter"
+msgstr "Centar za informacije"
+
+msgid "informationCenter.editorialHistory"
+msgstr "Istorija uređivanja"
+
+msgid "informationCenter.addNote"
+msgstr "Dodaj napomenu"
+
+msgid "informationCenter.noNotes"
+msgstr "Nema napomena"
+
+msgid "informationCenter.pastNotes"
+msgstr "Napomene uz prethodne revizije"
+
+msgid "informationCenter.deleteConfirm"
+msgstr "Da li ste sigurni da želite da obrišete ovu napomenu?"
+
+msgid "informationCenter.currentHistory"
+msgstr "Trenutna revizija"
+
+msgid "informationCenter.pastHistory"
+msgstr "Prethodne revizije"
+
+msgid "informationCenter.history.noItems"
+msgstr "Nema zabeleženih događaja."
+
+msgid "informationCenter.history.notePosted"
+msgstr "Poslao novu napomenu."
+
+msgid "informationCenter.history.messageSent"
+msgstr "Obaveštenje poslato korisnicima."
+
+msgid "stageParticipants.history.messageSent"
+msgstr "Obaveštenje poslato korisnicima."
+
+msgid "stageParticipants.notify.startDiscussion"
+msgstr "Započni diskusiju"
+
+msgid "stageParticipants.notify.startDiscussion.description"
+msgstr "Započnite diskusiju između vas i {$userFullName}."
+
+msgid "stageParticipants.notify.chooseMessage"
+msgstr ""
+"Odaberite predefinisanu poruku koju želite da koristite ili popunite "
+"formular niže."
+
+msgid "stageParticipants.notify.message"
+msgstr "Poruka"
+
+msgid "stageParticipants.notify.warning"
+msgstr ""
+"Uverite se da ste popunili polje poruke i odabrali barem jednog primaoca."
+
+msgid "stageParticipants.options"
+msgstr "Ovlašćenja za dodeljivanje"
+
+msgid "stageParticipants.recommendOnly"
+msgstr ""
+"Ovom učesniku je dozvoljeno samo da preporuči uredničku odluku i biće "
+"potreban ovlašćeni urednik da zabeleži uredničke odluke."
+
+msgid "stageParticipants.submissionEditMetadataOptions"
+msgstr "Prava"
+
+msgid "stageParticipants.canChangeMetadata"
+msgstr ""
+"Dozvolite ovoj osobi da vrši izmene publikacije, kao što su naslov, "
+"apstrakt, metapodaci i drugi detalji publikacije. Možda ćete želeti da "
+"opozovete ovo ovlašćenje ako je prijava prošla završnu proveru i spremna je "
+"za objavljivanje."
+
+msgid "stageParticipants.selectedUser"
+msgstr "Učesnik"
+
+msgid "stageParticipants.noOptionsToHandle"
+msgstr "Na ovom učesniku nije moguće izvršiti izmene"
+
+msgid "locale.primary"
+msgstr "Primarna lokalizacija"
+
+msgid "locale.supported"
+msgstr "Podržane lokalizacije"
+
+msgid "navigation.access"
+msgstr "Korisnici i uloge"
+
+msgid "navigation.about"
+msgstr "O nama"
+
+msgid "navigation.admin"
+msgstr "Administracija"
+
+msgid "navigation.archives"
+msgstr "Arhiva"
+
+msgid "navigation.breadcrumbLabel"
+msgstr "Vi ste ovde:"
+
+msgid "navigation.breadcrumbSeparator"
+msgstr "/"
+
+msgid "navigation.tools"
+msgstr "Alatke"
+
+msgid "navigation.tools.importExport"
+msgstr "Uvoz/Izvoz"
+
+msgid "navigation.tools.statistics"
+msgstr "Statistike"
+
+msgid "navigation.browse"
+msgstr "Pregledaj"
+
+msgid "navigation.backTo"
+msgstr "⟵ Nazad na {$page}"
+
+msgid "navigation.browseByAuthor"
+msgstr "Po autoru"
+
+msgid "navigation.browseByTitle"
+msgstr "Po naslovu"
+
+msgid "navigation.dashboard"
+msgstr "Komandna tabla"
+
+msgid "navigation.data"
+msgstr "Podaci"
+
+msgid "navigation.home"
+msgstr "Početna"
+
+msgid "navigation.infoForReaders"
+msgstr "Za čitaoce"
+
+msgid "navigation.infoForReaders.long"
+msgstr "Informacije za čitaoce"
+
+msgid "navigation.items"
+msgstr "{$from} - {$to} od {$total} stavki"
+
+msgid "navigation.items.shownTotal"
+msgstr "{$shown} od {$total} stavki"
+
+msgid "navigation.login"
+msgstr "Prijava"
+
+msgid "navigation.nextPage"
+msgstr "&gt;&gt;"
+
+msgid "navigation.nextStep"
+msgstr "Sledeći korak"
+
+msgid "navigation.previousPage"
+msgstr "&lt;&lt;"
+
+msgid "navigation.previousStep"
+msgstr "Prethodni korak"
+
+msgid "navigation.publicMenu"
+msgstr "Javni meni"
+
+msgid "navigation.register"
+msgstr "Registracija"
+
+msgid "navigation.search"
+msgstr "Pretraga"
+
+msgid "navigation.settings"
+msgstr "Podešavanja"
+
+msgid "navigation.setup"
+msgstr "Podešavanje"
+
+msgid "navigation.sitemap"
+msgstr "Mapa sajta"
+
+msgid "navigation.skip.description"
+msgstr "Pređi na linkove sadržaja"
+
+msgid "navigation.skip.announcements"
+msgstr "Preskoči na obaveštenja"
+
+msgid "navigation.skip.main"
+msgstr "Preskoči na glavni sadržaj"
+
+msgid "navigation.skip.nav"
+msgstr "Pređi na glavni navigacioni meni"
+
+msgid "navigation.skip.footer"
+msgstr "Pređi na podnožje sajta"
+
+msgid "navigation.stepNumber"
+msgstr "{$step}. korak"
+
+msgid "navigation.submissions"
+msgstr "Predaja"
+
+msgid "navigation.system"
+msgstr "Sistem"
+
+msgid "navigation.userHome"
+msgstr "Korisnička"
+
+msgid "navigation.user"
+msgstr "Korisnik"
+
+msgid "navigation.userManagement"
+msgstr "Upravljanje korisnicima"
+
+msgid "navigation.viewFrontend"
+msgstr "Pogledaj sajt"
+
+msgid "institution.institutions"
+msgstr "institucije"
+
+msgid "notification.addedAuditor"
+msgstr "Revizor dodat."
+
+msgid "notification.removedAuditor"
+msgstr "Revizor uklonjen."
+
+msgid "notification.addedQuery"
+msgstr "Dodata diskusija"
+
+msgid "notification.reviewAcknowledged"
+msgstr "Recenzija obeležena kao primljena k znanju. Imejl nije poslat."
+
+msgid "notification.reviewerThankedEmail"
+msgstr "Imejl zahvalnice poslat je recenzentu."
+
+msgid "notification.updatedReviewFiles"
+msgstr "Recenzentski fajlovi su dodati."
+
+msgid "notification.allow"
+msgstr "Dozvoli da mi stižu ove vrste obaveštenja."
+
+msgid "notification.addedAnnouncementType"
+msgstr "Tip obaveštenja je dodat."
+
+msgid "notification.editedAnnouncementType"
+msgstr "Tip obaveštenja je izmenjen."
+
+msgid "notification.removedAnnouncementType"
+msgstr "Tip obaveštenja je uklonjen."
+
+msgid "notification.removedAnnouncement"
+msgstr "Obaveštenje uklonjeno."
+
+msgid "notification.confirmError"
+msgstr "Došlo je do greške prilikom potvrđivanja vaše pretplate."
+
+msgid "notification.confirmSuccess"
+msgstr "Uspešno ste se pretplatili."
+
+msgid "notification.email"
+msgstr "Ne želim primati imejlove o ovakvim obaveštenjima."
+
+msgid "notification.noneExist"
+msgstr "Nemate obaveštenja."
+
+msgid "notification.addedNote"
+msgstr "Napomena poslata."
+
+msgid "notification.removedNote"
+msgstr "Napomena obrisana."
+
+msgid "notification.removedFile"
+msgstr "Obrisan fajl."
+
+msgid "notification.removedSubmission"
+msgstr "Obrisana predaja."
+
+msgid "notification.notification"
+msgstr "Obaveštenje"
+
+msgid "notification.notifications"
+msgstr "Obaveštenja"
+
+msgid "notification.sentNotification"
+msgstr "Obaveštenje poslato."
+
+msgid "notification.settings"
+msgstr "Podešavanje obaveštavanja"
+
+msgid "notification.settingsDescription"
+msgstr "Obeležite sistemska dešavanja o kojima želite da budete obavešteni."
+
+msgid "notification.reminderError"
+msgstr ""
+"Došlo je do greške prilikom slanja lozinke, proverite da li ste uneli "
+"ispravno Vašu imejl adresu."
+
+msgid "notification.reminderSent"
+msgstr "Nova lozinka je poslata na imejl adresu koju ste dali."
+
+msgid "notification.savedSubmissionMetadata"
+msgstr "Metapodaci predaje su sačuvani."
+
+msgid "notification.sendNotificationConfirmation"
+msgstr "Pošaljite imejl o ovome svim registrovanim korisnicima."
+
+msgid "search.author"
+msgstr "Autori"
+
+msgid "search.abstract"
+msgstr "Apstrakt"
+
+msgid "search.advancedFilters"
+msgstr "Napredni filtri"
+
+msgid "search.advancedSearchMore"
+msgstr "Više opcija pretrage"
+
+msgid "search.advancedSearchLess"
+msgstr "Sakri više opcija pretrage"
+
+msgid "search.searchAgain"
+msgstr "Potraži opet"
+
+msgid "search.cli.rebuildIndex.clearingIndex"
+msgstr "Čišćenje indeksa"
+
+msgid "search.cli.rebuildIndex.done"
+msgstr "gotovo"
+
+msgid "search.cli.rebuildIndex.error"
+msgstr "greška"
+
+msgid "search.cli.rebuildIndex.result"
+msgstr "{$numIndexed} članaka indeksirano"
+
+msgid "search.coverage"
+msgstr "Pokrivenost"
+
+msgid "search.date"
+msgstr "Datum objavljivanja"
+
+msgid "search.dateFrom"
+msgstr "Objavljeno posle"
+
+msgid "search.dateTo"
+msgstr "Objavljeno pre"
+
+msgid "search.deleteFilter"
+msgstr "Obriši"
+
+msgid "search.discipline"
+msgstr "Disciplina/e"
+
+msgid "search.fullText"
+msgstr "Ceo tekst"
+
+msgid "search.indexTerms"
+msgstr "Indeks pojmova"
+
+msgid "search.indexTermsLong"
+msgstr "Sva polja indeksa pojmova"
+
+msgid "search.matchAll"
+msgstr "Upari sve kategorije"
+
+msgid "search.noResults"
+msgstr "Nema rezultata"
+
+msgid "search.operator.and"
+msgstr "i"
+
+msgid "search.operator.not"
+msgstr "ne"
+
+msgid "search.operator.or"
+msgstr "ili"
+
+msgid "search.SearchFor"
+msgstr "Pronađi"
+
+msgid "search.searchResults"
+msgstr "Rezultati pretraživanja"
+
+msgid "search.searchResults.foundSingle"
+msgstr "Pronađena jedna stavka."
+
+msgid "search.searchResults.foundPlural"
+msgstr "Pronađeno je {$count} stavki."
+
+msgid "search.subject"
+msgstr "Ključna reč/i"
+
+msgid "search.titleIndex"
+msgstr "Indeks naslova"
+
+msgid "search.title"
+msgstr "Naslov"
+
+msgid "search.typeMethodApproach"
+msgstr "Tip (metod/pristup)"
+
+msgid "grid.action.downloadFile"
+msgstr "Preuzmi fajl"
+
+msgid "context.path"
+msgstr "Putanja"
+
+#, fuzzy
+msgid "review.ensuringAnonymousReview"
+msgstr "Obezbeđivanje slepe recenzije"
+
+msgid "grid.action.showReviewPolicy"
+msgstr "Pročitajte trenutnu recenzentsku politiku"
+
+msgid "grid.action.deleteNotification"
+msgstr "Obriši zadatak"
+
+msgid "grid.action.markNew"
+msgstr "Obeleži kao Novo"
+
+msgid "grid.action.markRead"
+msgstr "Obeleži kao Pročitano"
+
+msgid "dashboard.tasks"
+msgstr "Zadaci"
+
+msgid "dashboard.myQueue"
+msgstr "Moja zaduženja"
+
+msgid "review.anonymousPeerReview.title"
+msgstr "Kako osigurati da sve datoteke budu anonimizovane"
+
+#, fuzzy
+msgid "review.anonymousPeerReview"
+msgstr ""
+"<p>Da bi obezbedili integritet dvostruko slepe recenzije za ovaj časopis "
+"mora se učiniti svaki napor da se spreči da su autori i recenzenti jedni "
+"drugima poznati. Ovo se odnosi na autore, urednike i recenzente (koji "
+"prilažu dokumente u toku svoje recenzije)  kako bi se proverilo da li su "
+"sledeći koraci poštovani u smislu provere teksta i sobina fajlova:</p>\n"
+"\t\t\t<ul><li>Autori dokumenta treba da izbrišu svoje ime iz teksta sa "
+"\"Autor\" i godina u referencama i fusnotama, umesto imena autora, naslova "
+"članka i sl.</li>\n"
+"\t\t\t<li>U Microsoft Office dokumentima, moraju biti uklonjene "
+"identifikacije autora iz osobina fajla (pogledati u  File meniju u programu "
+"Word), tako što se klikne kako sledi, počiljući sa File u meniju u glavnom "
+"meniju u Microsoft programu: File &gt; Save As &gt; Tools (ili Options kad "
+"se koristi Mac) &gt; Security &gt; Remove personal information from file "
+"properties on save &gt; Save.</li>\n"
+"\t\t\t<li>U PDF, fajlovima imena autora trebaju biti uklonjena i iz opcije "
+"Document Properties koja se nalazi u meniju File u Adobe Acrobat glavnom "
+"meniju.</li>\n"
+"\t\t</ul>\n"
+
+msgid "reviewer.submission.reviewSchedule"
+msgstr "Plan recenziranja"
+
+msgid "reviewer.submission.reviewRequestDate"
+msgstr "Zahtevi urednika"
+
+msgid "reviewer.submission.responseDueDate"
+msgstr "Odgovor do datuma"
+
+msgid "reviewer.submission.reviewDueDate"
+msgstr "Recenzija do datuma"
+
+msgid "submission.task.responseDueDate"
+msgstr "Odgovor do datuma"
+
+msgid "navigation.goBack"
+msgstr "Povratak"
+
+msgid "notification.addedReviewer"
+msgstr "Recenzent dodat."
+
+msgid "notification.addedReviewerNoEmail"
+msgstr ""
+"{$reviewerName} je dodeljen/a za recenziranje ovog rada i nije mu/joj "
+"poslato obaveštenje putem imejla."
+
+msgid "notification.removedReviewer"
+msgstr "Recenzent uklonjen."
+
+msgid "notification.cancelledReviewer"
+msgstr "Recenzent otkazan."
+
+msgid "notification.reinstatedReviewer"
+msgstr "Recenzent je vraćen."
+
+msgid "notification.reviewerResendRequest"
+msgstr "Poslat je zahtev za ponovno razmatranje zadatka recenzije."
+
+msgid "notification.addedStageParticipant"
+msgstr "Korisnik je dodat kao saradnik u fazi."
+
+msgid "notification.editStageParticipant"
+msgstr "Dodela faze je promenjena."
+
+msgid "notification.type.newAnnouncement"
+msgstr "Novo obaveštenje"
+
+msgid "notification.type.reviewAssignment"
+msgstr "Recenzija čeka."
+
+msgid "notification.type.reviewAssignmentUpdated"
+msgstr "Zadatak recenzije je ažuriran."
+
+msgid "notification.type.auditorRequest"
+msgstr "Zahtev za reviziju za \"{$file}\""
+
+msgid "notification.type.allReviewsIn"
+msgstr "Sve recenzije su stigle i čeka se odluka u fazi: {$stage}."
+
+msgid "notification.type.allRevisionsIn"
+msgstr ""
+"Revidiran dokument je dodat za za vaše uređivačko razmatranje u fazi "
+"{$stage}."
+
+msgid "notification.type.pendingRevisions"
+msgstr "Revizija je uzeta u obzir u {$stage}."
+
+msgid "notification.type.pendingRevisions.title"
+msgstr "Revizija je predata u {$stage}."
+
+msgid "notification.type.reviewerComment"
+msgstr "Recenzent je ostavio komentar na \"{$title}\"."
+
+msgid "notification.signedFile"
+msgstr "Fajl je uzet u razmatranje"
+
+msgid "timeZone"
+msgstr "Vremenska zona"
+
+msgid "user.email"
+msgstr "Imejl adresa"
+
+msgid "user.authorization.submissionFile"
+msgstr "Trenutni korisnik nema prava pristupa označenom dokumentu predaje."
+
+msgid "user.authorization.invalidPublication"
+msgstr "Nevažeća publikacija."
+
+msgid "user.authorization.invalidSubmission"
+msgstr "Neispravna predaja"
+
+msgid "user.authorization.invalidRepresentation"
+msgstr "Neispravno predstavljanje."
+
+msgid "user.authorization.invalidReviewRound"
+msgstr "Nevažeći krug recenzije."
+
+msgid "user.authorization.invalidQuery"
+msgstr "Nevažeća diskusija."
+
+msgid "user.authorization.unauthorizedNote"
+msgstr "Nemate pristup ovoj poruci rasprave."
+
+msgid "user.authorization.unauthorizedReviewAssignment"
+msgstr "Nemate pristup ovom zadatku recenzije."
+
+msgid "user.authorization.authorRoleMissing"
+msgstr ""
+"Trenutno nemate dovoljne privilegije da pregledate ovu predaju. Izmenite vaš "
+"profil i provberite da li ste dobili potrebne privilegije na stranici "
+"\"Registruj se kao\"."
+
+msgid "user.authorization.submissionAuthor"
+msgstr ""
+"Trenutni korisnik nije autor zahtevane predaje. Proverite da li ste "
+"prijavljeni sa ispravnim korisničkim nalogom."
+
+msgid "user.register.form.privacyConsentLabel"
+msgstr "Opcije privatnosti"
+
+msgid "notification.type.queryActivity"
+msgstr "Aktivnosti diskusije."
+
+msgid "notification.type.queryAdded"
+msgstr "Diskusija dodata."
+
+msgid "notification.type.assignCopyeditors"
+msgstr "Dodeli lektora korišćenjem Dodaj linka u listi Saradnika."
+
+msgid "notification.type.awaitingCopyedits"
+msgstr "Čeka se lektura."
+
+msgid "notification.type.roundStatusTitle"
+msgstr "Krug {$round} status"
+
+msgid "notification.type.editorialReport"
+msgstr "Sažetak statističkog izveštaja."
+
+msgid "notification.type.editorialReport.contents"
+msgstr ""
+"Ovo je ljubazan podsetnik da proverite stanje svoje publikacije putem "
+"uredničkog izveštaja."
+
+msgid "notification.type.editorialReminder"
+msgstr "Nedeljni imejl sa nerešenim zadacima"
+
+msgid "semicolon"
+msgstr "{$label}:"
+
+msgid "notification.editedNavigationMenuItem"
+msgstr "Stavka navigacionog menija je uspešno ažurirana"
+
+msgid "notification.removedNavigationMenuItem"
+msgstr "Stavka navigacionog menija je uspešno uklonjena"
+
+msgid "notification.addedNavigationMenuItem"
+msgstr "Stavka navigacionog menija je uspešno dodata"
+
+msgid "notification.addedNavigationMenu"
+msgstr "Navigacioni meni je uspešno dodat"
+
+msgid "notification.editedNavigationMenu"
+msgstr "Navigacioni meni je uspešno ažuriran"
+
+msgid "notification.removedNavigationMenu"
+msgstr "Navigacioni meni je uspešno uklonjen"
+
+msgid "notification.unsubscribeNotifications.success"
+msgstr "Odjavljeni ste"
+
+msgid "notification.unsubscribeNotifications.error"
+msgstr "Nismo mogli da vas odjavimo"
+
+msgid "notification.unsubscribeNotifications.pageMessage"
+msgstr ""
+"Izaberite imejlove koje više ne želite da primate na {$email} od "
+"{$contextName}."
+
+msgid "notification.unsubscribeNotifications.resubscribe"
+msgstr ""
+"Možete se ponovo pretplatiti na obaveštenja putem imejla u bilo kom trenutku "
+"sa svog <a href=\"{$profileNotificationUrl}\">korisničkog profila</a>."
+
+msgid "notification.unsubscribeNotifications.successMessage"
+msgstr ""
+"Imejl adresa {$email} je uspešno odjavljena. Više vam nećemo slati imejlove. "
+"Možete se ponovo pretplatiti na obaveštenja putem imejla u bilo kom trenutku "
+"sa svog <a href=\"{$profileNotificationUrl}\">korisničkog profila</a>."
+
+msgid "notification.unsubscribeNotifications.errorMessage"
+msgstr ""
+"Došlo je do neočekivane greške i nismo mogli da odjavimo e-adresu {$email}. "
+"Možete se odjaviti od svih obaveštenja putem imejla u svom <a href=\""
+"{$profileNotificationUrl}\">korisničkom profilu</a> ili nas direktno "
+"kontaktirati za pomoć."
+
+msgid "notification.unsubscribeNotifications"
+msgstr "Odjavi se"
+
+msgid "list.viewMore"
+msgstr "Prikaži detalje o"
+
+msgid "list.viewLess"
+msgstr "Sakrij proširene podatke o"
+
+msgid "list.expandAll"
+msgstr "Proširi sve"
+
+msgid "list.collapseAll"
+msgstr "Sažmi sve"
+
+msgid "validation.invalidOption"
+msgstr "Ovo nije važeća opcija."
+
+msgid "validator.accepted"
+msgstr "Molimo vas prihvatite ovu stavku."
+
+msgid "validator.active_url"
+msgstr "Ovo nije važeći URL."
+
+msgid "validator.after"
+msgstr "Ovaj datum mora biti nakon {$date}."
+
+msgid "validator.alpha"
+msgstr "Ovo može sadržati samo slova."
+
+msgid "validator.alpha_dash"
+msgstr "Ovo može sadržati samo slova, brojeve, crtice i donje crte."
+
+msgid "validator.alpha_dash_period"
+msgstr "Ovo može sadržati samo slova, brojeve, crtice, donje crte i tačke."
+
+msgid "validator.alpha_num"
+msgstr "Ovo može sadržati samo slova i brojeve."
+
+msgid "validator.array"
+msgstr "Ovo nije važeći niz."
+
+msgid "validator.before"
+msgstr "Ovaj datum mora biti pre {$date}."
+
+msgid "validator.between.numeric"
+msgstr "Ovo mora biti između {$min} i {$max}."
+
+msgid "validator.between.file"
+msgstr "Ovo mora biti između {$min} i {$max} kilobajta."
+
+msgid "validator.between.string"
+msgstr "Ovo mora imati između {$min} i {$max} znakova."
+
+msgid "validator.between.array"
+msgstr "Ovo mora sadržati između {$min} i {$max} stavki."
+
+msgid "validator.boolean"
+msgstr "Ovo polje mora biti tačno ili netačno."
+
+msgid "validator.confirmed"
+msgstr "Potvrda za ovo polje se ne poklapa."
+
+msgid "validator.country"
+msgstr "Ovo nije važeća zemlja."
+
+msgid "validator.country.regex"
+msgstr ""
+"Ovo nije važeća država. Država mora biti jedna od dvocifrenih međunarodnih "
+"kodova. Pogledajte sve kodove na https://en.wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2#Officially_assigned_code_elements."
+
+msgid "validator.currency"
+msgstr "Ovo nije važeća valuta."
+
+msgid "validator.date"
+msgstr "Ovo nije važeći datum."
+
+msgid "validator.date_format"
+msgstr "Ovo se ne poklapa sa formatom {$format}."
+
+msgid "validator.different"
+msgstr "{$attribute} i {$other} moraju biti različiti."
+
+msgid "validator.digits"
+msgstr "Ovo mora imati {$digits} cifara."
+
+msgid "validator.digits_between"
+msgstr "Ovo mora imati između {$min} i {$max} cifara."
+
+msgid "validator.email"
+msgstr "Ovo nije važeća imejl adresa."
+
+msgid "validator.exists"
+msgstr "Odabrani {$attribute} je nevažeći."
+
+msgid "validator.filled"
+msgstr "Ovo polje je obavezno."
+
+msgid "validator.image"
+msgstr "Ovo mora biti slika."
+
+msgid "validator.in"
+msgstr "Odabrani {$attribute} je nevažeći."
+
+msgid "validator.integer"
+msgstr "Ovo nije važeći ceo broj."
+
+msgid "validator.ip"
+msgstr "Ovo nije važeća IP adresa."
+
+msgid "validator.issn"
+msgstr "Ovo nije važeći ISSN."
+
+msgid "validator.json"
+msgstr "Ovo nije važeći JSON niz."
+
+msgid "validator.locale"
+msgstr "Ovaj jezik nije prihvaćen."
+
+msgid "validator.localeExpected"
+msgstr ""
+"Ovo polje je višejezično. Za svaki podržani jezik moraju biti navedene "
+"zasebne vrednosti."
+
+msgid "validator.localeKey"
+msgstr ""
+"Jezici moraju biti navedeni pomoću koda lokalizacije. Primeri: en_US, fr_CA, "
+"sr_RS@cyrillic."
+
+msgid "validator.max.numeric"
+msgstr "Ovo ne može da bude veće od {$max}."
+
+msgid "validator.max.file"
+msgstr "Ovo ne može biti veće od {$max} kilobajta."
+
+msgid "validator.max.string"
+msgstr "Ovo ne može imati više od {$max} znakova."
+
+msgid "validator.max.array"
+msgstr "Ovo ne može imati više od {$max} stavki."
+
+msgid "validator.mimes"
+msgstr "Ovo mora biti fajl tipa {$values}."
+
+msgid "validator.min.numeric"
+msgstr "Ovo mora da bude najmanje {$min}."
+
+msgid "validator.min.file"
+msgstr "Ovo mora imati najmanje {$min} kilobajta."
+
+msgid "validator.min.string"
+msgstr "Ovo mora imati najmanje {$min} znakova."
+
+msgid "validator.min.array"
+msgstr "Ovo mora sadržati najmanje {$min} stavki."
+
+msgid "validator.not_in"
+msgstr "Izabrani {$attribute} nije važeći."
+
+msgid "validator.numeric"
+msgstr "Ovo nije važeći broj."
+
+msgid "validator.orcid"
+msgstr "Ovo nije važeći ORCID."
+
+msgid "validator.present"
+msgstr "Polje {$attribute} mora biti prisutno."
+
+msgid "validator.regex"
+msgstr "Ovo nije ispravno formatirano."
+
+msgid "validator.required"
+msgstr "Ovo polje je obavezno."
+
+msgid "validator.required_if"
+msgstr "Ovo polje je obavezno kad je {$other} {$value}."
+
+msgid "validator.required_unless"
+msgstr "Ovo polje je obavezno osim ako je {$other} {$values}."
+
+msgid "validator.required_with"
+msgstr "Ovo polje je obavezno ako je pristuno {$values}."
+
+msgid "validator.required_with_all"
+msgstr "Ovo polje je obavezno ako je pristuno {$values}."
+
+msgid "validator.required_without"
+msgstr "Ovo polje je obavezno kada {$values} nije prisutno."
+
+msgid "validator.required_without_all"
+msgstr ""
+"Ovo polje je obavezno kada nijedna od vrednosti {$values} nije prisutna."
+
+msgid "validator.same"
+msgstr "{$attribute} i {$other} moraju da se podudaraju."
+
+msgid "validator.size.numeric"
+msgstr "Ovo mora biti {$size}."
+
+msgid "validator.size.file"
+msgstr "Ovo mora biti {$size} kilobajta."
+
+msgid "validator.size.string"
+msgstr "Ovo mora sadržati {$size} znakova."
+
+msgid "validator.size.array"
+msgstr "Ovo mora sadržati {$size} elemenata."
+
+msgid "validator.string"
+msgstr "Ovo nije važeći niz."
+
+msgid "validator.timezone"
+msgstr "Ovo nije važeća vremenska zona."
+
+msgid "validator.unique"
+msgstr "$attribute} je već zauzet."
+
+msgid "validator.url"
+msgstr "Ovo nije validan URL."
+
+msgid "validator.no_new_line"
+msgstr "Nije dopušten novi red."
+
+msgid "validator.allowable_title_html_tags"
+msgstr "Dozvoljene su samo HTML oznake [{$tags}]."
+
+msgid "filter.input.error.notSupported"
+msgstr ""
+"Filter ({$displayName}) podržava input {$inputTypeName} - {$typeofInput}"
+
+msgid "filter.error.missingRequirements"
+msgstr ""
+"Pokušavate da pokrenete transformaciju koju ne podržava vaše instalacijsko "
+"okruženje."
+
+msgid "filter.import.error.couldNotImportNode"
+msgstr "Nije moguće uvesti XML čvor"
+
+msgid "plugins.importexport.common.error.unknownCommand"
+msgstr "Nepoznata naredba {$command}"
+
+msgid "common.withForwardSlash"
+msgstr "{$item}/{$afterSlash}"
+
+msgid "common.categorySeparator"
+msgstr "{$parent} > {$child}"
+
+msgid "notification.addedAuthor"
+msgstr "Autor je dodat."
+
+msgid "notification.editedAuthor"
+msgstr "Autor je izmenjen."
+
+#~ msgid "common.captchaField.description"
+#~ msgstr ""
+#~ "Molimo unesite karaktere redosledom kojim su prikazani u slici iznad."
+
+#~ msgid "common.captchaField"
+#~ msgstr "Validacija"
+
+#~ msgid "common.captcha.error.missing-input-secret"
+#~ msgstr ""
+#~ "Validacija captcha za ovaj sajt nije pravilno konfigurisana. Nedostaje "
+#~ "tajni ključ."
+
+#~ msgid "common.captcha.error.invalid-input-secret"
+#~ msgstr ""
+#~ "Validacija captcha za ovaj sajt nije pravilno konfigurisana. Tajni ključ "
+#~ "je neispravan."
+
+#~ msgid "common.captcha.error.invalid-input-response"
+#~ msgstr ""
+#~ "Niste prošli validaciju provere koja služi za sprečavanje spam prijava."
+
+#~ msgid "informationCenter.currentNotes"
+#~ msgstr "Napomene uz trenutnu reviziju"
+
+#~ msgid "informationCenter.lastUpdated"
+#~ msgstr "Poslednje ažuriranje"
+
+msgid "common.showingXofX"
+msgstr "Prikazujemo <strong>{$start} do {$finish}</strong> od {$total}"
+
+msgid "about.editorialMasthead.linkToEditorialHistory"
+msgstr "Pogledajte <a href=\"{$url}\">istoriju uređivanja</a>"
+
+msgid "common.moreActions"
+msgstr "Više opcija"
+
+msgid "common.editorialMasthead"
+msgstr "Urednički tim"
+
+msgid "common.editorialMasthead.peerReviewers"
+msgstr "Recenzenti iz prethodne godine"
+
+msgid "common.editorialHistory.peerReviewers"
+msgstr "Recenzenti iz prethodnih godina"
+
+msgid "common.editorialMasthead.peerReviewers.description"
+msgstr ""
+"Urednici izražavaju zahvalnost recenzentima za {$year}, navedenim u nastavku."
+
+msgid "common.editorialHistory"
+msgstr "Istorija uređivanja"
+
+msgid "common.editorialHistory.page"
+msgstr "Stranica istorije uređivanja"
+
+msgid "common.editorialHistory.page.description"
+msgstr "Ovaj odeljak navodi dosadašnje saradnike."
+
+msgid "common.editorialHistory.page.orcidLink"
+msgstr "Prikaži ORCID profil za {$name}"
+
+msgid "common.assignments"
+msgstr "Dodeljeni zadaci"
+
+msgid "common.changeLanguage"
+msgstr "Promeni jezik"
+
+msgid "common.yesContinue"
+msgstr "Da, nastavite"
+
+msgid "common.filtersClear"
+msgstr "Obriši filtere"
+
+msgid "common.highlights"
+msgstr "Istaknuto"
+
+msgid "common.highlight"
+msgstr "Istakni"
+
+msgid "common.inParenthesis"
+msgstr "({$text})"
+
+msgid "common.loaded"
+msgstr "Učitano"
+
+msgid "form.errorSummaryOne"
+msgstr "1 greška pronađena! Molimo vas ispravite grešku pre nego što nastavite."
+
+msgid "form.errorSummaryMany"
+msgstr "Otkriveno je {$count} grešaka! Ispravite greške pre nego što nastavite."
+
+msgid "navigation.reviewAssignments"
+msgstr "Moja recenzentska zaduženja"
+
+msgid "navigation.dashboards"
+msgstr "Kontrolna tabla urednika"
+
+msgid "navigation.mySubmissions"
+msgstr "moje prijave kao autora"
+
+msgid "showLess"
+msgstr "Prikaži manje"
+
+msgid "reviewer.submission.acceptedOn"
+msgstr "Recenzija prihvaćena dana"
+
+msgid "reviewer.submission.submittedOn"
+msgstr "Recenzija predata dana"
+
+msgid "showAll"
+msgstr "Prikaži sve"
+
+msgid "validator.date.comparison"
+msgstr "Priloženi datumi za poređenje nisu važeći."
+
+msgid "common.viewMoreDetails"
+msgstr "Pogledaj više detalja"
+
+msgid "common.openLinkNewTab"
+msgstr "Otvori link u novom tabu."
+
+msgid "common.refreshingData"
+msgstr "Osvežavanje podataka"
+
+msgid "validator.multilingual"
+msgstr "Višejezični uslov za ovo polje nije ispunjen."
+
+msgid "common.sandbox"
+msgstr "Aplikacija radi u sandbox režimu."
+
+msgid "common.fromUntil"
+msgstr "{$from} &ndash; {$until}"
+
+msgid "common.numero"
+msgstr "Ne"

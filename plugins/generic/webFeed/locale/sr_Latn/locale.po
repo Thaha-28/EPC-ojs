@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:34+00:00\n"
+"PO-Revision-Date: 2026-05-25 23:44+0000\n"
+"Last-Translator: lena bojcic <lenabojcicck@gmail.com>\n"
+"Language-Team: Serbian (latin) <http://translate.pkp.sfu.ca/projects/plugins/"
+"webFeed/sr_Latn/>\n"
+"Language: sr_Latn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.webfeed.displayName"
+msgstr "Web Feed dodatak"
+
+msgid "plugins.generic.webfeed.description"
+msgstr ""
+"Ovaj dodatak kreira RSS/Atom web syndication feeds za trenutni broj "
+"časopisa. <br> Dodatak takođe uključuje bočnu traku koja omogućava prikaz "
+"feed-ova na bočnoj traci."
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Podešavanja"
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Prikaži linkove samo na stranici trenutnog broja."
+
+#, fuzzy
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Prikaži linkove samo na početnoj stranici i stranici trenutnog broja."
+
+#, fuzzy
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Prikaži linkove na svim stranicama časopisa."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Prikaži stavke trenutno objavljenog broja."
+
+#, fuzzy
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Prikaži fiksni broj skorašnjih stavki."
+
+#, fuzzy
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "poslednje objavljene stavke."
+
+msgid "plugins.generic.webfeed.settings.recentItemsRequired"
+msgstr "Unesite broj stavki koje će se prikazivati."
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Atom logo"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "RSS1 logo"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "RSS2 logo"
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr ""
+"Prikaži linkove web feedova samo na početnoj stranici i stranicama izdanja."
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Najnovije publikacije"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr ""
+"Uključiti identifikatore (ISBN, ključne reči, kategorije itd.) u sažetak "
+"feeda?"

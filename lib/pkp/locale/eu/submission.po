@@ -1,0 +1,3191 @@
+# Josu Acosta <josuacostacalvo@gmail.com>, 2023, 2024.
+# Informatikaria <informatikaria@ueu.eus>, 2024.
+# Oihan Odriozola <oodriozola@euskaltzaindia.eus>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:45+00:00\n"
+"PO-Revision-Date: 2025-10-29 16:00+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"submission/eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "author.editPublishedDisabled"
+msgstr "Ezin dira argitalpen honen egileak editatu, dagoeneko argitaratu baita."
+
+msgid "author.publicationNotFound"
+msgstr "Ezin izan da egile honen argitalpena aurkitu."
+
+msgid "author.submit.submissionCitations"
+msgstr ""
+"Eman bidalketan aipatutako lanen erreferentzien formatudun zerrenda. "
+"Mesedez, bereizi erreferentzia indibidualak lerro huts batekin."
+
+msgid "author.submission.roundStatus.reviewsReady"
+msgstr "Berrikuspen berriak bidali dira eta editorea aztertzen ari da."
+
+msgid "author.submission.roundStatus.reviewOverdue"
+msgstr ""
+"Ebaluatzaile batek edo gehiagok epea gainditu dute. Erredakzio-taldeak "
+"badaki eta berrikuspenak osatuko direla ziurtatuko du. Ez duzu ezer egin "
+"behar oraingoz. Erabakia hartzen denean jakinaraziko dizugu."
+
+msgid "submission.submit.availableUserGroups"
+msgstr "Bidali honela"
+
+msgid "submission.submit.availableUserGroupsDescription"
+msgstr ""
+"Hautatu bidalketa honetan zure ekarpena hobekien deskribatzen duen rola."
+
+msgid "submission.submit.managerUserGroupsDescription"
+msgstr ""
+"Hautatu edizio-rol bat bidalketa hau zeuk editatu eta argitaratu nahi baduzu."
+
+msgid "submission.submit.submissionChecklist"
+msgstr "Bidalketaren baldintzak"
+
+msgid "submission.submit.submissionChecklistDescription"
+msgstr "Bidalketa guztiek baldintza hauek bete behar dituzte."
+
+msgid "submission.submit.submissionChecklistConfirm"
+msgstr "Bai, nire bidalketak baldintza guzti hauek betetzen ditu."
+
+msgid "submission.submit.submissionComplete"
+msgstr "Bidalketa burutua"
+
+msgid "submission.submit.genre.label"
+msgstr "Zer motatako fitxategia da?"
+
+msgid "submission.submit.genre.description"
+msgstr "Aukeratu fitxategi hau hobekien deskribatzen duen aukera."
+
+msgid "submission.submit.removeConfirm"
+msgstr "Ziur zaude fitxategi hau ezabatu nahi duzula?"
+
+msgid "submission.submit.whatNext.forNow"
+msgstr "Oraingoz, aukera hauek dituzu:"
+
+msgid "submission.submit.whatNext.review"
+msgstr "Berrikusi bidalketa hau"
+
+msgid "submission.submit.whatNext.create"
+msgstr "Sortu bidalketa berri bat"
+
+msgid "submission.submit.whatNext.return"
+msgstr "Itzuli mahaigainera"
+
+msgid "submission.submit.extendedMetadata"
+msgstr "Metadatu hedatuak"
+
+msgid "metadata.filters.crossref.settings.email.displayName"
+msgstr "Crossref-en erregistratzeko helbide elektronikoa"
+
+msgid "metadata.filters.crossref.settings.email.validationMessage"
+msgstr ""
+"Mesedez, sartu Crossref-en erregistratzeko baliozko helbide elektronikoa. "
+"Zure helbide elektronikoa doan erregistra dezakezu Crossref-en web orrian."
+
+msgid "metadata.filters.isbndb.settings.apiKey.displayName"
+msgstr "ISBNdb API gakoa"
+
+msgid "metadata.filters.isbndb.settings.apiKey.validationMessage"
+msgstr ""
+"Mesedez, sartu zure ISBNdb API gakoa. Gakorik ez baduzu, doan eska dezakezu "
+"ISBNdb proiektuaren orrian."
+
+msgid "metadata.filters.pubmed.settings.email.displayName"
+msgstr "PubMed-en erregistratzeko helbide elektronikoa"
+
+msgid "metadata.filters.pubmed.settings.email.validationMessage"
+msgstr ""
+"Mesedez, sartu PubMed-en erregistratzeko baliozko helbide elektronikoa, "
+"baldin baduzu."
+
+msgid "metadata.filters.worldcat.settings.apiKey.displayName"
+msgstr "WorldCat API gakoa"
+
+msgid "metadata.filters.worldcat.settings.apiKey.validationMessage"
+msgstr "Mesedez, sartu baliozko WorldCat API gakoa, baldin baduzu."
+
+msgid "metadata.filters.paracite.settings.citationModule.displayName"
+msgstr "Aipuen modulua"
+
+msgid "metadata.filters.paracite.settings.citationModule.validationMessage"
+msgstr "Mesedez, aukeratu aipuen moduluetako bat."
+
+msgid "metadata.filters.settings.isOptional.displayName"
+msgstr ""
+"Ez erabili lehenespen gisa hautatutakoa (editorearentzat erabilgarri egongo "
+"da oraindik)"
+
+msgid "metadata.filters.settings.isOptional.validationMessage"
+msgstr ""
+"Barneko errorea. Balio desegokia jarri da “aukerako iragazkia” ezarpenean. "
+"Mesedez, eman errorearen berri."
+
+msgid "metadata.property.displayName.author"
+msgstr "Egileak"
+
+msgid "metadata.property.validationMessage.author"
+msgstr ""
+"Emaitza hobeak izateko, egileak honako formatu honetan idatzi behar dira: "
+"Coleman Jr. D. (Ralf) Dr."
+
+msgid "metadata.property.displayName.editor"
+msgstr "Editoreak"
+
+msgid "metadata.property.validationMessage.editor"
+msgstr ""
+"Emaitza hobeak izateko, editoreak honako formatu honetan idatzi behar dira: "
+"Coleman Jr. D. (Ralf) Dr."
+
+msgid "metadata.property.displayName.article-title"
+msgstr "Artikuluaren titulua"
+
+msgid "metadata.property.validationMessage.article-title"
+msgstr "Mesedez, idatzi artikuluaren/txostenaren baliozko titulua."
+
+msgid "metadata.property.displayName.source"
+msgstr "Egunkariaren/Liburuaren titulua"
+
+msgid "metadata.property.validationMessage.source"
+msgstr "Mesedez, idatzi aldizkariaren/liburuaren baliozko titulua."
+
+msgid "metadata.property.displayName.date"
+msgstr "Argitalpen-data"
+
+msgid "metadata.property.validationMessage.date"
+msgstr "Mesedez, idatzi baliozko argitalpen-data (formatua: UUUU-HH-EE)."
+
+msgid "metadata.property.displayName.access-date"
+msgstr "Sartze-data"
+
+msgid "metadata.property.validationMessage.access-date"
+msgstr "Mesedez, idatzi baliozko atzipen-data (formatua: UUUU-HH-EE)."
+
+msgid "metadata.property.displayName.issue"
+msgstr "Zenbakia"
+
+msgid "metadata.property.validationMessage.issue"
+msgstr "Mesedez, idatzi baliozko gaia."
+
+msgid "metadata.property.displayName.volume"
+msgstr "Bolumena"
+
+msgid "metadata.property.validationMessage.volume"
+msgstr "Mesedez, idatzi baliozko bolumena."
+
+msgid "metadata.property.displayName.season"
+msgstr "Garaia"
+
+msgid "metadata.property.validationMessage.season"
+msgstr "Mesedez, idatzi denboraldi-identifikatzaile egokia."
+
+msgid "metadata.property.displayName.chapter-title"
+msgstr "Kapituluaren titulua"
+
+msgid "metadata.property.validationMessage.chapter-title"
+msgstr "Mesedez, idatzi kapituluaren baliozko titulua."
+
+msgid "metadata.property.displayName.edition"
+msgstr "Edizioa"
+
+msgid "metadata.property.validationMessage.edition"
+msgstr "Mesedez, idatzi baliozko edizioa."
+
+msgid "metadata.property.displayName.series"
+msgstr "Bilduma"
+
+msgid "metadata.property.validationMessage.series"
+msgstr "Mesedez, idatzi baliozko bilduma."
+
+msgid "metadata.property.displayName.supplement"
+msgstr "Gehigarria"
+
+msgid "metadata.property.validationMessage.supplement"
+msgstr "Mesedez, idatzi baliozko eranskina."
+
+msgid "metadata.property.displayName.conf-date"
+msgstr "Ekitaldiaren data"
+
+msgid "metadata.property.validationMessage.conf-date"
+msgstr "Mesedez, idatzi kongresuaren baliozko data (formatua: UUUU-HH-EE)."
+
+msgid "metadata.property.displayName.conf-loc"
+msgstr "Ekitaldiaren tokia"
+
+msgid "metadata.property.validationMessage.conf-loc"
+msgstr "Mesedez, idatzi kongresuaren baliozko kokalekua."
+
+msgid "metadata.property.displayName.conf-name"
+msgstr "Ekitaldiaren izena"
+
+msgid "metadata.property.validationMessage.conf-name"
+msgstr "Mesedez, idatzi kongresuaren baliozko izena."
+
+msgid "metadata.property.displayName.conf-sponsor"
+msgstr "Ekitaldiaren babeslea"
+
+msgid "metadata.property.validationMessage.conf-sponsor"
+msgstr "Mesedez, idatzi kongresuaren baliozko babeslea."
+
+msgid "metadata.property.displayName.institution"
+msgstr "Erakundea"
+
+msgid "metadata.property.validationMessage.institution"
+msgstr "Mesedez, idatzi baliozko erakundea."
+
+msgid "metadata.property.displayName.fpage"
+msgstr "Lehen orrialdea"
+
+msgid "metadata.property.validationMessage.fpage"
+msgstr "Mesedez, idatzi baliozko lehenengo orria (zenbakia izan behar du)."
+
+msgid "metadata.property.displayName.lpage"
+msgstr "Azken orrialdea"
+
+msgid "metadata.property.validationMessage.lpage"
+msgstr "Mesedez, idatzi baliozko azkeneko orria (zenbakia izan behar du)."
+
+msgid "metadata.property.displayName.size"
+msgstr "Orrialde-zenbakia"
+
+msgid "metadata.property.validationMessage.size"
+msgstr ""
+"Mesedez, idatzi guztira dituen orrien baliozko kopurua (zenbakia izan behar "
+"du)."
+
+msgid "metadata.property.displayName.publisher-loc"
+msgstr "Argitaratzailearen helbidea"
+
+msgid "metadata.property.validationMessage.publisher-loc"
+msgstr "Mesedez, idatzi editorearen baliozko kokalekua."
+
+msgid "metadata.property.displayName.publisher-name"
+msgstr "Argitaratzailearen izena"
+
+msgid "metadata.property.validationMessage.publisher-name"
+msgstr "Mesedez, idatzi argitaratzailearen baliozko izena."
+
+msgid "metadata.property.displayName.isbn"
+msgstr "ISBN"
+
+msgid "metadata.property.validationMessage.isbn"
+msgstr "Mesedez, idatzi baliozko ISBN-a (9 edo 13 zenbaki)."
+
+msgid "metadata.property.displayName.issn"
+msgstr "Inprimaketa ISSN"
+
+msgid "metadata.property.validationMessage.issn"
+msgstr "Mesedez, idatzi baliozko Print ISSN-a."
+
+msgid "metadata.property.displayName.eissn"
+msgstr "ISSN elektronikoa"
+
+msgid "metadata.property.validationMessage.eissn"
+msgstr "Mesedez, idatzi baliozko eISSN-a."
+
+msgid "metadata.property.displayName.doi"
+msgstr "DOI"
+
+msgid "metadata.property.validationMessage.doi"
+msgstr "Mesedez, idatzi baliozko DOI-a."
+
+msgid "metadata.property.displayName.publisher-id"
+msgstr "Argitalpen pertsonalizatuaren ID"
+
+msgid "metadata.property.validationMessage.publisher-id"
+msgstr "Mesedez, idatzi argitalpen pertsonalizatuaren baliozko ID-a."
+
+msgid "metadata.property.displayName.coden"
+msgstr "CODEN"
+
+msgid "metadata.property.validationMessage.coden"
+msgstr "Mesedez, idatzi baliozko CODEN-a."
+
+msgid "metadata.property.displayName.sici"
+msgstr "SICI"
+
+msgid "metadata.property.validationMessage.sici"
+msgstr "Mesedez, idatzi baliozko SICI-a."
+
+msgid "metadata.property.displayName.pmid"
+msgstr "PMID"
+
+msgid "metadata.property.validationMessage.pmid"
+msgstr "Mesedez, idatzi baliozko PMID-a."
+
+msgid "metadata.property.displayName.uri"
+msgstr "Argitalpenerako lotura"
+
+msgid "metadata.property.validationMessage.uri"
+msgstr "Mesedez, idatzi argitalpenerako beste baliozko lotura bat."
+
+msgid "metadata.property.displayName.comment"
+msgstr "Iruzkina"
+
+msgid "metadata.property.validationMessage.comment"
+msgstr "Mesedez, idatzi baliozko iruzkina."
+
+msgid "metadata.property.displayName.annotation"
+msgstr "Oharra"
+
+msgid "metadata.property.validationMessage.annotation"
+msgstr "Mesedez, idatzi baliozko oharra."
+
+msgid "metadata.property.displayName.publication-type"
+msgstr "Argitalpen-mota"
+
+msgid "metadata.property.validationMessage.publication-type"
+msgstr ""
+"Mesedez, egiaztatu argitalpen mota beti ezartzen duzula. Orain, onartutako "
+"balioak liburua (liburuentzat edo liburuetako kapituluentzat) eta aldizkaria "
+"(aldizkarietako artikuluentzat) dira. Bestela, aipuen irteera-formatuak ez "
+"du behar bezala funtzionatuko."
+
+msgid "metadata.property.displayName.title-type"
+msgstr "Titulu mota"
+
+msgid "metadata.property.validationMessage.title-type"
+msgstr ""
+"Mesedez, ziur izan titulu mota baliodun bat ezartzen duzula. Balio onartuak "
+"'laburtua', 'itzulia', 'alternatiboa' eta 'uniformea' dira."
+
+msgid "metadata.property.displayName.nonSort"
+msgstr "Tituluaren zati bat ez da kontuan hartu sailkatzean"
+
+msgid "metadata.property.validationMessage.nonSort"
+msgstr ""
+"Mesedez, sartu soilik titulua sailkatzean kontuan hartu beharko ez "
+"liratekeen tituluaren hasierako hizkiak."
+
+msgid "metadata.property.displayName.title"
+msgstr "Titulua"
+
+msgid "metadata.property.validationMessage.title"
+msgstr "Mesedez, sartu titulu baliodun bat."
+
+msgid "metadata.property.displayName.subTitle"
+msgstr "Azpidatzia"
+
+msgid "metadata.property.validationMessage.subTitle"
+msgstr "Mesedez, sartu azpidatzi baliodun bat."
+
+msgid "metadata.property.displayName.partNumber"
+msgstr "Zatiaren zenbakia"
+
+msgid "metadata.property.validationMessage.partNumber"
+msgstr "Mesedez, sartu zatiaren zenbaki baliodun bat."
+
+msgid "metadata.property.displayName.partName"
+msgstr "Zatiaren izena"
+
+msgid "metadata.property.validationMessage.partName"
+msgstr "Mesedez, sartu zatiaren izen baliodun bat."
+
+msgid "metadata.property.displayName.name-type"
+msgstr "Izen mota"
+
+msgid "metadata.property.validationMessage.name-type"
+msgstr ""
+"Mesedez, ziur izan izen mota baliodun bat ezartzen duzula. Balio onartua "
+"'pertsonala', 'korporatiboa' eta 'konferentzia' dira."
+
+msgid "metadata.property.displayName.abstract"
+msgstr "Laburpena"
+
+msgid "common.queue.long.submissionsUnassigned"
+msgstr "Esleitu gabeko bidalketak"
+
+msgid "common.queue.long.myAssigned"
+msgstr "Niri esleituak"
+
+msgid "common.queue.long.submissionsArchived"
+msgstr "Artxibatutako bidalketak"
+
+msgid "submission.authors"
+msgstr "Egileak"
+
+msgid "submission.authorBiography"
+msgstr "Egilearen biografia"
+
+msgid "submission.authorBiographies"
+msgstr "Egileen biografiak"
+
+msgid "submission.authorWithAffiliation"
+msgstr "{$name}, {$affiliation}"
+
+msgid "submission.shortAuthor"
+msgstr "{$author} et al."
+
+msgid "submission.representationOfTitle"
+msgstr "{$title}-ren {$representation}"
+
+msgid "submission.mySubmissions"
+msgstr "Nire bidalketak egile moduan"
+
+msgid "submission.addFile"
+msgstr "Kargatu fitxategia"
+
+msgid "submission.additionalFiles"
+msgstr "Fitxategi gehigarriak"
+
+msgid "submission.agencies"
+msgstr "Agentziak"
+
+msgid "submission.abstractViews"
+msgstr "Laburpenen ikuspegiak"
+
+msgid "submission.accepted"
+msgstr "Onartua"
+
+msgid "submission.acknowledge"
+msgstr "Hartu-agiria"
+
+msgid "submission.ask"
+msgstr "Galdetu"
+
+msgid "submission.attachedFile"
+msgstr "Fitxategi erantsia"
+
+msgid "submission.backToSubmissionEditing"
+msgstr "Itzuli Bidalketaren ediziora"
+
+msgid "submission.changeComments"
+msgstr "Aldatu hona"
+
+msgid "submission.changeFile"
+msgstr "Aldatu fitxategia"
+
+msgid "submission.citations"
+msgstr "Erreferentziak"
+
+msgid "submission.citations.description"
+msgstr ""
+"Sartu erreferentzia bakoitza lerro berri batean; hala, bereizita atera eta "
+"erregistratu ahal izango dira."
+
+msgid "submission.parsedCitations"
+msgstr "Ateratako erreferentziak"
+
+msgid "submission.parsedCitations.DOI"
+msgstr "DOI"
+
+msgid "submission.parsedCitations.description"
+msgstr ""
+"Ondorengo erreferentziak atera dira eta bidalketaren metadatuekin lotuko "
+"dira."
+
+msgid "submission.parsedAndSaveCitations"
+msgstr "Atera eta gorde erreferentziak"
+
+msgid "submission.comments.addComment"
+msgstr "Gehitu oharra"
+
+msgid "submission.comments.comments"
+msgstr "Oharrak"
+
+msgid "submission.comments.confirmDelete"
+msgstr "Ziur zaude ohar hau ezabatu nahi duzula?"
+
+msgid "submission.comments.corrections"
+msgstr "Zuzenketak"
+
+msgid "submission.comments.editComment"
+msgstr "Editatu oharra"
+
+msgid "submission.comments.importPeerReviews"
+msgstr "Inportatu adituen ebaluazioa"
+
+msgid "submission.comments.addReviews"
+msgstr "Erantsi berrikuspenak posta elektronikoari"
+
+msgid "submission.comments.importPeerReviews.reviewerLetter"
+msgstr "{$reviewerLetter} Ebaluatzailea:"
+
+msgid "submission.comments.noComments"
+msgstr "Oharrik ez"
+
+msgid "submission.comments.noReviews"
+msgstr "Ebaluaziorik ez"
+
+msgid "submission.comments.review"
+msgstr "Berrikuspena"
+
+msgid "submission.comments.sendDecisionToReviewers"
+msgstr "Bidali editorearen erabakia ebaluatzaileei"
+
+msgid "submission.comments.subject"
+msgstr "Gaia"
+
+msgid "submission.complete"
+msgstr "Bukatuta"
+
+msgid "submission.contributors"
+msgstr "Egileen zerrenda"
+
+msgid "submission.copyedited"
+msgstr "Zuzendua"
+
+msgid "submission.copyediting"
+msgstr "Zuzenketa"
+
+msgid "submission.queryNoteFiles"
+msgstr "Eztabaidarako fitxategiak"
+
+msgid "submission.coverage"
+msgstr "Estalduraren informazioa"
+
+msgid "submission.details"
+msgstr "Bidalketaren xehetasunak"
+
+msgid "submission.done"
+msgstr "Eginda"
+
+msgid "submission.downloads"
+msgstr "Deskargak"
+
+msgid "submission.dueDate"
+msgstr "Epea"
+
+msgid "submission.due"
+msgstr "Epea"
+
+msgid "submission.editing"
+msgstr "Edizioa"
+
+msgid "submission.editMetadata"
+msgstr "Editatu metadatuak"
+
+msgid "submission.editorial"
+msgstr "Edizioa"
+
+msgid "submission.email.backToEmailLog"
+msgstr "Itzuli Mezu elektronikoen logera"
+
+msgid "submission.email.confirmClearLog"
+msgstr ""
+"Ziur zaude bidalketa honen mezu elektronikoen loga garbitu nahi duzula?"
+
+msgid "submission.email.confirmDeleteLogEntry"
+msgstr "Ziur zaude mezu elektronikoen logeko sarrera hau ezabatu nahi duzula?"
+
+msgid "submission.email.deleteLogEntry"
+msgstr "Ezabatu logeko sarrera"
+
+msgid "submission.emailLog"
+msgstr "Mezu elektronikoen loga"
+
+msgid "submission.event.participantAdded"
+msgstr ""
+"Bidalketa honi {$userFullName} ({$username}) esleitu zaio {$userGroupName} "
+"bezala."
+
+msgid "submission.event.participantRemoved"
+msgstr ""
+"\"{$userFullName}\" ({$username}) ezabatua izan da {$userGroupName}-tik."
+
+msgid "submission.event.backToEventLog"
+msgstr "Itzuli Gertaeren logera"
+
+msgid "submission.event.confirmClearLog"
+msgstr "Ziur zaude bidalketa honen gertaeren loga garbitu nahi duzula?"
+
+msgid "submission.event.confirmDeleteLogEntry"
+msgstr "Ziur zaude gertaeren logeko sarrera hau ezabatu nahi duzula?"
+
+msgid "submission.event.deleteLogEntry"
+msgstr "Ezabatu logeko sarrera"
+
+msgid "submission.event.decisionReviewerEmailSent"
+msgstr ""
+"Erabakiari buruzko mezu elektroniko bat bidali zaie {$recipientCount} "
+"ebaluatzaileei {$subject} gaiarekin."
+
+msgid "submission.event.submissionSubmitted"
+msgstr "Hasierako bidalketa burutua."
+
+msgid "submission.event.copyrightAgreed"
+msgstr ""
+"{$filename} ({$username})-k onartu ditu bidalketaren egile-eskubideen "
+"baldintzak."
+
+msgid "submission.event.fileRevised"
+msgstr "\"{$filename}\" berrikuspena igo da {$submissionFileId} fitxategirako."
+
+msgid "submission.event.general.metadataUpdated"
+msgstr "Bidalketaren metadatuak eguneratu"
+
+msgid "submission.event.general.suppFileUpdated"
+msgstr "Bidalketa-fitxategia eguneratuta"
+
+msgid "submission.event.reviewer.reviewAcceptedByProxy"
+msgstr "Ebaluazioa egitea ordezkari bidez onartu"
+
+msgid "submission.event.reviewer.reviewAccepted"
+msgstr "Ebaluazioa egitea onartu"
+
+msgid "submission.event.reviewer.reviewDeclined"
+msgstr "Ebaluazioa egitea ez da onartu"
+
+msgid "submission.event.reviewer.reviewDueDate"
+msgstr "Ebaluazioaren mugaeguna aldatu"
+
+msgid "submission.event.reviewer.reviewerAssigned"
+msgstr "Ebaluatzailea izendatu"
+
+msgid "submission.event.reviewer.reviewerRated"
+msgstr "Ebaluatzailearen kalifikazioa bidali"
+
+msgid "submission.event.reviewer.reviewerUnassigned"
+msgstr "Ebaluatzailea kendu"
+
+msgid "submission.event.reviewer.reviewFile"
+msgstr "Ebaluazio-fitxategia eguneratu"
+
+msgid "submission.event.reviewer.reviewInitiated"
+msgstr "Ebaluazioa hasi"
+
+msgid "submission.event.reviewer.reviewRecommendation"
+msgstr "Ebaluazioko gomendioen fitxategia"
+
+msgid "submission.event.reviewer.reviewReinitiated"
+msgstr "Ebaluazioa berriro hasi"
+
+msgid "submission.event.reviewer.reviewResubmitted"
+msgstr "Ebaluazioa berriro bidali"
+
+msgid "submission.event.reviewer.reviewRevision"
+msgstr "Ebaluatzailearen aldaketen fitxategia eguneratu"
+
+msgid "submission.event.reviewer.reviewerReminded"
+msgstr ""
+"{$senderName}-k gogorarazpen bat bidali dio {$recipientName}-ri bere "
+"berrikuspenaren esleipenari buruz"
+
+msgid "submission.event.reviewer.reviewerRemindedAuto"
+msgstr ""
+"{$recipientName} erabiltzaileari bere berrikuspenaren esleipenari buruzko "
+"gogorarazpen-mezu elektroniko automatiko bat bidali zaio"
+
+msgid "submission.event.subjectPrefix"
+msgstr "Mezu elektronikoa bidali da:"
+
+msgid "submission.event.viewEmail"
+msgstr "Ikusi mezu elektronikoa"
+
+msgid "submission.event.addedStageToAllowedAuthorMetadataChange"
+msgstr ""
+"Egileek metadatuak editatu ditzakete orain bidalketa {stage} fasean "
+"dagoenean."
+
+msgid "submission.event.removedStageToAllowedAuthorMetadataChange"
+msgstr ""
+"Egileek metadatuak ezin dituzte editatu bidalketa {stage} fasean dagoenean."
+
+msgid "submission.files"
+msgstr "Fitxategiak"
+
+msgid "submission.files.downloadAll"
+msgstr "Fitxategi guztiak jaitsi"
+
+msgid "submission.file.notAllowedUploaderUserId"
+msgstr ""
+"Fitxategi igotzailearen erregistroa fitxategia sortzen denean gordetzen da "
+"eta ezin da aldatu."
+
+msgid "submission.firstPublished"
+msgstr "Lehen argitalpena"
+
+msgid "submission.forTheEditors"
+msgstr "Editoreentzat"
+
+msgid "submission.galley"
+msgstr "Galerada"
+
+msgid "submission.history.clearLog"
+msgstr "Garbitu loga"
+
+msgid "submission.history"
+msgstr "Historia"
+
+msgid "submission.history.noLogEntries"
+msgstr "Ez dago sarrerarik logean."
+
+msgid "submission.history.recentLogEntries"
+msgstr "Azken sarrerak"
+
+msgid "submission.history.submissionEmailLog"
+msgstr "Mezu elektronikoen loga"
+
+msgid "submission.history.submissionEventLog"
+msgstr "Gertaeren loga"
+
+msgid "submission.history.submissionNotes"
+msgstr "Bidalketaren oharrak"
+
+msgid "submission.history.viewLog"
+msgstr "Ikusi loga"
+
+msgid "submission.howToCite"
+msgstr "Aipuak nola egin"
+
+msgid "submission.howToCite.citationFormats"
+msgstr "Aipuak egiteko formatu gehiago"
+
+msgid "submission.howToCite.downloadCitation"
+msgstr "Aipua deskargatu"
+
+msgid "submission.initiated"
+msgstr "Hasita"
+
+msgid "submission.updatedOn"
+msgstr "{$datePublished} — Eguneratuta: {$dateUpdated}"
+
+msgid "submission.versions"
+msgstr "Bertsioak"
+
+msgid "submission.versionIdentity"
+msgstr "{$datePublished} ({$version})"
+
+msgid "submission.outdatedVersion"
+msgstr ""
+"{$datePublished}(e)an argitaratutako bertsio zaharra da hau. Jo <a href=\""
+"{$urlRecentVersion}\">bertsio berrienera</a>."
+
+msgid "submission.identifiers"
+msgstr "Identifikatzaileak"
+
+msgid "submission.publisherId"
+msgstr "Argitaletxearen IDa"
+
+msgid "submission.publisherId.description"
+msgstr ""
+"Argitaratzailearen IDa kanpoko datu-base bateko IDa erregistratzeko erabil "
+"daiteke. Adibidez, PubMed-era gordailurako esportatutako elementuek "
+"argitaratzailearen IDa izan dezakete. Hori ez da DOIetarako erabili behar."
+
+msgid "submission.publisherId.enable"
+msgstr "Gaitu {$objects}-entzat"
+
+msgid "submission.informationCenter.submissionInfo"
+msgstr "Bidalketaren informazioa"
+
+msgid "submission.informationCenter.metadata"
+msgstr "Metadatuak"
+
+msgid "submission.informationCenter.notes"
+msgstr "Oharrak"
+
+msgid "submission.informationCenter.history"
+msgstr "Historia"
+
+msgid "submission.informationCenter.history.allEvents"
+msgstr "Erakutsi aurreko bertsioetako gertaerak"
+
+msgid "submission.stageParticipants.notify"
+msgstr "Jakinarazi"
+
+msgid "submission.lastModified"
+msgstr "Azken aldaketa"
+
+msgid "submission.layout.addGalley"
+msgstr "Gehitu Maketazio-galerada bat"
+
+msgid "submission.layout.confirmDeleteGalley"
+msgstr "Ziur zaude galerada hau betiko ezabatu nahi duzula?"
+
+msgid "submission.layout.confirmDeleteGalleyImage"
+msgstr "Ziur zaude irudi hau kendu nahi duzula galeradatik?"
+
+msgid "submission.layout.deleteGalleyStylesheet"
+msgstr "Ezabatu estilo-orri hau."
+
+msgid "submission.layout.editGalley"
+msgstr "Editatu Maketazio-galerada bat"
+
+msgid "submission.layout.galleyFormat"
+msgstr "Galerada-formatua"
+
+msgid "submission.layout.galleyHTMLData"
+msgstr "HTML galerada-fitxategiak"
+
+msgid "submission.layout.galleyImages"
+msgstr "Irudiak"
+
+msgid "submission.layout.galleyLabel"
+msgstr "Etiketa"
+
+msgid "submission.layout.galleyLabelInstructions"
+msgstr ""
+"Fitxategi-formatua (HTML, PDF, etab.) identifikatzeko erabiltzen da "
+"galeradaren etiketa."
+
+msgid "submission.layout.galleyLabelRequired"
+msgstr "Galerada-etiketa eman behar da."
+
+msgid "submission.layout.galleyLanguageRequired"
+msgstr "Galeradaren hizkuntza zehaztu behar da."
+
+msgid "submission.layout.galleyLocaleRequired"
+msgstr "Galeradaren locale hizkuntza-paketea zehaztu behar da."
+
+msgid "submission.layout.galleyRemoteURL"
+msgstr "Urruneko URL"
+
+msgid "submission.layout.galleyRemoteURLValid"
+msgstr "Mesedez, eman urruneko URL baliodun bat (sartu http://)."
+
+msgid "submission.layout.galleyNoImages"
+msgstr "irudirik ez"
+
+msgid "submission.layout.galleys"
+msgstr "Galeradak"
+
+msgid "submission.layout.galleyStylesheet"
+msgstr "Estilo-orriaren fitxategia"
+
+msgid "submission.layout.galleyStyle"
+msgstr "Estiloa"
+
+msgid "submission.layout.initialGalleyCreation"
+msgstr "Lehenengo galerada-sortzea"
+
+msgid "submission.layout.layoutFile"
+msgstr "Maketazio-fitxategia"
+
+msgid "submission.layout"
+msgstr "Maketazioa"
+
+msgid "submission.layout.layoutVersion"
+msgstr "Maketazio-bertsioa"
+
+msgid "submission.layout.newGalley"
+msgstr "Sortu galerada berria"
+
+msgid "submission.layout.noStyleFile"
+msgstr "Galerada honi ez zaio estilo-orriaren fitxategirik gehitu."
+
+msgid "submission.layout.viewingGalley"
+msgstr "Bidalketaren galerada ikusi"
+
+msgid "submission.layout.viewProof"
+msgstr "Ikusi Proba"
+
+msgid "submission.metadata"
+msgstr "Bidalketaren metadatuak"
+
+msgid "submission.noReviewAssignments"
+msgstr "Ebaluaziorik gabe"
+
+msgid "submission.notes.addNewNote"
+msgstr "Gehitu ohar berria"
+
+msgid "submission.notes.attachedFile"
+msgstr "Fitxategi erantsia"
+
+msgid "submission.notes.backToSubmissionNotes"
+msgstr "Itzuli Bidalketaren oharretara"
+
+msgid "submission.notes.breadcrumb"
+msgstr "Oharrak"
+
+msgid "submission.notes.clearAllNotes"
+msgstr "Garbitu ohar guztiak"
+
+msgid "submission.notes.collapseNotes"
+msgstr "Bildu oharrak"
+
+msgid "submission.notes.confirmDeleteAll"
+msgstr "Bidalketaren ohar guztiak kendu?"
+
+msgid "submission.notes.confirmDelete"
+msgstr "Bidalketaren ohar hau kendu?"
+
+msgid "submission.notes.createNewNote"
+msgstr "Sortu ohar berria"
+
+msgid "submission.notes.deleteNote"
+msgstr "Ezabatu oharra"
+
+msgid "submission.notes.editNote"
+msgstr "Editatu oharra"
+
+msgid "submission.notes.expandNotes"
+msgstr "Zabaldu oharrak"
+
+msgid "submission.notes.noSubmissionNotes"
+msgstr "Bidalketaren oharrik ez"
+
+msgid "submission.notes.removeUploadedFile"
+msgstr "Kendu kargatutako fitxategia"
+
+msgid "submission.notes"
+msgstr "Bidalketaren oharrak"
+
+msgid "submission.notes.updateNote"
+msgstr "Eguneratu oharra"
+
+msgid "submission.notes.viewNotes"
+msgstr "Ikusi oharrak"
+
+msgid "submission.originalFile"
+msgstr "Jatorrizko fitxategia"
+
+msgid "submission.page.editing"
+msgstr "{$id} Edizioa"
+
+msgid "submission.page.history"
+msgstr "{$id} Historia"
+
+msgid "submission.page.review"
+msgstr "{$id} Ebaluazioa"
+
+msgid "submission.page.summary"
+msgstr "{$id} Sumarioa"
+
+msgid "submission.page.citations"
+msgstr "#{$id} aipuak"
+
+msgid "submission.peerReview"
+msgstr "Adituen ebaluazioa"
+
+msgid "submission.production"
+msgstr "Ekoizpena"
+
+msgid "submission.recommendation"
+msgstr "Gomendioa: {$recommendation}"
+
+msgid "submission.rejected"
+msgstr "Ezetsia"
+
+msgid "submission.request"
+msgstr "Eskatu"
+
+msgid "submission.response"
+msgstr "Erantzuna"
+
+msgid "submission.restrictions"
+msgstr "Murrizketak"
+
+msgid "submission.reviewMetadata"
+msgstr "Berrikusi metadatuak"
+
+msgid "submission.review"
+msgstr "Ebaluazioa"
+
+msgid "submission.reviewAndSubmit"
+msgstr "Ebaluatu eta bidali"
+
+msgid "submission.reviewed"
+msgstr "Berrikusia"
+
+msgid "submission.reviewVersion"
+msgstr "Ebaluazio-bertsioa"
+
+msgid "submission.rights"
+msgstr "Eskubideak"
+
+msgid "submissions.active"
+msgstr "Aktibo"
+
+msgid "submissions.archived"
+msgstr "Artxibatuta"
+
+msgid "submission.saveMetadata"
+msgstr "Gorde metadatuak"
+
+msgid "submissions.completed"
+msgstr "Bukatuta"
+
+msgid "submissions.declined"
+msgstr "Ez da onartu"
+
+msgid "submissions.incomplete"
+msgstr "Osatu gabe"
+
+msgid "submissions.noSubmissions"
+msgstr "Bidalketarik ez"
+
+msgid "submissions.queuedEditing"
+msgstr "Editatzen"
+
+msgid "submissions.queued"
+msgstr "Ilaran"
+
+msgid "submissions.queuedUnassigned"
+msgstr "Bidalketa honek ez dauka editorerik esleituta."
+
+msgid "submissions.ruling"
+msgstr "Ebazpena"
+
+msgid "submission.source"
+msgstr "Iturria"
+
+msgid "submissions.submit"
+msgstr "Bidali"
+
+msgid "submissions.submitted"
+msgstr "Bidalita"
+
+msgid "submission.submission"
+msgstr "Bidalketa"
+
+msgid "submission.submissionTitle"
+msgstr "Bidalketaren izenburua:"
+
+msgid "submission.start"
+msgstr "Hasi"
+
+msgid "submission.submissionHistory"
+msgstr "Bidalketaren historia"
+
+msgid "submission.submissionManuscript"
+msgstr "Bidalketaren eskuizkribua"
+
+msgid "submission.submissionReview"
+msgstr "Bidalketaren ebaluazioa"
+
+msgid "submission.submitter"
+msgstr "Bidaltzailea"
+
+msgid "submission.submit.selectFile"
+msgstr "Fitxategia aukeratu"
+
+msgid "submission.submit.fileInformation"
+msgstr "Fitxategiaren informazioa"
+
+msgid "submission.submit.fileAdded"
+msgstr "Fitxategi erantsia"
+
+msgid "submission.submit.includeInBrowse"
+msgstr ""
+"Sartu kolaboratzaile hau argitalpenen zerrendetan egileak "
+"identifikatzerakoan."
+
+msgid "submission.submit.includeInBrowse.title"
+msgstr "Argitalpen zerrendak"
+
+msgid "submission.submit.newFile"
+msgstr "Bidali beste fitxategi bat"
+
+msgid "submission.submit.metadataForm"
+msgstr "Hobekuntza gehigarriak"
+
+msgid "submission.submit.submissionLocale"
+msgstr "Bidalketaren hizkuntza"
+
+msgid "submission.submit.submissionLocaleDescription"
+msgstr "Hautatu bidalketaren hizkuntza nagusia."
+
+msgid "submission.submit.submissionFiles"
+msgstr "Bidalketa-fitxategiak"
+
+msgid "submission.submit.dependentFiles"
+msgstr "Menpeko fitxategiak"
+
+msgid "submission.manageDependentFiles"
+msgstr "Kudeatu menpeko fitxategiak"
+
+msgid "submission.upload.instructions"
+msgstr ""
+"Igo erredakzio-taldeak zure bidalketa berrikusteko behar dituen fitxategi "
+"guztiak."
+
+msgid "submission.upload.percentComplete"
+msgstr "Kargaren %{$percent} burutua"
+
+msgid "submission.upload.dependent"
+msgstr "Igo menpeko fitxategi bat"
+
+msgid "submission.upload.query"
+msgstr "Igo eztabaidarako fitxategi bat"
+
+msgid "submission.summary"
+msgstr "Laburpena"
+
+msgid "submission.supportingAgencies"
+msgstr "Agentzia babesleak"
+
+msgid "submission.currentAgencies"
+msgstr "Uneko agentziak"
+
+msgid "submission.indexingInformation"
+msgstr "Indexatze-informazioa"
+
+msgid "submission.titleAndAbstract"
+msgstr "Titulua eta laburpena"
+
+msgid "submission.underway"
+msgstr "Lanean"
+
+msgid "submission.uploadFileTo"
+msgstr "Kargatu fitxategia hona"
+
+msgid "submission.createRemote"
+msgstr "Sortu urrunekoa"
+
+msgid "submission.viewMetadata"
+msgstr "Ikusi metadatuak"
+
+msgid "submission.views"
+msgstr "Ikuspegiak"
+
+msgid "submission.uploadSuccessful"
+msgstr ""
+"Fitxategia kargatu da. Sakatu jarraitu fitxategiaren metadatuak editatzeko."
+
+msgid "submission.loadMessage"
+msgstr "Itxaron fitxategia zerbitzarian kargatu arte."
+
+msgid "submission.artworkFileDetails"
+msgstr "Artelanen Artxiboaren Xehetasunak"
+
+msgid "submission.fileDetails"
+msgstr "Fitxategiaren xehetasunak"
+
+msgid "submission.nameRequired"
+msgstr "Elementu honek izena behar du."
+
+msgid "submission.date.mmdd"
+msgstr "HH-EE"
+
+msgid "submission.date.yyyymmdd"
+msgstr "UUUU-HH-EE"
+
+msgid "submission.submit.contributorRole"
+msgstr "Kolaboratzailearen rola"
+
+msgid "submission.submit.addAuthor"
+msgstr "Gehitu kolaboratzailea"
+
+msgid "submission.submit.form.languagesRequired"
+msgstr "Sartu hizkuntza bat."
+
+msgid "submission.submit.form.subjectsRequired"
+msgstr "Sartu gai bat."
+
+msgid "submission.submit.form.disciplinesRequired"
+msgstr "Sartu diziplina bat."
+
+msgid "submission.submit.form.keywordsRequired"
+msgstr "Sartu hitz-gako bat."
+
+msgid "submission.submit.form.coverageRequired"
+msgstr "Sartu estalduraren informazioa."
+
+msgid "submission.submit.form.typeRequired"
+msgstr "Sartu mota."
+
+msgid "submission.submit.form.sourceRequired"
+msgstr "Sartu iturria."
+
+msgid "submission.submit.form.rightsRequired"
+msgstr "Sartu eskubideak."
+
+msgid "submission.submit.form.citationsRequired"
+msgstr "Sartu erreferentziak."
+
+msgid "submission.submit.form.dataAvailabilityRequired"
+msgstr "Sartu datuen erabilgarritasun adierazpena."
+
+msgid "submission.form.name"
+msgstr "Eman fitxategi honi izen erabilgarri bat"
+
+msgid "submission.form.replaceExisting"
+msgstr "Ordeztu jada badagoen fitxategi bat?"
+
+msgid "workflow.review.internalReview"
+msgstr "Barneko berrikuspena"
+
+msgid "workflow.stage.any"
+msgstr "Edozein fase"
+
+msgid "workflow.stage"
+msgstr "Fasea"
+
+msgid "submission.status.editorial"
+msgstr "Zuzentzen"
+
+msgid "submission.status.production"
+msgstr "Zuzenketa-probetan"
+
+msgid "submission.status.review"
+msgstr "Berrikusten"
+
+msgid "submission.status.submission"
+msgstr "Editorearen erabakiaren zain"
+
+msgid "submission.status.unassigned"
+msgstr "Esleitu gabe"
+
+msgid "submission.status.declined"
+msgstr "Ez da onartu"
+
+msgid "submission.status.published"
+msgstr "Argitaratuta"
+
+msgid "submission.submit.uploadStep"
+msgstr "1. Igo fitxategia"
+
+msgid "submission.submit.uploadSubmissionFile"
+msgstr "Igo bidalketaren fitxategia"
+
+msgid "submission.submit.metadataStep"
+msgstr "2. Berrikuspenaren xehetasunak"
+
+msgid "submission.submit.finishingUpStep"
+msgstr "3. Amaitu"
+
+msgid "submission.submit.fileNameRequired"
+msgstr "Fitxategi honentzat izena sartu behar duzu"
+
+msgid "submission.upload.noGenre"
+msgstr "Osagaia falta da edo baliogabea da!"
+
+msgid "submission.upload.invalidUserGroup"
+msgstr "Erabiltzaile-taldea falta da edo baliogabea da!"
+
+msgid "submission.upload.possibleRevision"
+msgstr "Bikoiztasun edo berrikuspen posiblea detektatu da"
+
+msgid "submission.upload.possibleRevisionDescription"
+msgstr ""
+"Kargatutako fitxategiaren izena aurretik kargatutako fitxategi baten "
+"izenaren antzekoa da, \"{$revisedFileName}\". Fitxategi hau \""
+"{$revisedFileName}\" ordezkatzeko pentsatuta dago? Hala bada, hautatu beheko "
+"fitxategia. Bestela, hautatu \"Hau ez da lehendik dagoen fitxategi baten "
+"berrikuspena\" jarraitu aurretik."
+
+msgid "submission.upload.selectMandatoryFileToRevise"
+msgstr "Hautatu berrikusi nahi duzun fitxategia."
+
+msgid "submission.upload.selectOptionalFileToRevise"
+msgstr ""
+"Lehendik dagoen fitxategi baten berrikuspena igotzen ari bazara, adierazi "
+"zein fitxategi den."
+
+msgid "submission.upload.uploadNewFile"
+msgstr "Hau ez da lehendik dagoen fitxategi baten berrikuspena"
+
+msgid "submission.upload.userGroup"
+msgstr "Igo fitxategi hau nire rolean..."
+
+msgid "submission.upload.userGroupDescription"
+msgstr ""
+"Editatutako bolumen bat bidaltzen ari bazara, bolumenaren kapitulu guztiak "
+"banan-banan igo beharko zenituzke, bolumen-editore gisa duzun rolarekin."
+
+msgid "submission.upload.uploadLibraryFile"
+msgstr "Igo liburutegiko fitxategi bat"
+
+msgid "submission.upload.libraryCategory"
+msgstr "Bidalketa dokumentuaren kategoria"
+
+msgid "submission.upload.finalDraft"
+msgstr "Fitxategia igo"
+
+msgid "submission.upload.copyeditedVersion"
+msgstr "Igo editatutako fitxategia"
+
+msgid "submission.upload.uploadFiles"
+msgstr "Fitxategiak igo"
+
+msgid "submission.upload.response.description"
+msgstr ""
+"Esleitutako fitxategia berrikusi ondoren, idatzi iruzkinak beheko "
+"fitxategian edo igo fitxategiaren (edo beste fitxategi baten) kopia "
+"iruzkinekin."
+
+msgid "submission.upload.productionReady"
+msgstr "Igo ekoizpenerako prest dagoen fitxategi bat"
+
+msgid "submission.upload.proof"
+msgstr "Igo argitaratzeko prest dagoen fitxategi bat"
+
+msgid "submission.upload.noAvailableReviewFiles"
+msgstr "Ez dago berrikusi beharreko fitxategirik une honetan."
+
+msgid "editor.submission.roundStatus.revisionsRequested"
+msgstr "Berrikuspenak eskatu dira."
+
+msgid "editor.submission.roundStatus.revisionsSubmitted"
+msgstr "Zuzenketak aurkeztu dira eta erabaki bat behar da."
+
+msgid "editor.submission.roundStatus.resubmitForReview"
+msgstr ""
+"Egileari eskatutako berrikuspenak berrikuspen-erronda berri batera eramango "
+"dira."
+
+msgid "editor.submission.roundStatus.submissionResubmitted"
+msgstr ""
+"Berrikuspenak bidali dira. Berrikuspen-erronda berri bat sortu behar da."
+
+msgid "editor.submission.roundStatus.sentToExternal"
+msgstr "Kanpoko berrikuspenerako bidalia."
+
+msgid "editor.submission.roundStatus.accepted"
+msgstr "Bidalketa onartu da."
+
+msgid "editor.submission.roundStatus.declined"
+msgstr "Bidalketa ukatua."
+
+msgid "editor.submission.roundStatus.pendingReviewers"
+msgstr "Ebaluatzaileak esleitzeko zain."
+
+msgid "editor.submission.roundStatus.pendingReviews"
+msgstr "Ebaluatzaileen erantzunen zain."
+
+msgid "editor.submission.roundStatus.reviewsReady"
+msgstr "Ebaluazio berriak aurkeztu dira."
+
+msgid "editor.submission.roundStatus.reviewsCompleted"
+msgstr "Berrikuspen guztiak baieztatuta daude eta erabaki bat hartu behar da."
+
+msgid "editor.submission.roundStatus.reviewOverdue"
+msgstr "Berrikuspen bat amaitu da."
+
+msgid "editor.submission.roundStatus.pendingRecommendations"
+msgstr "Editoreen gomendioen zain."
+
+msgid "editor.submission.roundStatus.recommendationsReady"
+msgstr "Argitalpen-gomendio berriak aurkeztu dira."
+
+msgid "editor.submission.roundStatus.recommendationsCompleted"
+msgstr "Gomendio guztiak aurkeztu dira, erabakia bidali behar da."
+
+msgid "editor.submission.status.inactiveDaysInStage"
+msgstr "{$days} egun baino gehiagoz inaktibo {$stage} fasean."
+
+msgid "editor.submission.status.waitingInitialReview"
+msgstr "Bidalketa berri bat berrikusteko edo ukatzeko zain dago."
+
+msgid "editor.submission.stageParticipants"
+msgstr "Parte-hartzaileak"
+
+msgid "editor.submission.noneAssigned"
+msgstr "Ez dago esleituta"
+
+msgid "editor.submission.participant"
+msgstr "Parte-hartzailea"
+
+msgid "editor.submission.addStageParticipant"
+msgstr "Esleitu parte-hartzailea"
+
+msgid "editor.submission.editStageParticipant"
+msgstr "Editatu esleipena"
+
+msgid "editor.submission.addStageParticipant.userGroup"
+msgstr ""
+"Erabiltzaileak lan-fluxuaren faseetara esleitzen dira erabiltzaile-taldearen "
+"arabera. Fase honetan esleitutako edozein erabiltzaile automatikoki "
+"esleituko da bere erabiltzaile-taldea esleitu den beste fase batzuetara. Hau "
+"normalean editore, egile eta itzultzaileentzat gordeta dago."
+
+msgid "editor.submission.removeStageParticipant"
+msgstr "Ezabatu parte-hartzailea"
+
+msgid "editor.submission.removeStageParticipant.description"
+msgstr "Parte-hartzaile hau fase <strong>guztietatik</strong> kentzear zaude."
+
+msgid "editor.submission.addStageParticipant.form.userGroupRequired"
+msgstr "Erabiltzaile-talde bat hautatu behar duzu."
+
+msgid "editor.submission.addStageParticipant.form.userRequired"
+msgstr "Erabiltzaile bat hautatu behar duzu zehaztutako erabiltzaile-talderako."
+
+msgid "editor.submission.addStageParticipant.form.reviewerWarning"
+msgstr ""
+"Hautatu duzun parte-hartzaileari berrikuspen anonimo bat esleitu zaio. Parte-"
+"hartzaile gisa esleitzen baduzu, egilearen identitaterako sarbidea izango "
+"du. Parte-hartzaile hau ez esleitzea gomendatzen dizugu, parekideen "
+"berrikuspen prozesuaren osotasuna modu independentean bermatu ezean "
+"behintzat."
+
+msgid "editor.submission.removePermissionToEdit"
+msgstr "Ez baimendu metadatuak editatzea"
+
+msgid "editor.submission.addPermissionToEdit"
+msgstr "Baimendu metadatuak editatzea"
+
+msgid "editor.submission.removePermissionToEditDescription"
+msgstr ""
+"Ziur zaude bidalketa honen egileak bidalketaren metadatuak fase horretan "
+"editatzeko gai ez izatea nahi duzula?"
+
+msgid "editor.submission.addPermissionToEditDescription"
+msgstr ""
+"Ziur zaude bidalketa honen egileak bidalketaren metadatuak fase horretan "
+"editatzeko gai izatea nahi duzula?"
+
+msgid "editor.submission.decision"
+msgstr "Erabakia"
+
+msgid "editor.submission.decision.notifyAuthors"
+msgstr "Jakinarazi egileei"
+
+msgid "editor.submission.decision.notifyReviewers"
+msgstr "Jakinarazi ebaluatzaileak"
+
+msgid "editor.submission.decision.notifyReviewers.description"
+msgstr ""
+"Bidali mezu elektroniko bat ebaluatzaileei beren berrikuspenagatik eskerrak "
+"emateko eta erabakia hartu dela jakinarazteko. Ebaluatzaile bakoitzari mezu "
+"elektroniko bana bidaliko zaio haien anonimotasuna babesteko. "
+"{$recipientName} esaldia erabil daiteke mezuan ebaluatzaile bakoitzaren "
+"izena segurtasunez sartzeko."
+
+msgid ""
+"editor.submission.decision.reviewerUnassigned.notifyReviewers.description"
+msgstr ""
+"Bidali mezu elektroniko bat esleitutako ebaluatzaileei, beren berrikuspen-"
+"esleipena bertan behera utzi dela jakinarazteko."
+
+msgid "editor.submission.decision.accept"
+msgstr "Onartu bidalketa"
+
+msgid "editor.submission.decision.accept.description"
+msgstr "Bidalketa hau argitaratzeko onartuko da eta edizio fasera bidaliko da."
+
+msgid "editor.submission.decision.accept.log"
+msgstr "{$editorName}-ek bidalketa hau onartu eta edizio-fasera bidali du."
+
+msgid "editor.submission.decision.accept.completed"
+msgstr "Bidalketa onartua"
+
+msgid "editor.submission.decision.accept.completedDescription"
+msgstr ""
+"Bidalketa, {$title}, argitaratzeko onartu da eta edizio-fasera bidali da. "
+"Jakinarazpen guztiak bidali dira, saltatzea aukeratu dituzunak izan ezik."
+
+msgid "editor.submission.decision.accept.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei, haien lana argitaratzeko onartu dela "
+"jakinarazteko. Mezu elektroniko hau ez da bidaliko erabakia erregistratu "
+"arte."
+
+msgid "editor.submission.decision.cancelReviewRound.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei berrikuspen-erronda itxi dela "
+"jakinarazteko. Mezu elektroniko hau ez da bidaliko erabakia erregistratu "
+"arte."
+
+msgid "editor.submission.decision.decline"
+msgstr "Baztertu bidalketa"
+
+msgid "editor.submission.decision.decline.description"
+msgstr ""
+"Bidalketa hau argitaratzeko baztertua izango da. Pareen berrikuspen-fasea "
+"itxiko da eta bidalketa artxibatu egingo da."
+
+msgid "editor.submission.decision.decline.log"
+msgstr "{$editorName}-ek bidalketa atzera bota du."
+
+msgid "editor.submission.decision.decline.completed"
+msgstr "Bidalketa ez da onartu"
+
+msgid "editor.submission.decision.decline.completed.description"
+msgstr ""
+"Bidalketa, {$title}, baztertu eta artxibora bidali da. Jakinarazpen guztiak "
+"bidali dira, saltatzea aukeratu dituzunak izan ezik."
+
+msgid "editor.submission.decision.decline.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei beren bidalketa ukatu egin dela "
+"jakinarazteko. Mezu elektroniko hau ez da bidaliko erabakia erregistratu "
+"arte."
+
+msgid "editor.submission.decision.initialDecline.description"
+msgstr ""
+"Bidalketa hau argitaratzeko baztertua izango da. Ez da berrikuspen gehiago "
+"egingo eta bidalketa artxibatu egingo da."
+
+msgid "editor.submission.decision.newReviewRound"
+msgstr "Ebaluazio-txanda berria"
+
+msgid "editor.submission.decision.newReviewRound.description"
+msgstr "Ireki beste berrikuspen-erronda bat bidalketa honetarako."
+
+msgid "editor.submission.decision.newReviewRound.log"
+msgstr ""
+"{$editorName}-ek berrikuspen-erronda berri bat sortu du bidalketa honetarako."
+
+msgid "editor.submission.decision.newReviewRound.completed"
+msgstr "Berrikuspen-erronda sortua"
+
+msgid "editor.submission.decision.newReviewRound.completedDescription"
+msgstr ""
+"Berrikuspen-erronda berri bat sortu da {$title} bidalketarako. Egileari "
+"jakinarazi zaio, mezu elektroniko hori saltatzea aukeratu ez baduzu "
+"behintzat."
+
+msgid "editor.submission.decision.newReviewRound.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei, jakinarazteko bidalketa berrikuspen-"
+"txanda berri batera bidali dela. Mezu elektroniko hau ez da bidaliko "
+"erabakia erregistratu arte."
+
+msgid "editor.submission.decision.promoteFiles.copyediting"
+msgstr "Hautatu zuzenketa-fasera bidali behar diren fitxategiak."
+
+msgid "editor.submission.decision.promoteFiles.review"
+msgstr "Hautatu berrikusteko bidali behar diren fitxategiak."
+
+msgid "editor.submission.decision.promoteFiles.production"
+msgstr "Hautatu ekoizpen-fasera bidali behar diren fitxategiak."
+
+msgid "editor.submission.decision.requestRevisions"
+msgstr "Eskatu berrikuspenak"
+
+msgid "editor.submission.decision.requestRevisions.description"
+msgstr ""
+"Egileak zuzenketak egin behar ditu bidalketa hau argitaratzeko onartu "
+"aurretik."
+
+msgid "editor.submission.decision.requestRevisions.log"
+msgstr "{$editorName}-ek zuzenketak eskatu ditu bidalketa honetarako."
+
+msgid "editor.submission.decision.requestRevisions.completed"
+msgstr "Berrikuspenak eskatuta"
+
+msgid "editor.submission.decision.requestRevisions.completed.description"
+msgstr ""
+"{$title} bidalketaren zuzenketak eskatu dira. Jakinarazpen guztiak bidali "
+"dira, saltatzea aukeratu duzuna izan ezik."
+
+msgid "editor.submission.decision.requestRevisions.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei, jakinarazteko bidalketa hau "
+"argitaratzeko onartu aurretik berrikuspenak egin beharko direla. Sartu "
+"egileak bere bidalketa berrikusteko behar dituen xehetasun guztiak. "
+"Dagokionean, gogoratu ebaluatzaileen iruzkinak anonimizatu behar dituzula. "
+"Mezu elektroniko hau ez da bidaliko erabakia erregistratu arte."
+
+msgid "editor.submission.decision.cancelReviewRound"
+msgstr "Ezeztatu berrikuspen-erronda"
+
+msgid "editor.submission.decision.cancelReviewRound.description"
+msgstr ""
+"Utzi uneko berrikuspen-erronda eta bidali bidalketa azken berrikuspen-"
+"errondara. Lehenengo berrikuspen-txanda bada, bidalketa-fasera bidaliko da "
+"berriro."
+
+msgid "editor.submission.decision.cancelReviewRound.log"
+msgstr "{$editorName}-ek berrikuspen-erronda bertan behera utzi du."
+
+msgid "editor.submission.decision.cancelReviewRound.completed"
+msgstr "Azken berrikuspen-erronda bertan behera utzi da."
+
+msgid "editor.submission.decision.cancelReviewRound.completed.description"
+msgstr ""
+"{$title} bidalketaren berrikuspen-erronda bertan behera utzi da. "
+"Jakinarazpen guztiak bidali dira, saltatzea aukeratu duzuna izan ezik."
+
+msgid "editor.submission.decision.cancelReviewRound.restriction"
+msgstr ""
+"Berrikuspen-erronda bertan behera utz daiteke, baldin eta lotutako "
+"ebaluatzaile bakar batek ere ez badu amaitutako edo bidalitako berrikuspenik."
+
+msgid "editor.submission.decision.resubmit"
+msgstr "Birbidali berrikustera"
+
+msgid "editor.submission.decision.resubmit.description"
+msgstr ""
+"Egileak berrikuspenak eman behar ditu, eta hauek beste berrikuspen-erronda "
+"batera bidaliko dira bidalketa hau argitaratzeko onartu aurretik."
+
+msgid "editor.submission.decision.resubmit.log"
+msgstr ""
+"{$editorName}-ek bidalketa honetarako berrikuspenak eskatu ditu, eta horiek "
+"beste berrikuspen-erronda batera bidali beharko lirateke."
+
+msgid "editor.submission.decision.resubmit.completed"
+msgstr "Eskatutako berrikuspenak"
+
+msgid "editor.submission.decision.resubmit.completed.description"
+msgstr ""
+"{$title} bidalketaren berrikuspenak eskatu dira. Berrikuspen-erronda berri "
+"baterako berrikuspenak bidaltzeko erabakia erregistratu da. Jakinarazpen "
+"guztiak bidali dira, saltatzea aukeratu dituzunak izan ezik."
+
+msgid "editor.submission.decision.resubmit.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei, berrikuspenak osatu eta beste "
+"berrikuspen-erronda batera bidali beharko direla jakinarazteko. Sartu "
+"egileak bere bidalketa berrikusteko behar dituen xehetasun guztiak. "
+"Dagokionean, gogoratu ebaluatzailearen iruzkinak anonimizatu behar dituzula."
+
+msgid "editor.submission.decision.sendExternalReview"
+msgstr "Bidali berrikustera"
+
+msgid "editor.submission.decision.sendExternalReview.description"
+msgstr "Bidalketa hau pareen berrikuspenera bidaltzeko prest dago."
+
+msgid "editor.submission.decision.sendExternalReview.log"
+msgstr "{$editorName}-ek bidalketa hau berrikuspen-fasera bidali du."
+
+msgid "editor.submission.decision.sendExternalReview.completed"
+msgstr "Berrikustera bidalia"
+
+msgid "editor.submission.decision.sendExternalReview.completed.description"
+msgstr ""
+"{$title} bidalketa berrikuspen-fasera bidali da. Egileari jakinarazi zaio, "
+"mezu elektroniko hori saltatzea aukeratu ez baduzu behintzat."
+
+msgid "editor.submission.decision.newRound"
+msgstr "Ebaluazio-txanda berria"
+
+msgid "editor.submission.decision.sendToProduction"
+msgstr "Ekoizpenera bidalia"
+
+msgid "editor.submission.decision.sendToProduction.description"
+msgstr "Bidali bidalketa hau ekoizpen-fasera argitaratzeko prestatzeko."
+
+msgid "editor.submission.decision.sendToProduction.log"
+msgstr "{$editorName}-ek bidalketa hau ekoizpen-fasera bidali du."
+
+msgid "editor.submission.decision.sendToProduction.completed"
+msgstr "Ekoizpenera bidalia"
+
+msgid "editor.submission.decision.sendToProduction.completed.description"
+msgstr ""
+"{$title} bidalketa ekoizpen-fasera bidali da. Egileari jakinarazi zaio, mezu "
+"elektroniko hori saltatzea aukeratu ez baduzu behintzat."
+
+msgid "editor.submission.decision.sendToProduction.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei bidalketa hau ekoizpen-fasera bidali "
+"dela jakinarazteko. Mezu elektroniko hau ez da bidaliko erabakia "
+"erregistratu arte."
+
+msgid "editor.submission.decision.backFromCopyediting"
+msgstr "Ezeztatu edizioa"
+
+msgid "editor.submission.decision.backFromCopyediting.description"
+msgstr "Bidalketa hau argitaratzeko onartuko da eta ediziora bidaliko da."
+
+msgid "editor.submission.decision.backFromCopyediting.log"
+msgstr "{$editorName}-(e)k edizio fasetik atzera bidali du bidalketa hau."
+
+msgid "editor.submission.decision.backFromCopyediting.completed"
+msgstr "Ediziotik atzera bueltan bidalia"
+
+msgid "editor.submission.decision.backFromCopyediting.completed.description"
+msgstr ""
+"{$title} bidalketa edizio-fasetik atzera itzuli da. Egileari jakinarazi "
+"zaio, mezu elektroniko hori saltatzea aukeratu ez baduzu behintzat."
+
+msgid "editor.submission.decision.backFromCopyediting.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei jakinarazteko edizioa bertan behera utzi "
+"dela eta euren bidalketak berrikuspen editorial gehiago jasango duela."
+
+msgid "editor.submission.decision.backToCopyediting"
+msgstr "Ediziora itzuli"
+
+msgid "editor.submission.decision.backToCopyediting.description"
+msgstr "Bidali bidalketa hau edizio-fasera berriro."
+
+msgid "editor.submission.decision.backToCopyediting.log"
+msgstr "{$editorName}-ek bidalketa hau edizio-fasera bidali du berriro."
+
+msgid "editor.submission.decision.backToCopyediting.completed"
+msgstr "Ediziora itzulia"
+
+msgid "editor.submission.decision.backToCopyediting.completed.description"
+msgstr ""
+"{$title} bidalketa edizio-fasera itzuli da. Egileari jakinarazi zaio, mezu "
+"elektroniko hori saltatzea erabaki ez baduzu behintzat."
+
+msgid "editor.submission.decision.backToCopyediting.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei bidalketa hau edizio-fasera itzuli dela "
+"jakinarazteko. Azaldu zergatik hartu den erabaki hau eta jakinarazi egileari "
+"bidalketa hau ekoizpenerako prest egoteko zer zuzenketa egin beharko diren."
+
+msgid "editor.submission.decision.skipReview"
+msgstr "Onartu eta ebaluazioa saihestu"
+
+msgid "editor.submission.decision.skipReview.description"
+msgstr ""
+"Onartu bidalketa hau argitaratzeko eta saltatu berrikuspen-fasea. Erabaki "
+"honek bidalketa edizio-fasera bidaliko du."
+
+msgid "editor.submission.decision.skipReview.log"
+msgstr ""
+"{$editorName}-ek berrikuspen-fasea saltatu du eta bidalketa hau edizio-"
+"fasera bidali du."
+
+msgid "editor.submission.decision.skipReview.completed"
+msgstr "Berrikuspena saltatuta"
+
+msgid "editor.submission.decision.skipReview.completed.description"
+msgstr ""
+"{$title} bidalketak berrikuspen-fasea saltatu du eta edizio-fasera bidali "
+"da. Egileari jakinarazi zaio, zuk mezu elektroniko hori saltatzea aukeratu "
+"ez baduzu behintzat."
+
+msgid "editor.submission.decision.skipReview.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei, bidalketa hau argitaratzeko onartu dela "
+"eta berrikusi gabe zuzenean edizio-fasera bidali dela jakinarazteko. Mezu "
+"elektroniko hau ez da bidaliko erabakia erregistratu arte."
+
+msgid "editor.submission.decision.sendInternalReview"
+msgstr "Barne berrikuspenera bidalia"
+
+msgid "editor.submission.decision.approveProofsDescription"
+msgstr ""
+"Orrialde-proba fitxategia onartuta bezala markatu behar da eskuragarri egon "
+"dadin. Onartu nahi duzu?"
+
+msgid "editor.submission.decision.approveProofs"
+msgstr "Onartu probak"
+
+msgid "editor.submission.decision.disapproveProofsDescription"
+msgstr ""
+"Fitxategi-froga hau ez da gehiago publikoki eskuragarri egongo deskargatzeko "
+"edo erosteko. Onarpena atzera bota nahi duzu?"
+
+msgid "editor.submission.decision.revertDecline"
+msgstr "Ukoa atzera bota"
+
+msgid "editor.submission.decision.revertDecline.description"
+msgstr ""
+"Ezeztatu bidalketa hau baztertzeko aurreko erabakia eta itzuli prozesu "
+"editorial aktibora. Egileari jakinarazi zaio, mezu elektroniko hori "
+"saltatzea aukeratu ez baduzu behintzat."
+
+msgid "editor.submission.decision.revertDecline.log"
+msgstr ""
+"{$editorName}-ek bidalketa hau baztertzeko erabakia bertan behera utzi du."
+
+msgid "editor.submission.decision.revertDecline.completed"
+msgstr "Bidalketa berraktibatua"
+
+msgid "editor.submission.decision.revertDecline.completed.description"
+msgstr ""
+"{$title} bidalketa berrikuspen-fasean dagoen bidalketa aktibo bat da orain."
+
+msgid "editor.submission.decision.revertDecline.notifyAuthorsDescription"
+msgstr ""
+"Bidali mezu elektroniko bat egileei bidalketa hau baztertzeko aurreko "
+"erabakia atzera bota dela jakinarazteko. Azaldu zergatik atzera bota den "
+"erabakia eta jakinarazi bidalketak berrikuspen gehiago jasotzea espero den "
+"ala ez."
+
+msgid "editor.submission.decision.revertInitialDecline.completed.description"
+msgstr ""
+"{$title} bidalketa aktibo dago orain bidalketa-fasean. Egileari jakinarazi "
+"zaio, mezu elektroniko hori saltatzea aukeratu ez baduzu behintzat."
+
+msgid "editor.submission.decision.noDecisionsAvailable"
+msgstr "Esleitu editore bat fase honetako erabaki editorialak gaitzeko."
+
+msgid "editor.submission.recommend.notifyEditors.description"
+msgstr ""
+"Bidali mezu bat erabakitzen duten editoreei gomendioaren berri emateko. "
+"Azaldu zergatik egin den gomendio hori ebaluatzaileek egindako gomendioei "
+"eta iruzkinei erantzuteko."
+
+msgid "editor.submission.recommend.accept"
+msgstr "Gomendatu onarpena"
+
+msgid "editor.submission.recommend.accept.description"
+msgstr "Gomendatu bidalketa hau argitaratzeko onartzea eta ediziora bidaltzea."
+
+msgid "editor.submission.recommend.accept.log"
+msgstr ""
+"{$editorName}-ek gomendatu du bidalketa hau onartzea eta ediziora bidaltzea."
+
+msgid "editor.submission.recommend.completed"
+msgstr "Gomendioa bidalia"
+
+msgid "editor.submission.recommend.completed.description"
+msgstr ""
+"Zure gomendioa erregistratu da eta erabakiko duen editoreei jakinarazi zaie."
+
+msgid "editor.submission.recommend.revisions"
+msgstr "Gomendatu zuzenketak"
+
+msgid "editor.submission.recommend.revisions.description"
+msgstr ""
+"Gomendatu egileari zuzenketak eskatzea bidalketa hau argitaratzeko onartu "
+"aurretik."
+
+msgid "editor.submission.recommend.revisions.log"
+msgstr "{$editorName}-ek berrikuspenak eskatzea gomendatu du."
+
+msgid "editor.submission.recommend.resubmit"
+msgstr "Gomendatu berrikuspenerako berriz bidaltzea"
+
+msgid "editor.submission.recommend.resubmit.description"
+msgstr ""
+"Gomendatu egileari beste berrikuspen-erronda baterako berrikuspenak "
+"bidaltzeko eskatzea."
+
+msgid "editor.submission.recommend.resubmit.log"
+msgstr ""
+"{$editorName}-ek gomendatu zuen berrikuspenak eskatzea eta horiek "
+"berrikuspen-erronda berri batera bidaltzea."
+
+msgid "editor.submission.recommend.decline"
+msgstr "Gomendatu baztertzea"
+
+msgid "editor.submission.recommend.decline.description"
+msgstr "Bidalketa argitaratzeko baztertzea gomendatzen da."
+
+msgid "editor.submission.recommend.decline.log"
+msgstr "{$editorName}-ek bidalketa hau baztertzea gomendatu du."
+
+msgid "editor.submission.makeRecommendation"
+msgstr "Gomendio bat egin"
+
+msgid "editor.submission.changeRecommendation"
+msgstr "Aldatu gomendioa"
+
+msgid "editor.submission.recommendation.display"
+msgstr "Gomendioa: {$recommendation}"
+
+msgid "editor.submission.allRecommendations.display"
+msgstr "Gomendioak: {$recommendations}"
+
+msgid "editor.submission.recommendation.noDecidingEditors"
+msgstr ""
+"Ezin duzu gomendiorik egin editore bati erabakia erregistratzeko baimena "
+"esleitu arte."
+
+msgid "editor.submission.recommendation"
+msgstr "Gomendioa"
+
+msgid "editor.submission.recommendation.description"
+msgstr "Gomendatu erabaki editorial bat bidalketa honetarako."
+
+msgid "editor.submission.recordedRecommendations"
+msgstr "Erregistratutako gomendioak"
+
+msgid "submission.currentStage"
+msgstr "Uneko fasea"
+
+msgid "submission.noActionRequired"
+msgstr "Ez da ekintzarik behar"
+
+msgid "submission.actionNeeded"
+msgstr "Ekintza behar du"
+
+msgid "reviewer.submission.reviewFiles"
+msgstr "Berrikusteko fitxategiak"
+
+msgid "submission.submit.currentFile"
+msgstr "Uneko fitxategia"
+
+msgid "submission.finalDraft"
+msgstr "Zirriborro-fitxategiak"
+
+msgid "editor.submission.addAuditorError"
+msgstr "Errore bat gertatu da auditorea esleitzen saiatzean. Saiatu berriro."
+
+msgid "submission.event.fileEdited"
+msgstr "\"{$filename}\" fitxategiaren metadatuak {$username}-k editatu ditu."
+
+msgid "submission.event.fileUploaded"
+msgstr ""
+"\"{$filename}\" fitxategia {$submissionId} bidalketarako igo du {$username} "
+"erabiltzaileak."
+
+msgid "submission.event.fileDeleted"
+msgstr ""
+"\"{$filename}\" fitxategia ezabatu du {$submissionId} bidalketarako "
+"{$username} erabiltzaileak."
+
+msgid "submission.event.revisionUploaded"
+msgstr ""
+"{$username}-k \"{$filename}\" fitxategiaren berrikuspena igo du "
+"{$submissionId} bidalketarako."
+
+msgid "submission.event.revisionDeleted"
+msgstr ""
+"{$username}-ek \"{$filename}\" fitxategiaren berrikuspena ezabatu du "
+"{$submissionId} bidalketarako."
+
+msgid "submission.event.lastRevisionDeleted"
+msgstr ""
+"{$username}-ek \"{$filename}\" fitxategiaren azken berrikuspena kendu du."
+
+msgid "submission.event.fileAuditorAdded"
+msgstr ""
+"\"{$userFullName}\" ({$username}) \"{$filename}\" fitxategiaren auditore "
+"gisa gehitu da."
+
+msgid "submission.event.fileAuditorCleared"
+msgstr ""
+"\"{$userFullName}\" ({$username}) \"{$filename}\" fitxategiaren auditore "
+"gisa kendu da."
+
+msgid "submission.event.fileAuditUploaded"
+msgstr ""
+"\"{$userFullName}\" ({$username})-(e)k auditoria bat burutu eta \"{$filename}"
+"\" igo du."
+
+msgid "submission.event.signoffSignoff"
+msgstr ""
+"\"{$userFullName}\" ({$username}) erabiltzaileak \"{$filename}\" "
+"fitxategiaren saioa amaitu du."
+
+msgid "submission.event.proofsApproved"
+msgstr ""
+"\"{$userFullName}\" ({$username}) erabiltzaileak \"{$publicationFormatName}\""
+" lanaren probak onartu ditu."
+
+msgid "submission.overview"
+msgstr "Bidalketaren laburpena"
+
+msgid "submission.description"
+msgstr "Deskribapena"
+
+msgid "submission.stageNotInitiated"
+msgstr "Hasi gabeko pausoa."
+
+msgid "submission.documents"
+msgstr "Bidalketaren dokumentuak"
+
+msgid "notification.type.editorAssign"
+msgstr "\"{$title}\" bidalketaren editore gisa esleitu zaituzte."
+
+msgid "notification.type.copyeditorRequest"
+msgstr "\"{$title}\"-ren zuzenketak berrikusteko eskatu dizute."
+
+msgid "notification.type.layouteditorRequest"
+msgstr "\"{$title}\"-ren diseinuak berrikusteko eskatu dizute."
+
+msgid "notification.type.indexRequest"
+msgstr "\"{$title}\"-rentzako aurkibide bat sortzeko eskatu dizute."
+
+msgid "notification.type.editorDecisionTitle"
+msgstr "Editorearen azken erabakia."
+
+msgid "notification.type.editorDecisionAccept"
+msgstr "Bidalketa onartua."
+
+msgid "notification.type.editorDecisionExternalReview"
+msgstr "Kanpoko berrikuspen-prozesua hasi da."
+
+msgid "notification.type.editorDecisionPendingRevisions"
+msgstr "Berrikuspena beharrezkoa da."
+
+msgid "notification.type.editorDecisionResubmit"
+msgstr "Berriro bidali berrikusteko."
+
+msgid "notification.type.editorDecisionNewRound"
+msgstr "Berrikuspen-erronda berri bat hasi da."
+
+msgid "notification.type.editorDecisionDecline"
+msgstr "Bidalketa ukatua."
+
+msgid "notification.type.editorDecisionRevertDecline"
+msgstr "Baztertutako bidalketa berriro aktibatu da."
+
+msgid "notification.uploadedResponse"
+msgstr "Erantzuna igo da."
+
+msgid "notification.type.editorAssignment"
+msgstr ""
+"Editore bat esleitu behar da berrikuspena hasi aurretik. Gehitu editorea "
+"parte-hartzaileen zerrenda erabiliz."
+
+msgid "notification.type.submissionNewVersion"
+msgstr "Bidalketa baten bertsio berri bat sortu da"
+
+msgid "notification.type.revertDecline"
+msgstr "Bidalketa hau baztertzeko erabakia atzera bota da."
+
+msgid "grid.reviewAttachments.title"
+msgstr "Ebaluatzailearen fitxategi erantsiak"
+
+msgid "grid.reviewAttachments.send.title"
+msgstr "Hautatu berrikuspen-fitxategiak egilearekin edo egileekin partekatzeko"
+
+msgid "submission.productionReady"
+msgstr "Liburua eskuragarri"
+
+msgid "submission.review.uploadRevisionToRound"
+msgstr "Igo berrikusitako fitxategia"
+
+msgid "log.review.reviewerAssigned"
+msgstr ""
+"{$reviewerName} ebaluatzaileari {$submissionId} bidalketa berrikusteko "
+"ardura esleitu zaio {$round} berrikuspen-errondarako."
+
+msgid "log.review.reviewCleared"
+msgstr ""
+"{$reviewerName} ebaluatzailearen {$submissionId} artikuluaren {$round}. "
+"ebaluazio-buelta ezabatu egin da."
+
+msgid "log.review.reviewUnconsidered"
+msgstr ""
+"{$editorName}-ek {$submissionId} bidalketaren {$round} errondako "
+"berrikuspena aintzat hartu gabekotzat markatu du."
+
+msgid "log.review.reviewReinstated"
+msgstr ""
+"{$reviewerName} berriro hasi da {$submissionId} artikulua {$round}. bueltan "
+"ebaluatzen."
+
+msgid "log.review.reviewerResendRequest"
+msgstr ""
+"Birbidali {$round} errondan {$submissionid} bidalketa berrikusteko eskaera "
+"{$reviewerName}-ri."
+
+msgid "log.review.reviewConfirmed"
+msgstr ""
+"{$editorName} editoreak baieztatu du {$submissionId} lanaren berrikuspena "
+"{$round} berrikuspen-errondarako."
+
+msgid "log.review.reviewReady"
+msgstr ""
+"{$reviewerName}-ek amaitu du berrikuspena {$submissionId} bidalketaren "
+"{$round} berrikuspen-errondarako."
+
+msgid "submission.review.status.awaitingResponse"
+msgstr "Ebaluatzailearen erantzunaren zain."
+
+msgid "submission.review.status.declined"
+msgstr "Ebaluatzaileak berrikuspen-eskaera hau ukatu du."
+
+msgid "submission.review.status.responseOverdue"
+msgstr "Ebaluatzaileak erantzuteko epea gainditu du."
+
+msgid "submission.review.status.reviewOverdue"
+msgstr "Ebaluatzaileak berrikusteko epea gainditu du."
+
+msgid "submission.review.status.accepted"
+msgstr "Berrikuspen hau onartua izan da."
+
+msgid "submission.review.status.received"
+msgstr "Ebaluatzaileak bere berrikuspena bidali du."
+
+msgid "submission.review.status.complete"
+msgstr "Berrikuspen hau amaitu da."
+
+msgid "submission.review.status.thanked"
+msgstr ""
+"Berrikuspen hau amaitu da eta ebaluatzaileari eskerrak eman zaizkio bere "
+"ekarpenagatik."
+
+msgid "submission.document"
+msgstr "Dokumentua"
+
+msgid "submission.art"
+msgstr "Artelana"
+
+msgid "submission.supplementary"
+msgstr "Eduki osagarria"
+
+msgid "submission.supplementary.creator"
+msgstr "Fitxategiaren sortzailea (edo jabea)"
+
+msgid "submission.supplementary.subject"
+msgstr "Gaia"
+
+msgid "submission.supplementary.publisher"
+msgstr "Argitaratzailea"
+
+msgid "submission.supplementary.sponsor"
+msgstr "Erakunde kolaboratzailea edo babeslea"
+
+msgid "grid.action.itemWorkflow"
+msgstr "Joan bidalketa honen lan-fluxura"
+
+msgid "notification.type.editorDecisionSendToProduction"
+msgstr "Ekoizpen prozesua hasi zen."
+
+msgid "notification.type.editorAssignmentProduction"
+msgstr ""
+"Ekoizpen-editore bat esleitu behar da ekoizpen-prozesua hasi aurretik. "
+"Gehitu ekoizpen-editore bat parte-hartzaileen zerrenda erabiliz."
+
+msgid "notification.type.editorAssignmentEditing"
+msgstr ""
+"Ekoizpen-editore bat esleitu behar da prozesu editoriala hasi aurretik. "
+"Gehitu ekoizpen-editore bat parte-hartzaileen zerrenda erabiliz."
+
+msgid "submission.reviewForm"
+msgstr "Ebaluazio-inprimakia"
+
+msgid "submission.reviewFormResponse"
+msgstr "Ebaluazio-inprimakiaren erantzuna"
+
+msgid "grid.action.createReviewFormElement"
+msgstr "Sortu berrikuspenerako inprimaki berria"
+
+msgid "grid.action.editMetadata"
+msgstr "Editatu metadatuak"
+
+msgid "submission.permissions"
+msgstr "Baimenak"
+
+msgid "submission.attachPermissions"
+msgstr "Erantsi baimen hauek bidalketari:"
+
+msgid "submission.license"
+msgstr "Lizentzia"
+
+msgid "submission.copyright"
+msgstr "Egile-eskubideak"
+
+msgid "submission.copyright.agree"
+msgstr "Bai, egile-eskubideen adierazpenarekin ados nago."
+
+msgid "submission.copyrightHolder"
+msgstr "Egile-eskubideen jabea"
+
+msgid "submission.copyrightHolder.other"
+msgstr "Egile-eskubideen adierazpen pertsonalizatua"
+
+msgid "submission.copyrightOther"
+msgstr "Egile-eskubideen adierazpena"
+
+msgid "submission.copyrightYear"
+msgstr "Egile-eskubideen urtea"
+
+msgid "submission.copyrightStatement"
+msgstr "Egile-eskubideak {$copyrightYear} {$copyrightHolder}"
+
+msgid "submission.licenseURLValid"
+msgstr "Mesedez, eman urruneko URL baliodun bat (http:// barne)."
+
+msgid "submission.licenseURL"
+msgstr "Lizentziaren URLa"
+
+msgid "submission.license.cc.by-nc-nd4"
+msgstr "CC Aitortu-EzKomertziala-LanEratorririkGabe 4.0"
+
+msgid "submission.license.cc.by-nc4"
+msgstr "CC Aitortu-EzKomertziala 4.0"
+
+msgid "submission.license.cc.by-nc-sa4"
+msgstr "CC Aitortu-EzKomertziala-PartekatuBerdin 4.0"
+
+msgid "submission.license.cc.by-nd4"
+msgstr "CC Aitortu-LanEratorririkGabe 4.0"
+
+msgid "submission.license.cc.by4"
+msgstr "CC Aitortu 4.0"
+
+msgid "submission.license.cc.by-sa4"
+msgstr "CC Aitortu-PartekatuBerdin 4.0"
+
+msgid "submission.license.cc.by-nc-nd4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/"
+"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/"
+"by-nc-nd/4.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Aitortu-"
+"EzKomertziala-LanEratorririkGabe 4.0 Nazioarteko Lizentziapean</a> dago "
+"argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nc4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc/"
+"4.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc/4.0/\">Creative Commons Aitortu-"
+"EzKomertziala 4.0 Nazioarteko Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nc-sa4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/"
+"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/"
+"by-nc-sa/4.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Aitortu-"
+"EzKomertziala-PartekatuBerdin 4.0 Nazioarteko Lizentziapean</a> dago "
+"argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nd4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nd/"
+"4.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Aitortu-"
+"LanEratorririkGabe 4.0 Nazioarteko Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by/4."
+"0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by/4.0/\">Creative Commons Aitortu 4.0 "
+"Nazioarteko Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-sa4.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-sa/"
+"4.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Aitortu-"
+"PartekatuBerdin 4.0 Nazioarteko Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nc-nd3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-nd/3.0/"
+"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/"
+"by-nc-nd/3.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc-nd/3.0/\">Creative Commons Aitortu-"
+"EzKomertziala-LanEratorririkGabe 3.0 Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nc3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc/3.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nc/"
+"3.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc/3.0/\">Creative Commons Aitortu-"
+"EzKomertziala 3.0 Moldatu gabea Lizentziapean </a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nc-sa3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/"
+"\"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/"
+"by-nc-sa/3.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons Aitortu-"
+"EzKomertziala-PartekatuBerdin 3.0 Moldatu gabea Lizentziapean</a> dago "
+"argitaratuta.</p>"
+
+msgid "submission.license.cc.by-nd3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nd/3.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-nd/"
+"3.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-nd/3.0/\">Creative Commons Aitortu-"
+"LanEratorririkGabe 3.0 Moldatu gabea Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by/3.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by/3."
+"0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by/3.0/\">Creative Commons Aitortu 3.0 "
+"Moldatu gabea Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.license.cc.by-sa3.footer"
+msgstr ""
+"<a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\""
+"><img alt=\"Creative Commons License\" src=\"//i.creativecommons.org/l/by-sa/"
+"3.0/88x31.png\" /></a><p>Lan hau <a rel=\"license\" href=\"https"
+"://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Aitortu-"
+"PartekatuBerdin 3.0 Moldatu gabea Lizentziapean</a> dago argitaratuta.</p>"
+
+msgid "submission.queries.submission"
+msgstr "Ebaluazioaren aurreko eztabaidak"
+
+msgid "submission.queries.review"
+msgstr "Ebaluazio-eztabaidak"
+
+msgid "submission.queries.editorial"
+msgstr "Kopien ediziorako eztabaida"
+
+msgid "submission.query.subject"
+msgstr "Gaia"
+
+msgid "submission.query.messages"
+msgstr "Mezuak"
+
+msgid "submission.query.replies"
+msgstr "Erantzunak"
+
+msgid "submission.query.from"
+msgstr "Nork"
+
+msgid "submission.query.lastReply"
+msgstr "Azken erantzuna"
+
+msgid "submission.query.closed"
+msgstr "Itxita"
+
+msgid "submission.query.addNote"
+msgstr "Gehitu mezua"
+
+msgid "submission.query.leaveQuery"
+msgstr "Eztabaida utzi"
+
+msgid "submission.query.leaveQuery.confirm"
+msgstr ""
+"Eztabaida hau uzten baduzu, ez zaizu mezu berririk jakinaraziko. Eztabaida "
+"utzi nahi duzu?"
+
+msgid "grid.action.openNoteForm"
+msgstr "Gehitu erantzun berria eztabaidari"
+
+msgid "submission.query.activity"
+msgstr "{$responderName}-k {$noteTitle}-ri erantzun dio: {$noteContents}"
+
+msgid "submission.query.new"
+msgstr "{$creatorName}-ek eztabaida bat hasi du: {$noteTitle}: {$noteContents}"
+
+msgid "submission.query.activity.contents"
+msgstr ""
+"\"{$queryTitle}\" izeneko eztabaidan jarduera berri bat dago, \""
+"{$submissionTitle}\" bidalketari buruzkoa."
+
+msgid "submission.query.new.contents"
+msgstr ""
+"\"{$queryTitle}\" izeneko eztabaidan jarduera berri bat dago, \""
+"{$submissionTitle}\" bidalketari buruzkoa."
+
+msgid "submission.query.participantTitle"
+msgstr "{$fullName}, {$userGroup}"
+
+msgid "submission.query.noParticipantOptions"
+msgstr ""
+"Eztabaida hasi aurretik, gutxienez parte-hartzaile bat esleitu behar diozu "
+"bidalketa honi."
+
+msgid "submission.list.infoCenter"
+msgstr "Jarduera-erregistroa eta oharrak"
+
+msgid "submission.list.empty"
+msgstr "Ez da bidalketarik aurkitu."
+
+msgid "submission.list.responseDue"
+msgstr "Erantzuteko epea: {$date}"
+
+msgid "submission.list.reviewAssignment"
+msgstr "Berrikuspenaren esleipena"
+
+msgid "submission.list.reviewDue"
+msgstr "Berrikuspenaren epea: {$date}"
+
+msgid "submission.list.reviewComplete"
+msgstr "Berrikuspena bidalia"
+
+msgid "submission.list.reviewCancelled"
+msgstr "Berrikuspena bertan behera utzi da"
+
+msgid "submission.list.confirmDelete"
+msgstr "Ezabatu bidalketa?"
+
+msgid "submission.list.viewAllSubmissions"
+msgstr "Ikusi bidalketa guztiak"
+
+msgid "submission.list.viewSubmission"
+msgstr "Ikusi bidalketa"
+
+msgid "submission.list.reviewsCompleted"
+msgstr "Esleitutako berrikuspenak osatuta"
+
+msgid "submission.list.revisionsSubmitted"
+msgstr "Berrikuspenak bidalita"
+
+msgid "submission.list.copyeditsSubmitted"
+msgstr "Zuzendutako fitxategiak bidalita"
+
+msgid "submission.list.galleysCreated"
+msgstr "Ekoizpen-galeradak sortuta"
+
+msgid "submission.list.filesPrepared"
+msgstr "Fitxategiak prestatuta"
+
+msgid "submission.list.discussions"
+msgstr "Eztabaida irekiak"
+
+msgid "submission.list.dualWorkflowLinks"
+msgstr ""
+"Bidalketa honetarako hainbat rol esleitu zaizkizu. <a href=\""
+"{$urlAuthorWorkflow}\">Egilearen lan-fluxua</a> ala <a href=\""
+"{$urlEditorialWorkflow}\">Editorearen lan-fluxua</a> atzitu nahi duzu?"
+
+msgid "submission.list.reviewerWorkflowLink"
+msgstr ""
+"Bidalketa honetarako erredakzio-rol bat esleitu zaizu. <a href=\""
+"{$urlEditorialWorkflow}\">Edizio-lan-fluxura</a> sartu nahi al duzu?"
+
+msgid "submission.list.incompleteSubmissionNotice"
+msgstr "Bidalketa hau osatu behar da editore batek berrikusi aurretik."
+
+msgid "submission.list.currentStage"
+msgstr "Gaur egun {$stage} fasean dago."
+
+msgid "submission.list.activity"
+msgstr "Jarduera"
+
+msgid "submission.list.daysSinceLastActivity"
+msgstr "Azken jardueratik igarotako egunak"
+
+msgid "submission.list.assignEditor"
+msgstr "Esleitu editorea"
+
+msgid "submission.wizard.alreadySubmitted"
+msgstr ""
+"Bidalketa hau dagoeneko bidali da. Mesedez, bisitatu zure <a href=\"{$url}\""
+">bidalketen kontrol-panela</a> ikusteko."
+
+msgid "submission.wizard.beforeStart"
+msgstr "Hasi aurretik"
+
+msgid "submission.wizard.categories.description"
+msgstr "Hautatu zure bidalketarako egokiak diren kategoriak soilik."
+
+msgid "submission.wizard.changeSubmission"
+msgstr "Aldatu bidalketa-ezarpenak"
+
+msgid "submission.wizard.completeSteps"
+msgstr "Osatu bidalketa egiteko urratsak"
+
+msgid "submission.wizard.confirmSubmit"
+msgstr ""
+"<strong>{$title}</strong> bidalketa <strong>{$context}</strong>-era bidaliko "
+"da berrikuspen editoriala egiteko. Ziur zaude bidalketa hau osatu nahi "
+"duzula?"
+
+msgid "submission.wizard.errors"
+msgstr ""
+"Bidali aurretik konpondu beharreko arazo bat edo gehiago daude. Mesedez, "
+"berrikusi beheko informazioa eta egin eskatutako aldaketak."
+
+msgid "submission.wizard.validating"
+msgstr "Zure bidalketa egiaztatzen"
+
+msgid "submission.wizard.commentsForTheEditor.description"
+msgstr ""
+"Gehitu gure erredakzio-taldeak zure bidalketa ebaluatzerakoan jakin beharko "
+"lukeen edozein informazio."
+
+msgid "submission.wizard.confirm"
+msgstr "Mesedez, baieztatu honako hau bidali aurretik."
+
+msgid "submission.wizard.title"
+msgstr "Bidalketa egin"
+
+msgid "submission.wizard.titleWithStep"
+msgstr "Bidali bidalketa: {$step}"
+
+msgid "submission.wizard.noContributors"
+msgstr "Ez da kolaboratzailerik gehitu bidalketa honetarako."
+
+msgid "submission.wizard.missingContributorLanguage"
+msgstr ""
+"Kolaboratzaile baten edo gehiagoren izena falta da {$language} hizkuntzan."
+
+msgid "submission.wizard.notAllowed"
+msgstr "Ez da onartzen"
+
+msgid "submission.wizard.privacyConsent"
+msgstr "Pribatutasun-baimena"
+
+msgid "submission.wizard.saved"
+msgstr "Gerorako gordeta"
+
+msgid "submission.wizard.saved.description"
+msgstr ""
+"Zure bidalketaren xehetasunak gure sisteman gorde dira, baina oraindik ez da "
+"kontuan hartzeko bidali. Edozein unetan itzul zaitezke zure bidalketa "
+"osatzera beheko esteka jarraituz."
+
+msgid "submission.wizard.saved.emailConfirmation"
+msgstr ""
+"Esteka honen kopia bat bidali dizugu posta elektronikoz helbide honetara: "
+"{$email}."
+
+msgid "submission.wizard.sectionClosed"
+msgstr "Atala itxita"
+
+msgid "submission.wizard.start"
+msgstr "Hasi bidalketa"
+
+msgid "submission.wizard.startingStatus"
+msgstr "Bidalketa berri bat hasten"
+
+msgid "submission.wizard.unableToSave"
+msgstr ""
+"Errore bat gertatu da eta ezin izan dugu zure bidalketa gorde. Baliteke "
+"deskonektatu izana."
+
+msgid "grid.category.categories"
+msgstr "Kategoriak"
+
+msgid "catalog.sortBy.titleAsc"
+msgstr "Izenburua (A-Z)"
+
+msgid "catalog.sortBy.titleDesc"
+msgstr "Izenburua (Z-A)"
+
+msgid "catalog.sortBy.datePublishedAsc"
+msgstr "Argitalpen-data (zaharrena lehenengo)"
+
+msgid "catalog.sortBy.datePublishedDesc"
+msgstr "Argitalpen-data (berriena lehenengo)"
+
+msgid "category.category"
+msgstr "Kategoriak"
+
+msgid "category.coverImage"
+msgstr "Azalaren irudia"
+
+msgid "submission.submit.placement.categories"
+msgstr "Kategoriak"
+
+msgid "submission.currentCoverImage"
+msgstr "Uneko irudia"
+
+msgid "catalog.category.noItems"
+msgstr "Ez da ezer argitaratu kategoria honetan oraindik."
+
+msgid "catalog.category.subcategories"
+msgstr "Azpikategoriak"
+
+msgid "publication.contributors"
+msgstr "Kolaboratzaileak"
+
+msgid "publication.createVersion"
+msgstr "Bertsio berria sortu"
+
+msgid "publication.datePublished.errorFormat"
+msgstr "Data UUUU-HH-EE formatuan egon behar da, adibidez, 2019-01-01."
+
+msgid "publication.event.versionCreated"
+msgstr "Bertsio berri bat sortu da."
+
+msgid "publication.publicationLicense"
+msgstr "Baimenak eta dibulgazioa"
+
+msgid "publication.status.scheduled"
+msgstr "Programatua"
+
+msgid "publication.status.unpublished"
+msgstr "Argitaratu gabe"
+
+msgid "publication.titleAbstract"
+msgstr "Izenburua & laburpena"
+
+msgid "publication.unschedule"
+msgstr "Desprogramatu"
+
+msgid "publication.urlPath"
+msgstr "URL bidea"
+
+msgid "publication.urlPath.description"
+msgstr "Aukerako bidea, URLan erabiltzeko IDaren ordez."
+
+msgid "publication.urlPath.duplicate"
+msgstr "URL helbidea dagoeneko erabili da eta ezin da berriro erabili."
+
+msgid "publication.urlPath.numberInvalid"
+msgstr "URL helbidea ezin da zenbaki bat izan."
+
+msgid "publication.version.all"
+msgstr "Bertsio guztiak"
+
+msgid "publication.version.confirm"
+msgstr "Ziur zaude bertsio berri bat sortu nahi duzula?"
+
+msgid "publication.wordCountLong"
+msgstr ""
+"Laburpena luzeegia da. {$limit} hitz edo gutxiago izan beharko lituzke. Une "
+"honetan {$count} hitz ditu."
+
+msgid "publication.wordCount"
+msgstr "Hitz-kopurua: {$count}/{$limit}"
+
+msgid "doi.incorrectStaleStatus"
+msgstr ""
+"Ezin izan da markatu {$pubObjectTitle}-rentzat DOIak sinkronizazioa behar "
+"duela. Ezin da DOIak sinkronizatu behar duela markatu, oraindik ez baita "
+"erregistratu edo bidali."
+
+msgid "doi.submission.notPublished"
+msgstr ""
+"Huts egin du DOIa {$pubObjectTitle}-rentzat erregistratuta markatzean. "
+"Bidalketa argitaratu egin behar da egoera eguneratu ahal izateko."
+
+msgid "submission.viewingPreview"
+msgstr ""
+"Hau aurrebista bat da eta ez da argitaratu. <a href=\"{$url}\">Ikusi "
+"bidalketa</a>"
+
+msgid "author.submit.noFiles"
+msgstr "Bidalketa honi ez zaio fitxategirik erantsi."
+
+msgid "author.submit.confirmation"
+msgstr "Berretsi"
+
+msgid "submission.wizard.submittingInLanguage"
+msgstr "<strong>{$language}</strong> hizkuntzan bidaltzen."
+
+msgid "submission.wizard.submittingToSection"
+msgstr "<strong>{$section}</strong> atalera bidaltzen."
+
+msgid "submission.wizard.submittingToSectionInLanguage"
+msgstr ""
+"<strong>{$section}</strong> atalera bidaltzen <strong>{$language}</strong> "
+"hizkuntzan."
+
+msgid "submission.type.tip"
+msgstr ""
+"Bidalketa mota normalean 'irudia', 'testua' edo beste multimedia mota bat "
+"izaten da, besteak beste, 'softwarea' edo 'interaktiboa'. Mesedez, aukeratu "
+"zure bidalketarako esanguratsuena dena. Adibideak hemen aurki daitezke: <a "
+"target=\"_blank\" href=\"https://www.dublincore.org/specifications/"
+"dublin-core/usageguide/2001-04-12/generic/\">https://www.dublincore.org/"
+"specifications/dublin-core/usageguide/2001-04-12/generic</a>"
+
+msgid "submission.source.tip"
+msgstr ""
+"Bidalketa hau beste baliabide batetik dator? Hala bada, baliabide horren "
+"URLa edo deskribapena sar dezakezu."
+
+msgid "submission.rights.tip"
+msgstr ""
+"Nahi izanez gero, bidalketa honi buruz dituzun sarbide-eskubideei buruzko "
+"adierazpen labur bat sar dezakezu."
+
+msgid "submission.submit.metadataForm.tip"
+msgstr ""
+"Gehitu informazio gehigarria zure bidalketari. Sakatu 'enter' termino "
+"bakoitzaren ondoren."
+
+msgid "submission.submit.selectPrincipalContact"
+msgstr "Korrespondentzia editorialerako kontaktu nagusia."
+
+msgid "submission.dataAvailability"
+msgstr "Datuen erabilgarritasunari buruzko adierazpena"
+
+msgid "submission.dataAvailability.tip"
+msgstr ""
+"Adierazi lan hau babesten duten frogak eskuragarri jarri dituzun ala ez, eta "
+"hala bada, non eta nola eskura daitezkeen"
+
+msgid "submission.files.required.genre"
+msgstr "Gutxienez {$genre} fitxategi bat igo behar duzu."
+
+msgid "submission.files.required.genres"
+msgstr "Gutxienez fitxategi-mota hauetako bat igo behar duzu: {$genres}."
+
+msgid "publication.version"
+msgstr "Bertsioa {$version}"
+
+msgid "submission.submissionFile"
+msgstr "Bidalketa-fitxategia"
+
+msgid "submission.authors.label"
+msgstr "Egileak"
+
+msgid "author.authorNotFound"
+msgstr "Ezin izan da aurkitu afiliazio hori duen egilea."
+
+msgid "submission.author.list"
+msgstr "Bidalketaren egileen zerrenda"
+
+msgid "submission.wizard.submissionCancelled.description"
+msgstr ""
+"Bidalketa bertan behera utzi da eta hari lotutako datu guztiak ezabatu egin "
+"dira."
+
+msgid "submission.forReviewerSuggestion"
+msgstr "Ebaluatzailearen iradokizunerako"
+
+msgid "submission.wizard.submissionCancelled"
+msgstr "Bidalketa ezeztatua"
+
+msgid "submission.wizard.submissionCancel"
+msgstr "Ezeztatu bidalketa"
+
+msgid "ror.nameRequired"
+msgstr "ROR izena derrigorrezkoa da."
+
+msgid "publication.editorEditWarning"
+msgstr ""
+"Oharra: Bertsio hau argitaratu da. Editatzeak eragina izan dezake "
+"argitaratutako edukian."
+
+msgid "submission.reviewerSuggestions"
+msgstr "Ebaluatzailearen iradokizunak"
+
+msgid "editor.submission.roundStatus.recommendationMadeByYou"
+msgstr "Gomendioa zuk egin duzu."
+
+msgid "editor.submission.roundStatus.returnedToReview"
+msgstr "Berrikuspenera itzuli da."
+
+msgid "editor.submission.reviewerSuggestions"
+msgstr "Egileak iradokitako ebaluatzaileak"
+
+msgid "author.affiliationRorAndNameEmpty"
+msgstr "Eman ROR afiliazio bat edo, gutxienez, afiliazio izen bat."
+
+msgid "author.affiliationNamePrimaryLocaleMissing"
+msgstr "Eman afiliazioaren izena bidalketaren ezarpen nagusietan."
+
+msgid "ror.displayLocaleRequired"
+msgstr "ROR bistaratze-ezarpena beharrezkoa da."
+
+msgid "author.competingInterests"
+msgstr "Interes-gatazkak"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.column.description"
+msgstr "Hautatu bidalketa osatugabeak ezabatu daitezen."
+
+msgid "fileManager.revisionsUploaded"
+msgstr "Berrikuspenak igota"
+
+msgid "dashboard.recommendOnly.recommendationsReady"
+msgstr "Gomendio editorial bat jaso da"
+
+msgid "dashboard.reviewAssignment.statusCancelled.description"
+msgstr ""
+"Ebaluatzaileak berrikuspen-eskaera bertan behera utzi du <b>{$date}</b> "
+"egunean."
+
+msgid "dashboard.reviewAssignment.statusComplete.description"
+msgstr "Editoreak berrikuspena onartu zuen <b>{$date}</b> egunean."
+
+msgid "dashboard.reviewAssignment.statusResponseOverdue.title"
+msgstr "Berrikuspen-eskaera {$days} egunez atzeratuta"
+
+msgid "publication.jats.confirmDeleteFileMessage"
+msgstr "JATS XML fitxategia argitalpen honetatik kentzear zaude. Ziur zaude?"
+
+msgid "dashboard.reviewAssignment.action.resendReviewRequest"
+msgstr "Birbidali berrikuspen-eskaera"
+
+msgid "dashboard.reviewAssignment.statusRequestResend.title"
+msgstr "Ebaluatzailearen erantzunaren zain"
+
+msgid "dashboard.reviewAssignment.statusReceived.withoutRecommendation.description"
+msgstr "Berrikuspena {$date} egunean osatu zen"
+
+msgid "dashboard.toBePublishedInIssue"
+msgstr "{$issue} zenbakian argitaratuko da"
+
+msgid "dashboard.copyEditedFilesUploaded"
+msgstr "Estilo zuzenketarako igotako fitxategiak: {$count}"
+
+msgid "submission.dashboard.view.needsReviews"
+msgstr "Berrikuspenak behar ditu"
+
+msgid "submission.dashboard.view.reviewsOverdue"
+msgstr "Atzeratutako berrikuspenak"
+
+msgid "submission.dashboard.view.reviewAll"
+msgstr "Guztia berrikuspen-fasean"
+
+msgid "submission.dashboard.view.submissionStageAll"
+msgstr "Guztia bidalketa-fasean"
+
+msgid "dashboard.reviewAssignment.statusAccepted.title"
+msgstr "Berrikuspen martxan - eskaera onartua"
+
+msgid "dashboard.reviewAssignment.statusReviewOverdue.title"
+msgstr "Berrikuspena {$days} egunez atzeratuta dago"
+
+msgid "dashboard.reviewAssignment.statusAccepted.description"
+msgstr ""
+"Ebaluatzaile honek berrikuspen-eskaera onartu du. Bere berrikuspena "
+"<b>{$days} eguneko epean aurkeztu behar da, {$date} egunean.</b>"
+
+msgid "dashboard.reviewAssignment.deadlineForRespondingAcceptOrDecline"
+msgstr ""
+"Eskaera honi erantzuteko epea amaitu da. Mesedez, onartu edo ukatu eskaera "
+"hau lehenbailehen."
+
+msgid "dashboard.reviewAssignment.reviewSubmitted"
+msgstr "Berrikuspena bidali da {$date} egunean"
+
+msgid "dashboard.reviewAssignment.declined"
+msgstr "Eskaera ukatu da {$date} egunean"
+
+msgid "dashboard.reviewAssignment.acceptOrDeclineRequestDate"
+msgstr "Mesedez, onartu edo ukatu eskaera hau {$date} baino lehen"
+
+msgid "dashboard.actions.finishReview"
+msgstr "Amaitu berrikuspena"
+
+msgid "dashboard.actions.respondToRequest"
+msgstr "Erantzun eskaerari"
+
+msgid "workflow.uploadRevisions"
+msgstr "Igo berrikuspenak"
+
+msgid "dashboard.submitRevisions"
+msgstr "Bidali berrikuspenak"
+
+msgid "dashboard.revisionRequested"
+msgstr "Berrikuspena eskatuta"
+
+msgid "dashboard.newReviewRoundToBeCreated"
+msgstr "Berrikuspen-erronda berria sortuko da"
+
+msgid "dashboard.revisionRequestedFromAuthor"
+msgstr "Egileari eskatutako berrikuspenak"
+
+msgid "dashboard.assignReviewers"
+msgstr "Esleitu ebaluatzaileak"
+
+msgid "dashboard.startNewSubmission"
+msgstr "Hasi bidalketa berri bat"
+
+msgid "dashboard.applyFilters"
+msgstr "Aplikatu iragazkiak"
+
+msgid "dashboard.reviewUpdateCounts"
+msgstr "Berrikuspenaren egoera {$reviewsCompletedCount}/{$reviewsTotalCount}"
+
+msgid "dashboard.reviewersAssigned"
+msgstr "Esleitutako ebaluatzaileak"
+
+msgid "submission.dashboard.view.awaitingReviews"
+msgstr "Berrikuspenen zain"
+
+msgid "submission.dashboard.view.reviewExternal"
+msgstr "Guztia pareen berrikuspenean"
+
+msgid "submission.dashboard.view.revisionsSubmitted"
+msgstr "Egilearen berrikuspenak bidalita"
+
+msgid "submission.dashboard.view.revisionsRequested"
+msgstr "Berrikuspenak eskatuta"
+
+msgid "submission.dashboard.view.declined"
+msgstr "Baztertuta"
+
+msgid "submission.dashboard.view.published"
+msgstr "Argitaratuta"
+
+msgid "submission.dashboard.view.scheduled"
+msgstr "Argitaratzeko programatuta"
+
+msgid "submission.dashboard.view.production"
+msgstr "Guztia ekoizpen-fasean"
+
+msgid "submission.dashboard.view.copyediting"
+msgstr "Guztia edizio-fasean"
+
+msgid "submission.dashboard.view.reviewsSubmitted"
+msgstr "Bidalitako berrikuspenak"
+
+msgid "submission.dashboard.view.needsEditor"
+msgstr "Editorea behar du"
+
+msgid "submission.dashboard.view.active"
+msgstr "Bidalketa aktiboak"
+
+msgid "submission.dashboard.view.assigned"
+msgstr "Niri esleituak"
+
+msgid "dashboard.reviewAssignment.statusComplete.title"
+msgstr "Berrikuspena editorea berretsi zuen"
+
+msgid "dashboard.reviewAssignment.statusReceived.description"
+msgstr ""
+"Berrikuspena {$date} egunean osatu zen, gomendio honekin: "
+"<b>{$recommendation}</b>"
+
+msgid "dashboard.reviewAssignment.statusReceived.title"
+msgstr "Berrikuspena osatua {$date} egunean"
+
+msgid "dashboard.reviewAssignment.statusDeclined.description"
+msgstr "Ebaluatzaileak berrikuspen-eskaera baztertu zuen <b>{$date}</b> egunean"
+
+msgid "dashboard.reviewAssignment.statusDeclined.title"
+msgstr "Berrikuspen eskaera baztertu da {$date} egunean"
+
+msgid "dashboard.reviewAssignment.statusAwaitingResponse.title"
+msgstr "Ebaluatzailearen erantzunaren zain"
+
+msgid "dashboard.reviewAssignment.completeReviewByDate"
+msgstr "Mesedez, osatu berrikuspen hau {$date} baino lehen."
+
+msgid "reviewerSuggestion.suggestionReason"
+msgstr "Ebaluatzailea iradokitzeko arrazoiak"
+
+msgid "publication.jats.lastModified"
+msgstr "Azken aldaketa {$modificationDate} egunean, {$username} egileak egina"
+
+msgid "publication.jats.autoCreatedMessage"
+msgstr "JATS fitxategi hau automatikoki sortzen da bidalketaren metadatuekin"
+
+msgid "publication.jats.confirmDeleteFileButton"
+msgstr "Ezabatu JATS fitxategia"
+
+msgid "publication.jats.confirmDeleteFileTitle"
+msgstr "Berretsi JATS XML ezabatzea"
+
+msgid "publication.jats"
+msgstr "JATS XML"
+
+msgid "submission.stage.published"
+msgstr "Argitaratua"
+
+msgid "submission.stage.scheduledForPublication"
+msgstr "Argitaratzeko programatuta"
+
+msgid "submission.stage.externalReviewWithRound"
+msgstr "Berrikuspena (Erronda {$round})"
+
+msgid "submission.dashboard.view.reviewAssignments.published"
+msgstr "Argitaratuta"
+
+msgid "submission.dashboard.view.reviewAssignments.completed"
+msgstr "Osatuta"
+
+msgid "submission.dashboard.view.reviewAssignments.declined"
+msgstr "Baztertuta"
+
+msgid "submission.dashboard.view.reviewAssignments.archived"
+msgstr "Artxibatuta"
+
+msgid "submission.dashboard.view.reviewAssignments.actionRequired"
+msgstr "Nire ekintza beharrean"
+
+msgid "submission.dashboard.view.reviewAssignments.all"
+msgstr "Esleipen guztiak"
+
+msgid "submission.dashboard.view.reviewerAssignmentsFinished"
+msgstr "Osatuta / Ukatuta"
+
+msgid "submission.dashboard.view.reviewerAssignmentsPending"
+msgstr "Egiteke"
+
+msgid "submission.dashboard.view.reviewerAssignmentsAll"
+msgstr "Esleipen guztiak"
+
+msgid "submission.dashboard.view.incompleteSubmissions"
+msgstr "Bidalketa osatugabeak"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.confirm"
+msgstr "Berretsi bidalketa osatugabeak ezabatzea"
+
+msgid "reviewerManager.reviewerStatus"
+msgstr "Ebaluatzailearen egoera"
+
+msgid "fileManager.productionReadyFilesDescription"
+msgstr "Hauek dira argitaratzeko bidaliko diren fitxategiak"
+
+msgid "fileManager.draftFilesDescription"
+msgstr "Hauek dire berrikuspen-faseko fitxategiak, zuzendu behar direnak"
+
+msgid "fileManager.copyeditedFilesDescription"
+msgstr "Hauek dira editatutako fitxategiak, ekoizpen fasera eramango direnak"
+
+msgid "fileManager.copyeditedFiles"
+msgstr "Zuzendutako fitxategiak"
+
+msgid "fileManager.filesForReviewDescription"
+msgstr "Fitxategi hauek ebaluatzaileei bidaliko zaizkie berrikus ditzaten"
+
+msgid "fileManager.filesForReview"
+msgstr "Berrikuspenerako fitxategiak"
+
+msgid "fileManager.submissionFilesDescription"
+msgstr "Bidalketa unean igotako fitxategiak"
+
+msgid "workflow.reviewRoundN"
+msgstr "Berrikuspen-erronda {$number}"
+
+msgid "workflow.submissionInNextReviewRound"
+msgstr "Bidalketa hurrengo berrikuspen-errondara aurreratu da"
+
+msgid "workflow.submissionInFutureStage"
+msgstr "Bidalketa {$stage} fasean dago une honetan."
+
+msgid "workflow.stageNotStarted"
+msgstr "{$stage} fasea oraindik ez da hasi."
+
+msgid "participantManager.onlyAllowedToRecommend"
+msgstr "Erabaki editorial bat soilik gomendatu dezake"
+
+msgid "dashboard.proceedWithoutMinimumReviews"
+msgstr "Jarraitu ebaluazio-baieztatuen gutxieneko kopurua izan gabe?"
+
+msgid "dashboard.minimumConfirmedReviewsRequired"
+msgstr "Gutxieneko berrikuspen-baieztatu kopuru beharrezkoa: {$number}."
+
+msgid "dashboard.declinedDuringStage"
+msgstr "{$stageName} fasean baztertua."
+
+msgid "dashboard.reviewAssignment.action.sendReviewToOrcid.confirm"
+msgstr "Bidali berrikuspen hau ebaluatzailearen ORCIDera?"
+
+msgid "dashboard.reviewAssignment.action.sendReviewToOrcid"
+msgstr "Bidali berrikuspena ORCIDera"
+
+msgid "dashboard.reviewAssignment.action.viewUnreadRecommendation"
+msgstr "Ikusi irakurri gabeko gomendioa"
+
+msgid "dashboard.reviewAssignment.action.viewRecommendation"
+msgstr "Ikusi gomendioa"
+
+msgid "dashboard.reviewAssignment.action.editDueDate"
+msgstr "Editatu epea"
+
+msgid "dashboard.reviewAssignment.action.unassignReviewer"
+msgstr "Kendu esleipena"
+
+msgid "dashboard.reviewAssignment.action.cancelReviewer"
+msgstr "Ezeztatu ebaluatzailea"
+
+msgid "dashboard.reviewAssignment.statusCancelled.title"
+msgstr "Ebaluatzaileak berrikuspen-eskaera bertan behera utzi du"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.button"
+msgstr "Ezabatu bidalketa osatugabeak"
+
+msgid "dashboard.reviewAssignment.action.viewDetails"
+msgstr "Ikusi xehetasunak"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.body"
+msgstr ""
+"Ziur zaude hautatutako elementuak ezabatu nahi dituzula? Ekintza hau ezin da "
+"desegin. Jarraitzeko, baieztatu mesedez."
+
+msgid "workflow.submissionNextReviewRoundInFutureStage"
+msgstr ""
+"Bidalketa hurrengo berrikuspen-errondara igaro da, onartu da eta une honetan "
+"{$stage} fasean dago."
+
+msgid "dashboard.reviewAssignment.deadlineForCompletingReviewHasPassed"
+msgstr ""
+"Berrikuspen hau burutzeko epea amaitu da. Mesedez, burutu berrikuspena "
+"ahalik eta azkarren."
+
+msgid "submission.query.allowedEditTime"
+msgstr "Eztabaida hau {$allowedEditTimeNoticeLimit} minutuz eguneratu dezakezu."
+
+msgid "submission.review.status.viewed"
+msgstr "Editoreak berrikuspena ikusi du."
+
+msgid "submission.list.changeSubmissionLanguage.currentLanguage"
+msgstr "Bidalketaren uneko hizkuntza:"
+
+msgid "submission.list.changeSubmissionLanguage.buttonLabel"
+msgstr "Aldatu"
+
+msgid "submission.list.changeSubmissionLanguage.title"
+msgstr "Aldatu bidalketaren hizkuntza honetara"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription.title"
+msgstr ""
+"Idatzi hemen bidalketaren izenburua {$language} hizkuntzan. Izenburua behar "
+"bezala formateatu dezakezu"
+
+msgid "submission.list.viewSubmissionSummary"
+msgstr "Ikusi bidalketaren laburpena"
+
+msgid "submission.list.completeSubmission"
+msgstr "Osatu bidalketa"
+
+msgid "submission.wizard.cancel.confirmation"
+msgstr ""
+"Ziur zaude bidalketa hau bertan behera utzi nahi duzula? Honek bidalketa eta "
+"lotutako datu guztiak ezabatuko ditu. Ekintza hau ezin da desegin."
+
+msgid "submission.wizard.noReviewerSuggestions"
+msgstr "Ez da ebaluatzailerik iradoki bidalketa honetarako."
+
+msgid "submission.wizard.missingContributorAffiliationLanguage"
+msgstr ""
+"Kolaboratzaile bat edo gehiagoren afiliazio bat edo gehiagorentzat, "
+"afiliazio-izena falta da {$language} hizkuntzan."
+
+msgid "submission.files.content.error"
+msgstr "Ezin izan da '{$fileName}' bidalketa-fitxategiaren edukia berreskuratu."
+
+msgid "author.competingInterests.description"
+msgstr ""
+"Mesedez, adierazi egile honek ikerketa-gaiarekin izan ditzakeen interes-"
+"gatazkak."
+
+msgid "submission.list.changeSubmissionLanguage.languageDescription"
+msgstr ""
+"Hau da bidalketaren hizkuntza nagusia. Aldaketak eragina izango du "
+"bidalketan eta sartutako metadatuetan"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription.abstract"
+msgstr ""
+"Laburpena {$language} hizkuntzan sartzea gomendatzen da. Horrek edukia "
+"eskuragarri egotea ziurtatzen laguntzen du"
+
+msgid "dashboard.minimumReviewsConfirmedDecisionNeeded"
+msgstr ""
+"Gutxieneko berrikuspen kopurua baieztatu da. Erabaki bat hartu behar da."
+
+msgid "dashboard.reviewAssignment.statusRequestResend.description"
+msgstr ""
+"Berrikuspen eskaera ebaluatzailearekin berriz partekatu da. Erantzunaren "
+"zain egongo da {$days} egun egunez, {$date} egunera arte"
+
+msgid "dashboard.reviewAssignment.statusResponseOverdue.description"
+msgstr ""
+"Ebaluatzaile honek ez dio berrikuspen eskaerari erantzun. Erantzun bat eman "
+"behar zen data honetarako: <b>{$date}</b>"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription"
+msgstr ""
+"<strong>Bidalketaren hizkuntza aldatu aurretik, ziurtatu ondorengo "
+"metadatuen eremuak bete dituzula sistemaren osotasuna mantentzeko. Kontuan "
+"izan, gainera, kolaboratzaileen informazioa eta fitxategien izenak aurretik "
+"sartutako informaziotik kopiatuko direla.</strong>"
+
+msgid "dashboard.revisionsRequestedFromAuthorNextRound"
+msgstr ""
+"Egileari eskatutako berrikuspenak berrikuspen-erronda berri batera eramateko"
+
+msgid "publication.jats.defaultContentCreationError"
+msgstr ""
+"Errore bat gertatu da JATS eduki lehenetsia sortzen saiatzean. Ziurtatu "
+"JatsTemplate plugina instalatuta dagoela."
+
+msgid "reviewerSuggestion.suggestionReason.description"
+msgstr ""
+"Mesedez, azaldu zergatik gomendatzen duzun ebaluatzaile hau eta aipatu "
+"interes-gatazkarik egon daitekeen."
+
+msgid "submission.localeNotSupported"
+msgstr ""
+"Bidalketaren hizkuntza ({$language}) ez da onartzen den bidalketa-"
+"hizkuntzetako bat. Bidalketaren xehetasunak edita ditzakezu oraindik, baina "
+"une honetan ez dira onartzen bidalketa berriak hizkuntza honetan."
+
+msgid "dashboard.reviewAssignment.statusAwaitingResponse.description"
+msgstr ""
+"Berrikuspen eskaera ebaluatzailearekin partekatu da. Erantzuna <b>{$days} "
+"egun barru, {$date}-n</b> espero da"
+
+msgid "dashboard.reviewAssignment.statusReviewOverdue.description"
+msgstr ""
+"Ebaluatzaile honek ez du bere berrikuspena amaitu. Erantzuna <b>{$date}</b> "
+"egunerako eman behar zen"
+
+msgid "dashboard.recommendOnly.pendingRecommendations"
+msgstr ""
+"Gomendio-editoreak arduratzen dira bidalketa honen hurrengo urratsak "
+"aholkatzeaz"
+
+msgid "dashboard.recommendOnly.recommendationsCompleted"
+msgstr "Gomendio editorial guztiak jaso dira, eta erabaki bat hartu behar da."
+
+msgid "dashboard.noAccessBeingAuthor"
+msgstr ""
+"Ezin duzu bidalketa honetara Aldizkariaren Kudeatzaile gisa sartu, egilea "
+"zarelako. Ikusteko, joan \"Nire bidalketak\" atalera"
+
+msgid "dashboard.noAccessBeingReviewer"
+msgstr ""
+"Ezin duzu bidalketa honetara Aldizkariaren kudeatzaile gisa sartu, "
+"ebaluatzailea zarelako. Ikusteko, joan \"Berrikusteko esleipenak\" atalera"
+
+msgid "dashboard.minimumConfirmedReviewsNotMet"
+msgstr ""
+"Ez da lortu baieztatutako iritzien gutxieneko kopurua. Erabaki editorial "
+"honekin jarraitu nahi duzu oraindik?"
+
+msgid "fileManager.revisionsUploadedDescription"
+msgstr "Fitxategi hauek egileak bidali ditu berrikuspenak eskatu ondoren"
+
+msgid "reviewer.competingInterests"
+msgstr "Interes-gatazka"

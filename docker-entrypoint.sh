@@ -1,0 +1,89 @@
+#!/bin/bash
+set -e
+
+# Render provides PORT env, but Apache expects 80 - handle PORT
+if [ -n "$PORT" ]; then
+  echo "Render PORT=$PORT, configuring Apache to listen on $PORT"
+  sed -i "s/Listen 80/Listen $PORT/" /etc/apache2/ports.conf
+  sed -i "s/<VirtualHost \*:80>/<VirtualHost *:$PORT>/" /etc/apache2/sites-available/000-default.conf
+fi
+
+# Generate config.inc.php from env if not exists or update DB settings
+CONFIG_FILE="/var/www/html/config.inc.php"
+TEMPLATE_FILE="/var/www/html/config.TEMPLATE.inc.php"
+
+if [ ! -f "$CONFIG_FILE" ]; then
+  cp "$TEMPLATE_FILE" "$CONFIG_FILE"
+  echo "Created config.inc.php from template"
+fi
+
+# Helper to set config value via sed (simple, handles quoted and unquoted)
+set_config() {
+  local section="$1"
+  local key="$2"
+  local value="$3"
+  # Escape for sed
+  local esc_value=$(printf '%s\n' "$value" | sed 's/[\/&]/\\&/g')
+  # Try to replace existing line (with or without quotes)
+  if grep -q "^\s*${key}\s*=" "$CONFIG_FILE"; then
+    sed -i "s|^\s*${key}\s*=.*|${key} = \"${esc_value}\"|" "$CONFIG_FILE"
+  else
+    # Insert under section header if not found
+    sed -i "/^\[${section}\]/a ${key} = \"${esc_value}\"" "$CONFIG_FILE"
+  fi
+}
+
+# Base URL - Render provides RENDER_EXTERNAL_HOSTNAME
+if [ -n "$OJS_BASE_URL" ]; then
+  set_config "general" "base_url" "$OJS_BASE_URL"
+elif [ -n "$RENDER_EXTERNAL_HOSTNAME" ]; then
+  set_config "general" "base_url" "https://${RENDER_EXTERNAL_HOSTNAME}"
+fi
+
+# Database from env (support DATABASE_URL or separate vars)
+if [ -n "$DATABASE_URL" ]; then
+  # Parse mysql://user:pass@host:port/dbname
+  DB_USER=$(echo $DATABASE_URL | sed -n 's|.*://\([^:]*\):.*|\1|p')
+  DB_PASS=$(echo $DATABASE_URL | sed -n 's|.*://[^:]*:\([^@]*\)@.*|\1|p')
+  DB_HOST=$(echo $DATABASE_URL | sed -n 's|.*@\([^:/]*\).*|\1|p')
+  DB_PORT=$(echo $DATABASE_URL | sed -n 's|.*:\([0-9]*\)/.*|\1|p')
+  DB_NAME=$(echo $DATABASE_URL | sed -n 's|.*/\([^?]*\).*|\1|p')
+  [ -n "$DB_HOST" ] && set_config "database" "host" "$DB_HOST"
+  [ -n "$DB_USER" ] && set_config "database" "username" "$DB_USER"
+  [ -n "$DB_PASS" ] && set_config "database" "password" "$DB_PASS"
+  [ -n "$DB_NAME" ] && set_config "database" "name" "$DB_NAME"
+  [ -n "$DB_PORT" ] && set_config "database" "port" "$DB_PORT"
+else
+  [ -n "$DATABASE_HOST" ] && set_config "database" "host" "$DATABASE_HOST"
+  [ -n "$DATABASE_USER" ] && set_config "database" "username" "$DATABASE_USER"
+  [ -n "$DATABASE_PASSWORD" ] && set_config "database" "password" "$DATABASE_PASSWORD"
+  [ -n "$DATABASE_NAME" ] && set_config "database" "name" "$DATABASE_NAME"
+  [ -n "$DATABASE_PORT" ] && set_config "database" "port" "$DATABASE_PORT"
+fi
+
+# Security secrets
+[ -n "$OJS_API_SECRET" ] && set_config "security" "api_key_secret" "$OJS_API_SECRET"
+[ -n "$OJS_SALT" ] && set_config "security" "salt" "$OJS_SALT"
+
+# Files dir - use Render disk or /tmp
+if [ -n "$OJS_FILES_DIR" ]; then
+  set_config "files" "files_dir" "$OJS_FILES_DIR"
+else
+  # Default to /var/www/ojs-files which is created in Dockerfile
+  set_config "files" "files_dir" "/var/www/ojs-files"
+  set_config "files" "public_files_dir" "/var/www/ojs-files"
+fi
+
+# Installed flag - if DB is already installed, keep On, else Off for installer
+# We don't auto-install, user will run installer via web or CLI
+
+# Ensure permissions
+chown -R www-data:www-data /var/www/html/cache /var/www/html/public /var/www/ojs-files 2>/dev/null || true
+chmod -R 755 /var/www/html/cache 2>/dev/null || true
+
+# Clear cache
+rm -rf /var/www/html/cache/*.php /var/www/html/cache/t_cache/* 2>/dev/null || true
+
+echo "OJS config prepared. base_url=$(grep -m1 'base_url' $CONFIG_FILE)"
+
+exec "$@"

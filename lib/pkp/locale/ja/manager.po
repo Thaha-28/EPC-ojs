@@ -1,0 +1,3484 @@
+# TAKASHI IMAGIRE <imagire@gmail.com>, 2021.
+# Bjorn-Ole Kamm <pkp_trans@b-ok.de>, 2024, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-09 01:22+0000\n"
+"Last-Translator: Bjorn-Ole Kamm <pkp_trans@b-ok.de>\n"
+"Language-Team: Japanese <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"manager/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "manager.website.information"
+msgstr "情報"
+
+msgid "manager.website.appearance"
+msgstr "外観"
+
+msgid "manager.website.imageFileRequired"
+msgstr ""
+"画像ファイルが必要です。ファイルの選択・アップロードをしていることを確認して"
+"ください。"
+
+msgid "manager.announcements"
+msgstr "お知らせ"
+
+msgid "manager.announcements.confirmDelete"
+msgstr "お知らせ「{$title}」を永久に削除してよろしいですか？"
+
+msgid "manager.announcements.create"
+msgstr "新規告知の作成"
+
+msgid "manager.announcements.createTitle"
+msgstr "作成"
+
+msgid "manager.announcements.dateExpire"
+msgstr "有効期限"
+
+msgid "manager.announcements.datePublish"
+msgstr "公開済"
+
+msgid "manager.announcements.deleteAnnouncement"
+msgstr "お知らせの削除"
+
+msgid "manager.announcements.edit"
+msgstr "お知らせの編集"
+
+msgid "manager.announcements.editTitle"
+msgstr "編集"
+
+msgid "manager.announcements.form.dateExpireDayIncompleteDate"
+msgstr "有効期限の日に加えて、年や月を選択してください。"
+
+msgid "manager.announcements.form.dateExpire"
+msgstr "有効期限"
+
+msgid "manager.announcements.form.dateExpireInstructions"
+msgstr ""
+"この告知はこの日まで読者に表示されます。お知らせを無期限で表示する場合は、空"
+"白にしてください。"
+
+msgid "manager.announcements.form.dateExpireMonthIncompleteDate"
+msgstr "有効期限の月に加えて、年や日を選択してください。"
+
+msgid "manager.announcements.form.dateExpireValid"
+msgstr "お知らせの適切な有効期限を選択してください。"
+
+msgid "manager.announcements.form.dateExpireYearIncompleteDate"
+msgstr "有効期限の年に加えて、月や日を選択してください。"
+
+msgid "manager.announcements.form.description"
+msgstr "お知らせ"
+
+msgid "manager.announcements.form.descriptionInstructions"
+msgstr "告知内容の全文です。"
+
+msgid "manager.announcements.form.descriptionRequired"
+msgstr "告知内容の説明が必要です。"
+
+msgid "manager.announcements.form.descriptionShortInstructions"
+msgstr "告知タイトルと一緒に表示される簡単な説明文です。"
+
+msgid "manager.announcements.form.descriptionShortRequired"
+msgstr "告知内容の短い説明が必要です。"
+
+msgid "manager.announcements.form.descriptionShort"
+msgstr "短い説明"
+
+msgid "manager.announcements.form.saveAndCreateAnother"
+msgstr "保存して次の作成"
+
+msgid "manager.announcements.form.titleRequired"
+msgstr "告知タイトルが必要です。"
+
+msgid "manager.announcements.form.title"
+msgstr "タイトル"
+
+msgid "manager.announcements.form.typeId"
+msgstr "種別"
+
+msgid "manager.announcements.form.typeIdValid"
+msgstr "有効な告知種別を選択してください。"
+
+msgid "manager.announcements.noneCreated"
+msgstr "告知は作成されていません。"
+
+msgid "manager.announcements.title"
+msgstr "タイトル"
+
+msgid "manager.announcements.type"
+msgstr "種別"
+
+msgid "manager.announcementTypes"
+msgstr "告知種別"
+
+msgid "manager.announcementTypes.confirmDelete"
+msgstr ""
+"警告! この告知種別に設定されたすべての告知が削除されます。このまま告知種別を"
+"削除してもよろしいですか？"
+
+msgid "manager.announcementTypes.create"
+msgstr "告知種別の作成"
+
+msgid "manager.announcementTypes.createTitle"
+msgstr "作成"
+
+msgid "manager.announcementTypes.edit"
+msgstr "告知種別の編集"
+
+msgid "manager.announcementTypes.editTitle"
+msgstr "編集"
+
+msgid "manager.announcementTypes.form.saveAndCreateAnother"
+msgstr "保存して次の作成"
+
+msgid "manager.announcementTypes.form.typeNameExists"
+msgstr "この名前の告知種別はすでに存在しています。"
+
+msgid "manager.announcementTypes.form.typeName"
+msgstr "名前"
+
+msgid "manager.announcementTypes.form.typeNameRequired"
+msgstr "告知種別の名前が必要です。"
+
+msgid "manager.announcementTypes.noneCreated"
+msgstr "告知種別が作成されていません。"
+
+msgid "manager.announcementTypes.typeName"
+msgstr "告知種別"
+
+msgid "manager.dois.actions.deposit.all"
+msgstr "すべて登録"
+
+msgid "manager.dois.actions.deposit.label"
+msgstr "DOIを登録"
+
+msgid "manager.dois.actions.deposit.prompt"
+msgstr ""
+"{$count} 件の項目のDOIメタデータを {$registrationAgency} に送信します。これらのレコードを登録してもよろしいですか？"
+
+msgid "manager.dois.actions.markRegistered.label"
+msgstr "DOIを登録済みにする"
+
+msgid "manager.dois.actions.markRegistered.prompt"
+msgstr "{$count} 件の項目のDOIメタデータを登録済みとしてマークします。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.markUnregistered.label"
+msgstr "DOIを未登録にする"
+
+msgid "manager.dois.actions.markUnregistered.prompt"
+msgstr "{$count} 件の項目のDOIメタデータを未登録としてマークします。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.markStale.label"
+msgstr "DOIを同期要にする"
+
+msgid "manager.dois.actions.markStale.prompt"
+msgstr ""
+"{$count} "
+"件の項目のDOIメタデータを同期が必要な状態としてマークします。同期要ステータスは、以前に送信されたDOIにのみ適用できます。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.export.label"
+msgstr "DOIをエクスポート"
+
+msgid "manager.dois.actions.export.prompt"
+msgstr ""
+"{$registrationAgency} 用に {$count} 件の項目のDOIメタデータをエクスポートします。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.assign.label"
+msgstr "DOIを割り当てる"
+
+msgid "manager.dois.actions.assign.prompt"
+msgstr "DOIが未割当の対象項目 {$count} 件に新しいDOIを割り当てます。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.depositAll.label"
+msgstr "すべてのDOIをデポジット"
+
+msgid "manager.dois.actions.depositAll.prompt"
+msgstr ""
+"未登録のすべてのDOIメタデータを {$registrationAgency} "
+"へ登録するようスケジュールします。公開済みでDOIを持つ項目のみ登録されます。応答を受け取ると各項目のステータスが更新されます。実行してもよろしいですか？"
+
+msgid "manager.dois.actions.description"
+msgstr "選択した{$count}件のアイテムに対して操作を行います。"
+
+msgid "manager.dois.actions.bulkActions"
+msgstr "一括操作"
+
+msgid "manager.dois.depositStatus"
+msgstr "デポジット状態"
+
+msgid "manager.dois.publicationStatus"
+msgstr "公開状態"
+
+msgid "manager.dois.registration.submittedDescription"
+msgstr "この項目のメタデータは {$registrationAgency} に送信済みです。"
+
+msgid "manager.dois.registration.manuallyMarkedRegistered"
+msgstr "この項目は登録機関に手動で登録済みとしてマークされています。"
+
+msgid "manager.dois.registration.notSubmittedDescription"
+msgstr "この項目のメタデータは {$registrationAgency} に未送信です。"
+
+msgid "manager.dois.registration.notPublishedDescription"
+msgstr "この項目は公開されるまで登録できません。"
+
+msgid "manager.dois.registration.viewError"
+msgstr "エラーを表示"
+
+msgid "manager.dois.registration.viewError.title"
+msgstr "登録エラーメッセージ"
+
+msgid "manager.dois.registration.viewRecord"
+msgstr "記録を表示"
+
+msgid "manager.dois.registration.viewRecord.title"
+msgstr "登録成功メッセージ"
+
+msgid "manager.dois.update.success"
+msgstr "DOIを更新しました。"
+
+msgid "manager.dois.registration.depositDois"
+msgstr "DOIをデポジット"
+
+msgid "manager.dois.status.needsDoi"
+msgstr "DOI未設定"
+
+msgid "manager.dois.status.unregistered"
+msgstr "未登録"
+
+msgid "manager.dois.status.submitted"
+msgstr "送信済み"
+
+msgid "manager.dois.status.registered"
+msgstr "登録済み"
+
+msgid "manager.dois.status.error"
+msgstr "エラー"
+
+msgid "manager.dois.status.error.filterTitle"
+msgstr "エラーあり"
+
+msgid "manager.dois.status.stale"
+msgstr "同期が必要"
+
+msgid "manager.dois.filters.doiAssigned"
+msgstr "DOI割り当て済み"
+
+msgid "manager.dois.status.needsDoi.description"
+msgstr "DOIが未設定のすべてのアイテムです。"
+
+msgid "manager.dois.filters.doiAssigned.description"
+msgstr "DOIが割り当て済みのすべてのアイテムです。"
+
+msgid "manager.dois.status.unregistered.description"
+msgstr "DOIがあり、公開済みですが、登録機関へまだデポジットされていないすべてのアイテムです。"
+
+msgid "manager.dois.status.submitted.description"
+msgstr "登録機関へ送信済みのすべてのアイテムです。"
+
+msgid "manager.dois.status.registered.description"
+msgstr "登録機関に登録済み、または手動で登録済みに設定されたすべてのアイテムです。"
+
+msgid "manager.dois.status.error.description"
+msgstr "登録処理中にエラーが発生したすべてのアイテムです。"
+
+msgid "manager.dois.status.stale.description"
+msgstr "前回登録機関へデポジットして以降に再公開されたすべてのアイテムです。メタデータ更新のため再送信が必要です。"
+
+msgid "manager.dois.update.failedCreation"
+msgstr "DOI更新に失敗しました"
+
+msgid "manager.dois.update.partialFailure"
+msgstr "一部のDOIを更新できませんでした"
+
+msgid "manager.dois.notification.exportSuccess"
+msgstr "アイテムを正常にエクスポートしました"
+
+msgid "manager.dois.notification.markRegisteredSuccess"
+msgstr "アイテムを登録済みに設定しました"
+
+msgid "manager.dois.notification.markUnregisteredSuccess"
+msgstr "アイテムを未登録に設定しました"
+
+msgid "manager.dois.notification.markStaleSuccess"
+msgstr "アイテムを同期が必要な状態に設定しました"
+
+msgid "manager.dois.notification.assignDoisSuccess"
+msgstr "新しいDOIをアイテムに割り当てました"
+
+msgid "manager.dois.notification.depositQueuedSuccess"
+msgstr "デポジット用にアイテムを送信しました"
+
+msgid "manager.dois.help.statuses.title"
+msgstr "DOIの状態"
+
+msgid "manager.dois.settings.relocated"
+msgstr ""
+"DOI管理は移動しました。<a href=\"{$doiManagementUrl}\">DOI管理</a>と<a "
+"href=\"{$doiSettingsUrl}\">DOI設定</a>ページを確認してください。"
+
+msgid "manager.dois.settings.prefixRequired"
+msgstr ""
+"DOIを割り当てるには、割り当てられたDOIプレフィックスを設定する必要があります。<a "
+"href=\"{$doiSettingsUrl}\">DOIプレフィックスを追加</a>してください。"
+
+msgid "doi.exceptions.missingPrefix"
+msgstr "DOIの作成を試みましたが、このコンテキストでDOIを作成するにはDOIプレフィックスが必要です。"
+
+msgid "manager.genres.alertDelete"
+msgstr "この構成要素を削除する前に、関連するすべての投稿ファイルを別の構成要素に関連付ける必要があります。"
+
+msgid "manager.institutions.edit"
+msgstr "機関を編集"
+
+msgid "manager.institutions.form.ror"
+msgstr ""
+
+msgid "manager.institutions.form.ror.description"
+msgstr "この機関のResearch Organization Registry IDです。"
+
+msgid "manager.institutions.form.ipRanges"
+msgstr "IP範囲"
+
+msgid "manager.institutions.form.ipRangesInstructions"
+msgstr ""
+"有効な値には、IPアドレス（例: 142.58.103.1）、IP範囲（例: 142.58.103.1 - "
+"142.58.103.4）、ワイルドカード「*」を含むIP範囲（例: 142.58.*.*）、CIDR形式のIP範囲（例: "
+"142.58.100.0/24）があります。"
+
+msgid "manager.institutions.deleteInstitution"
+msgstr "機関を削除"
+
+msgid "manager.institutions.confirmDelete"
+msgstr "この機関を削除してもよろしいですか？"
+
+msgid "manager.institutions.invalidIPRange"
+msgstr "無効なIP範囲です。"
+
+msgid "manager.publication.submissionStage"
+msgstr "投稿"
+
+msgid "manager.publication.reviewStage"
+msgstr "査読"
+
+msgid "manager.publication.editorialStage"
+msgstr "編集"
+
+msgid "manager.publication.productionStage"
+msgstr "制作"
+
+msgid "manager.publication.emails"
+msgstr "メール"
+
+msgid "manager.publication.reviewerGuidance"
+msgstr "査読ガイドライン"
+
+msgid "manager.publication.reviewReminders.success"
+msgstr "査読リマインドの詳細を更新しました。"
+
+msgid "manager.dois.title"
+msgstr "DOI"
+
+msgid "manager.dois.registrationAgency.errorMessagePreamble"
+msgstr "{$registrationAgency} から以下のエラーが返されました。エラー原因の詳細が含まれています:"
+
+msgid "manager.dois.registrationAgency.registeredMessagePreamble"
+msgstr "{$registrationAgency} から以下のメッセージが返されました。登録の詳細が含まれています:"
+
+msgid "manager.emails.addEmail"
+msgstr "テンプレートの追加"
+
+msgid "manager.emails.createEmail"
+msgstr "メールの作成"
+
+msgid "manager.emails.data"
+msgstr "テンプレートメッセージデータ"
+
+msgid "manager.emails.details"
+msgstr "テンプレート詳細"
+
+msgid "manager.emails.disable"
+msgstr "無効"
+
+msgid "manager.emails.disable.message"
+msgstr ""
+"このメールテンプレートを無効にしようとしています。 このテンプレートを使用して"
+"いるシステムプロセスがあった場合、そのプロセスは今後使用されません。この操作"
+"を承認しますか？"
+
+msgid "manager.emails.editTestExample"
+msgstr "メール文章例の編集"
+
+msgid "manager.emails.emailTemplate"
+msgstr "メールテンプレート"
+
+msgid "manager.emails.emailTemplates"
+msgstr "メールテンプレート"
+
+msgid "manager.emails.otherTemplates"
+msgstr "他のテンプレート"
+
+msgid "manager.emails.emailTemplate.contextRequired"
+msgstr "メールテンプレートの追加には、コンテキストIDを指定する必要があります。"
+
+msgid "manager.emails.enabled"
+msgstr "メールテンプレートを有効にする"
+
+msgid "manager.emails.enable"
+msgstr "有効化"
+
+msgid "manager.emails.enable.message"
+msgstr "メールを有効にしようとしています。 この操作を承認しますか？"
+
+msgid "manager.emails.form.emailKeyRequired"
+msgstr "メールには、スペースや特殊文字を含まないユニークなEメールキーが必要です。"
+
+msgid "manager.emails.form.bodyRequired"
+msgstr "メールには件名が必要です。"
+
+msgid "manager.emails.form.subjectRequired"
+msgstr "メールにはタイトルが必要です。"
+
+msgid "manager.emails"
+msgstr "準備されたメール"
+
+msgid "manager.emails.resetAll"
+msgstr "全てをリセット"
+
+msgid "manager.emails.resetAll.message"
+msgstr ""
+"すべてのテンプレートをリセットすると、メールテンプレートの変更内容はすべて失"
+"われます。 この操作を承認しますか？"
+
+msgid "manager.emails.reset.message"
+msgstr ""
+"このテンプレートをリセットすると、すべてのメッセージデータがデフォルト値にリ"
+"セットされ、変更内容はすべて失われます。 この操作を承認しますか？"
+
+msgid "manager.emails.resetToDefault"
+msgstr "ディフォルトに戻す"
+
+msgid "manager.emails.sentFrom"
+msgstr "送信元"
+
+msgid "manager.emails.sentTo"
+msgstr "宛先"
+
+msgid "manager.export.usersToCsv.label"
+msgstr "Excel/CSV にエクスポート"
+
+msgid "manager.export.usersToCsv.description"
+msgstr "Excel/CSVファイルにエクスポートするユーザーを選択してください。"
+
+msgid "manager.filesBrowser"
+msgstr "ファイルブラウザー"
+
+msgid "manager.files.confirmDelete"
+msgstr ""
+"このファイルかディレクトリを削除しますか？なお、ディレクトリは空でないと削除"
+"できません。"
+
+msgid "manager.files.createDir"
+msgstr "ディレクトリの作成"
+
+msgid "manager.files.emptyDir"
+msgstr "このディレクトリにはファイルがありません。"
+
+msgid "manager.files.indexOfDir"
+msgstr "{$dir} の一覧"
+
+msgid "manager.files.parentDir"
+msgstr "親ディレクトリ"
+
+msgid "manager.files.uploadedFiles"
+msgstr "アップロードファイル"
+
+msgid "manager.files.uploadFile"
+msgstr "アップロードファイル"
+
+msgid "manager.groups.confirmDelete"
+msgstr "このグループを削除してよろしいですか？"
+
+msgid "manager.groups.createTitle"
+msgstr "タイトルの作成"
+
+msgid "manager.groups.editTitle"
+msgstr "タイトルの編集"
+
+msgid "manager.groups.form.groupTitleRequired"
+msgstr "グループタイトルが必要です。"
+
+msgid "manager.groups.membership.addMember"
+msgstr "メンバーの追加"
+
+msgid "manager.groups.membership.confirmDelete"
+msgstr "このグループメンバーを削除してよろしいですか？"
+
+msgid "manager.groups.membership"
+msgstr "会員"
+
+msgid "manager.groups.membership.noneCreated"
+msgstr "グループにメンバーがいません。"
+
+msgid "manager.groups.membership.noUsers"
+msgstr "ユーザーが見つかりませんでした。"
+
+msgid "manager.groups.title"
+msgstr "タイトル"
+
+msgid "manager.importExport"
+msgstr "データのインポート/エクスポート"
+
+msgid "manager.language.ui"
+msgstr ""
+
+msgid "manager.language.submissions"
+msgstr "投稿物"
+
+msgid "manager.language.forms"
+msgstr "フォーム"
+
+msgid "manager.language.reloadLocalizedDefaultSettings"
+msgstr "ディフォルトに戻す"
+
+msgid "manager.languages.alternateLocaleInstructions"
+msgstr ""
+"このシステムでは、オプションとして、特定の重要な情報を複数の追加言語で入力す"
+"ることができます。この機能を使用するには、代替言語を選択し、以下のオプション"
+"から選択してください。"
+
+msgid "manager.languages.supportedLocalesInstructions"
+msgstr ""
+"サイトでサポートするすべての言語を、各ページに表示される言語選択メニューで選"
+"択します。メニューは、複数の言語を選択した場合にのみ表示されます。"
+
+msgid "manager.payment.timestamp"
+msgstr "タイムスタンプ"
+
+msgid "manager.people.existingUserRequired"
+msgstr "既存のユーザーを入力する必要があります。"
+
+msgid "manager.people.confirmUnenroll"
+msgstr "このユーザーの登録を解除しますか？"
+
+msgid "manager.people.createUser"
+msgstr "新規ユーザーの作成"
+
+msgid "manager.people.createUserGeneratePassword"
+msgstr "ランダムなパスワードを生成します。"
+
+msgid "manager.people.createUserSendNotify"
+msgstr "ユーザーに、ユーザー名とパスワードを含むウェルカムメールを送信する。"
+
+msgid "manager.people.disable"
+msgstr "無効"
+
+msgid "manager.people.doNotEnroll"
+msgstr "役割なし"
+
+msgid "manager.people.editProfile"
+msgstr "プロフィールの編集"
+
+msgid "manager.people.editUser"
+msgstr "ユーザーの編集"
+
+msgid "manager.people.emailUsers.emailSelectedUsers"
+msgstr "選択したユーザーにメールを送る"
+
+msgid "manager.people.emailUsers.emailUsersEnrolledAs"
+msgstr "登録されたユーザーにメールを送る："
+
+msgid "manager.people.emailUsers"
+msgstr "ユーザーにメールを送る"
+
+msgid "manager.people.emailUsers.selectLocale"
+msgstr "言語選択"
+
+msgid "manager.people.emailUsers.selectUsers"
+msgstr ""
+"メールを送信したいユーザーの名前の横のチェックボックスから選択してください"
+
+msgid "manager.people.enable"
+msgstr "有効"
+
+msgid "manager.people.enroll"
+msgstr "ユーザー登録"
+
+msgid "manager.people.enrollment"
+msgstr "登録"
+
+msgid "manager.people.enrollSelected"
+msgstr "選択されたユーザーの登録"
+
+msgid "manager.people.enrollSyncRole"
+msgstr "役割の同期"
+
+msgid "manager.people.enrollSync"
+msgstr "登録の同期"
+
+msgid "manager.people.enrollUserAsDescription"
+msgstr ""
+"ユーザーは、いつでもロールに任命したり、ロールから外したりすることができま"
+"す。"
+
+msgid "manager.people.enrollUserAs"
+msgstr "ユーザーを次で登録："
+
+msgid "manager.people.invalidUser"
+msgstr "申し訳ありませんが、要求されたユーザーは存在しません。"
+
+msgid "manager.people.mergeUser"
+msgstr "ユーザーの統合"
+
+msgid "manager.people.mergeUsers.confirm"
+msgstr ""
+"選択した {$oldAccountCount} アカウントを、ユーザー名「{$newUsername}」のアカ"
+"ウントに統合することでよろしいですか？選択した {$oldAccountCount} アカウント"
+"は、その後存在しなくなります。この操作は元に戻せません。"
+
+msgid "manager.people.mergeUsers"
+msgstr "ユーザーの統合"
+
+msgid "manager.people.mustChooseRole"
+msgstr "ページ上部で役割を選択してから「ユーザー登録」をクリックしてください。"
+
+msgid "manager.people.mustProvideName"
+msgstr "最初にユーザーの名字くらいはご記入ください。"
+
+msgid "manager.people.noMatchingUsers"
+msgstr "該当するユーザーはいません。"
+
+msgid "manager.people.noneEnrolled"
+msgstr "登録されているユーザーはいません。"
+
+msgid "manager.people"
+msgstr "人々"
+
+msgid "manager.people.remove"
+msgstr "削除"
+
+msgid "manager.people.saveAndCreateAnotherUser"
+msgstr "保存して次の作成"
+
+msgid "manager.people.signedInAs"
+msgstr "現在、{$username} としてログインしています"
+
+msgid "manager.people.signInAs"
+msgstr "ログイン："
+
+msgid "manager.people.signInAsUser"
+msgstr "ログイン：ユーザー"
+
+msgid "manager.people.syncUsers"
+msgstr "ユーザー登録の同期化"
+
+msgid "manager.people.unenroll"
+msgstr "登録解除"
+
+msgid "manager.people.userCreatedSuccessfully"
+msgstr "ユーザーの作成に成功しました。"
+
+msgid "manager.people.userMustChangePassword"
+msgstr "次回ログイン時にパスワードの変更を要求する。"
+
+msgid "manager.plugins.action"
+msgstr "アクション:"
+
+msgid "manager.plugins.disable"
+msgstr "無効"
+
+msgid "manager.plugins.enable"
+msgstr "有効"
+
+msgid "manager.plugins.pluginManagement"
+msgstr "プラグインの管理"
+
+msgid "manager.plugins.sitePlugin"
+msgstr ""
+"このプラグインはサイト全体で使用されます。このプラグインは、サイト管理者のみ"
+"が管理できます。"
+
+msgid "manager.plugins"
+msgstr "システムプラグイン"
+
+msgid "manager.readingTools"
+msgstr "リーディングツール"
+
+msgid "manager.userSearch.searchByName"
+msgstr "ユーザー名で検索"
+
+msgid "manager.representative.inUse"
+msgstr ""
+"1つ以上の投稿の出版フォーマットのマーケットメタデータに割り当てられているた"
+"め、この代表者を削除することはできません。"
+
+msgid "manager.reviewerSearch.change"
+msgstr "変更"
+
+msgid "manager.reviewerSearch.searchByName"
+msgstr "査読者を名前で検索"
+
+msgid "manager.reviewerSearch.searchByName.short"
+msgstr "名前で検索"
+
+msgid "manager.reviewerSearch.interests"
+msgstr "査読での興味"
+
+msgid "manager.reviewerSearch.form.instructions"
+msgstr ""
+"以下のフォームを使用して、検索したい用語の最大値を設定してください。 フォーム"
+"には、これらのフィールドの事前計算された平均値があらかじめ入力されています。"
+
+msgid "manager.roles"
+msgstr "ロール"
+
+msgid "manager.setup.statistics"
+msgstr "統計"
+
+msgid "manager.settings.statistics.geoUsageStats"
+msgstr "地域別統計"
+
+msgid "manager.settings.statistics.geoUsageStats.description"
+msgstr ""
+"収集する地域別利用統計の種類を選択してください。詳細な地域統計はデータベースサイズを大幅に増加させる可能性があり、まれに訪問者の匿名性を損なう場合があります。"
+
+msgid "manager.settings.statistics.geoUsageStats.disabled"
+msgstr "地域データを収集しない"
+
+msgid "manager.settings.statistics.geoUsageStats.countryLevel"
+msgstr "訪問者の国を収集"
+
+msgid "manager.settings.statistics.geoUsageStats.regionLevel"
+msgstr "訪問者の国と地域を収集"
+
+msgid "manager.settings.statistics.geoUsageStats.cityLevel"
+msgstr "訪問者の国、地域、都市を収集"
+
+msgid "manager.settings.statistics.institutionUsageStats"
+msgstr "機関別統計"
+
+msgid "manager.settings.statistics.institutionUsageStats.description"
+msgstr "機関別に利用統計を収集する場合は、機関統計を有効にします。有効にした場合、追跡する各機関のIP範囲を設定する必要があります。"
+
+msgid "manager.settings.statistics.institutionUsageStats.enable"
+msgstr "機関別統計を有効にする"
+
+msgid "manager.settings.statistics.publicSushiApi"
+msgstr "公開API"
+
+msgid "manager.settings.statistics.publicSushiApi.description"
+msgstr ""
+"COUNTER "
+"SUSHI統計のAPIエンドポイントへのアクセスを制限するかどうかを設定します。チェックを外すと、APIは管理者またはマネージャー権限を持つユーザーのみ利用できます。"
+
+msgid "manager.settings.statistics.publicSushiApi.public"
+msgstr "COUNTER SUSHI統計を公開する"
+
+msgid "manager.statistics.reports"
+msgstr "レポート"
+
+msgid "manager.statistics.reports.description"
+msgstr ""
+"このシステムでは、一定期間のサイト利用や投稿に関連する詳細を追跡するレポートが生成されます。レポートはCSV形式で作成されるため、閲覧には表計算ソフトが必要となります。"
+
+msgid "manager.statistics.reports.month.label"
+msgstr "YYYYMM 形式を使用します。"
+
+msgid "manager.statistics.reports.day.label"
+msgstr "YYYYMMDD 形式を使用します。"
+
+msgid "manager.affiliationAndSupport"
+msgstr "スポンサー"
+
+msgid "manager.setup.dois"
+msgstr "DOI"
+
+msgid "manager.setup.dois.setup"
+msgstr "設定"
+
+msgid "manager.setup.dois.registration"
+msgstr "登録"
+
+msgid "doi.manager.settings.doiPrefix"
+msgstr "DOIプレフィックス"
+
+msgid "doi.manager.setup.automaticDeposit"
+msgstr "自動デポジット"
+
+msgid "doi.manager.setup.automaticDeposit.enable"
+msgstr "自動デポジットを有効にする"
+
+msgid "doi.manager.setup.automaticDeposit.description"
+msgstr "DOI登録とメタデータは、選択した登録機関へ自動的に登録できます。"
+
+msgid "doi.manager.settings.doiPrefix.description"
+msgstr ""
+"DOIプレフィックスは、<a href=\"https://www.crossref.org\" "
+"target=\"_new\">Crossref</a> などの登録機関から割り当てられます。"
+
+msgid "doi.manager.settings.doiPrefixPattern"
+msgstr "DOIプレフィックスは必須で、10.xxxx の形式で入力してください。"
+
+msgid "doi.manager.settings.doiCreationTime.label"
+msgstr "DOIの自動割当"
+
+msgid "doi.manager.settings.doiCreationTime.description"
+msgstr "投稿にDOIを割り当てるタイミングを選択してください。"
+
+msgid "doi.manager.settings.doiCreationTime.publication"
+msgstr "公開時"
+
+msgid "doi.manager.settings.doiCreationTime.never"
+msgstr "自動割当しない"
+
+msgid "manager.setup.doiPrefix"
+msgstr "DOIプレフィックス"
+
+msgid "doi.manager.settings.doiObjects"
+msgstr "DOIを付与する項目"
+
+msgid "doi.manager.settings.doiPrefix.required"
+msgstr "DOIプレフィックスは必須です。"
+
+msgid "doi.manager.settings.doiSuffix"
+msgstr "DOI形式"
+
+msgid "doi.manager.settings.doiSuffix.pattern"
+msgstr "DOIサフィックス"
+
+msgid "doi.manager.settings.doiSuffix.custom"
+msgstr "カスタムDOIサフィックスパターン"
+
+msgid "doi.manager.settings.enabledDoiTypes.error"
+msgstr "選択されたDOI種別の一部は、設定済みのDOI登録機関では許可されていません。"
+
+msgid "doi.manager.settings.doiSuffix.description"
+msgstr "アプリケーションがDOIを生成する際に使用する形式を選択してください。"
+
+msgid "doi.manager.settings.doiSuffixDefault"
+msgstr "デフォルト - 一意の8文字サフィックスを自動生成"
+
+msgid "doi.manager.settings.doiSuffixManual"
+msgstr "なし - サフィックスは<a href=\"{$doiManagementUrl}\">DOI管理ページ</a>で手動入力する必要があります。"
+
+msgid "doi.manager.settings.doiSuffixUserDefined"
+msgstr "カスタムパターン - 非推奨"
+
+msgid "doi.manager.settings.registrationAgency"
+msgstr "登録機関"
+
+msgid "doi.manager.settings.registrationAgency.description"
+msgstr "DOIを登録する際に使用する登録機関を選択してください。"
+
+msgid "doi.manager.settings.registrationAgency.noPluginsEnabled.label"
+msgstr "有効な登録機関がありません"
+
+msgid "doi.manager.settings.registrationAgency.noPluginsEnabled.description"
+msgstr "DOIは登録機関で自動発行・登録できます。この機能を使用するには、登録機関プラグインを有効化してください。"
+
+msgid "doi.manager.settings.registrationAgency.none"
+msgstr "なし"
+
+msgid "doi.manager.settings.doiVersioning"
+msgstr "DOIバージョン管理"
+
+msgid "doi.authorization.enabledRequired"
+msgstr "DOIが有効でない状態では、この操作を実行できません。"
+
+msgid "doi.manager.versions.countStatement"
+msgstr "{$count} 件のバージョンがあります。"
+
+msgid "doi.manager.versions.view"
+msgstr "すべて表示"
+
+msgid "doi.manager.versions.modalTitle"
+msgstr "すべてのバージョンのDOI"
+
+msgid "doi.editor.doiSuffixInvalidCharacters"
+msgstr "DOIに無効な文字が含まれています。"
+
+msgid "manager.setup.publishing"
+msgstr "出版の詳細"
+
+msgid "manager.setup.publishingDescription"
+msgstr ""
+"これらの詳細は、第三者のアーカイブ機関に提供されるメタデータに含まれることが"
+"あります。"
+
+msgid "manager.setup.additionalContent"
+msgstr "追加コンテンツ"
+
+msgid "manager.setup.additionalContent.description"
+msgstr "ここで入力した内容は、あなたのホームページに表示されます。"
+
+msgid "manager.setup.advanced"
+msgstr "詳細"
+
+msgid "manager.setup.copyrightNotice"
+msgstr "著作権情報"
+
+msgid "manager.setup.copyrightNotice.description"
+msgstr "投稿の際は、以下の著作権表示に同意していただく必要があります。"
+
+msgid "manager.setup.authorGuidelines"
+msgstr "著者ガイドライン"
+
+msgid "manager.setup.authorGuidelines.description"
+msgstr ""
+"推奨されるガイドラインには、目録や書式の標準、投稿時に使用する一般的な引用形"
+"式の例が含まれています。"
+
+msgid "manager.setup.disableSubmissions"
+msgstr "投稿の無効化"
+
+msgid "manager.setup.checklist"
+msgstr "チェックリスト"
+
+msgid "manager.setup.competingInterests"
+msgstr "利益相反"
+
+msgid "manager.setup.errorDeletingItem"
+msgstr "このアイテムを削除する際にエラーが生じました。"
+
+msgid "manager.setup.favicon"
+msgstr "ファビコン"
+
+msgid "manager.setup.homepageImage"
+msgstr "ホームページ画像"
+
+msgid "manager.setup.homepageImage.description"
+msgstr ""
+"画像をアップロードして、ホームページ上で目立つように表示することができます。"
+
+msgid "manager.setup.homepageImageInvalid"
+msgstr ""
+"ホームページの画像形式が無効であるか、アップロードに失敗しました。使用可能な"
+"フォーマットは.gif、.jpg、.pngです。"
+
+msgid "manager.setup.homeTitleImageInvalid"
+msgstr ""
+"ホームページのヘッダータイトル画像のフォーマットが無効であるか、アップロード"
+"に失敗しました。使用可能なフォーマットは.gif、.jpg、.pngです。"
+
+msgid "manager.setup.information.descriptionTitle"
+msgstr "説明"
+
+msgid "manager.setup.layout.sidebar"
+msgstr "サイドバー"
+
+msgid "manager.setup.layout.sidebar.invalidBlock"
+msgstr ""
+"{$name} ブロックが見つかりません。プラグインがインストールされ、有効になって"
+"いることを確認してください。"
+
+msgid "manager.setup.loggingAndAuditing"
+msgstr "ロギングと監査"
+
+msgid "manager.setup.logo"
+msgstr "ロゴ"
+
+msgid "manager.setup.noTemporaryFile"
+msgstr ""
+"アップロードしたファイルが見つかりませんでした。もう一度アップロードしてくだ"
+"さい。"
+
+msgid "manager.setup.notifications"
+msgstr "著者投稿のお知らせ"
+
+msgid "manager.setup.notifications.copySpecifiedAddress"
+msgstr "このメールアドレスにコピーを送る"
+
+msgid "manager.setup.notifyAllAuthors"
+msgstr "すべての著者に通知"
+
+msgid "manager.setup.notifyAllAuthors.description"
+msgstr "編集上の判定が記録されたときに、誰へ通知メールを送信するかを選択してください。"
+
+msgid "manager.setup.notifyAllAuthors.allAuthors"
+msgstr "投稿のすべての著者に通知メールを送信します。"
+
+msgid "manager.setup.notifyAllAuthors.assignedAuthors"
+msgstr "投稿ワークフローに割り当てられた著者にのみメールを送信します。通常は投稿者です。"
+
+msgid "manager.setup.submissionsNotifications"
+msgstr "通知"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact"
+msgstr "連絡責任者への通知"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.enabled"
+msgstr "はい、{$email} にコピーを送ります"
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled"
+msgstr "いいえ"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress"
+msgstr "誰かに通知"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress.description"
+msgstr ""
+"投稿確認メールのコピーは、ここに入力されたいずれかのメールアドレスに送信され"
+"ます。複数のメールアドレスを入力する場合は、コンマで区切ってください。例: "
+"one@example.com,two@example.com"
+
+msgid "manager.setup.notifications.copySubmissionAckAddress.invalid"
+msgstr "これらのメールアドレスのうち1つ以上が有効ではありません。"
+
+msgid "manager.setup.notifications.description"
+msgstr ""
+"投稿者には、投稿を確認するメールが自動的に送信されます。このメールのコピーを"
+"以下にも送れます:"
+
+msgid "manager.setup.notifyUsers"
+msgstr "通知"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "メール通知を受け取るべきユーザーを選択します。"
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "このメールのコピーを {$email} に送ってください。"
+
+msgid "manager.setup.notifyUsers.send"
+msgstr "メール送信"
+
+msgid "manager.setup.notifyUsers.confirm"
+msgstr ""
+"あなたはユーザー {$total} にメールを送信しようとしています。このメールを送信"
+"してもよろしいですか？"
+
+msgid "manager.setup.notifyUsers.sendAnother"
+msgstr "別のメールを送る"
+
+msgid "manager.setup.openAccessPolicy"
+msgstr "オープンアクセスポリシー"
+
+msgid "manager.setup.openAccessPolicy.description"
+msgstr ""
+"公開されたすべてのコンテンツにすぐに無料でアクセスできる場合は、オープンアク"
+"セスポリシーの説明を入力することができます。"
+
+msgid "manager.setup.pageHeaderLogoImageInvalid"
+msgstr ""
+"ページヘッダーロゴの画像フォーマットが無効であるか、アップロードに失敗しまし"
+"た。使用可能なフォーマットは.gif、.jpg、.pngです。"
+
+msgid "manager.setup.pageFooter"
+msgstr "ページフッター"
+
+msgid "manager.setup.pageFooter.description"
+msgstr ""
+"ウェブサイトの下部に表示させたい画像やテキスト、HTMLコードなどを入力してくだ"
+"さい。"
+
+msgid "manager.setup.peerReview.description"
+msgstr ""
+"査読者と著者のための査読方針とプロセスを概説する。この説明には、通常、投稿論"
+"文の査読に使用される査読者の数、査読者が投稿論文を判断するよう求められる基"
+"準、査読の実施に必要な予想時間、査読者を選択するために使用される原則などが含"
+"まれることが多い。"
+
+msgid "manager.setup.principalContact"
+msgstr "連絡責任者"
+
+msgid "manager.setup.principalContactDescription"
+msgstr ""
+"主任編集者、常務編集者、管理スタッフなどの連絡先を入力し、一般にアクセス可能"
+"なウェブサイトに表示することができます。"
+
+msgid "manager.setup.privacyStatement"
+msgstr "個人情報の取り扱いについて"
+
+msgid "manager.setup.dateTime"
+msgstr "日付と時間"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "日付と時間フォーマット"
+
+msgid "manager.setup.dateTime.description"
+msgstr ""
+"日付と時刻のフォーマットを選択してください。カスタムフォーマットの入力には、"
+"特殊な<a href='http://php.net/manual/ja/datetime.format.php#refsect1-"
+"datetime.format-parameters'>フォーマット文字</a>が使えます。"
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "日付"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "日付（短縮）"
+
+msgid "manager.setup.dateTime.time"
+msgstr "時間"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "日付と時間"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "日付と時間（短縮）"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "カスタム"
+
+msgid "manager.setup.privacyStatement.description"
+msgstr ""
+"この声明は、ユーザー登録時、著者登録時、および一般に公開されている「個人情報"
+"の取り扱いについて」で表示されます。一部の管轄区域では、ユーザーデータの取り"
+"扱い方法をこのプライバシーポリシーで開示することが法的に求められています。"
+
+msgid "manager.setup.reviewOptions.defaultReviewResponseTime"
+msgstr "デフォルトの応答期限"
+
+msgid "manager.setup.reviewOptions.defaultReviewCompletionTime"
+msgstr "デフォルトの完了期限"
+
+msgid "manager.setup.reviewOptions.numWeeksPerResponse"
+msgstr "査読依頼を受理または断るまでの週数。"
+
+msgid "manager.setup.reviewOptions.numWeeksPerReview"
+msgstr "レビュー完了までの期間"
+
+msgid "manager.setup.reviewOptions.neverSendReminder"
+msgstr "リマインドしない"
+
+msgid "manager.setup.reviewOptions.noteOnModification"
+msgstr "デフォルト値は、編集作業中に査読ごとに変更できます。"
+
+msgid "manager.setup.reviewOptions.reviewMode"
+msgstr "ディフォルトの査読モード"
+
+msgid "manager.setup.reviewOptions.showAnonymousReviewLink"
+msgstr ""
+"アップロード時に<button type=\"button\">すべてのファイルを匿名化する方法</"
+"button>へのリンクを提示"
+
+msgid "manager.setup.sponsors.note"
+msgstr "スポンサーの関係とポリシーの説明"
+
+msgid "manager.setup.sponsors.description"
+msgstr "例：学術団体、大学部局、協同組合など。スポンサーは公開されます。"
+
+msgid "manager.setup.styleSheetDescription"
+msgstr ""
+"経験豊富なウェブ開発者は、CSSファイルをアップロードして、ウェブサイトの外観を"
+"さらにカスタマイズできます。"
+
+msgid "manager.setup.technicalSupportContact"
+msgstr "技術支援担当者"
+
+msgid "manager.setup.technicalSupportContactDescription"
+msgstr ""
+"編集者、著者、査読者がマテリアルの投稿、編集、査読、出版に関わる問題をサポー"
+"トする連絡先です。"
+
+msgid "manager.setup.theme"
+msgstr "テーマ"
+
+msgid "manager.setup.institutions"
+msgstr "機関"
+
+msgid "manager.setup.theme.description"
+msgstr ""
+"新しいテーマは、このページの上部にある「プラグイン」タブからインストールでき"
+"ます。"
+
+msgid "manager.setup.theme.notFound"
+msgstr "選択したテーマがインストールされていないか、有効になっていません。"
+
+msgid "manager.setup.workflow.beginSubmissionHelp.description"
+msgstr "投稿開始前に著者へ表示されます。投稿前に知っておくべき内容を簡潔に説明してください。"
+
+msgid "manager.setup.workflow.uploadFilesHelp.description"
+msgstr "ファイルアップロード手順中に著者へ表示されます。アップロードするファイルについて簡潔に説明してください。"
+
+msgid "manager.setup.workflow.contributorsHelp.description"
+msgstr "投稿者情報の入力手順中に著者へ表示されます。共著者や貢献者情報について簡潔に説明してください。"
+
+msgid "manager.setup.workflow.detailsHelp.description"
+msgstr "タイトル、抄録、キーワードなどの詳細情報を入力する手順中に著者へ表示されます。"
+
+msgid "manager.setup.workflow.forTheEditorsHelp.description"
+msgstr "「編集者への情報」手順中に著者へ表示されます。編集者に伝えるメタデータやコメントについて簡潔に説明してください。"
+
+msgid "manager.setup.workflow.reviewHelp.description"
+msgstr "投稿ウィザードの最終手順中に著者へ表示されます。投稿前の確認事項について簡潔に説明してください。"
+
+msgid "manager.setup.workflow.guidance"
+msgstr "著者案内"
+
+msgid "manager.setup.submissionPreparationChecklist"
+msgstr "提出準備チェックリスト"
+
+#, fuzzy
+msgid "manager.setup.submissionPreparationChecklistDescription"
+msgstr ""
+"本誌への投稿の際には，まず投稿準備チェックリストの各項目が完了していることを"
+"確認した上で，投稿を進めてください。このチェックリストは，「ジャーナルについ"
+"て」の「著者ガイドライン」にも掲載されています。チェックリストは以下で編集可"
+"能ですが，すべての項目にチェックが入っていないと投稿できません。"
+
+#, fuzzy
+msgid "manager.sections.form.deactivateSection"
+msgstr "このセクションを非アクティブにして、新しい投稿を許可しない。"
+
+msgid "manager.sections.confirmDeactivateSection"
+msgstr "このセクションを無効にしてもよろしいですか？"
+
+msgid "manager.sections.confirmActivateSection"
+msgstr "このセクションを有効にしてもよろしいですか？"
+
+msgid "manager.sections.form.assignEditors"
+msgstr "編集担当の割当"
+
+msgid "manager.sections.form.assignEditors.description"
+msgstr "このセクションへの新規投稿に自動的に割り当てる編集ユーザーを選択してください。"
+
+msgid "manager.sections.form.assignEditorAs"
+msgstr "{$name} を {$role} として割り当て"
+
+msgid "manager.categories.form.assignEditors.description"
+msgstr "このカテゴリーへの新規投稿に自動的に割り当てる編集ユーザーを選択してください。"
+
+msgid "manager.siteAccessOptions.siteAccessOptions"
+msgstr "サイトアクセスオプション"
+
+msgid "manager.statistics.statistics.count.value"
+msgstr ""
+
+msgid "manager.statistics.statistics.totalNewValue"
+msgstr "{$numTotal} (新 {$numNew})"
+
+msgid "manager.statistics.statistics.registeredUsers"
+msgstr "登録ユーザー"
+
+msgid "manager.users"
+msgstr "ユーザー"
+
+msgid "plugins.categories.metadata"
+msgstr "メタデータのプラグイン"
+
+msgid "plugins.categories.metadata.description"
+msgstr "メタデータプラグインは、追加のメタデータ規格を実装します。"
+
+msgid "plugins.categories.auth"
+msgstr "認証プラグイン"
+
+msgid "plugins.categories.blocks"
+msgstr "ブロックプラグイン"
+
+msgid "plugins.categories.blocks.description"
+msgstr ""
+"ブロックプラグインとは、様々なサイドバーツールのようなプラグイン可能なUIコン"
+"ポーネントのことです。"
+
+msgid "plugins.categories.gateways.description"
+msgstr "ゲートウェイプラグインは、ライブデータを外部システムに提供します。"
+
+msgid "plugins.categories.gateways"
+msgstr "ゲートウェイプラグイン"
+
+msgid "plugins.categories.generic"
+msgstr "汎用プラグイン"
+
+msgid "plugins.categories.importexport.description"
+msgstr ""
+"インポート/エクスポートプラグインは、他のシステムとの間でのコンテンツの転送に"
+"使用します。"
+
+msgid "plugins.categories.importexport"
+msgstr "インポート/エクスポートプラグイン"
+
+msgid "plugins.categories.paymethod.description"
+msgstr "決済手法プラグインは、オンラインでの様々な支払い方法に対応しています。"
+
+msgid "plugins.categories.paymethod"
+msgstr "決済手法プラグイン"
+
+msgid "plugins.categories.reports.description"
+msgstr "レポートプラグインは、様々な種類のレポートやデータの抽出を実装します。"
+
+msgid "plugins.categories.reports"
+msgstr "レポートプラグイン"
+
+msgid "plugins.categories.themes.description"
+msgstr "テーマプラグインは、システムの外観を変更するのに使用します。"
+
+msgid "plugins.categories.themes"
+msgstr "テーマプラグイン"
+
+msgid "plugins.categories.oaiMetadataFormats"
+msgstr "OAI メタデータ・フォーマット・プラグイン"
+
+msgid "plugins.categories.oaiMetadataFormats.description"
+msgstr "これらのフォーマットプラグインは、OAI通信でメタデータを表現します。"
+
+msgid "plugins.categories.pubIds"
+msgstr "公開識別子プラグイン"
+
+msgid "plugins.categories.pubIds.description"
+msgstr "これらのプラグインは、公開識別子のサポートを実装しています。"
+
+msgid "manager.plugins.copyError"
+msgstr ""
+"プラグインが正常にコピーされませんでした。これはパーミッションの問題かもしれ"
+"ません。Webサーバーがpluginsディレクトリ（サブディレクトリを含む）に書き込み"
+"ができることを確認してください。ただし、後でもう一度セキュリティを確保するこ"
+"とを忘れないでください。"
+
+msgid "manager.plugins.delete"
+msgstr "プラグインの削除"
+
+msgid "manager.plugins.installConfirm"
+msgstr "このプラグインをインストールしてよろしいですか？"
+
+msgid "manager.plugins.upgradeConfirm"
+msgstr "このプラグインを更新してよろしいですか？"
+
+msgid "grid.action.installPlugin"
+msgstr "このプラグインのインストールまたは更新"
+
+msgid "manager.plugins.deleteConfirm"
+msgstr "このプラグインをシステムから削除してよろしいですか？"
+
+msgid "manager.plugins.deleteDescription"
+msgstr ""
+"「削除」をクリックすると、サーバーのファイルシステムからプラグインが削除され"
+"ます。"
+
+msgid "manager.plugins.deleteError"
+msgstr ""
+"プラグイン「{$pluginName}」をファイルシステムから削除できませんでした。これは"
+"パーミッションの問題である可能性があります。Webサーバーがpluginsディレクトリ"
+"（サブディレクトリを含む）に書き込みができることを確認してください。ただし、"
+"後でもう一度セキュリティを確保することを忘れないでください。"
+
+msgid "manager.plugins.deleteSuccess"
+msgstr "プラグイン\"{$pluginName}\"は正常に削除された"
+
+msgid "manager.plugins.description"
+msgstr ""
+"このページでは、管理者が現在インストールされているプラグインを確認・設定する"
+"ことができます。プラグインは、機能に応じてカテゴリー分けされています。カテゴ"
+"リは以下の通りで、各カテゴリ内には現在のプラグインのセットがあります。"
+
+msgid "manager.plugins.doesNotExist"
+msgstr "プラグイン\"{$pluginName}\"は存在しません"
+
+msgid "manager.plugins.fileSelectError"
+msgstr "最初にファイルを選択してください"
+
+msgid "manager.plugins.upload"
+msgstr "新しいプラグインのアップロード"
+
+msgid "manager.plugins.uploadDescription"
+msgstr ""
+"このフォームでは、新しいプラグインをアップロードしてインストールすることがで"
+"きます。 プラグインが.tar.gzファイルとして圧縮されていることを確認してくださ"
+"い。"
+
+msgid "manager.plugins.uploadFailed"
+msgstr "アップロードするファイルが選択されていることを確認してください。"
+
+msgid "manager.plugins.installed"
+msgstr "インストール済みプラグイン"
+
+msgid "manager.plugins.pluginGallery"
+msgstr "プラグインギャラリー"
+
+msgid "manager.plugins.pluginGallery.overview"
+msgstr "概要"
+
+msgid "manager.plugins.pluginGallery.installation"
+msgstr "インストール"
+
+msgid "manager.plugins.pluginGallery.latestCompatible"
+msgstr "互換性のある最新リリース"
+
+msgid "manager.plugins.pluginGallery.certifications.official"
+msgstr "公式"
+
+msgid "manager.plugins.pluginGallery.certifications.official.description"
+msgstr ""
+"このプラグインは、Public Knowledge Projectチームによって開発・維持されていま"
+"す。"
+
+msgid "manager.plugins.pluginGallery.certifications.reviewed"
+msgstr "レビュー済み"
+
+msgid "manager.plugins.pluginGallery.certifications.reviewed.description"
+msgstr ""
+"このプラグインは、Public Knowledge Projectチームによって審査・承認されていま"
+"す。"
+
+msgid "manager.plugins.pluginGallery.certifications.partner"
+msgstr "パートナー"
+
+msgid "manager.plugins.pluginGallery.certifications.partner.description"
+msgstr "このプラグインは、当社の開発パートナーが提供しています。"
+
+msgid "manager.plugins.pluginGallery.maintainer"
+msgstr "保守管理者"
+
+msgid "manager.plugins.pluginGallery.version"
+msgstr "{$date} に v{$version} がリリース"
+
+msgid "manager.plugins.pluginGallery.homepage"
+msgstr "ホームページ"
+
+msgid "manager.plugins.pluginGallery.summary"
+msgstr "要約"
+
+msgid "manager.plugins.pluginGallery.status"
+msgstr "利用統計"
+
+msgid "manager.plugins.noInstalledVersion"
+msgstr "このプラグインはまだインストールされていません。"
+
+msgid "manager.plugins.noCompatibleVersion"
+msgstr "現在、このプラグインの互換性のあるバージョンはありません。"
+
+msgid "manager.plugins.installedVersionNewer"
+msgstr ""
+"ギャラリーで公開されているバージョンよりも新しいインストール済みプラグイン。"
+
+msgid "manager.plugins.installedVersionOlder"
+msgstr ""
+"プラグインはすでにインストールされていますが、新しいバージョンに更新できま"
+"す。"
+
+msgid "manager.plugins.installedVersionNewest"
+msgstr "プラグインは、最新の状態でインストール済みです。"
+
+msgid "manager.plugins.installedVersionNewer.short"
+msgstr "利用可能なバージョンよりも新しいもの"
+
+msgid "manager.plugins.installedVersionOlder.short"
+msgstr "アップグレード可能"
+
+msgid "manager.plugins.installedVersionNewest.short"
+msgstr "最新版"
+
+msgid "manager.plugins.noCompatibleVersion.short"
+msgstr "不可"
+
+msgid "manager.plugins.installFailed"
+msgstr "インストールに失敗しました。{$errorString}"
+
+msgid "manager.plugins.installSuccessful"
+msgstr "インストールに成功したバージョン {$versionNumber}"
+
+msgid "manager.plugins.invalidPluginArchive"
+msgstr ""
+"アップロードされたプラグインアーカイブに、プラグイン名に対応するフォルダが含"
+"まれていません。"
+
+msgid "manager.plugins.wrongCategory"
+msgstr "更新されたプラグインが、更新されたプラグインのカテゴリーに合わない。"
+
+msgid "manager.plugins.wrongName"
+msgstr ""
+"アップロードされたプラグインの version.xml に、アップグレードされたプラグイン"
+"の名前と合わないプラグイン名が含まれています。"
+
+msgid "manager.plugins.pleaseInstall"
+msgstr "プラグインが存在しません。 代わりにインストールしてください"
+
+msgid "manager.plugins.pleaseUpgrade"
+msgstr ""
+"プラグインはすでに存在していますが、インストールしたバージョンよりも新しいも"
+"のです。 代わりに更新してください"
+
+msgid "manager.plugins.settings"
+msgstr "設定"
+
+msgid "manager.plugins.upgrade"
+msgstr "プラグインの更新"
+
+msgid "manager.plugins.upgradeDescription"
+msgstr ""
+"このフォームでは、プラグインを更新できます。 プラグインが.tar.gzファイルとし"
+"て圧縮されていることを確認してください。"
+
+msgid "manager.plugins.upgradeFailed"
+msgstr "更新に失敗しました。{$errorString}"
+
+msgid "manager.plugins.upgradeSuccessful"
+msgstr "バージョン {$versionString} へのアップグレードに成功しました"
+
+msgid "manager.plugins.uploadError"
+msgstr "ファイルのアップロードエラー"
+
+msgid "manager.plugins.uploadPluginDir"
+msgstr "プラグインファイルの選択"
+
+msgid "manager.plugins.versionFileInvalid"
+msgstr "プラグインディレクトリ内の version.xml に不正なデータが含まれている。"
+
+msgid "manager.plugins.versionFileNotFound"
+msgstr "version.xml がプラグインディレクトリで見つからない"
+
+msgid "notification.localeEnabled"
+msgstr "言語が有効になっています。"
+
+msgid "notification.localeDisabled"
+msgstr "言語が無効になっています。"
+
+msgid "notification.primaryLocaleDefined"
+msgstr "{$locale}が主な言語として定義されています。"
+
+msgid "notification.localeInstalled"
+msgstr "選択されたすべての言語がインストールされ、有効になっています。"
+
+msgid "notification.localeUninstalled"
+msgstr "{$locale} 言語をアンインストールしました。"
+
+msgid "notification.localeReloaded"
+msgstr "{$locale} 言語を {$contextName} でリロードしました。"
+
+msgid "notification.localeSettingsSaved"
+msgstr "言語設定が保存されました。"
+
+msgid "notification.localeSettingsCannotBeSaved"
+msgstr ""
+"言語設定を保存できませんでした。各オプションには、少なくとも1つの言語を有効に"
+"する必要があります"
+
+msgid "notification.editedUser"
+msgstr "ユーザーが編集しました。"
+
+msgid "manager.distribution.license"
+msgstr "ライセンス"
+
+msgid "manager.distribution.license.other"
+msgstr "他のライセンスURL"
+
+msgid "manager.distribution.licenseTerms"
+msgstr "ライセンス条項"
+
+msgid "manager.distribution.licenseTerms.description"
+msgstr ""
+"公開された作品と一緒に表示したいパブリックライセンスの条件を入力してくださ"
+"い。"
+
+msgid "manager.distribution.customHeaders"
+msgstr "カスタムタグ"
+
+msgid "manager.distribution.customHeaders.description"
+msgstr ""
+"各ページの先頭に挿入したいカスタムHTMLタグ（メタタグとも呼ばれる）を追加しま"
+"す。ここでタグを追加する前に、テクニカルアドバイザーに相談してください。"
+
+msgid "manager.paymentMethod"
+msgstr "決済"
+
+msgid "manager.paymentMethod.title"
+msgstr "決済方法"
+
+msgid "manager.paymentMethod.none"
+msgstr "決済方法が選択されていません"
+
+msgid "manager.paymentMethod.method"
+msgstr "決済方法"
+
+msgid "manager.paymentMethod.currency"
+msgstr "通過"
+
+msgid "settings.roles.roleOptions"
+msgstr "役割オプション"
+
+msgid "settings.roles.showTitles"
+msgstr "投稿者リストに役割名を表示"
+
+msgid "settings.roles.permitSelfRegistration"
+msgstr "ユーザーの自己登録が可能"
+
+msgid "settings.roles.recommendOnly"
+msgstr ""
+"この役割は、査読決定の結果報告をすることのみ許可されており、最終決定を記録す"
+"るには権限のある編集者が必要です。"
+
+msgid "settings.roles.roleName"
+msgstr "役割名"
+
+msgid "settings.roles.roleAbbrev"
+msgstr "略語"
+
+msgid "settings.roles.assignedStages"
+msgstr "任命された段階"
+
+msgid "settings.roles.stages"
+msgstr "ステージ"
+
+msgid "settings.roles.roleDetails"
+msgstr "役割詳細"
+
+msgid "settings.roles.from"
+msgstr "パーミッションレベル"
+
+msgid "settings.roles.removeText"
+msgstr ""
+"このコンテキストからこの役割を削除しようとしています。この操作により、関連す"
+"る設定や、この役割に割り当てられているすべてのユーザーも削除されます。続けま"
+"すか？"
+
+msgid "settings.roles.nameRequired"
+msgstr "役割名を定義する必要があります。"
+
+msgid "settings.roles.abbrevRequired"
+msgstr "役割の略語を定義する必要があります。"
+
+msgid "settings.roles.uniqueName"
+msgstr "固有の役割名を定義する必要があります。"
+
+msgid "settings.roles.uniqueAbbrev"
+msgstr "固有の役割の略語を定義する必要があります。"
+
+msgid "settings.roles.roleIdRequired"
+msgstr "役割のパーミッションレベルを定義する必要があります。"
+
+msgid "settings.roles.stageIdRequired"
+msgstr "任命先の段階を定義する必要があります。"
+
+msgid "settings.roles.permitMetadataEdit"
+msgstr "投稿のメタデータ編集を許可します。"
+
+msgid "settings.libraryFiles.fileRequired"
+msgstr ""
+"ライブラリファイルが必要です。ファイルを選択してアップロードしたことを確認し"
+"てください。"
+
+msgid "settings.libraryFiles.nameRequired"
+msgstr "このライブラリファイルには名前が必要です。"
+
+msgid "settings.libraryFiles.typeRequired"
+msgstr "このライブラリファイルにはファイル種別が必要です。"
+
+msgid "settings.libraryFiles.category.contracts"
+msgstr "連絡先"
+
+msgid "settings.libraryFiles.category.marketing"
+msgstr "マーケティング"
+
+msgid "settings.libraryFiles.category.permissions"
+msgstr "パーミッション"
+
+msgid "settings.libraryFiles.category.reports"
+msgstr "レポート"
+
+msgid "settings.libraryFiles.category.other"
+msgstr "その他"
+
+msgid "settings.libraryFiles.public.viewInstructions"
+msgstr ""
+"<p>このライブラリファイルは、「公開アクセス」が有効であれば、こちらでダウン"
+"ロードできます: <blockquote>{$downloadUrl}</blockquote></p>"
+
+msgid "settings.libraryFiles.public.selectLibraryFiles"
+msgstr "添付するライブラリファイルの選択"
+
+msgid "grid.action.addGenre"
+msgstr "構成要素の追加"
+
+msgid "grid.action.editGenre"
+msgstr "構成要素の編集"
+
+msgid "grid.action.deleteGenre"
+msgstr "構成要素の削除"
+
+msgid "grid.action.restoreGenres"
+msgstr "構成要素をディフォルト設定に戻す"
+
+msgid "manager.setup.genres.label"
+msgstr "ファイル種別"
+
+msgid "manager.setup.genres.dependent"
+msgstr ""
+"これらは、HTMLファイルで表示される画像などの依存ファイルであり、出版コンテン"
+"ツでは表示されません。"
+
+msgid "manager.setup.genres.supplementary"
+msgstr ""
+"データセットや研究資料などの補助的なファイルで、主要な出版ファイルとは別に表"
+"示されます。"
+
+msgid "manager.setup.genres.key"
+msgstr "キー"
+
+msgid "manager.setup.genres.key.description"
+msgstr "この分野のオプションの短いシンボリックな識別子です。"
+
+msgid "manager.setup.genres.key.exists"
+msgstr "キーはすでに存在しています。"
+
+msgid "manager.setup.genres.key.alphaNumeric"
+msgstr ""
+"キーは、英数字、アンダースコア、ハイフンのみを含み、英数字で始まり、英数字で"
+"終わる必要があります。"
+
+msgid "manager.setup.genres.metatadata"
+msgstr "ファイルメタデータ"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr ""
+"これらのファイルが受け取ることのできるメタデータの種別を選択します。ダウン"
+"ロード可能なPDFなど、メインの出版物ファイルには「 投稿原本」を選択し、これら"
+"のファイルが出版物からメタデータを継承するようにします。それ以外のほとんどの"
+"ファイルタイプには、「補足コンテンツ」を選択します。「アートワーク」は、クレ"
+"ジット、キャプション、ライセンスのメタデータが必要なファイルに適しています。"
+
+msgid "manager.setup.genres.submitRequired.label"
+msgstr "投稿時に必須"
+
+msgid "manager.setup.genres.submitRequired.description"
+msgstr ""
+"新規投稿ごとに、これらのファイルの少なくとも1つを必須にしますか？「はい」を選択すると、著者は該当ファイルをアップロードする必要があります。"
+
+msgid "manager.setup.genres.submitRequired.yes"
+msgstr "はい。投稿著者にこれらのファイルを1つ以上アップロードさせます。"
+
+msgid "manager.setup.genres.submitRequired.no"
+msgstr "いいえ。これらのファイルなしで新規投稿を許可します。"
+
+msgid "manager.settings.wizard"
+msgstr "設定ウィザード"
+
+msgid "manager.users.roleRequired"
+msgstr "このユーザーに関連付ける役割を1つ以上選択する必要があります。"
+
+msgid "manager.website"
+msgstr "ウェブサイト"
+
+msgid "manager.website.title"
+msgstr "ウェブサイト設定"
+
+msgid "manager.workflow"
+msgstr "ワークフロー"
+
+msgid "manager.workflow.title"
+msgstr "ワークフロー設定"
+
+msgid "manager.distribution"
+msgstr "流通"
+
+msgid "manager.distribution.title"
+msgstr "流通設定"
+
+msgid "manager.reviewForms"
+msgstr "査読フォーム"
+
+msgid "manager.reviewForms.confirmActivate"
+msgstr ""
+"この査読フォームを有効にしてよろしいですか？いったん査読に割り当てられると、"
+"もう無効にすることはできません。"
+
+msgid "manager.reviewForms.confirmDeactivate"
+msgstr ""
+"この査読フォームを無効にしてよろしいでしょうか？新規の査読課題には利用できな"
+"くなります。"
+
+msgid "manager.reviewForms.confirmCopy"
+msgstr "この査読フォームのコピーを作成してもよろしいですか？"
+
+msgid "manager.reviewForms.completed"
+msgstr "完了"
+
+msgid "manager.reviewForms.confirmDelete"
+msgstr "この査読フォームを削除してもよろしいですか？"
+
+msgid "manager.reviewForms.create"
+msgstr "査読フォームの作成"
+
+msgid "manager.reviewForms.description"
+msgstr "説明と手順"
+
+msgid "manager.reviewForms.edit"
+msgstr "査読フォーム"
+
+msgid "manager.reviewForms.form.titleRequired"
+msgstr "査読フォームにはタイトルが必要です。"
+
+msgid "manager.reviewForms.inReview"
+msgstr "査読中"
+
+msgid "manager.reviewForms.list.description"
+msgstr ""
+"ここで作成された査読フォームは、2つのオープンテキストボックス（1つ目は「著者"
+"と編集者へ」、2つ目は「編集者へ」）で構成されるデフォルトのフォームの代わりに"
+"査読者に提示・記入されます。査読フォームは、特定の出版セクション用に指定する"
+"ことができ、編集者は査読を任命に使用するフォームを選択できます。いずれの場合"
+"も、編集者は著者に対応する査読を含めるオプションがあります。"
+
+msgid "manager.reviewForms.noneChosen"
+msgstr "なし / 自由形式レビュー"
+
+msgid "manager.reviewForms.noneCreated"
+msgstr "査読フォームは生成されていません。"
+
+msgid "manager.reviewForms.noneUsed"
+msgstr "査読フォームは使われていません。"
+
+msgid "manager.reviewForms.preview"
+msgstr "プレビューフォーム"
+
+msgid "manager.reviewForms.reviewFormData"
+msgstr "フォームデータの確認"
+
+msgid "manager.reviewForms.title"
+msgstr "タイトル"
+
+msgid "manager.reviewFormElement.changeType"
+msgstr "フォームアイテムの種別を変更する..."
+
+msgid "manager.reviewFormElements"
+msgstr "フォームアイテム"
+
+msgid "manager.reviewFormElements.addResponseItem"
+msgstr "選択項目の追加"
+
+msgid "manager.reviewFormElements.checkboxes"
+msgstr "チェックボックス（1つ以上を選択可能）"
+
+msgid "manager.reviewFormElements.chooseType"
+msgstr "アイテム種別を選択"
+
+msgid "manager.reviewFormElements.confirmDelete"
+msgstr "公開されたフォームアイテムの削除を承認する..."
+
+msgid "manager.reviewFormElements.copyTo"
+msgstr "コピー コピー先:"
+
+msgid "manager.reviewFormElements.create"
+msgstr "新規アイテムの作成"
+
+msgid "manager.reviewFormElements.dropdownbox"
+msgstr "ドロップダウンリスト"
+
+msgid "manager.reviewFormElements.edit"
+msgstr "フォームアイテムの編集"
+
+msgid "manager.reviewFormElements.elementType"
+msgstr "アイテム種別"
+
+msgid "manager.reviewFormElements.form.elementTypeRequired"
+msgstr "フォームアイテムにはアイテム種別が必要です。"
+
+msgid "manager.reviewFormElements.form.questionRequired"
+msgstr "フォームアイテムには質問が必要です。"
+
+msgid "manager.reviewFormElements.noneCreated"
+msgstr "フォームアイテムが作成されていません。"
+
+msgid "manager.reviewFormElements.possibleResponse"
+msgstr "選択"
+
+msgid "manager.reviewFormElements.question"
+msgstr "アイテム"
+
+msgid "manager.reviewFormElements.description"
+msgstr "説明"
+
+msgid "manager.reviewFormElements.radiobuttons"
+msgstr "ラジオボタン（1つしか選べません）"
+
+msgid "manager.reviewFormElements.required"
+msgstr "アイテムの完成に必要な査読者"
+
+msgid "manager.reviewFormElements.included"
+msgstr "著者へのメッセージに含まれる"
+
+msgid "manager.reviewFormElements.smalltextfield"
+msgstr "一語のテキストボックス"
+
+msgid "manager.reviewFormElements.textarea"
+msgstr "拡張テキストボックス"
+
+msgid "manager.reviewFormElements.textfield"
+msgstr "一行テキストボックス"
+
+msgid "manager.reviewFormElements.viewable"
+msgstr "閲覧可能（著者用）"
+
+msgid "grid.action.createReviewForm"
+msgstr "査読フォームの新規作成"
+
+msgid "manager.setup.competingInterests.required"
+msgstr "査読の際に、競合する利害関係の声明を要求します。"
+
+msgid "manager.setup.licenseURLDescription"
+msgstr "ライセンスを説明するウェブページのURL（ある場合）。"
+
+msgid "manager.setup.metadata.submission"
+msgstr "投稿フォーム"
+
+msgid "manager.setup.metadata.coverage"
+msgstr "対象範囲"
+
+msgid "manager.setup.metadata.coverage.description"
+msgstr ""
+"対象範囲は、通常、作品の空間的な位置（地名や地理的座標）、時間的な期間（期間"
+"ラベル、日付、日付範囲）、管轄（名前のある行政機関など）を示します。"
+
+msgid "manager.setup.metadata.coverage.enable"
+msgstr "対象範囲メタデータの有効化"
+
+msgid "manager.setup.metadata.coverage.noRequest"
+msgstr "投稿時に著者に対象範囲メタデータを要求しない。"
+
+msgid "manager.setup.metadata.coverage.request"
+msgstr "投稿時に対象範囲メタデータを提案するように著者に依頼する。"
+
+msgid "manager.setup.metadata.coverage.require"
+msgstr "投稿を受け付ける前に、著者に対象範囲メタデータの提案を求める。"
+
+msgid "manager.setup.metadata.keywords.description"
+msgstr ""
+"キーワードは、通常1語から3語のフレーズで、投稿の主要なトピックを示すために使"
+"用されます。"
+
+msgid "manager.setup.metadata.keywords.enable"
+msgstr "キーワードメタデータの有効化"
+
+msgid "manager.setup.metadata.keywords.noRequest"
+msgstr "投稿時に著者にキーワードを要求しない。"
+
+msgid "manager.setup.metadata.keywords.request"
+msgstr "投稿時に著者にキーワードを提案してもらう。"
+
+msgid "manager.setup.metadata.keywords.require"
+msgstr "投稿を受け付ける前に、著者にキーワードの提案を求める。"
+
+msgid "manager.setup.metadata.rights.description"
+msgstr ""
+"知的財産権（IPR）、著作権、様々な財産権を含む、投稿物に対して保持されているあ"
+"らゆる権利。"
+
+msgid "manager.setup.metadata.rights.enable"
+msgstr "権利メタデータの有効化"
+
+msgid "manager.setup.metadata.rights.noRequest"
+msgstr "投稿時に著者に権利関係の開示を求めない。"
+
+msgid "manager.setup.metadata.rights.request"
+msgstr "投稿の際には、事前のアクセス権の開示を著者に求める。"
+
+msgid "manager.setup.metadata.rights.require"
+msgstr "投稿を受け付ける前に、事前のアクセス権を開示するよう著者に要求する。"
+
+msgid "manager.setup.metadata.source.description"
+msgstr "出典とは、投稿の元となった他の作品やリソースのDOIなどのIDのことです。"
+
+msgid "manager.setup.metadata.source.enable"
+msgstr "出典メタデータの有効化"
+
+msgid "manager.setup.metadata.source.noRequest"
+msgstr "投稿時に著者に出典URLを要求しない。"
+
+msgid "manager.setup.metadata.source.request"
+msgstr "投稿時に出典URLの提供をお願いする。"
+
+msgid "manager.setup.metadata.source.require"
+msgstr "投稿を受け付ける前に、出典URLの提供を著者に求める。"
+
+msgid "manager.setup.metadata.subjects.description"
+msgstr ""
+"主題となるのは、投稿のトピックを表すキーワード、キーフレーズ、分類コードで"
+"す。"
+
+msgid "manager.setup.metadata.subjects.enable"
+msgstr "主題メタデータの有効化"
+
+msgid "manager.setup.metadata.subjects.noRequest"
+msgstr "投稿中に著者に主題を要求しない。"
+
+msgid "manager.setup.metadata.subjects.request"
+msgstr "投稿時に主題を提供するよう著者に依頼する。"
+
+msgid "manager.setup.metadata.subjects.require"
+msgstr "投稿を受け付ける前に、著者に主題の提供を求める。"
+
+msgid "manager.setup.metadata.type.description"
+msgstr ""
+"投稿のメインコンテンツの性質や分野を表します。分類は通常 「テキスト」ですが、"
+"「データセット」、「画像」、または<a target=\"_blank\" href=\"http://"
+"dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary"
+"\">ダブリン・コア種別</a>のいずれかの場合もあります。"
+
+msgid "manager.setup.metadata.type.enable"
+msgstr "種別メタデータの有効化"
+
+msgid "manager.setup.metadata.type.noRequest"
+msgstr "投稿時に著者に種別を要求しないでください。"
+
+msgid "manager.setup.metadata.type.request"
+msgstr "投稿時に著者に種別を教えてもらう。"
+
+msgid "manager.setup.metadata.type.require"
+msgstr "投稿を受け付ける前に、著者に種別の提供を求める。"
+
+msgid "manager.setup.metadata.disciplines.description"
+msgstr ""
+"規律とは、大学の学部や学会によって説明されている学問の種類や知識の枝のことで"
+"す。"
+
+msgid "manager.setup.metadata.disciplines.enable"
+msgstr "規律メタデータを有効にする"
+
+msgid "manager.setup.metadata.disciplines.noRequest"
+msgstr "投稿中に著者に規律を求めない。"
+
+msgid "manager.setup.metadata.disciplines.request"
+msgstr "投稿時に著者に規律を求める。"
+
+msgid "manager.setup.metadata.disciplines.require"
+msgstr "投稿を受け付ける前に、著者に規律の提供を求める。"
+
+msgid "manager.setup.metadata.agencies.description"
+msgstr ""
+"支援機関は、研究を促進するための研究費やその他の組織的支援源を示すことができ"
+"ます。"
+
+msgid "manager.setup.metadata.agencies.enable"
+msgstr "支援機関メタデータを有効にする"
+
+msgid "manager.setup.metadata.agencies.noRequest"
+msgstr "投稿中に著者に支援機関を求めない。"
+
+msgid "manager.setup.metadata.agencies.request"
+msgstr "投稿の際に、支援機関を開示するように著者に依頼する。"
+
+msgid "manager.setup.metadata.agencies.require"
+msgstr "投稿を受け付ける前に、著者に支援機関の提供を求める。"
+
+msgid "manager.setup.metadata.citations.description"
+msgstr ""
+"投稿の参考文献を別のフィールドに集めてください。Crossrefなどの引用追跡サービ"
+"スに準拠するために必要な場合があります。"
+
+msgid "manager.setup.metadata.citations.enable"
+msgstr "参考文献メタデータを有効にする"
+
+msgid "manager.setup.metadata.citations.noRequest"
+msgstr "投稿中に著者に参考文献を求めない。"
+
+msgid "manager.setup.metadata.citations.request"
+msgstr "投稿時に著者に参考文献を提示してもらう。"
+
+msgid "manager.setup.metadata.citations.require"
+msgstr "投稿を受け付ける前に、著者に参考資料の提出を求める。"
+
+msgid "manager.setup.metadata.dataAvailability.description"
+msgstr "著者が研究データを利用可能にしているかどうか、および該当する場合はアクセス方法を説明する短い声明です。"
+
+msgid "manager.setup.metadata.dataAvailability.enable"
+msgstr "データ利用可能性声明メタデータを有効にする"
+
+msgid "manager.setup.metadata.dataAvailability.noRequest"
+msgstr "投稿時に著者へデータ利用可能性声明を求めない。"
+
+msgid "manager.setup.metadata.dataAvailability.request"
+msgstr "投稿時に著者へデータ利用可能性声明の提出を求める。"
+
+msgid "manager.setup.metadata.dataAvailability.require"
+msgstr "投稿を受理する前に、著者へデータ利用可能性声明の提出を必須にする。"
+
+msgid "plugins.importexport.common.validationErrors"
+msgstr "検証エラー:"
+
+msgid "plugins.importexport.common.warningsEncountered"
+msgstr "警告の発生:"
+
+msgid "plugins.importexport.common.errorsOccured"
+msgstr "エラー発生:"
+
+msgid "plugins.importexport.common.id"
+msgstr ""
+
+msgid "plugins.importexport.common.error.unknownElement"
+msgstr "不明な要素 {$param}"
+
+msgid "plugins.importexport.common.error.unknownGenre"
+msgstr "不明な分野 {$param}"
+
+msgid "plugins.importexport.common.error.unknownEncoding"
+msgstr "不明なエンコード {$param}"
+
+msgid "plugins.importexport.common.error.encodingError"
+msgstr "コンテンツは {$param} としてエンコードされていない"
+
+msgid "plugins.importexport.common.error.unknownUserGroup"
+msgstr "不明なユーザーグループ {$param}"
+
+msgid "plugins.importexport.common.error.userGroupMissing"
+msgstr "著者名 {$param} の入力がないユーザーグループ"
+
+msgid "plugins.importexport.common.error.missingGivenName"
+msgstr ""
+"投稿者 {$authorName} は、投稿言語 {$localeName} で下の名前を持っていません。"
+"この情報がないと、投稿をインポートできません。"
+
+msgid "plugins.importexport.common.error.unknownUploader"
+msgstr "不明なアップローダ {$param}"
+
+msgid "plugins.importexport.common.error.temporaryFileFailed"
+msgstr "一時ファイル {$dest} を {$source} から作成できない"
+
+msgid "plugins.importexport.common.error.filesizeMismatch"
+msgstr ""
+"提示されたファイルサイズ「{$expected}」と実際のファイルサイズ「{$actual}」が"
+"一致しない"
+
+msgid "plugins.importexport.common.error.duplicateRevisionForSubmission"
+msgstr ""
+"投稿ファイル「{$fileId}」のリビジョン「{$revisionId}」では、重複したレコード"
+"が作成される"
+
+msgid "plugins.importexport.native.error.submissionFileImportFailed"
+msgstr "投稿ファイルのインポートができなかった"
+
+msgid "plugins.importexport.native.error.submissionFileSkipped"
+msgstr ""
+"投稿ファイル {$id} は、査読課題やディスカッションなど、インポートされないレ"
+"コードに添付されているため、スキップされました。"
+
+msgid "plugins.importexport.user.importExportErrors"
+msgstr "インポート/エクスポートのエラー:"
+
+msgid "plugins.importexport.user.error.userHasNoPassword"
+msgstr ""
+"インポートされたユーザー「{$username}」のパスワードがありません。インポート"
+"XMLフォーマットを確認してください。ユーザーはインポートされていません。"
+
+msgid "plugins.importexport.user.error.passwordHasBeenChanged"
+msgstr ""
+"インポートされたユーザー「{$username}」のパスワードをそのままインポートするこ"
+"とができませんでした。新しいパスワードをユーザーのメールに送信しました。ユー"
+"ザーはインポートされました。"
+
+msgid "plugins.importexport.user.error.plainPasswordNotValid"
+msgstr ""
+"インポートされたユーザー「{$username}」のパスワードが無効です。このユーザーは"
+"インポートされていません。"
+
+msgid "plugins.importexport.user.error.usernameEmailMismatch"
+msgstr ""
+"ユーザー名「{$username}」とメールアドレス「{$email}」が、同一の既存ユーザーに"
+"一致しません。"
+
+msgid "plugins.importexport.common.settings.form.testMode.label"
+msgstr "テスト"
+
+msgid "manager.navigationMenus.form.title"
+msgstr "タイトル"
+
+msgid "manager.navigationMenus.form.path"
+msgstr "パス"
+
+msgid "manager.navigationMenus"
+msgstr "ナビゲーション"
+
+msgid "manager.navigationMenus.form.viewInstructions"
+msgstr ""
+"<p>このページは以下の場所からアクセスできます: <blockquote>{$pagesPath}</"
+"blockquote>...ここで、%PATH% は上で入力したパスです。<strong>注意:</strong>2"
+"つのページが同じパスを持つことはできません。システムに組み込まれているパスを"
+"使用すると、重要な機能にアクセスできなくなることがあります。</p>"
+
+msgid "manager.navigationMenus.form.content"
+msgstr "コンテンツ"
+
+msgid "manager.navigationMenus.form.pathRegEx"
+msgstr ""
+"パスフィールドには、英数字に加えて、「.」、「/」、「-」や「_」を含める必要が"
+"あります。"
+
+msgid "manager.navigationMenus.form.duplicatePath"
+msgstr "このパスは、他のナビゲーションメニュー項目にすでに存在しています。"
+
+msgid "manager.navigationMenus.form.duplicateTitles"
+msgstr "このタイトルは、すでに別のナビゲーションメニューに存在しています。"
+
+msgid "manager.navigationMenus.form.titleRequired"
+msgstr "タイトルは必須です"
+
+msgid "manager.navigationMenuItems"
+msgstr "ナビゲーションメニュー項目"
+
+msgid "manager.navigationMenus.assignedMenuItems"
+msgstr "指定済みメニュー項目"
+
+msgid "manager.navigationMenus.unassignedMenuItems"
+msgstr "未指定ナビゲーションメニュー項目"
+
+msgid "manager.navigationMenus.form.navigationMenuArea"
+msgstr "アクティブテーマのナビゲーションエリア"
+
+msgid "manager.navigationMenus.form.navigationMenuAreaMessage"
+msgstr "ナビゲーション領域の選択"
+
+msgid "manager.navigationMenus.form.menuAssigned"
+msgstr "このところには、すでにナビゲーションメニューが指定されています。"
+
+msgid "manager.navigationMenus.form.url"
+msgstr ""
+
+msgid "manager.navigationMenus.form.customUrlError"
+msgstr "URLの指定が必要"
+
+msgid "manager.navigationMenus.form.conditionalDisplay"
+msgstr "メニュー項目の表示・非表示のタイミングについてはこちらをご覧ください。"
+
+msgid "manager.navigationMenus.form.submenuWarning"
+msgstr ""
+"メニューアイテムがサブメニューを開くとき、そのリンクがすべてのデバイスで辿れ"
+"るわけではありません。例えば、「問い合わせ」や「編集委員会」などのサブメ"
+"ニューを開く「About」の項目がある場合、「About」のリンクはすべてのデバイスで"
+"到達できるとは限りません。デフォルトのメニューでは、サブメニューに表示される2"
+"つ目のメニュー項目「ジャーナルについて」を作成することで、この問題に対処して"
+"います。"
+
+msgid "manager.navigationMenus.form.navigationMenuItemType"
+msgstr "ナビゲーションメニュー種別"
+
+msgid "manager.navigationMenus.form.navigationMenuItemTypeMessage"
+msgstr ""
+"ナビゲーションメニューの種別を選択するか、独自に作成するカスタムを選択する"
+
+msgid "manager.navigationMenus.customPage"
+msgstr "独自ページ"
+
+msgid "manager.navigationMenus.customPage.description"
+msgstr ""
+"サイト内に独自ページを作成し、ナビゲーションメニューからリンクさせることがで"
+"きます。"
+
+msgid "manager.navigationMenus.remoteUrl"
+msgstr "リモートURL"
+
+msgid "manager.navigationMenus.remoteUrl.description"
+msgstr "https://pkp.sfu.ca のように、他のサイトの任意のURLにリンクします。"
+
+msgid "manager.navigationMenus.about.description"
+msgstr ""
+"「設定」→「ジャーナル」の「ジャーナルについて」コンテンツを表示するページへの"
+"リンク"
+
+msgid "manager.navigationMenus.about.conditionalWarning"
+msgstr ""
+"このリンクは、「設定」→「ジャーナル」の「ジャーナルについて」に記入した場合に"
+"のみ表示されます。"
+
+msgid "manager.navigationMenus.submissions.description"
+msgstr "投稿方法を記載したページへのリンクです。"
+
+msgid "manager.navigationMenus.current.description"
+msgstr "最新巻号へのリンクです。"
+
+msgid "manager.navigationMenus.archives.description"
+msgstr "巻号アーカイブへのリンクです。"
+
+msgid "manager.navigationMenus.announcements.description"
+msgstr "告知内容を掲載したページへのリンクです。"
+
+msgid "manager.navigationMenus.announcements.conditionalWarning"
+msgstr ""
+"このリンクは、「設定」→「ウェブサイト」で「お知らせ」を有効にしている場合のに"
+"み表示されます。"
+
+msgid "manager.navigationMenus.login.description"
+msgstr "ユーザーのログインページへのリンクです。"
+
+msgid "manager.navigationMenus.register.description"
+msgstr "ユーザー登録ページへのリンクです。"
+
+msgid "manager.navigationMenus.dashboard.description"
+msgstr "編集ダッシュボードへのリンクです。"
+
+msgid "manager.navigationMenus.profile.description"
+msgstr "ユーザーのプロフィールページへのリンクです。"
+
+msgid "manager.navigationMenus.administration.description"
+msgstr "サイト全体の管理ツールへのリンクです。"
+
+msgid "manager.navigationMenus.administration.conditionalWarning"
+msgstr "このリンクは、管理者ユーザーにのみ表示されます。"
+
+msgid "manager.navigationMenus.logOut.description"
+msgstr "ユーザーをログアウトさせるためのリンクです。"
+
+msgid "manager.navigationMenus.loggedOut.conditionalWarning"
+msgstr "このリンクは、訪問者がログインしている場合にのみ表示されます。"
+
+msgid "manager.navigationMenus.loggedIn.conditionalWarning"
+msgstr "このリンクは、訪問者がログインしていない場合にのみ表示されます。"
+
+msgid "manager.navigationMenus.contact.description"
+msgstr "あなたの連絡先を表示するページへのリンクです。"
+
+msgid "manager.navigationMenus.contact.conditionalWarning"
+msgstr ""
+"このリンクは、「設定」→「連絡先」で連絡先情報を入力した場合にのみ表示されま"
+"す。"
+
+msgid "manager.navigationMenus.form.typeMissing"
+msgstr "ナビゲーションメニューの種類を選択してください。"
+
+msgid "manager.navigationMenus.subscriptions.conditionalWarning"
+msgstr ""
+"このリンクは、「設定」→「流通」→「支払い」で決済が有効になっている場合にのみ"
+"表示されます。"
+
+msgid "manager.navigationMenus.mySubscriptions.conditionalWarning"
+msgstr ""
+"このリンクは、訪問者がログインしており、「設定」→「流通」→「支払い」で決済が"
+"有効になっており、「設定」→「流通」→「アクセス」で購読が必要な場合にのみ表示"
+"されます。"
+
+msgid "manager.navigationMenus.search.description"
+msgstr "検索ページへのリンクです。"
+
+msgid "manager.navigationMenus.privacyStatement.description"
+msgstr "あなたの個人情報の取り扱いを表示するページへのリンク。"
+
+msgid "manager.navigationMenus.privacyStatement.conditionalWarning"
+msgstr ""
+"このリンクは、「設定」→「ワークフロー」→「投稿」で個人情報の取り扱いを入力し"
+"た場合にのみ表示されます。"
+
+msgid "grid.category.add"
+msgstr "カテゴリーの追加"
+
+msgid "grid.category.edit"
+msgstr "カテゴリーの編集"
+
+msgid "grid.category.name"
+msgstr "名前"
+
+msgid "grid.category.path"
+msgstr "パス"
+
+msgid "grid.category.urlWillBe"
+msgstr "カテゴリのURLは: {$sampleUrl}"
+
+msgid "grid.category.pathAlphaNumeric"
+msgstr ""
+"カテゴリーパスは、アルファベットと数字のみで構成されている必要があります。"
+
+msgid "grid.category.pathExists"
+msgstr ""
+"カテゴリーのパスはすでに存在しています。他にないパスを入力してください。"
+
+msgid "grid.category.description"
+msgstr "説明"
+
+msgid "grid.category.parentCategory"
+msgstr "親カテゴリー"
+
+msgid "grid.category.removeText"
+msgstr "カテゴリーを削除してよろしいですか？"
+
+msgid "grid.category.nameRequired"
+msgstr "カテゴリー名を入力してください。"
+
+msgid "grid.category.categoryDetails"
+msgstr "カテゴリー詳細"
+
+msgid "stats.allUsers"
+msgstr "全ユーザー"
+
+msgid "stats.city"
+msgstr "都市"
+
+msgid "stats.views"
+msgstr "閲覧数"
+
+msgid "stats.downloads"
+msgstr "ダウンロード数"
+
+msgid "stats.views.timelineInterval"
+msgstr "日付別の総閲覧数"
+
+msgid "stats.downloads.timelineInterval"
+msgstr "日付別の総ダウンロード数"
+
+msgid "stats.countWithYearlyAverage"
+msgstr "{$count} ({$average}/年)"
+
+msgid "stats.daily"
+msgstr "1日当たり"
+
+msgid "stats.dateRange"
+msgstr "日付範囲"
+
+msgid "stats.dateRange.allDates"
+msgstr "全ての日付"
+
+msgid "stats.dateRange.apply"
+msgstr "適用"
+
+msgid "stats.dateRange.change"
+msgstr "日付範囲の変更"
+
+msgid "stats.dateRange.customRange"
+msgstr "カスタム範囲"
+
+msgid "stats.dateRange.dateDoesNotExist"
+msgstr "入力された日付の一つが存在しない。"
+
+msgid "stats.dateRange.from"
+msgstr "開始日"
+
+msgid "stats.dateRange.instructions"
+msgstr ""
+"各日付をYYYY-MM-DDの形式で入力します。例えば、2019年1月15日の日付を知りたい場"
+"合は、2019-01-15と入力します。"
+
+msgid "stats.dateRange.invalidDate"
+msgstr ""
+"日付のフォーマットが有効ではありません。各日付をYYYY-MM-DDの形式で入力してく"
+"ださい。"
+
+msgid "stats.dateRange.invalidDateRange"
+msgstr "開始日は終了日より前でなければなりません。"
+
+msgid "stats.dateRange.invalidEndDateMax"
+msgstr "終了日は {$date} より後にしてはいけません。"
+
+msgid "stats.dateRange.invalidStartDateMin"
+msgstr "開始日は {$date} より早くてはいけません。"
+
+msgid "stats.dateRange.last12Months"
+msgstr "過去12ヶ月"
+
+msgid "stats.dateRange.last30Days"
+msgstr "過去30日間"
+
+msgid "stats.dateRange.last90Days"
+msgstr "過去90日間"
+
+msgid "stats.dateRange.lastTwoYears"
+msgstr "過去2年間"
+
+msgid "stats.dateRange.lastYear"
+msgstr "昨年"
+
+msgid "stats.dateRange.sinceDate"
+msgstr "{$date} から"
+
+msgid "stats.dateRange.thisYear"
+msgstr "前年同期比"
+
+msgid "stats.dateRange.to"
+msgstr "最終日"
+
+msgid "stats.dateRange.untilDate"
+msgstr "{$date} まで"
+
+msgid "stats.description.acceptRejectRate"
+msgstr ""
+"選択された日付範囲の割合は、この日付範囲内に提出され、最終決定を受けた投稿を"
+"対象に計算されます。<br><br>例えば、この日付範囲内に10件の投稿が行われた場合"
+"を考えてみましょう。4件が採用、4件が不採用、2件が最終決定を待っている状態です"
+"。<br><br>最終決定に至っていない2本の投稿はカウントされないため、採用率は50%"
+"（8本中4本）となります。"
+
+msgid "stats.description.daysToDecision"
+msgstr ""
+"ほとんどの投稿論文が、デスク・リジェクションや査読へ送るなどの最初の編集上の"
+"決定を受けるまでにかかる日数。<br><br>この数字は、80%の投稿が指定された日数内"
+"に決定に至ることを示しています。<br><br>この統計は、あなたのジャーナルに投稿"
+"する著者の大半がいつ決定を期待できるかを説明しようとするものです。"
+
+msgid "stats.description.submissionsSkipped"
+msgstr "進行中の投稿など、他の合計に含まれない投稿が含まれます。"
+
+msgid "stats.descriptionForStat"
+msgstr "{$stat}の説明"
+
+msgid "stats.editorialActivity"
+msgstr "編集方針"
+
+msgid "stats.file.type.primaryFile"
+msgstr "主要ファイル"
+
+msgid "stats.file.type.suppFile"
+msgstr "補足ファイル"
+
+msgid "stats.fileViews"
+msgstr "ファイル表示"
+
+msgid "stats.html"
+msgstr ""
+
+msgid "stats.monthly"
+msgstr "月次"
+
+msgid "stats.pdf"
+msgstr ""
+
+msgid "stats.geographic.ccAttribution"
+msgstr "位置情報は <a href='https://db-ip.com'>DB-IP</a> により提供されています。"
+
+msgid "stats.geographic.tooltip.label"
+msgstr "位置情報について"
+
+msgid "stats.downloadReport.betweenDates"
+msgstr "{$startDate} から {$endDate} まで"
+
+msgid "stats.downloadReport.allFilters"
+msgstr "すべての {$filter}"
+
+msgid "stats.publications.downloadReport.downloadFiles"
+msgstr "ファイルをダウンロード"
+
+msgid "stats.publications.downloadReport.downloadFiles.description"
+msgstr "各ファイルのダウンロード数です。"
+
+msgid "stats.publications.downloadReport.downloadGeographic"
+msgstr "地域別データをダウンロード"
+
+msgid "stats.publications.downloadReport.downloadGeographic.description"
+msgstr "都市、地域、国ごとの閲覧数とダウンロード数です。"
+
+msgid "stats.region"
+msgstr "地域"
+
+msgid "stats.searchSubmissionDescription"
+msgstr "タイトル・著者・IDで検索"
+
+msgid "stats.submissionsActive"
+msgstr "アクティブな投稿"
+
+msgid "stats.timeline"
+msgstr "タイムライン"
+
+msgid "stats.timeline.downloadReport.description"
+msgstr "各 {$interval} における {$type} の数です。"
+
+msgid "stats.timeline.downloadReport.downloadTimeline"
+msgstr "タイムラインをダウンロード"
+
+msgid "stats.timelineInterval"
+msgstr "タイムライン間隔"
+
+msgid "stats.timelineType"
+msgstr "タイムライン種別"
+
+msgid "stats.total"
+msgstr "合計"
+
+msgid "stats.unique"
+msgstr "ユニーク"
+
+msgid "stats.totalWithinDateRange"
+msgstr "日付範囲内での合計"
+
+msgid "stats.trends"
+msgstr "トレンド"
+
+msgid "stats.unknown"
+msgstr "不明"
+
+msgid "stats.userStatistics"
+msgstr "ユーザー統計"
+
+msgid "stats.name.submissionsReceived"
+msgstr "受理投稿"
+
+msgid "stats.name.submissionsSkipped"
+msgstr "その他の投稿"
+
+msgid "stats.name.submissionsInProgress"
+msgstr "進行中の投稿"
+
+msgid "stats.name.submissionsImported"
+msgstr "インポート済み投稿"
+
+msgid "stats.name.submissionsAccepted"
+msgstr "採用された投稿"
+
+msgid "stats.name.submissionsDeclined"
+msgstr "返戻投稿"
+
+msgid "stats.name.submissionsDeclinedDeskReject"
+msgstr "返戻投稿 （デスク・リジェクト）"
+
+msgid "stats.name.submissionsDeclinedPostReview"
+msgstr "返戻投稿 （査読後）"
+
+msgid "stats.name.submissionsPublished"
+msgstr "公開投稿"
+
+msgid "stats.name.daysToDecision"
+msgstr "最初の編集決定までの日数"
+
+msgid "stats.name.daysToAccept"
+msgstr "受理までの日数"
+
+msgid "stats.name.daysToReject"
+msgstr "リジェクトまでの日数"
+
+msgid "stats.name.acceptanceRate"
+msgstr "採用率"
+
+msgid "stats.name.declineRate"
+msgstr "リジェクト率"
+
+msgid "stats.name.declinedDeskRate"
+msgstr "デスク・リジェクト率"
+
+msgid "stats.name.declinedReviewRate"
+msgstr "査読後リジェクト率"
+
+msgid "plugins.importexport.native.processFailed"
+msgstr "プロセスが失敗しました。エラー/警告については以下を確認してください。"
+
+msgid "plugins.importexport.native.export.submissions.results"
+msgstr "提出物のエクスポート結果"
+
+msgid "plugins.importexport.native.export.download.results"
+msgstr "エクスポートされたファイルのダウンロード"
+
+msgid "plugins.importexport.native.export.completed"
+msgstr "エクスポートが正常に完了しました。"
+
+msgid "plugins.importexport.native.export.completed.downloadFile"
+msgstr "エクスポートしたファイルを下のボタンからダウンロードしてください。"
+
+msgid "plugins.importexport.native.common.any"
+msgstr "汎用アイテム"
+
+msgid "plugins.importexport.native.common.error.filter.configuration.count"
+msgstr ""
+"間違ったフィルター構成 [{$filterName}]: {$filterCount}が発生しています。1つだ"
+"けにすべきです。"
+
+msgid "plugins.importexport.common.cliError"
+msgstr "エラー:"
+
+msgid "plugins.importexport.common.error.unknownContext"
+msgstr "指定されたジャーナル・パス\"{$contextPath}\"が存在しません。"
+
+msgid "plugins.importexport.submission.cli.display"
+msgstr ""
+
+msgid "plugins.importexport.author.exportFailed"
+msgstr "プロセスが著者を解析できなかった"
+
+msgid "plugins.importexport.publication.exportFailed"
+msgstr "プロセスが出版物を解析できなかった"
+
+msgid "emailTemplate.variable.allReviewersComments"
+msgstr "完了済み査読のすべてのコメント。匿名査読では査読者名は非表示になります。"
+
+msgid "emailTemplate.variable.authorsWithAffiliation"
+msgstr "投稿著者の氏名と所属。"
+
+msgid "emailTemplate.variable.context.passwordLostUrl"
+msgstr "パスワードを忘れたユーザーが回復できるページのURL"
+
+msgid "emailTemplate.variable.context.submissionsUrl"
+msgstr "ユーザーに割り当てられたすべての投稿を表示するURL"
+
+msgid "emailTemplate.variable.context.userProfileUrl"
+msgstr "ユーザーがプロフィールを表示・編集するためのURL"
+
+msgid "emailTemplate.variable.decision.name"
+msgstr "実行された判定の名称"
+
+msgid "emailTemplate.variable.decision.description"
+msgstr "実行された判定の説明"
+
+msgid "emailTemplate.variable.decision.stage"
+msgstr "この判定が行われた編集ワークフローの段階"
+
+msgid "emailTemplate.variable.decision.round"
+msgstr "この判定が査読段階に関連する場合の査読ラウンド"
+
+msgid "emailTemplate.variable.discussion.subject"
+msgstr "ディスカッションの件名"
+
+msgid "emailTemplate.variable.discussion.content"
+msgstr "新しいディスカッションまたは返信の内容"
+
+msgid "emailTemplate.variable.editorialReminder.outstandingTasks"
+msgstr "未完了タスクがある投稿の一覧"
+
+msgid "emailTemplate.variable.editorialReminder.numberOfSubmissions"
+msgstr "この編集者に割り当てられた投稿数"
+
+msgid "emailTemplate.variable.recipient.userFullName"
+msgstr "受信者または全受信者のフルネーム"
+
+msgid "emailTemplate.variable.recipient.username"
+msgstr "受信者または全受信者のユーザー名"
+
+msgid "emailTemplate.variable.recipient.reviewDueDate"
+msgstr "査読を完了すべき日付"
+
+msgid "emailTemplate.variable.recipient.responseDueDate"
+msgstr "査読者が依頼を承諾または辞退すべき日付"
+
+msgid "emailTemplate.variable.recipient.reviewAssignmentUrl"
+msgstr "査読者任命のURL"
+
+msgid "emailTemplate.variable.recommendation"
+msgstr "「投稿を受理」などの推奨判定。"
+
+msgid "emailTemplate.variable.review.assignedDate"
+msgstr "この査読が割り当てられた日付。"
+
+msgid "emailTemplate.variable.review.method"
+msgstr "匿名、二重匿名、公開などの査読種別。"
+
+msgid "emailTemplate.variable.review.recommendation"
+msgstr "「投稿を受理」または「却下」など、査読者の推奨判定。"
+
+msgid "emailTemplate.variable.review.round"
+msgstr "第1ラウンド、第2ラウンドなどの査読ラウンド。"
+
+msgid "emailTemplate.variable.review.files"
+msgstr "査読者がアップロードしたファイル。"
+
+msgid "emailTemplate.variable.review.name"
+msgstr "査読者の氏名。"
+
+msgid "emailTemplate.variable.reviewType"
+msgstr "二重匿名、公開など、既定の査読方法の説明。"
+
+msgid "emailTemplate.variable.reviewType.doubleAnonymous"
+msgstr ""
+"本誌では、二重盲検査読を実施しています。査読者は貴方や共著者に関する識別情報"
+"を一切見ることができません。同様に、貴方も誰がこの投稿を査読たか知ることはな"
+"く、査読者から直接連絡を受けることもありません。"
+
+msgid "emailTemplate.variable.reviewType.anonymous"
+msgstr "本誌では、「査読者匿名」の査読を実施しています。貴方の氏名と共著者の氏名は査"
+"読者に表示されますが、査読者の身元は匿名のままです。"
+
+msgid "emailTemplate.variable.reviewType.open"
+msgstr ""
+"本誌では、オープン査読を実施しています。査読者には貴方の氏名と所属、および共"
+"著者の氏名と所属が表示されます。同様に、貴方も査読者の氏名と所属を見ることが"
+"できます。"
+
+msgid "emailTemplate.variable.sender.senderName"
+msgstr "送信者のフルネーム"
+
+msgid "emailTemplate.variable.sender.senderEmail"
+msgstr "送信者のメールアドレス"
+
+msgid "emailTemplate.variable.sender.signature"
+msgstr "送信者のメール署名"
+
+msgid "emailTemplate.variable.site.siteContactName"
+msgstr "ウェブサイトの連絡責任者のフルネーム"
+
+msgid "emailTemplate.variable.site.siteContactEmail"
+msgstr "ウェブサイトの主要連絡先メールアドレス。"
+
+msgid "emailTemplate.variable.site.siteSignature"
+msgstr "自動メールに使用されるウェブサイトの署名。"
+
+msgid "emailTemplate.variable.stageAssignment.editors"
+msgstr "この投稿に任命された編集者で最終決定できる人"
+
+msgid "emailTemplate.variable.submission.submissionTitle"
+msgstr "投稿タイトル"
+
+msgid "emailTemplate.variable.submission.submissionId"
+msgstr "投稿のユニークID番号"
+
+msgid "emailTemplate.variable.submission.submissionAbstract"
+msgstr "投稿の要旨"
+
+msgid "emailTemplate.variable.submission.authorsShort"
+msgstr "「Barnes ほか」のような短い形式の著者名。"
+
+msgid "emailTemplate.variable.submission.authors"
+msgstr "短縮した文字列の著者名"
+
+msgid "emailTemplate.variable.submission.authorSubmissionUrl"
+msgstr "著者用の投稿URL。"
+
+msgid "emailTemplate.variable.submission.submissionUrl"
+msgstr "編集バックエンドでの投稿のURL"
+
+msgid "emailTemplate.variable.submission.submissionPublishedUrl"
+msgstr "公開済み投稿のURL。"
+
+msgid "emailTemplate.variable.submission.submissionWizardUrl"
+msgstr "投稿ウィザード内の投稿URL。"
+
+msgid "emailTemplate.variable.submission.submittingAuthorName"
+msgstr "投稿ワークフローに割り当てられた著者名。通常は投稿者です。"
+
+msgid "emailTemplate.variable.passwordResetUrl"
+msgstr "パスワードリセット確認のためユーザーへ送信されるハッシュ付きURL。"
+
+msgid "emailTemplate.variable.password"
+msgstr "新しいランダムパスワード。"
+
+msgid "mailable.reviewerReinstate.name"
+msgstr "査読者復活"
+
+msgid "mailable.reviewerResendRequest.name"
+msgstr "査読者へ査読依頼を再送"
+
+msgid "emailTemplate.variable.submitterName"
+msgstr "投稿ファイルをアップロードしたユーザーの氏名。"
+
+msgid "emailTemplate.variable.announcementTitle"
+msgstr "お知らせのタイトル。"
+
+msgid "emailTemplate.variable.announcementSummary"
+msgstr "お知らせの短い説明。"
+
+msgid "emailTemplate.variable.announcementUrl"
+msgstr "お知らせのURL。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.newSubmissions"
+msgstr "今月受け付けた投稿数。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.declinedSubmissions"
+msgstr "却下された投稿数。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.acceptedSubmissions"
+msgstr "受理された投稿数。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.otherSubmissions"
+msgstr "他の合計に含まれない投稿数。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.totalSubmissions"
+msgstr "受け付けた投稿の総数。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.month"
+msgstr "レポートの月。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.year"
+msgstr "レポートの年。"
+
+msgid "emailTemplate.variable.issue.issueIdentification"
+msgstr "巻、号、年、タイトルを含む号の識別情報。"
+
+msgid "emailTemplate.variable.issue.issuePublishedUrl"
+msgstr "公開済み号のURL。"
+
+msgid "mailTemplate.variable.statisticsReportNotify.year"
+msgstr "レポートの年。"
+
+msgid "emailTemplate.variable.statisticsReportNotify.editorialStatsLink"
+msgstr "編集活動ページへのリンク。"
+
+msgid "mailable.reviewerReinstate.description"
+msgstr ""
+"このメールは、任命解除されていた査読者が編集者によって復帰されたときに送られ"
+"ます。"
+
+msgid "mailable.reviewerResendRequest.description"
+msgstr "査読依頼を辞退した査読者へ、編集者が依頼を再送したい場合に送信されるメールです。"
+
+msgid "mailable.reviewerUnassign.name"
+msgstr "査読者未任命"
+
+msgid "mailable.reviewerUnassign.description"
+msgstr "このメールは、編集者が査読者の任命を解除したときに送信されます。"
+
+msgid "mailable.validateEmailSite.name"
+msgstr "メールの検証（サイト）"
+
+msgid "mailable.validateEmailSite.description"
+msgstr ""
+"このメールは、新規ユーザーがサイトに登録する際、設定によりメールアドレスの認"
+"証が必要な場合に自動的に送信されます。"
+
+msgid "mailable.decision.notifyOtherAuthors.name"
+msgstr "他の著者へ通知"
+
+msgid "mailable.decision.notifyOtherAuthors.description"
+msgstr "判定が行われたことを、投稿の参加者として割り当てられていない著者に通知するメールです。通常、投稿者以外の全著者が対象です。"
+
+msgid "mailable.decision.notifyOtherAuthors.variable.message.description"
+msgstr "投稿者へ送信されたメール本文のコピー。"
+
+msgid "mailable.decision.notifyReviewer.name"
+msgstr "判定を査読者へ通知"
+
+msgid "mailable.decision.notifyReviewer.description"
+msgstr "査読者が査読した投稿について判定が行われたことを、編集者から査読者へ通知するメールです。"
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription"
+msgstr "この判定について、査読者へ送信されるメール通知内で共有される短い説明。"
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.accept"
+msgstr "この投稿を修正なしで受理することを決定しました。"
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.decline"
+msgstr "この投稿を却下することを決定しました。"
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription."
+"pendingRevisions"
+msgstr ""
+
+msgid "mailable.decision.notifyReviewer.variable.decisionDescription.resubmit"
+msgstr "著者らには、さらなる査読のために改訂版を提出するよう依頼しました。"
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription.unassigned"
+msgstr ""
+
+msgid "mailable.decision.accept.notifyAuthor.name"
+msgstr "投稿受理"
+
+msgid "mailable.decision.accept.notifyAuthor.description"
+msgstr "投稿が掲載受理されたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.backToCopyediting.notifyAuthor.name"
+msgstr "投稿をコピーエディットへ差し戻し"
+
+msgid "mailable.decision.backToCopyediting.notifyAuthor.description"
+msgstr "投稿がコピーエディット段階へ差し戻されたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.backFromCopyediting.notifyAuthor.name"
+msgstr "コピーエディットから投稿を差し戻し"
+
+msgid "mailable.decision.backFromCopyediting.notifyAuthor.description"
+msgstr "投稿がコピーエディット段階から差し戻されたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.cancelReviewRound.notifyAuthor.name"
+msgstr "査読ラウンドをキャンセル"
+
+msgid "mailable.decision.cancelReviewRound.notifyAuthor.description"
+msgstr "投稿の査読ラウンドがキャンセルされたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.decline.notifyAuthor.name"
+msgstr "投稿却下"
+
+msgid "mailable.decision.decline.notifyAuthor.description"
+msgstr "査読後に投稿が却下されたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.initialDecline.notifyAuthor.name"
+msgstr "投稿却下（査読前）"
+
+msgid "mailable.decision.newReviewRound.notifyAuthor.name"
+msgstr "新規査読ラウンド開始済み"
+
+msgid "mailable.decision.newReviewRound.notifyAuthor.description"
+msgstr "投稿の新しい査読ラウンドが開始されることを著者へ通知するメールです。"
+
+msgid "mailable.decision.requestRevisions.notifyAuthor.name"
+msgstr "修正依頼"
+
+msgid "mailable.decision.requestRevisions.notifyAuthor.description"
+msgstr "査読中に修正を依頼する判定が行われたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.resubmit.notifyAuthor.name"
+msgstr "査読のため再提出"
+
+msgid "mailable.decision.resubmit.notifyAuthor.description"
+msgstr "投稿に対して「修正後再提出」の判定が行われたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.revertDecline.notifyAuthor.name"
+msgstr "却下済み投稿を復帰"
+
+msgid "mailable.decision.revertDecline.notifyAuthor.description"
+msgstr "査読後に却下した以前の判定が取り消されることを著者へ通知するメールです。"
+
+msgid "mailable.decision.revertInitialDecline.notifyAuthor.name"
+msgstr "査読前却下投稿を復帰"
+
+msgid "mailable.decision.revertInitialDecline.notifyAuthor.description"
+msgstr "査読なしで却下した以前の判定が取り消されることを著者へ通知するメールです。"
+
+msgid "mailable.decision.sendExternalReview.notifyAuthor.name"
+msgstr "査読へ送付"
+
+msgid "mailable.decision.sendExternalReview.notifyAuthor.description"
+msgstr "投稿が査読段階へ送られることを著者へ通知するメールです。"
+
+msgid "mailable.decision.sendToProduction.notifyAuthor.name"
+msgstr "制作へ送付"
+
+msgid "mailable.decision.sendToProduction.notifyAuthor.description"
+msgstr "投稿が制作段階へ送られることを著者へ通知するメールです。"
+
+msgid "mailable.decision.skipReview.notifyAuthor.name"
+msgstr "投稿受理（査読なし）"
+
+msgid "mailable.decision.skipReview.notifyAuthor.description"
+msgstr "投稿が査読されずに直接コピーエディット段階へ送られることを著者へ通知するメールです。"
+
+msgid "mailable.decision.recommendation.notifyEditors.name"
+msgstr "推奨判定が行われました"
+
+msgid "mailable.decision.recommendation.notifyEditors.description"
+msgstr ""
+"担当投稿について編集上の推奨判定が行われたことを、上位編集者またはセクション編集者へ通知します。編集者が判定を推薦する権限のみを持ち、正式な判定記録には権限を持つ編集者が必要な場合に使用されます。このオプションは投稿参加者の割当時に選択できます。"
+
+msgid "mailable.reviewConfirm.name"
+msgstr "査読承諾"
+
+msgid "mailable.reviewConfirm.description"
+msgstr ""
+"このメールは、査読者からセクション編集者に査読依頼を受諾し、指定された期日ま"
+"でに査読を終了させる意思を伝えるものです。"
+
+msgid "mailable.reviewDecline.name"
+msgstr "査読辞退"
+
+msgid "mailable.reviewDecline.description"
+msgstr ""
+"このメールは、査読者からセクション編集者に査読依頼を受けることができない旨を"
+"通知するものです。"
+
+msgid "mailable.reviewRemind.name"
+msgstr "査読リマインダー"
+
+msgid "mailable.reviewRemind.description"
+msgstr "査読期限を知らせるため、編集者から査読者へ送信されるメールです。"
+
+msgid "mailable.reviewRemindAuto.name"
+msgstr "査読リマインダー（自動）"
+
+#, fuzzy
+msgid "mailable.reviewRemindAuto.description"
+msgstr ""
+"このメールは、査読者の査読期限日が過ぎ（雑誌設定ステップ2の査読オプションを参"
+"照）、査読者ワンクリックアクセスが無効な場合に、自動的に送信されるものです。"
+"定期タスク機能が有効かつ設定されている必要があります（サイト設定ファイルを参"
+"照）。"
+
+msgid "mailable.reviewAcknowledgement.name"
+msgstr "査読受領確認"
+
+msgid "mailable.reviewAcknowledgement.description"
+msgstr "査読を受領したことを確認し、貢献に感謝するため、編集者から査読者へ送信されるメールです。"
+
+msgid "mailable.reviewResponseOverdueAuto.name"
+msgstr "査読回答期限超過（自動）"
+
+#, fuzzy
+msgid "mailable.reviewResponseOverdueAuto.description"
+msgstr ""
+"このメールは、査読者の確認期限が過ぎた場合（「設定」>「ワークフロー」>「査"
+"読」の「査読オプション」を参照）、査読者のワンクリックアクセスが無効になって"
+"いる場合に自動的に送信されます。スケジュールされたタスクを有効にして設定する"
+"必要があります（サイト設定ファイルを参照）。"
+
+msgid "mailable.reviewRequest.name"
+msgstr "査読依頼"
+
+#, fuzzy
+msgid "mailable.reviewRequest.description"
+msgstr ""
+"このメールは、セクション編集者から査読者に投稿物の査読を依頼するものです。"
+"メールには、タイトルや要旨などの投稿物に関する情報、査読期限日、投稿物へのア"
+"クセス方法を示しています。このメールは、雑誌設定のステップ2で標準的査読プロセ"
+"スが選択された場合に使用されます（そうでない場合は、REVIEW_REQUEST_ATTACHEDを"
+"参照してください）。"
+
+msgid "mailable.reviewRequestSubsequent.name"
+msgstr "追加査読依頼"
+
+msgid "mailable.reviewRequestSubsequent.description"
+msgstr ""
+"このメールは、セクション編集者から査読者に投稿物の査読の次回目を依頼するもの"
+"です。メールには、タイトルや要旨などの投稿物に関する情報、査読期限日、投稿物"
+"へのアクセス方法を示しています。このメールは、雑誌設定のステップ2で標準的査読"
+"プロセスが選択された場合に使用されます（そうでない場合は、"
+"REVIEW_REQUEST_ATTACHED_SUBSEQUENTを参照してください）。"
+
+msgid "plugins.importexport.common.error.currentPublicationNullOrMissing"
+msgstr "投稿の現在の出版物情報が見つかりません。"
+
+msgid "plugins.importexport.common.error.submissionChildFailed"
+msgstr "投稿の子要素 {$child} の処理に失敗しました。"
+
+msgid "mailable.editorialReminder.name"
+msgstr "編集リマインダー"
+
+msgid "mailable.editorialReminder.description"
+msgstr "未完了タスクがある編集者へ送信される自動メールです。"
+
+msgid "mailable.passwordResetRequested.name"
+msgstr "パスワードリセット確認"
+
+msgid "mailable.passwordResetRequested.description"
+msgstr ""
+"このメールは、登録ユーザーからパスワードを忘れた、または、ログインできない旨"
+"の連絡を受けた場合に、登録ユーザーに送信されるものです。このメールではパス"
+"ワードをリセットするためのURLを提供します。"
+
+msgid "mailable.userRegister.name"
+msgstr "ユーザー作成"
+
+#, fuzzy
+msgid "mailable.userRegister.description"
+msgstr ""
+"このメールは、新規に登録したユーザーに送信されるもので、システムへの登録を歓"
+"迎し、ユーザー名とパスワードの記録を提供します。"
+
+msgid "mailable.reviewerRegister.name"
+msgstr "査読者登録"
+
+msgid "mailable.reviewerRegister.description"
+msgstr ""
+"このメールは新規に登録された査読者に送付され、ユーザー名とパスワードが通知さ"
+"れます。"
+
+msgid "mailable.submissionSavedForLater.name"
+msgstr "投稿の一時保存"
+
+msgid "mailable.submissionSavedForLater.description"
+msgstr "著者が後で完了するために投稿を保存したときに送信される自動メールです。"
+
+msgid "mailable.submissionAck.name"
+msgstr "投稿確認"
+
+#, fuzzy
+msgid "mailable.submissionAck.description"
+msgstr ""
+"このメールは（設定で有効になっていれば）著者がこの雑誌への投稿プロセスを終了"
+"した時に、自動的に送信されるものです。メールでは、投稿物の処理状況を追跡でき"
+"ることを伝える同時に、著者に投稿に対するお礼をしています。"
+
+msgid "mailable.submissionAckNotAuthor.name"
+msgstr "投稿確認（他の著者）"
+
+#, fuzzy
+msgid "mailable.submissionAckNotAuthor.description"
+msgstr ""
+"このメールは（設定で有効になっていれば）OJSに登録していない著者がこの雑誌への"
+"投稿プロセスを終了した時に、自動的に送信されるものです。"
+
+msgid "mailable.discussionSubmission.name"
+msgstr "ディスカッション（投稿）"
+
+msgid "mailable.discussionSubmission.description"
+msgstr "投稿段階でディスカッションが作成または返信されたときに送信されるメールです。"
+
+msgid "mailable.discussionReview.name"
+msgstr "ディスカッション（査読）"
+
+msgid "mailable.discussionReview.description"
+msgstr "査読段階でディスカッションが作成または返信されたときに送信されるメールです。"
+
+msgid "mailable.discussionCopyediting.name"
+msgstr "ディスカッション（コピーエディット）"
+
+msgid "mailable.discussionCopyediting.description"
+msgstr "コピーエディット段階でディスカッションが作成または返信されたときに送信されるメールです。"
+
+msgid "mailable.discussionProduction.name"
+msgstr "ディスカッション（制作）"
+
+msgid "mailable.discussionProduction.description"
+msgstr "制作段階でディスカッションが作成または返信されたときに送信されるメールです。"
+
+msgid "mailable.revisedVersionNotify.name"
+msgstr "修正版通知"
+
+msgid "mailable.revisedVersionNotify.description"
+msgstr ""
+"このメールは、著者が投稿の改訂版をアップロードした際に、指定された編集者に自"
+"動的に送信されます。"
+
+msgid "mailable.announcementNotify.name"
+msgstr "新しいお知らせ"
+
+msgid "mailable.announcementNotify.description"
+msgstr "このメールは、新しいお知らせが作成された際に送信されます。"
+
+msgid "mailable.statisticsReportNotify.name"
+msgstr "統計レポート通知"
+
+msgid "mailable.editReviewNotify.name"
+msgstr "査読編集通知"
+
+msgid "mailable.editReviewNotify.description"
+msgstr "査読割当の詳細が変更されたとき、査読者へ自動通知します。"
+
+msgid "mailable.reviewCompleteNotifyEditors.name"
+msgstr "査読者コメントを編集者へ通知"
+
+msgid "mailable.reviewCompleteNotifyEditors.description"
+msgstr "査読者が査読推奨を行ったとき、割り当てられた編集者へ自動送信されるメールです。"
+
+msgid "manager.people.authSource"
+msgstr "認証元"
+
+msgid "mailable.decision.backToReview.notifyAuthor.name"
+msgstr "投稿を査読へ差し戻し"
+
+msgid "mailable.decision.backToReview.notifyAuthor.description"
+msgstr "投稿が査読段階へ差し戻されたことを著者へ通知するメールです。"
+
+msgid "mailable.decision.backToSubmission.notifyAuthor.name"
+msgstr "投稿を投稿段階へ差し戻し"
+
+msgid "mailable.decision.backToSubmission.notifyAuthor.description"
+msgstr "投稿が投稿段階へ差し戻されたことを著者へ通知するメールです。"
+
+msgid "manager.manageEmails"
+msgstr "メール管理"
+
+msgid "manager.manageEmailTemplates.description"
+msgstr "<p>システムから送信されるすべてのメールについて、<a href=\"{$url}\">テンプレートの追加・編集</a>を行います。</p>"
+
+msgid "manager.mailables.addTemplates"
+msgstr ""
+"このメールの送信時にユーザーが利用できるテンプレートを追加・編集します。既定テンプレートは自動的に読み込まれ、ここで追加したテンプレートもすばやく読み込めます。"
+
+msgid "manager.mailables.templates"
+msgstr "テンプレート"
+
+msgid "manager.mailables.editTemplate"
+msgstr "テンプレートを編集"
+
+msgid "manager.mailables.removeTemplate"
+msgstr "テンプレートを削除"
+
+msgid "manager.mailables.removeTemplate.confirm"
+msgstr "テンプレート <strong>{$template}</strong> を削除してもよろしいですか？"
+
+msgid "manager.mailables.resetTemplate"
+msgstr "テンプレートをリセット"
+
+msgid "manager.mailables.resetTemplate.confirm"
+msgstr "テンプレート <strong>{$template}</strong> の件名と本文を既定値へリセットしてもよろしいですか？"
+
+msgid "manager.mailables.search"
+msgstr "名前または説明で検索"
+
+msgid "manager.emailTemplate.name.description"
+msgstr "このテンプレートを見つけやすくするため、短い名前を入力してください。"
+
+msgid "manager.newSubmission"
+msgstr "新規投稿"
+
+msgid "manager.newSubmission.description"
+msgstr "新規投稿時に送信するメール通知を設定します。"
+
+msgid "manager.submissionAck.description"
+msgstr "新規投稿が完了したときに誰へメールを送信するかを選択します。"
+
+msgid "manager.submissionAck.off"
+msgstr "メールを送信しない。"
+
+msgid "manager.submissionAck.submittingAuthor"
+msgstr "投稿者のみにメールを送信する。"
+
+msgid "manager.submissionAck.allAuthors"
+msgstr "すべての著者にメールを送信する。"
+
+msgid "manager.editorialDecisions"
+msgstr "編集判定"
+
+msgid "manager.editorialDecisions.description"
+msgstr "編集判定が記録されたときに著者へ送信するメール通知を設定します。"
+
+msgid "manager.forEditors"
+msgstr "編集者向け"
+
+msgid "manager.forEditors.description"
+msgstr "編集者へ送信するメール通知を設定します。"
+
+msgid "manager.editorialStatistics"
+msgstr "編集統計"
+
+msgid "manager.editorialStatistics.description"
+msgstr ""
+"受理率や却下率など、ジャーナルの編集統計を毎月メールで編集者へ送信するかどうかを設定します。編集者はユーザープロフィールからこのメールの購読を解除できます。"
+
+msgid "manager.editorialStatistics.on"
+msgstr "編集者へ月次メールを送信する。"
+
+msgid "manager.editorialStatistics.off"
+msgstr "編集者へメールを送信しない。"
+
+msgid "manager.submitWithCategories.description"
+msgstr "新規投稿時に、投稿者へカテゴリーの選択を求めますか？"
+
+msgid "manager.submitWithCategories.yes"
+msgstr "はい。投稿ウィザードにカテゴリー欄を追加します。"
+
+msgid "manager.submitWithCategories.no"
+msgstr "いいえ。この欄を著者に表示しません。"
+
+msgid "mailable.copyeditRequest.name"
+msgstr "コピーエディット依頼"
+
+msgid "mailable.editorAssign.name"
+msgstr "編集者割当"
+
+msgid "mailable.layoutRequest.name"
+msgstr "制作準備完了"
+
+msgid "mailable.system"
+msgstr "システム"
+
+msgid "mailable.versionCreated.name"
+msgstr "バージョン作成"
+
+msgid "mailable.reviewComplete.name"
+msgstr "査読完了"
+
+msgid "mailable.reviewEdit.name"
+msgstr "査読編集"
+
+msgid "mailable.submissionAckOtherAuthors.name"
+msgstr "他の著者への投稿確認"
+
+msgid "mailable.editorAssigned.name"
+msgstr "編集者割当（自動）"
+
+msgid "mailable.editorAssigned.description"
+msgstr "投稿へ編集者が自動割当されたとき、その編集者へ送信されるメールです。"
+
+msgid "mailable.editorAssignedManual.name"
+msgstr "編集者を割り当て"
+
+msgid "mailable.submissionNeedsEditor.name"
+msgstr "編集者未割当の投稿"
+
+#~ msgid "mailable.discussionMessage.description"
+#~ msgstr ""
+#~ "このメールは、ディスカッションに新しいメッセージが追加されたときに、ディス"
+#~ "カッション参加者に自動的に送信されます。"
+
+#~ msgid "mailable.discussionMessage.name"
+#~ msgstr "新規ディスカッションメッセージ"
+
+#~ msgid "emailTemplate.variable.submission.authorsFull"
+#~ msgstr "著者らのフルネーム"
+
+#, fuzzy
+#~ msgid "emails.reviewRemind.body"
+#~ msgstr ""
+#~ "このメールは、セクション編集者から査読者に査読期限日が過ぎたことを督促する"
+#~ "ものです。"
+
+msgid "manager.setup.competingInterests.requireAuthors"
+msgstr ""
+"投稿する著者に、投稿時に競合する利益（CI）に関する声明を提出するよう求める。"
+
+msgid "manager.setup.masthead"
+msgstr "マストヘッド"
+
+msgid "plugins.importexport.common.validation"
+msgstr "エクスポートや登録の前にXMLを検証します。"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled"
+msgstr "投稿時の査読者候補"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.label"
+msgstr "投稿プロセスにおいて著者が査読者候補を提案できるようにする"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.description"
+msgstr "著者は投稿を完了する前に複数の査読者候補を提案することができ、これにより査読"
+"プロセスの効率化や編集部にとって有益な情報の提供につながります。"
+
+msgid "manager.setup.workflow.reviewerSuggestionsHelp.description"
+msgstr ""
+"以下は、査読者候補の提案ステップにおいて著者に表示されます。著者自身、共著者"
+"、ならびにその他の貢献者について、どのような情報を提供すべきかを簡潔に説明し"
+"てください。"
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription.pendingRevisions"
+msgstr "We have invited the authors to submit revisions."
+
+msgid ""
+"mailable.decision.notifyReviewer.variable.decisionDescription.unassigned"
+msgstr "Invited reviewer to the submission has been unassigned."
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission"
+msgstr "査読完了の最低必要数"
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission.description"
+msgstr "投稿に必要な査読完了の最低数"
+
+msgid "manager.setup.reviewOptions.reminders"
+msgstr "査読リマインダーを設定"
+
+msgid "manager.setup.reviewOptions.reminders.response.before"
+msgstr "査読依頼の応答 - 期限前"
+
+msgid "manager.setup.reviewOptions.reminders.response.after"
+msgstr "査読依頼の応答 - 期限後"
+
+msgid "manager.setup.reviewOptions.reminders.submit.before"
+msgstr "査読の提出 - 期限前"
+
+msgid "manager.setup.reviewOptions.reminders.submit.after"
+msgstr "査読の提出 - 期限後"
+
+msgid "manager.setup.reviewOptions.reminders.min.label"
+msgstr "なし"
+
+msgid "manager.setup.reviewOptions.reminders.disbale.label"
+msgstr "リマインダー設定なし"
+
+msgid "manager.statistics.counterR5"
+msgstr ""
+
+msgid "manager.statistics.counterR5Reports"
+msgstr "Counter R5 レポート"
+
+msgid "manager.statistics.counterR5Reports.description"
+msgstr "各レポートの詳細についてはCOUNTER 5.0.3ドキュメントを参照してください。"
+
+msgid "manager.statistics.counterR5Reports.usageNotPossible"
+msgstr "利用可能なCOUNTER R5利用統計はまだありません。"
+
+msgid "manager.statistics.counterR5Report.settings"
+msgstr "レポート設定"
+
+msgid "manager.statistics.counterR5Report.settings.startDate"
+msgstr "開始日"
+
+msgid "manager.statistics.counterR5Report.settings.date.startDate.description"
+msgstr ""
+"日付は YYYY-MM-DD または YYYY-MM 形式で入力してください。指定できる最も早い日付は {$earliestDate} です。"
+
+msgid "manager.statistics.counterR5Report.settings.endDate"
+msgstr "終了日"
+
+msgid "manager.statistics.counterR5Report.settings.date.endDate.description"
+msgstr "日付は YYYY-MM-DD または YYYY-MM 形式で入力してください。指定できる最後の日付は {$lastDate} です。"
+
+msgid "manager.statistics.counterR5Report.settings.wrongDateFormat"
+msgstr "日付形式が正しくありません。"
+
+msgid "manager.statistics.counterR5Report.settings.customerId"
+msgstr "顧客ID"
+
+msgid "manager.statistics.counterR5Report.settings.metricType"
+msgstr "メトリック種別"
+
+msgid "manager.statistics.counterR5Report.settings.attributesToShow"
+msgstr "表示する属性"
+
+msgid "manager.statistics.counterR5Report.settings.yop"
+msgstr "出版年"
+
+msgid "manager.statistics.counterR5Report.settings.date.yop.description"
+msgstr "レスポンスに含める出版年を yyyy|yyyy|yyyy-yyyy の形式で一覧または範囲として入力してください。"
+
+msgid "manager.statistics.counterR5Report.settings.wrongYOPFormat"
+msgstr "出版年（YOP）の形式が正しくありません。"
+
+msgid "manager.statistics.counterR5Report.settings.itemId"
+msgstr "投稿ID"
+
+msgid "manager.statistics.counterR5Report.settings.wrongItemId"
+msgstr "指定された投稿IDは存在しません。"
+
+msgid "manager.statistics.counterR5Report.settings.includeParentDetails"
+msgstr "親項目の詳細を含める"
+
+msgid "manager.statistics.counterR5Report.settings.excludeMonthlyDetails"
+msgstr "月別詳細を除外する"
+

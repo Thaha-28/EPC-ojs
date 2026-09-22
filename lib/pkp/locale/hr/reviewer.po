@@ -1,0 +1,195 @@
+# Maria Češnik <mariaces237@gmail.com>, 2023.
+# Petra Cacic <petracacic3@gmail.com>, 2025.
+# Iva Vidović <iva.vidovic@srce.hr>, 2025.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-19 13:54+0000\n"
+"Last-Translator: Iva Vidović <iva.vidovic@srce.hr>\n"
+"Language-Team: Croatian <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"reviewer/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "reviewer.reviewSteps.request"
+msgstr "1. Upit"
+
+msgid "reviewer.reviewSteps.guidelines"
+msgstr "2. Smjernice"
+
+msgid "reviewer.reviewSteps.download"
+msgstr "3. Preuzmite i pregledajte"
+
+msgid "reviewer.reviewSteps.completion"
+msgstr "4. Završetak"
+
+msgid "reviewer.step1.request"
+msgstr "Zahtjev za pregled"
+
+msgid "reviewer.step1.requestBoilerplate"
+msgstr ""
+"Procijenjeni ste kao mogući recenzent za sljedeću prijavu. U nastavku je "
+"pregled prijava i vremenski okvir za ovu recenziju. Nadamo se da ćete tome "
+"moći pridonijeti."
+
+msgid "reviewer.step1.viewAllDetails"
+msgstr "Pogledajte sve pojedinosti o predaji"
+
+msgid "reviewer.submission.reviewerFiles"
+msgstr "Datoteke recenzenta"
+
+msgid "reviewer.submission.declineReview"
+msgstr "Odbij zahtjev za pregled"
+
+msgid "reviewer.submission.declineReviewMessage"
+msgstr "Uredniku možete navesti razloge za odbijanje ove recenzije."
+
+msgid "reviewer.submission.acceptReview"
+msgstr "Prihvatite pregled, idite na korak #2"
+
+msgid "reviewer.submission.continueToStepThree"
+msgstr "Nastavite na korak #3"
+
+msgid "reviewer.submission.submitReview"
+msgstr "Pošalji recenziju"
+
+msgid "reviewer.submission.saveReviewForLater"
+msgstr "Spremiti za kasnije"
+
+msgid "reviewer.submission.reviewerGuidelines"
+msgstr "Smjernice za recenzente"
+
+msgid "reviewer.submission.enterCompetingInterests"
+msgstr ""
+"Ovaj izdavač ima politiku za otkrivanje mogućih sukoba interesa od strane "
+"recenzenata. Odvojite trenutak i pregledajte pravila."
+
+msgid "reviewer.submission.noCompetingInterests"
+msgstr "Nemam sukoba interesa"
+
+msgid "reviewer.submission.hasCompetingInterests"
+msgstr "Možda sam u sukobu interesa (navedite u nastavku)"
+
+msgid "reviewer.submission.competingInterests"
+msgstr "Sukob interesa"
+
+msgid "reviewer.submission.guidelines"
+msgstr "Smjernice za pregled"
+
+msgid "reviewer.submission.noGuidelines"
+msgstr "Ovaj izdavač nije izdao nikakve smjernice za recenziranje."
+
+msgid "reviewer.submission.downloadDescription"
+msgstr ""
+"Kliknite na nazive datoteka za preuzimanje i pregled datoteka povezanih s "
+"ovim podneskom (na ekranu ili kao ispis)."
+
+msgid "reviewer.submission.reviewDescription"
+msgstr "Unesite svoju recenziju u obrazac ispod."
+
+msgid "reviewer.submission.uploadDescription"
+msgstr ""
+"Osim toga, možete učitati datoteke za urednika ili autora, uključujući "
+"revidirane verzije pregledanih datoteka."
+
+msgid "reviewer.complete"
+msgstr "Recenzija predana"
+
+msgid "reviewer.confirmSubmit"
+msgstr "Jeste li sigurni da želite poslati ovu recenziju?"
+
+msgid "reviewer.complete.whatNext"
+msgstr ""
+"Hvala što ste dovršili pregled ovog podneska. Vaša recenzija uspješno je "
+"poslana. Izuzetno cijenimo vaš doprinos kvaliteti radova koje objavljujemo. "
+"Možda će vas urednik ponovno kontaktirati ako bude potrebno više informacija."
+
+msgid "reviewer.aboutDueDates"
+msgstr "O rokovima dospijeća"
+
+msgid "reviewer.aboutDueDates.text"
+msgstr ""
+"Urednik traži da prihvatite ili odbijete recenziju prije roka za odgovor i "
+"da dovršite recenziju prije roka za recenziju."
+
+msgid "submission.comments.canShareWithAuthor"
+msgstr "Za autore i urednike"
+
+msgid "submission.comments.cannotShareWithAuthor"
+msgstr "Samo za urednike"
+
+msgid "submission.comments.sendCopyToReviewers"
+msgstr "Pošaljite kopiju ove obavijesti sljedećim recenzentima."
+
+msgid "submission.comments.sendToReviewers"
+msgstr "Pošalji recenzentima"
+
+msgid "user.authorization.submissionReviewer"
+msgstr "Trenutačni korisnik nije dodijeljen kao recenzent traženog dokumenta."
+
+msgid "reviewer.submission.reviewRound.info"
+msgstr "Prethodne recenzije"
+
+msgid "reviewer.submission.reviewRound.info.submittedOn"
+msgstr "Recenzija za krug {$round} predana je {$submittedOn}"
+
+msgid "reviewer.submission.reviewRound.info.read"
+msgstr "Pročitaj {$round} krug recenzije"
+
+msgid "reviewer.submission.reviewRound.info.modal.title"
+msgstr "Predali ste recenziju za {$round} krug za"
+
+msgid "reviewer.submission.reviewRound.comments"
+msgstr "Komentari recenzenta"
+
+msgid "reviewer.submission.reviewRound.comments.authorAndEditor"
+msgstr "Za urednike i autore"
+
+msgid "reviewer.submission.reviewRound.comments.editorOnly"
+msgstr "Samo za urednike"
+
+msgid "reviewer.submission.reviewRound.comments.prefix"
+msgstr "Komentar {$index}: "
+
+msgid "reviewer.submission.reviewRound.emailLog"
+msgstr "Razlog odbijanja poslan e-mailom"
+
+msgid "reviewer.submission.reviewRound.emailLog.defaultMessage"
+msgstr "Razlog odbijanja poziva na recenziju nije bio naveden."
+
+msgid "reviewer.submission.reviewRound.reviewDeclineDate"
+msgstr "Datum odbijanja"
+
+msgid "reviewer.submission.reviewRound.reviewNotCompleted"
+msgstr "Recenzija nije dovršena."
+
+msgid "reviewer.submission.reviewRound.metadata"
+msgstr "Metapodaci članka"
+
+msgid "reviewer.submission.reviewRound.metadata.type"
+msgstr "Tip"
+
+msgid "reviewer.submission.reviewRound.metadata.abstract"
+msgstr "Sažetak"
+
+msgid "reviewer.submission.reviewRound.metadata.keywords"
+msgstr "Ključne riječi"
+
+msgid "reviewer.submission.reviewRound.general"
+msgstr "Opće informacije"
+
+msgid "reviewer.submission.reviewRound.attachments"
+msgstr "Privici"
+
+msgid "reviewer.submission.reviewRound.attachments.description"
+msgstr "Ovo su datoteke koje ste priložili uz svoju recenziju"
+
+msgid "reviewer.submission.reviewRound.files"
+msgstr "Datoteke za recenziju"
+
+msgid "reviewer.submission.reviewRound.files.description"
+msgstr "Ove datoteke su vam poslane na recenziju"

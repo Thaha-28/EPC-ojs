@@ -1,0 +1,9 @@
+cache/t_cache/*
+cache/t_compile/*
+cache/_db/*
+*.log
+.git
+.gitignore
+node_modules
+ojs-files
+.DS_Store

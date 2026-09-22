@@ -1,0 +1,11 @@
+config.inc.php
+cache/*
+!cache/.gitkeep
+public/files/*
+public/journals/*
+ojs-files/*
+*.log
+.DS_Store
+node_modules/
+vendor/
+.env

@@ -1,0 +1,132 @@
+# CATALIN TOMA <catalin.toma@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-27 07:41+0000\n"
+"Last-Translator: CATALIN TOMA <catalin.toma@gmail.com>\n"
+"Language-Team: Romanian <http://translate.pkp.sfu.ca/projects/plugins/"
+"citation-style-language-plugin/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.citationStyleLanguage.download.ris"
+msgstr "Endnote/Zotero/Mendeley (RIS)"
+
+msgid "plugins.generic.citationStyleLanguage.download.bibtex"
+msgstr "BibTeX"
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr ""
+"Unele formate de citare solicită locația geografică a editorului, cum ar fi „"
+"Londra, U.K.”."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Locația editorului"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr ""
+"Selectați ce format de citare doriți să afișați în mod implicit pe pagina de "
+"destinație a articolului."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Formatul de citare implicit"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Selectați ce formate suplimentare doriți să le oferiți cititorilor dvs."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Formate suplimentare de citare"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr ""
+"Selectați care formate descărcabile doriți să le oferiți cititorilor dvs. "
+"Formate descărcabile sunt de obicei utilizate pentru importul în software-ul "
+"de gestionare a bibliografiei terță parte, cum ar fi EndNote sau Zotero."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Formate descărcabile"
+
+msgid "plugins.generic.citationStyleLanguage.style.vancouver"
+msgstr "Vancouver"
+
+msgid "plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography"
+msgstr "Turabian"
+
+msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
+msgstr "MLA"
+
+msgid "plugins.generic.citationStyleLanguage.style.ieee"
+msgstr "IEEE"
+
+msgid "plugins.generic.citationStyleLanguage.style.harvard-cite-them-right"
+msgstr "Harvard"
+
+msgid "plugins.generic.citationStyleLanguage.style.chicago-author-date"
+msgstr "Chicago"
+
+msgid "plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas"
+msgstr "ABNT"
+
+msgid "plugins.generic.citationStyleLanguage.style.apa"
+msgstr "APA"
+
+msgid "plugins.generic.citationStyleLanguage.style.acs-nano"
+msgstr "ACS"
+
+msgid "plugins.generic.citationStyleLanguage.style.acm-sig-proceedings"
+msgstr "ACM"
+
+msgid "plugins.generic.citationStyleLanguage.description"
+msgstr ""
+"Permiteți cititorilor să obțină o citare a unui articol publicat într-unul "
+"dintre mai multe formate acceptate de CSL (Citation Style Language)."
+
+msgid "plugins.generic.citationStyleLanguage.displayName"
+msgstr "CSL (Citation Style Language)"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Selectați rolurile care ar putea fi identificate ca traducători."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr "Selectați rolurile care ar putea fi identificate ca autori de capitol."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Contributori"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Editori"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Traducători"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Selectați rolurile care ar putea fi identificate ca editori."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Autori"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Selectați rolurile care ar putea fi echivalate ca autori."
+
+msgid "plugins.generic.citationStyleLanguage.description.omp"
+msgstr ""
+"Permite cititorilor să obțină o citare a cărții în unul din formatele CSL."
+
+msgid "plugins.generic.citationStyleLanguage.style.ama"
+msgstr "AMA"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr ""
+"Selectați modelul de citare care să fie afișat pe prima pagină a cărții."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Autori de capitol"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr ""
+"În anumite stiluri de citare contributorii trebuie identificați diferit, în "
+"funcție de rolul lor. Vă rugăm să identificați rolurile acestora."

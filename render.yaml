@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: epc-ojs
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    envVars:
+      - key: OJS_BASE_URL
+        value: https://epc-ojs.onrender.com
+        # Change to your Render URL after first deploy (RENDER_EXTERNAL_HOSTNAME will override)
+      - key: DATABASE_HOST
+        sync: false
+      - key: DATABASE_PORT
+        value: 3306
+      - key: DATABASE_USER
+        sync: false
+      - key: DATABASE_PASSWORD
+        sync: false
+      - key: DATABASE_NAME
+        sync: false
+      - key: OJS_API_SECRET
+        generateValue: true
+      - key: OJS_SALT
+        generateValue: true
+      - key: OJS_FILES_DIR
+        value: /var/www/ojs-files
+    disk:
+      name: ojs-files
+      mountPath: /var/www/ojs-files
+      sizeGB: 1
