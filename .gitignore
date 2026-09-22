@@ -9,3 +9,6 @@ ojs-files/*
 node_modules/
 vendor/
 .env
+
+ojs_epc_dump.sql*
+*.sql.zip
