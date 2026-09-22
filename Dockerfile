@@ -29,7 +29,9 @@ COPY . /var/www/html/
 
 # Install Composer and PHP dependencies for lib/pkp
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-RUN cd /var/www/html/lib/pkp && composer install --no-dev --no-interaction --optimize-autoloader || true
+RUN composer install --working-dir=/var/www/html/lib/pkp --no-dev --no-interaction --optimize-autoloader --no-scripts && \
+    ls -lh /var/www/html/lib/pkp/lib/vendor/autoload.php && \
+    echo "vendor installed OK"
 
 # Create required directories
 RUN mkdir -p /var/www/ojs-files \
