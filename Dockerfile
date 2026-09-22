@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     libxslt1-dev \
     libmagickwand-dev \
+    ca-certificates \
     unzip \
     git \
     curl \

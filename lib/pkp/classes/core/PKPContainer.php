@@ -363,10 +363,11 @@ class PKPContainer extends Container
 
         // Database connection
         $driver = static::getDatabaseDriverName();
+        $dbHost = Config::getVar('database', 'host');
         $items['database']['default'] = $driver;
         $items['database']['connections'][$driver] = [
             'driver' => $driver,
-            'host' => Config::getVar('database', 'host'),
+            'host' => $dbHost,
             'database' => Config::getVar('database', 'name'),
             'username' => Config::getVar('database', 'username'),
             'port' => Config::getVar('database', 'port'),
@@ -375,6 +376,13 @@ class PKPContainer extends Container
             'charset' => Config::getVar('i18n', 'connection_charset', 'utf8'),
             'collation' => Config::getVar('database', 'collation', 'utf8_general_ci'),
         ];
+        // TiDB Cloud Serverless requires SSL (with CA bundle, no verify for free tier)
+        if ($dbHost && str_contains($dbHost, 'tidbcloud.com')) {
+            $items['database']['connections'][$driver]['options'] = [
+                \PDO::MYSQL_ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt',
+                \PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => false,
+            ];
+        }
 
         // Auth
         // remember_me_lifetime is the "remember me" persistent-login cookie duration in days
