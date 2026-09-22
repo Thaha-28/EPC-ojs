@@ -74,8 +74,10 @@ else
   set_config "files" "public_files_dir" "/var/www/ojs-files"
 fi
 
-# Installed flag - if DB is already installed, keep On, else Off for installer
-# We don't auto-install, user will run installer via web or CLI
+# Installed flag - DB is already seeded (ojs_epc with epc journal), so mark On
+set_config "general" "installed" "On"
+# Allow Render host (and all for now)
+set_config "general" "allowed_hosts" ''
 
 # Ensure permissions
 chown -R www-data:www-data /var/www/html/cache /var/www/html/public /var/www/ojs-files 2>/dev/null || true
