@@ -78,6 +78,16 @@ fi
 set_config "general" "installed" "On"
 # Allow Render host (and all for now)
 set_config "general" "allowed_hosts" ''
+# App key - generate if empty (required for encryption)
+if ! grep -q 'app_key = "base64:' "$CONFIG_FILE"; then
+  if command -v openssl >/dev/null 2>&1; then
+    RAND_KEY=$(openssl rand -base64 32 | tr -d '\n')
+  else
+    RAND_KEY=$(head -c 32 /dev/urandom | base64 | tr -d '\n')
+  fi
+  set_config "general" "app_key" "base64:${RAND_KEY}"
+  echo "Generated app_key"
+fi
 
 # Ensure permissions
 chown -R www-data:www-data /var/www/html/cache /var/www/html/public /var/www/ojs-files 2>/dev/null || true
