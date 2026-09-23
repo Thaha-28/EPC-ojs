@@ -117,6 +117,12 @@ chmod -R 755 /var/www/html/cache 2>/dev/null || true
 # Clear cache
 rm -rf /var/www/html/cache/*.php /var/www/html/cache/t_cache/* 2>/dev/null || true
 
+# Apache MPM guard - mod_php requires exactly one MPM (prefork).
+# Re-enforce at container start so a stale image layer can never crash Apache
+# with "AH00534: More than one MPM loaded".
+rm -f /etc/apache2/mods-enabled/mpm_event.load /etc/apache2/mods-enabled/mpm_event.conf /etc/apache2/mods-enabled/mpm_worker.load /etc/apache2/mods-enabled/mpm_worker.conf
+a2enmod mpm_prefork >/dev/null 2>&1 || true
+
 echo "OJS config prepared. base_url=$(grep -m1 'base_url' $CONFIG_FILE)"
 
 exec "$@"
