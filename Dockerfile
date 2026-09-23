@@ -56,6 +56,9 @@ RUN echo '<Directory /var/www/html>\n\
 SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1' > /etc/apache2/conf-available/ojs.conf \
     && a2enconf ojs
 
+# Apache MPM fix - must be after all other config
+RUN rm -f /etc/apache2/mods-enabled/mpm_* && a2enmod mpm_prefork rewrite headers expires && apache2ctl -M 2>&1 | grep mpm || true
+
 # Use production php.ini
 RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini \
     && sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 32M/' /usr/local/etc/php/php.ini \
