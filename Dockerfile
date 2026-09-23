@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     cron \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) gd mysqli pdo_mysql zip xml mbstring curl intl bcmath xsl soap ftp \
-    && a2dismod mpm_event 2>/dev/null || true \
+    && a2dismod mpm_event mpm_worker 2>/dev/null || true \
     && a2enmod mpm_prefork rewrite headers expires \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
