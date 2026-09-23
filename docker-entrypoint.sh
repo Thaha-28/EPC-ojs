@@ -18,18 +18,37 @@ if [ ! -f "$CONFIG_FILE" ]; then
 fi
 
 # Helper to set config value via sed (simple, handles quoted and unquoted)
+# IMPORTANT (OJS ConfigParser): quoted values are ALWAYS strings, unquoted
+# On/Off/true/false become real booleans. Since HttpsPolicy does
+# (bool)Config::getVar('security','force_ssl'), writing force_ssl = "Off"
+# (quoted) makes it TRUTHY and causes an infinite redirectSSL() loop
+# (Location identical to request URL) behind the Railway TLS proxy.
+# So booleans and numbers are written UNQUOTED, real strings quoted.
 set_config() {
   local section="$1"
   local key="$2"
   local value="$3"
   # Escape for sed
   local esc_value=$(printf '%s\n' "$value" | sed 's/[\/&]/\\&/g')
+  local rendered
+  case "$value" in
+    On|Off|on|off|true|false|True|False|TRUE|FALSE)
+      rendered="${esc_value}"
+      ;;
+    *)
+      if printf '%s' "$value" | grep -qE '^[0-9]+$'; then
+        rendered="${esc_value}"
+      else
+        rendered="\"${esc_value}\""
+      fi
+      ;;
+  esac
   # Try to replace existing line (with or without quotes)
   if grep -q "^\s*${key}\s*=" "$CONFIG_FILE"; then
-    sed -i "s|^\s*${key}\s*=.*|${key} = \"${esc_value}\"|" "$CONFIG_FILE"
+    sed -i "s|^\s*${key}\s*=.*|${key} = ${rendered}|" "$CONFIG_FILE"
   else
     # Insert under section header if not found
-    sed -i "/^\[${section}\]/a ${key} = \"${esc_value}\"" "$CONFIG_FILE"
+    sed -i "/^\[${section}\]/a ${key} = ${rendered}" "$CONFIG_FILE"
   fi
 }
 
