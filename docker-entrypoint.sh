@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-# Render provides PORT env, but Apache expects 80 - handle PORT
+# Railway/Render provides PORT env, but Apache expects 80 - handle PORT
 if [ -n "$PORT" ]; then
-  echo "Render PORT=$PORT, configuring Apache to listen on $PORT"
+  echo "PORT=$PORT, configuring Apache to listen on $PORT"
   sed -i "s/Listen 80/Listen $PORT/" /etc/apache2/ports.conf
   sed -i "s/<VirtualHost \*:80>/<VirtualHost *:$PORT>/" /etc/apache2/sites-available/000-default.conf
 fi
@@ -33,9 +33,11 @@ set_config() {
   fi
 }
 
-# Base URL - Render provides RENDER_EXTERNAL_HOSTNAME
+# Base URL - Railway provides RAILWAY_PUBLIC_DOMAIN, Render provides RENDER_EXTERNAL_HOSTNAME
 if [ -n "$OJS_BASE_URL" ]; then
   set_config "general" "base_url" "$OJS_BASE_URL"
+elif [ -n "$RAILWAY_PUBLIC_DOMAIN" ]; then
+  set_config "general" "base_url" "https://${RAILWAY_PUBLIC_DOMAIN}"
 elif [ -n "$RENDER_EXTERNAL_HOSTNAME" ]; then
   set_config "general" "base_url" "https://${RENDER_EXTERNAL_HOSTNAME}"
 fi
@@ -65,7 +67,7 @@ fi
 [ -n "$OJS_API_SECRET" ] && set_config "security" "api_key_secret" "$OJS_API_SECRET"
 [ -n "$OJS_SALT" ] && set_config "security" "salt" "$OJS_SALT"
 
-# Files dir - use Render disk or /tmp
+# Files dir - use Railway/Render disk or /tmp
 if [ -n "$OJS_FILES_DIR" ]; then
   set_config "files" "files_dir" "$OJS_FILES_DIR"
 else
@@ -76,17 +78,27 @@ fi
 
 # Installed flag - DB is already seeded (ojs_epc with epc journal), so mark On
 set_config "general" "installed" "On"
-# Allow Render host - set to epc-ojs.onrender.com
-set_config "general" "allowed_hosts" '["epc-ojs.onrender.com"]'
-# Force SSL off - let Cloudflare handle https
+# Allow host - Railway or Render
+if [ -n "$RAILWAY_PUBLIC_DOMAIN" ]; then
+  set_config "general" "allowed_hosts" "[\"${RAILWAY_PUBLIC_DOMAIN}\"]"
+elif [ -n "$RENDER_EXTERNAL_HOSTNAME" ]; then
+  set_config "general" "allowed_hosts" "[\"${RENDER_EXTERNAL_HOSTNAME}\"]"
+else
+  set_config "general" "allowed_hosts" '["epc-ojs-production.up.railway.app"]'
+fi
+# Force SSL off - let Cloudflare/Railway handle https
 set_config "security" "force_ssl" "Off"
 set_config "security" "force_login_ssl" "Off"
-# Trust proxy On for Render/Cloudflare X-Forwarded-Proto
+# Trust proxy On for Railway/Render X-Forwarded-Proto
 set_config "general" "trust_x_forwarded_for" "On"
-# Disable IP check for sessions (Render proxy IP changes)
+# Disable IP check for sessions (proxy IP changes)
 set_config "security" "session_check_ip" "Off"
-# Ensure base_url is https
-set_config "general" "base_url" "https://epc-ojs.onrender.com"
+# Ensure base_url is https for Railway if not already set via OJS_BASE_URL
+if ! grep -q 'base_url = "https://' "$CONFIG_FILE"; then
+  if [ -n "$RAILWAY_PUBLIC_DOMAIN" ]; then
+    set_config "general" "base_url" "https://${RAILWAY_PUBLIC_DOMAIN}"
+  fi
+fi
 # App key - generate if empty (required for encryption)
 if ! grep -q 'app_key = "base64:' "$CONFIG_FILE"; then
   if command -v openssl >/dev/null 2>&1; then
