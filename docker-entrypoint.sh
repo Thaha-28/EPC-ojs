@@ -112,6 +112,10 @@ set_config "security" "force_login_ssl" "Off"
 set_config "general" "trust_x_forwarded_for" "On"
 # Disable IP check for sessions (proxy IP changes)
 set_config "security" "session_check_ip" "Off"
+# Disable remote upgrade check + usage beacon (blocking outbound HTTP calls
+# that hang admin pages on slow networks; no journal feature impact)
+set_config "general" "show_upgrade_warning" "Off"
+set_config "general" "enable_beacon" "Off"
 # Ensure base_url is https for Railway if not already set via OJS_BASE_URL
 if ! grep -q 'base_url = "https://' "$CONFIG_FILE"; then
   if [ -n "$RAILWAY_PUBLIC_DOMAIN" ]; then
