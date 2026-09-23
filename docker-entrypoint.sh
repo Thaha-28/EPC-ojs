@@ -76,13 +76,13 @@ fi
 
 # Installed flag - DB is already seeded (ojs_epc with epc journal), so mark On
 set_config "general" "installed" "On"
-# Allow Render host (and all for now)
-set_config "general" "allowed_hosts" ''
-# Force SSL off - let Cloudflare handle https, trust_x_forwarded_for will handle proto
+# Allow Render host - set to epc-ojs.onrender.com
+set_config "general" "allowed_hosts" '["epc-ojs.onrender.com"]'
+# Force SSL off - let Cloudflare handle https
 set_config "security" "force_ssl" "Off"
 set_config "security" "force_login_ssl" "Off"
-# Trust proxy Off to avoid 302 loop (Render handles X-Forwarded-Proto via Cloudflare, but OJS loop)
-set_config "general" "trust_x_forwarded_for" "Off"
+# Trust proxy On for Render/Cloudflare X-Forwarded-Proto
+set_config "general" "trust_x_forwarded_for" "On"
 # Disable IP check for sessions (Render proxy IP changes)
 set_config "security" "session_check_ip" "Off"
 # Ensure base_url is https
