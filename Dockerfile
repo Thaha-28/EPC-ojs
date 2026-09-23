@@ -19,8 +19,8 @@ RUN apt-get update && apt-get install -y \
     cron \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) gd mysqli pdo_mysql zip xml mbstring curl intl bcmath xsl soap ftp \
+    && rm -f /etc/apache2/mods-enabled/mpm_event.* /etc/apache2/mods-enabled/mpm_worker.* \
     && a2enmod mpm_prefork rewrite headers expires \
-    && a2dismod mpm_event mpm_worker \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
