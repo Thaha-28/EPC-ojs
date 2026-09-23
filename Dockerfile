@@ -20,9 +20,6 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) gd mysqli pdo_mysql zip xml mbstring curl intl bcmath xsl soap ftp \
     && a2enmod rewrite headers expires \
-    && rm -f /etc/apache2/mods-enabled/mpm_event.load /etc/apache2/mods-enabled/mpm_event.conf /etc/apache2/mods-enabled/mpm_worker.load /etc/apache2/mods-enabled/mpm_worker.conf \
-    && a2enmod mpm_prefork \
-    && apache2ctl -M 2>&1 | grep mpm || true \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
@@ -56,8 +53,10 @@ RUN echo '<Directory /var/www/html>\n\
 SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1' > /etc/apache2/conf-available/ojs.conf \
     && a2enconf ojs
 
-# Apache MPM fix - must be after all other config
-RUN rm -f /etc/apache2/mods-enabled/mpm_* && a2enmod mpm_prefork rewrite headers expires && apache2ctl -M 2>&1 | grep mpm || true
+# Apache MPM fix - php:8.2-apache ships with mpm_event active; mod_php requires
+# exactly one MPM (prefork). Remove ALL mpm symlinks first, then enable only prefork.
+# Kept as the last Apache-mods layer so nothing re-enables event/worker afterwards.
+RUN rm -f /etc/apache2/mods-enabled/mpm_event.load /etc/apache2/mods-enabled/mpm_event.conf /etc/apache2/mods-enabled/mpm_worker.load /etc/apache2/mods-enabled/mpm_worker.conf /etc/apache2/mods-enabled/mpm_prefork.load /etc/apache2/mods-enabled/mpm_prefork.conf && a2enmod mpm_prefork && apache2ctl -M 2>&1 | grep mpm || true
 
 # Use production php.ini
 RUN cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini \
